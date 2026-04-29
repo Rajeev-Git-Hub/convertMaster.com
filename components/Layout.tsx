@@ -88,6 +88,13 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   <FiActivity className="w-4 text-green-400" />
                   <span>Converters</span>
                 </Link>
+                <Link
+                  href="/analytics"
+                  className="flex items-center gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                >
+                  <FiTrendingUp className="w-4 text-purple-400" />
+                  <span>Analytics</span>
+                </Link>
               </nav>
               )}
             </div>
