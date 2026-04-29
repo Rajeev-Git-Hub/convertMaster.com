@@ -124,17 +124,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              {/* Always Free */}
-              <div className="bg-white rounded-xl shadow-sm p-6 text-center border-l-4 border-green-500">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FiZap className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Always Free</h3>
-                <p className="text-gray-600 text-sm">
-                  No ads, no subscriptions. Just pure conversion tools.
-                </p>
-              </div>
-
+              
               {/* Open Source */}
               <div className="bg-white rounded-xl shadow-sm p-6 text-center border-l-4 border-blue-500">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">

@@ -121,14 +121,6 @@ export default function LoginClient() {
               </button>
             </div>
           </form>
-          <div className="text-center text-sm">
-            <span className="text-gray-600 dark:text-gray-400">
-              {t('auth.no_account') || "Don't have an account?"}{' '}
-            </span>
-            <Link href="/signup" className="font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400">
-              {t('nav.signup') || 'Sign Up'}
-            </Link>
-          </div>
       </div>
     </div>
   );

@@ -288,8 +288,8 @@ export default function AboutPageSimple() {
                   </div>
                   <div>
                     <FiUsers className="w-8 h-8 text-purple-600 mx-auto mb-2" />
-                    <h4 className="font-semibold text-gray-900 mb-1">Always Free</h4>
-                    <p className="text-sm text-gray-600">No cost, no registration required</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">Easy to Use</h4>
+                    <p className="text-sm text-gray-600">Simple interface for quick conversions</p>
                   </div>
                 </div>
               </div>

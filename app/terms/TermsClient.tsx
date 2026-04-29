@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { FiFileText } from 'react-icons/fi';
 
 export default function TermsClient() {
-  const lastUpdated = 'March 27, 2026';
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       {/* Hero */}
@@ -22,9 +20,6 @@ export default function TermsClient() {
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 dark:text-white mb-4">
             Terms of Service
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-400">
-            Last updated: {lastUpdated}
-          </p>
         </div>
       </section>
 
@@ -36,124 +31,105 @@ export default function TermsClient() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                By accessing and using ConvertMaster (&quot;the Service&quot;), you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service. We reserve the right to update or modify these terms at any time without prior notice.
+                By accessing and using ConvertMaster ("the Service"), you agree to these Terms of Service. If you do not agree, please do not use the Service.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">2. Description of Service</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                ConvertMaster is a free, web-based unit conversion platform that provides tools for converting units of measurement across various categories including length, weight, temperature, area, volume, speed, data, and more. The Service also includes developer tools, calculators, and analytics features.
+                ConvertMaster is a web-based unit conversion tool that helps users convert values across categories such as length, weight, temperature, area, volume, speed, data, and time.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mt-2">
+                The Service is provided for general informational and educational purposes.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">3. Use of the Service</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-3">
-                You agree to use the Service only for lawful purposes. You are prohibited from:
+                You agree to use the Service responsibly and only for lawful purposes. You must not:
               </p>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2 ml-4">
-                <li>Using the Service in any way that violates applicable laws or regulations</li>
-                <li>Attempting to interfere with, compromise, or disrupt the Service</li>
-                <li>Attempting to gain unauthorized access to any part of the Service</li>
-                <li>Using automated systems (bots, scrapers) to access the Service without our express written permission</li>
-                <li>Transmitting any malicious code, viruses, or harmful data through the Service</li>
-                <li>Impersonating another person or entity while using the Service</li>
+                <li>Use the Service in violation of any applicable laws</li>
+                <li>Attempt to disrupt or interfere with the Service</li>
+                <li>Attempt unauthorized access to any part of the Service</li>
+                <li>Use automated tools (bots or scrapers) without permission</li>
+                <li>Upload or transmit harmful code</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">4. Accuracy of Information</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                While we strive to provide accurate conversion results, ConvertMaster is provided &quot;as is&quot; and we make no warranties or guarantees regarding the accuracy, completeness, or reliability of any conversion results. The Service should not be used as the sole basis for critical decisions in engineering, medical, scientific, or financial contexts. Always verify important conversions with authoritative sources.
+                We aim to provide accurate and up-to-date conversion results. However, we do not guarantee that all results are free from errors.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mt-2">
+                The Service should not be relied upon for critical decisions in areas such as engineering, medical, financial, or scientific work. Always verify important calculations with appropriate sources.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">5. Intellectual Property</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                The Service and its original content, features, and functionality are owned by ConvertMaster and are protected by international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, create derivative works of, or publicly display any content from our Service without prior written consent.
+                All content, design, and functionality of the Service are owned by ConvertMaster and protected by applicable intellectual property laws.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mt-2">
+                You may not copy, reproduce, or distribute any part of the Service without permission.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">6. Third-Party Content and Advertising</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">6. Third-Party Services</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                The Service may display third-party advertisements (including Google AdSense). We are not responsible for the content, accuracy, or opinions expressed in third-party advertisements. Your interactions with advertisers and any terms, conditions, warranties, or representations associated with such dealings are solely between you and the advertiser. Please refer to our{' '}
-                <Link href="/privacy-policy" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
-                  Privacy Policy
-                </Link>{' '}
-                for information on how advertising cookies are used.
+                The Service may include third-party content or advertisements. We are not responsible for the accuracy or reliability of any third-party content or services.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">7. User Data and Privacy</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">7. Privacy</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 Your use of the Service is also governed by our{' '}
                 <Link href="/privacy-policy" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
                   Privacy Policy
                 </Link>
-                , which is incorporated into these Terms by reference. By using the Service, you consent to the collection and use of information as described in our Privacy Policy.
+                . Please review it to understand how information is handled.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">8. Disclaimer of Warranties</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">8. Disclaimer</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                THE SERVICE IS PROVIDED ON AN &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; BASIS WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE.
+                The Service is provided "as is" without warranties of any kind. We do not guarantee that the Service will always be available, error-free, or uninterrupted.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">9. Limitation of Liability</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                IN NO EVENT SHALL CONVERTMASTER, ITS DIRECTORS, EMPLOYEES, PARTNERS, AGENTS, OR AFFILIATES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, OR GOODWILL, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE SERVICE, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY.
+                To the fullest extent permitted by law, ConvertMaster shall not be liable for any indirect or consequential damages arising from the use of the Service.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">10. Indemnification</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">10. Changes to the Service</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                You agree to defend, indemnify, and hold harmless ConvertMaster and its officers, directors, employees, and agents from and against any claims, damages, obligations, losses, liabilities, costs, or debt arising from your use of and access to the Service, or your violation of any of these Terms.
+                We may update, modify, or discontinue parts of the Service at any time without notice.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">11. Modifications to the Service</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">11. Governing Law</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                We reserve the right to modify, suspend, or discontinue the Service (in whole or in part) at any time, with or without notice. We shall not be liable to you or any third party for any modification, suspension, or discontinuation of the Service.
+                These Terms are governed by the laws of India. Any disputes will be subject to the jurisdiction of courts in India.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">12. Governing Law</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">12. Contact</h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law provisions. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in India.
+                If you have any questions about these Terms, please contact us through the Contact page.
               </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">13. Severability</h2>
-              <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law, and the remaining provisions will continue in full force and effect.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">14. Contact Us</h2>
-              <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                If you have any questions about these Terms of Service, please contact us at:
-              </p>
-              <div className="mt-3 p-4 bg-gray-50 dark:bg-gray-700/50 rounded-xl">
-                <p className="text-gray-700 dark:text-gray-300 font-medium">ConvertMaster</p>
-                <p className="text-gray-600 dark:text-gray-400">
-                  Email:{' '}
-                  <a href="mailto:contact@convertmaster.com" className="text-blue-600 dark:text-blue-400 hover:underline">
-                    contact@convertmaster.com
-                  </a>
-                </p>
-              </div>
             </div>
 
           </div>

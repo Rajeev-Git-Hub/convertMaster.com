@@ -64,10 +64,6 @@ function HomeContent() {
                 <FiZap className="w-3 h-3" />
                 <span>AI-Powered</span>
               </div>
-              <div className="badge badge-success">
-                <FiCheckCircle className="w-3 h-3" />
-                <span>99.8% Accurate</span>
-              </div>
               <div className="badge badge-secondary">
                 <FiActivity className="w-3 h-3" />
                 <span>Instant</span>
@@ -98,29 +94,21 @@ function HomeContent() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 max-w-2xl mx-auto">
               <div className="metric-card">
-                <div className="metric-label">Accuracy</div>
-                <div className="metric-value">99.8%</div>
+                <div className="metric-label">Speed</div>
+                <div className="metric-value">Instant</div>
                 <div className="metric-change positive">
                   <FiArrowRight className="w-3 h-3" />
-                  <span>Industry Leading</span>
+                  <span>Real-time Results</span>
                 </div>
               </div>
               <div className="metric-card">
-                <div className="metric-label">Response Time</div>
-                <div className="metric-value">0.1s</div>
+                <div className="metric-label">Access</div>
+                <div className="metric-value">Free Forever</div>
                 <div className="metric-change positive">
                   <FiArrowRight className="w-3 h-3" />
-                  <span>Lightning Fast</span>
-                </div>
-              </div>
-              <div className="metric-card">
-                <div className="metric-label">Availability</div>
-                <div className="metric-value">24/7</div>
-                <div className="metric-change positive">
-                  <FiArrowRight className="w-3 h-3" />
-                  <span>Always Online</span>
+                  <span>No Limits</span>
                 </div>
               </div>
             </div>

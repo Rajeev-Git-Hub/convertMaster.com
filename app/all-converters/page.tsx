@@ -924,7 +924,7 @@ export default function AllConvertersPage() {
               <div className="metric-value">100%</div>
               <div className="metric-change positive">
                 <FiArrowRight className="w-3 h-3"></FiArrowRight>
-                <span>Always Free</span>
+                <span>Professional</span>
               </div>
             </div>
             

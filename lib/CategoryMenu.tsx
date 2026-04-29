@@ -6,6 +6,7 @@ import { FiChevronDown, FiGlobe, FiCheck, FiLayers, FiSearch, FiFileText, FiLock
 import { categories } from './categories';
 import { CategoryKey } from './types';
 import { useLocalization, Language } from './LocalizationContext';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 // Define logical groups for the converters
 export type GroupName = 'Common' | 'Professional' | 'developer' | 'utilities';
@@ -197,6 +198,11 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
 
           {/* Mobile and Right Side Controls */}
           <div className="flex items-center gap-3">
+            {/* Dark Mode Toggle - Always visible */}
+            <div className="flex items-center">
+              <DarkModeToggle />
+            </div>
+
             {/* Language Toggle - Hidden on mobile, visible on desktop */}
             <div className="hidden sm:block relative">
               <button
