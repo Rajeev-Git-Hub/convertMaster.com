@@ -68,7 +68,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
       <CategoryMenu selectedCategory={category} />
 
       <div className="flex flex-1">
-        <aside className="hidden lg:block w-64 bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto flex-shrink-0 h-screen fixed left-0 top-0 custom-scrollbar">
+        <aside className="hidden lg:block w-64 bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto flex-shrink-0 h-screen fixed left-0 top-0 custom-scrollbar pt-20">
           <div className="p-6">
             {/* Main Navigation */}
             <div className="mb-8">
@@ -82,38 +82,11 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
               {!collapsedSections['main'] && (
                 <nav className="space-y-1">
                 <Link
-                  href="/"
-                  className={`flex items-center gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
-                    !category ? 'text-white bg-blue-600' : ''
-                  }`}
-                >
-                  <FiHome className="w-4 text-blue-400" />
-                  <span>Dashboard</span>
-                  {!category && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold">Active</span>}
-                </Link>
-                <Link
                   href="/all-converters"
                   className="flex items-center gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                 >
                   <FiActivity className="w-4 text-green-400" />
                   <span>Converters</span>
-                </Link>
-                <Link
-                  href="/analytics"
-                  className={`flex items-center gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
-                    !category ? 'text-white bg-blue-600' : ''
-                  }`}
-                >
-                  <FiTrendingUp className="w-4 text-purple-400" />
-                  <span>Analytics</span>
-                  {!category && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold">Active</span>}
-                </Link>
-                <Link
-                  href="/history"
-                  className="flex items-center gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
-                >
-                  <FiClock className="w-4 text-orange-400" />
-                  <span>History</span>
                 </Link>
               </nav>
               )}
