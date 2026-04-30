@@ -177,7 +177,7 @@ export default function AnalyticsLandingPage() {
             
             <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Is this really free?</h3>
-              <p className="text-gray-600 text-sm">Yes! All analytics features are completely free with no limits, ads, or premium tiers.</p>
+              <p className="text-gray-600 text-sm">Yes! All analytics features are completely free with no limits.</p>
             </div>
           </div>
         </div>

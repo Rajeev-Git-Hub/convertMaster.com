@@ -61,11 +61,11 @@ export default function BlogPage() {
               <FiCheckCircle className="w-3 h-3"></FiCheckCircle>
               <span>5 Articles</span>
             </div>
-            <div className="badge badge-secondary">
-              <FiActivity className="w-3 h-3"></FiActivity>
-              <span>Updated Weekly</span>
-            </div>
           </div>
+          
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Learn about unit conversions, formulas, and practical examples. New articles are added regularly.
+          </p>
           
           <h1 className="hero-gradient text-4xl font-bold mb-4">ConvertMaster Blog</h1>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">

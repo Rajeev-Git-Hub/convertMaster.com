@@ -297,51 +297,6 @@ export default function EngineeringCalculatorsPage() {
         </section>
 
         {/* Quick Stats */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Platform Statistics</h3>
-            <p className="section-subtitle">Trusted by engineers worldwide</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <div className="metric-label">Calculations</div>
-              <div className="metric-value">100K+</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Daily</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Accuracy</div>
-              <div className="metric-value">99.9%</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Precise</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Disciplines</div>
-              <div className="metric-value">4+</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Covered</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Response Time</div>
-              <div className="metric-value">0.1s</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Instant</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Trust Indicators */}
         <section className="mb-12">
           <div className="text-center mb-8">
@@ -359,20 +314,6 @@ export default function EngineeringCalculatorsPage() {
                 All calculators follow established engineering standards and best practices.
               </p>
               <div className="flex items-center justify-center text-blue-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4" style={{ background: '#10b981' }}>
-                <FiUsers className="w-5 h-5" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Engineer Trust</h4>
-              <p className="text-sm text-gray-600 mb-4">
-                50M+ engineers and students worldwide trust our platform for accurate calculations.
-              </p>
-              <div className="flex items-center justify-center text-green-600 font-medium">
                 <span>Learn more</span>
                 <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </div>
