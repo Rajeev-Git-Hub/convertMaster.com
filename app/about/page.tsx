@@ -13,21 +13,6 @@ export default function AboutPage() {
         {/* Hero Section */}
         <section className="text-center mb-16">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-4 mb-8">
-              <div className="premium-badge">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Industry Leading</span>
-              </div>
-              <div className="badge badge-success">
-                <FiCheckCircle className="w-3 h-3"></FiCheckCircle>
-                <span>99.9% Accurate</span>
-              </div>
-              <div className="badge badge-secondary">
-                <FiActivity className="w-3 h-3"></FiActivity>
-                <span>Instant</span>
-              </div>
-            </div>
-            
             <h1 className="hero-gradient text-4xl font-bold mb-4">About ConvertMaster</h1>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">ConvertMaster is a simple tool built to make unit conversion fast, accurate, and easy for everyone.</p>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">Whether you're a student, developer, professional, or just need a quick calculation, our goal is to give you instant results without complexity.</p>

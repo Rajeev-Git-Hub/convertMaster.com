@@ -20,21 +20,6 @@ export default function TimeDurationCalculatorLandingPage() {
       <div className="container py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
-          <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="premium-badge">
-              <FiZap className="w-3 h-3"></FiZap>
-              <span>Instant Results</span>
-            </div>
-            <div className="badge badge-success">
-              <FiCheckCircle className="w-3 h-3"></FiCheckCircle>
-              <span>High Precision</span>
-            </div>
-            <div className="badge badge-secondary">
-              <FiActivity className="w-3 h-3"></FiActivity>
-              <span>Duration</span>
-            </div>
-          </div>
-          
           <h1 className="hero-gradient text-4xl font-bold mb-4">Time Duration Calculator</h1>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">
             Calculate time differences, work hours, and project durations

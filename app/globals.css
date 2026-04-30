@@ -978,12 +978,10 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Prevent horizontal scrolling only, allow vertical */
+/* Allow normal scrolling behavior */
 html, body {
-  overflow-x: hidden;
-  overflow-y: auto;
-  max-width: 100vw;
-  max-height: 100vh;
+  max-width: 100%;
+  min-height: 100vh;
 }
 
 img, video, canvas {

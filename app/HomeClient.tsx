@@ -59,17 +59,6 @@ function HomeContent() {
       <section className="relative overflow-hidden">
         <div className="container py-8">
           <div className="text-center mb-8">
-            <div className="flex items-center justify-center gap-4 mb-8">
-              <div className="premium-badge">
-                <FiZap className="w-3 h-3" />
-                <span>AI-Powered</span>
-              </div>
-              <div className="badge badge-secondary">
-                <FiActivity className="w-3 h-3" />
-                <span>Instant</span>
-              </div>
-            </div>
-            
             <h1 className="hero-gradient text-2xl font-bold mb-4">ConvertMaster</h1>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">The most advanced unit conversion platform with real-time calculations, historical tracking, and enterprise-grade accuracy.</p>
 

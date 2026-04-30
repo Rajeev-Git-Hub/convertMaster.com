@@ -88,112 +88,12 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
             </Link>
 
             <Link
-              href="/all-converters"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
-            >
-              All Converters
-            </Link>
-
-            <Link
-              href="/engineering-calculators"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
-            >
-              Engineering
-            </Link>
-
-            <Link
               href="/blog"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
             >
               Blog
             </Link>
 
-            {(Object.keys(CATEGORY_GROUPS) as GroupName[]).map((group) => (
-              <div key={group} className="relative">
-                <button
-                  onClick={() => {
-                    setActiveGroup(activeGroup === group ? null : group);
-                    setSettingsOpen(false);
-                  }}
-                  className={`inline-flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
-                    activeGroup === group
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
-                  }`}
-                >
-                  <span className="flex items-center">
-                    {t(`nav.${group.toLowerCase()}`)}
-                  </span>
-                  <FiChevronDown
-                    className={`ml-1 h-4 w-4 transition-transform duration-200 shrink-0 ${
-                      activeGroup === group ? 'transform rotate-180' : ''
-                    }`}
-                  />
-                </button>
-
-                {activeGroup === group && (
-                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-64 rounded-xl shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                    <div className="py-2 grid gap-1 p-2">
-                      {group === 'developer' ? (
-                        DEVELOPER_TOOLS.map((tool) => {
-                          const Icon = tool.icon;
-                          return (
-                            <Link
-                              key={tool.href}
-                              href={tool.href}
-                              onClick={() => setActiveGroup(null)}
-                              className={`flex items-center px-4 py-2.5 text-sm text-left rounded-lg transition-colors text-gray-700 hover:bg-gray-50`}
-                            >
-                              <Icon className={`mr-3 h-5 w-5 ${tool.color}`} />
-                              {t(tool.titleKey)}
-                            </Link>
-                          );
-                        })
-                      ) : group === 'utilities' ? (
-                        UTILITY_TOOLS.map((tool) => {
-                          const Icon = tool.icon;
-                          return (
-                            <Link
-                              key={tool.href}
-                              href={tool.href}
-                              onClick={() => setActiveGroup(null)}
-                              className={`flex items-center px-4 py-2.5 text-sm text-left rounded-lg transition-colors text-gray-700 hover:bg-gray-50`}
-                            >
-                              <Icon className={`mr-3 h-5 w-5 ${tool.color}`} />
-                              {t(tool.titleKey)}
-                            </Link>
-                          );
-                        })
-                      ) : (
-                        CATEGORY_GROUPS[group].map((catKey) => {
-                          const category = categories.find((c) => c.key === catKey);
-                          if (!category) return null;
-                          
-                          const Icon = category.icon;
-                          const isSelected = selectedCategory === catKey;
-
-                          return (
-                            <Link
-                              key={catKey}
-                              href={`/${catKey}-converter`}
-                              onClick={() => setActiveGroup(null)}
-                              className={`flex items-center px-4 py-2.5 text-sm text-left rounded-lg transition-colors ${
-                                isSelected
-                                  ? 'bg-blue-50 text-blue-700'
-                                  : 'text-gray-700 hover:bg-gray-50'
-                              }`}
-                            >
-                              <Icon className={`mr-3 h-5 w-5 ${category.color}`} />
-                              {t(`category.${category.key}`)}
-                            </Link>
-                          );
-                        })
-                      )}
-                    </div>
-                  </div>
-                )}
-              </div>
-            ))}
           </div>
 
           {/* Mobile and Right Side Controls */}
@@ -256,7 +156,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
+              className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -270,7 +170,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
+          <div className="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
             <div className="px-4 py-3 space-y-1">
               <Link
                 href="/about"
@@ -281,120 +181,12 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
               </Link>
 
               <Link
-                href="/all-converters"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
-              >
-                All Converters
-              </Link>
-
-              <Link
-                href="/engineering-calculators"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
-              >
-                Engineering
-              </Link>
-
-              <Link
                 href="/blog"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
               >
                 Blog
               </Link>
-
-              {/* Mobile Dropdowns */}
-              {(Object.keys(CATEGORY_GROUPS) as GroupName[]).map((group) => (
-                <div key={group} className="space-y-1">
-                  <button
-                    onClick={() => setActiveGroup(activeGroup === group ? null : group)}
-                    className={`w-full text-left px-3 py-2 text-base font-medium rounded-md transition-colors duration-150 ${
-                      activeGroup === group
-                        ? 'text-blue-600 bg-blue-50'
-                        : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between">
-                      <span>{t(`nav.${group.toLowerCase()}`)}</span>
-                      <FiChevronDown
-                        className={`h-4 w-4 transition-transform duration-200 ${
-                          activeGroup === group ? 'transform rotate-180' : ''
-                        }`}
-                      />
-                    </div>
-                  </button>
-
-                  {activeGroup === group && (
-                    <div className="pl-4 space-y-1">
-                      {group === 'developer' ? (
-                        DEVELOPER_TOOLS.map((tool) => {
-                          const Icon = tool.icon;
-                          return (
-                            <Link
-                              key={tool.href}
-                              href={tool.href}
-                              onClick={() => {
-                                setActiveGroup(null);
-                                setMobileMenuOpen(false);
-                              }}
-                              className="flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-md"
-                            >
-                              <Icon className={`mr-3 h-5 w-5 ${tool.color}`} />
-                              {t(tool.titleKey)}
-                            </Link>
-                          );
-                        })
-                      ) : group === 'utilities' ? (
-                        UTILITY_TOOLS.map((tool) => {
-                          const Icon = tool.icon;
-                          return (
-                            <Link
-                              key={tool.href}
-                              href={tool.href}
-                              onClick={() => {
-                                setActiveGroup(null);
-                                setMobileMenuOpen(false);
-                              }}
-                              className="flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-md"
-                            >
-                              <Icon className={`mr-3 h-5 w-5 ${tool.color}`} />
-                              {t(tool.titleKey)}
-                            </Link>
-                          );
-                        })
-                      ) : (
-                        CATEGORY_GROUPS[group].map((catKey) => {
-                          const category = categories.find((c) => c.key === catKey);
-                          if (!category) return null;
-                          
-                          const Icon = category.icon;
-                          const isSelected = selectedCategory === catKey;
-
-                          return (
-                            <Link
-                              key={catKey}
-                              href={`/${catKey}-converter`}
-                              onClick={() => {
-                                setActiveGroup(null);
-                                setMobileMenuOpen(false);
-                              }}
-                              className={`flex items-center px-3 py-2 text-sm rounded-md ${
-                                isSelected
-                                  ? 'bg-blue-50 text-blue-700'
-                                  : 'text-gray-700 hover:bg-gray-50'
-                              }`}
-                            >
-                              <Icon className={`mr-3 h-5 w-5 ${category.color}`} />
-                              {t(`category.${category.key}`)}
-                            </Link>
-                          );
-                        })
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
 
               {/* Mobile Language Selector */}
               <div className="pt-4 border-t border-gray-200 dark:border-gray-700">

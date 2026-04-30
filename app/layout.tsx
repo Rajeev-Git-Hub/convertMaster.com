@@ -4,7 +4,6 @@ import "./globals.css";
 import Layout from "../components/Layout";
 import Script from "next/script";
 import SchemaMarkup from "../components/SchemaMarkup";
-import BodyLock from "../components/BodyLock";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -105,13 +104,8 @@ export default function RootLayout({
         <SchemaMarkup type="SoftwareApplication" data={{ name: "ConvertMaster Unit Converter" }} />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased overflow-hidden`}
-        style={{ 
-          scrollbarWidth: 'none',
-          msOverflowStyle: 'none'
-        }}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
-        <BodyLock />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-blue-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2"
