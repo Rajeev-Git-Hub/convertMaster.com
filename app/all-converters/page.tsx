@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiStar, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle, FiZap, FiShield, FiUsers } from 'react-icons/fi';
+import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle, FiZap, FiShield, FiUsers } from 'react-icons/fi';
+import ConverterCard from '@/components/ConverterCard';
 
 const converterCategories = [
   {
@@ -760,6 +761,9 @@ export default function AllConvertersPage() {
 
         {/* Search Bar */}
         <section className="mb-12">
+          <div className="max-w-4xl mx-auto mt-8">
+            <ConverterCard category="length" />
+          </div>
           <div className="max-w-3xl mx-auto">
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -859,14 +863,9 @@ export default function AllConvertersPage() {
                     <Link
                       key={converter.href}
                       href={converter.href}
-                      className={`group flex items-center justify-between p-4 rounded-xl transition-all duration-200 ${
-                        converter.popular 
-                          ? 'bg-gradient-to-r from-orange-50 to-yellow-50 border-2 border-orange-200 hover:border-orange-400' 
-                          : 'bg-gray-50 hover:bg-blue-50'
-                      }`}
+                      className="group flex items-center justify-between p-4 rounded-xl transition-all duration-200 bg-gray-50 hover:bg-blue-50"
                     >
                       <span className="font-medium text-gray-900 group-hover:text-gray-600 flex items-center gap-2">
-                        {converter.popular && <FiStar className="w-4 h-4 text-gray-500"></FiStar>}
                         {converter.name}
                       </span>
                       <FiArrowRight className="w-4 h-4 text-gray-400 group-hover:text-gray-500 transform group-hover:translate-x-1 transition-all" />

@@ -13,7 +13,7 @@ export default function DataStorageExplainedPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-purple-600 to-indigo-600 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
             MB, GB, TB: What Do They Actually Mean?
           </h1>
           <p className="text-xl text-purple-100">

@@ -26,9 +26,7 @@ export default function KbToMbPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="data" defaultFrom="kilobyte" defaultTo="megabyte" />
-            </div>
+            <ConverterCard category="data" defaultFrom="kilobyte" defaultTo="megabyte" />
           </div>
         </section>
 

@@ -26,9 +26,7 @@ export default function KgToLbsPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="weight" defaultFrom="kg" defaultTo="lbs" />
-            </div>
+            <ConverterCard category="weight" defaultFrom="kg" defaultTo="lbs" />
           </div>
         </section>
 

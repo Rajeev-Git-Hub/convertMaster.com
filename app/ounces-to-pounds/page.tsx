@@ -23,7 +23,7 @@ export default function OuncesToPoundsPage() {
             <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
               Convert ounces to pounds instantly. 16 ounces = 1 pound.
             </p>
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl max-w-2xl mx-auto">
+            <div className="max-w-2xl mx-auto">
               <ConverterCard category="weight" defaultFrom="ounce" defaultTo="pound" />
             </div>
           </div>

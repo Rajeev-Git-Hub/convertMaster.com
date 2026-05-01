@@ -23,7 +23,7 @@ export default function BytesToKbPage() {
             <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
               Convert bytes to kilobytes instantly. 1 KB = 1024 bytes
             </p>
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl max-w-2xl mx-auto">
+            <div className="max-w-2xl mx-auto">
               <ConverterCard category="data" defaultFrom="byte" defaultTo="kilobyte" />
             </div>
           </div>

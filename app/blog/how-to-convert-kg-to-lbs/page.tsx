@@ -17,7 +17,7 @@ export default function BlogPostPage() {
             <span className="inline-block px-4 py-1 bg-white/20 text-white rounded-full text-sm mb-4">
               Weight Conversion Guide
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
               How to Convert KG to LBS: The Simple Way
             </h1>
             <p className="text-xl text-green-100">

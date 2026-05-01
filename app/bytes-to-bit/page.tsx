@@ -41,9 +41,7 @@ export default function BytesToBitPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="data" defaultFrom="bytes" defaultTo="bit" />
-            </div>
+            <ConverterCard category="data" defaultFrom="byte" defaultTo="bit" />
           </div>
         </section>
 

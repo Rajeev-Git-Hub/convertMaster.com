@@ -26,9 +26,7 @@ export default function AreaConverterLandingPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="area" />
-            </div>
+            <ConverterCard category="area" />
           </div>
         </section>
 

@@ -41,9 +41,7 @@ export default function Celsius100ToFahrenheitPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="temperature" defaultFrom="celsius" defaultTo="fahrenheit" />
-            </div>
+            <ConverterCard category="temperature" defaultFrom="celsius" defaultTo="fahrenheit" />
           </div>
         </section>
 

@@ -13,7 +13,7 @@ export default function BodyTemperatureGuidePage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-red-500 to-orange-500 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
             Normal Body Temperature: When to Worry
           </h1>
           <p className="text-xl text-red-100">

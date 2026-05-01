@@ -11,9 +11,9 @@ export default function MetricVsImperialPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-600 py-16">
+      <section className="bg-gray-100 dark:bg-gray-800 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
             Metric or Imperial: Which One is Better?
           </h1>
           <p className="text-xl text-blue-100">

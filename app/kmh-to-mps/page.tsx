@@ -23,7 +23,7 @@ export default function KmhToMpsPage() {
             <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
               Convert km/h to m/s instantly. 1 km/h = 0.277778 m/s.
             </p>
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl max-w-2xl mx-auto">
+            <div className="max-w-2xl mx-auto">
               <ConverterCard category="speed" defaultFrom="kmh" defaultTo="mps" />
             </div>
           </div>

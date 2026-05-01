@@ -26,9 +26,7 @@ export default function VolumeConverterLandingPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="volume" />
-            </div>
+            <ConverterCard category="volume" />
           </div>
         </section>
 

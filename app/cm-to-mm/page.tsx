@@ -41,9 +41,7 @@ export default function CmToMmPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <div className="card p-6">
-              <ConverterCard category="length" defaultFrom="centimeter" defaultTo="millimeter" />
-            </div>
+            <ConverterCard category="length" defaultFrom="centimeter" defaultTo="millimeter" />
           </div>
         </section>
 
