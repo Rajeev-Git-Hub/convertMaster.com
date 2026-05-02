@@ -145,7 +145,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <FiActivity className="w-5 h-5 md:w-4 md:h-4 text-green-400 flex-shrink-0" />
-                  <span className="md:inline">Converters</span>
+                  <span>Converters</span>
                 </Link>
                 <Link
                   href="/analytics"
@@ -154,7 +154,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <FiTrendingUp className="w-5 h-5 md:w-4 md:h-4 text-purple-400 flex-shrink-0" />
-                  <span className="md:inline">Analytics</span>
+                  <span>Analytics</span>
                 </Link>
               </nav>
               )}
@@ -214,7 +214,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       <tool.icon className={`w-5 h-5 md:w-4 md:h-4 ${tool.color} flex-shrink-0`} />
-                      <span className="md:inline">{tool.title}</span>
+                      <span>{tool.title}</span>
                       {isActive && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold flex-shrink-0">Active</span>}
                     </Link>
                   );
