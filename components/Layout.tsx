@@ -76,14 +76,18 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
       `}</style>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
       {/* Mobile Header with Hamburger */}
-      <div className="md:hidden fixed top-0 left-0 right-0 h-16 bg-gray-800 dark:bg-gray-950 border-b border-gray-700 dark:border-gray-800 z-50 flex items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
-          <FiActivity className="w-6 h-6 text-blue-400" />
-          <span className="text-lg font-bold text-white">ConvertMaster</span>
+      <div className="md:hidden fixed top-0 left-0 right-0 h-16 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 z-50 flex items-center justify-between px-4">
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md group-hover:shadow-lg transition-all duration-200 shrink-0">
+            <FiLayers className="h-6 w-6" />
+          </div>
+          <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors whitespace-nowrap">
+            ConvertMaster
+          </span>
         </Link>
         <button
           onClick={toggleMobileMenu}
-          className="p-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+          className="p-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
           aria-label="Toggle menu"
         >
           {mobileMenuOpen ? <FiX className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}

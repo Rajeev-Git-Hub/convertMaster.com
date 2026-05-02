@@ -1,8 +1,4 @@
-[00:00:06.149] Server  LOG     
-[00:00:06.153] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:06.155] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:06.163] Server  LOG       	- include was updated to add 'out/types/**/*.ts'
-[00:00:06.164] Server  LOG       	- include was updated to add 'out/dev/types/**/*.ts'
-[00:00:06.164] Server  LOG     
-[00:00:12.143] Server  LOG     ✓ Ready in 10s
+[00:00:07.106] Server  LOG     ✓ Ready in 6s
+[00:02:10.218] Server  LOG     ○ Compiling /_not-found/page ...
+[00:02:33.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:31.299] Server  LOG     ✓ Compiled in 8.8s
