@@ -6,8 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/unit-conversion',
-  assetPrefix: '/unit-conversion/',
+  basePath: process.env.NODE_ENV === 'production' ? '/unit-conversion' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/unit-conversion/' : '',
+  distDir: 'out',
   
   // Performance optimizations
   webpack: (config, { isServer }) => {
