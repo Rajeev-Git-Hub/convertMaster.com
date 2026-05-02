@@ -123,7 +123,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
         )}
 
         {/* Sidebar */}
-        <aside className={`fixed left-0 top-16 md:top-16 w-16 md:w-64 flex-shrink-0 self-start h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar z-50 ${
+        <aside className={`fixed left-0 top-16 md:top-16 w-64 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar z-50 ${
           mobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         } md:block transition-transform duration-300`}>
           <div className="p-2 md:p-6">
