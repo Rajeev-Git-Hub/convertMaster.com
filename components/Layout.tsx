@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiHome, FiActivity, FiSettings, FiChevronDown, FiChevronUp, FiCpu, FiZap, FiTool, FiLayers, FiGlobe } from 'react-icons/fi';
+import { FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiHome, FiActivity, FiSettings, FiChevronDown, FiChevronUp, FiCpu, FiZap, FiTool, FiLayers, FiGlobe, FiMenu, FiX } from 'react-icons/fi';
 import { CategoryMenu } from '../lib/CategoryMenu';
 import { LocalizationProvider, useLocalization } from '../lib/LocalizationContext';
 import { CategoryKey } from '../lib';
@@ -38,12 +38,23 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
   
   // Collapsible state for each section
   const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
+  
+  // Mobile menu state
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   const toggleSection = (sectionName: string) => {
     setCollapsedSections(prev => ({
       ...prev,
       [sectionName]: !prev[sectionName]
     }));
+  };
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
   };
 
   return (
@@ -64,38 +75,68 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
         }
       `}</style>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
-      <CategoryMenu selectedCategory={category} />
+      {/* Mobile Header with Hamburger */}
+      <div className="md:hidden fixed top-0 left-0 right-0 h-16 bg-gray-800 dark:bg-gray-950 border-b border-gray-700 dark:border-gray-800 z-50 flex items-center justify-between px-4">
+        <Link href="/" className="flex items-center gap-2">
+          <FiActivity className="w-6 h-6 text-blue-400" />
+          <span className="text-lg font-bold text-white">ConvertMaster</span>
+        </Link>
+        <button
+          onClick={toggleMobileMenu}
+          className="p-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+          aria-label="Toggle menu"
+        >
+          {mobileMenuOpen ? <FiX className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}
+        </button>
+      </div>
 
-      <div className="flex flex-1 overflow-x-hidden">
-        <aside className="fixed left-0 top-16 w-16 md:w-64 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar transition-all duration-300 z-40">
+      {/* Desktop Header */}
+      <div className="hidden md:block">
+        <CategoryMenu selectedCategory={category} />
+      </div>
+
+      <div className="flex flex-1 overflow-x-hidden pt-16 md:pt-0">
+        {/* Mobile Menu Overlay */}
+        {mobileMenuOpen && (
+          <div
+            className="fixed inset-0 bg-black/50 z-40 md:hidden"
+            onClick={closeMobileMenu}
+          />
+        )}
+
+        {/* Sidebar */}
+        <aside className={`fixed left-0 top-16 md:top-16 w-64 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar transition-transform duration-300 z-50 ${
+          mobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
+        } md:block`}>
           <div className="p-2 md:p-6">
             {/* Main Navigation */}
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('main')}
-                className="flex items-center justify-center md:justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
               >
-                <span className="hidden md:inline">Main</span>
-                <span className="md:hidden">...</span>
-                <span className="hidden md:inline">{collapsedSections['main'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
+                <span>Main</span>
+                <span>{collapsedSections['main'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
               </button>
               {!collapsedSections['main'] && (
                 <nav className="space-y-1">
                 <Link
                   href="/all-converters"
-                  className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                  className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                   title="Converters"
+                  onClick={() => setMobileMenuOpen(false)}
                 >
-                  <FiActivity className="w-5 h-5 md:w-4 md:h-4 text-green-400" />
-                  <span className="hidden md:inline">Converters</span>
+                  <FiActivity className="w-5 h-5 md:w-4 md:h-4 text-green-400 flex-shrink-0" />
+                  <span className="md:inline">Converters</span>
                 </Link>
                 <Link
                   href="/analytics"
-                  className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                  className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                   title="Analytics"
+                  onClick={() => setMobileMenuOpen(false)}
                 >
-                  <FiTrendingUp className="w-5 h-5 md:w-4 md:h-4 text-purple-400" />
-                  <span className="hidden md:inline">Analytics</span>
+                  <FiTrendingUp className="w-5 h-5 md:w-4 md:h-4 text-purple-400 flex-shrink-0" />
+                  <span className="md:inline">Analytics</span>
                 </Link>
               </nav>
               )}
@@ -105,11 +146,10 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('categories')}
-                className="flex items-center justify-center md:justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
               >
-                <span className="hidden md:inline">Categories</span>
-                <span className="md:hidden">...</span>
-                <span className="hidden md:inline">{collapsedSections['categories'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
+                <span>Categories</span>
+                <span>{collapsedSections['categories'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
               </button>
               {!collapsedSections['categories'] && (
                 <nav className="space-y-1">
@@ -149,14 +189,15 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                     <Link
                       key={tool.key}
                       href={`/${tool.key}`}
-                      className={`flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
+                      className={`flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
                         isActive ? 'text-white bg-blue-600' : ''
                       }`}
                       title={tool.title}
+                      onClick={() => setMobileMenuOpen(false)}
                     >
-                      <tool.icon className={`w-5 h-5 md:w-4 md:h-4 ${tool.color}`} />
-                      <span className="hidden md:inline">{tool.title}</span>
-                      {isActive && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold">Active</span>}
+                      <tool.icon className={`w-5 h-5 md:w-4 md:h-4 ${tool.color} flex-shrink-0`} />
+                      <span className="md:inline">{tool.title}</span>
+                      {isActive && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold flex-shrink-0">Active</span>}
                     </Link>
                   );
                 })}
@@ -402,7 +443,9 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
           </div>
         </aside>
 
-        <main className="flex-1 min-w-0 w-full ml-16 md:ml-64 overflow-x-hidden">
+        <main className={`flex-1 min-w-0 w-full overflow-x-hidden transition-all duration-300 ${
+          mobileMenuOpen ? 'md:ml-64' : 'ml-0 md:ml-64'
+        }`}>
           {children}
           <Footer />
         </main>
