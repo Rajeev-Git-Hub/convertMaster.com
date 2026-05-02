@@ -85,21 +85,35 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
             ConvertMaster
           </span>
         </Link>
-        <button
-          onClick={toggleMobileMenu}
-          className="p-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
-          aria-label="Toggle menu"
-        >
-          {mobileMenuOpen ? <FiX className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}
-        </button>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/about"
+            className="px-2 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          >
+            About
+          </Link>
+          <Link
+            href="/blog"
+            className="px-2 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          >
+            Blog
+          </Link>
+          <button
+            onClick={toggleMobileMenu}
+            className="p-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <FiX className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Desktop Header */}
-      <div className="hidden md:block">
+      <div className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 shadow-md">
         <CategoryMenu selectedCategory={category} />
       </div>
 
-      <div className="flex flex-1 overflow-x-hidden pt-16 md:pt-0">
+      <div className="flex flex-1 overflow-x-hidden pt-16 md:pt-16">
         {/* Mobile Menu Overlay */}
         {mobileMenuOpen && (
           <div
@@ -109,9 +123,9 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
         )}
 
         {/* Sidebar */}
-        <aside className={`fixed left-0 top-16 md:top-16 w-64 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar transition-transform duration-300 z-50 ${
+        <aside className={`fixed left-0 top-16 md:top-16 w-16 md:w-64 flex-shrink-0 self-start h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar z-50 ${
           mobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
-        } md:block`}>
+        } md:block transition-transform duration-300`}>
           <div className="p-2 md:p-6">
             {/* Main Navigation */}
             <div className="mb-8">
@@ -451,9 +465,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
           </div>
         </aside>
 
-        <main className={`flex-1 min-w-0 w-full overflow-x-hidden transition-all duration-300 ${
-          mobileMenuOpen ? 'md:ml-64' : 'ml-0 md:ml-64'
-        }`}>
+        <main className="flex-1 min-w-0 w-full ml-0 md:ml-64 overflow-x-hidden">
           {children}
           <Footer />
         </main>
