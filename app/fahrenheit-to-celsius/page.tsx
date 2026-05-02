@@ -1,85 +1,235 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
+import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Fahrenheit to Celsius Converter - Convert F to C',
-  description: 'Free Fahrenheit to Celsius converter. Convert F to C instantly. Formula: C = (F - 32) × 5/9. Accurate results and practical examples.',
-  keywords: 'fahrenheit to celsius, f to c, convert fahrenheit to celsius, fahrenheit celsius converter, temperature converter',
+  description: 'Fahrenheit to Celsius converter. Convert F to C instantly. Formula: C = (F - 32) × 5/9. Accurate results and practical examples.',
   openGraph: {
-    title: 'Fahrenheit to Celsius Converter',
-    description: 'Convert Fahrenheit to Celsius instantly',
+    title: 'Fahrenheit to Celsius Converter - Convert F to C',
+    description: 'Fahrenheit to Celsius converter. Convert F to C instantly. Formula: C = (F - 32) × 5/9. Accurate results and practical examples.',
     type: 'website',
   },
 };
 
-export default function FahrenheitToCelsiusPage() {
+export default function ConverterPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <section className="bg-white dark:bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Fahrenheit to Celsius Converter</h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
-              Convert Fahrenheit to Celsius instantly. Formula: C = (F - 32) × 5/9
-            </p>
-            <div className="max-w-2xl mx-auto">
-              <ConverterCard category="temperature" defaultFrom="fahrenheit" defaultTo="celsius" />
-            </div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container py-16">
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="hero-gradient text-4xl font-bold mb-4">Fahrenheit to Celsius Converter - Convert F to C</h1>
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            Fahrenheit to Celsius converter. Convert F to C instantly. Formula: C = (F - 32) × 5/9. Accurate results and practical examples.. Get accurate results instantly.
+          </p>
+          
+          <div className="max-w-2xl mx-auto mt-8">
+            <ConverterCard category="temperature" defaultFrom="fahrenheit" defaultTo="celsius" />
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Conversion Formula</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-blue-50 dark:bg-blue-900/20 p-8 rounded-xl text-center">
-              <p className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">C = (F - 32) × 5/9</p>
-              <p className="text-gray-600 dark:text-gray-300">Subtract 32 from Fahrenheit, then multiply by 5/9</p>
-            </div>
+        {/* Common Conversions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Common Conversions</h3>
+            <p className="section-subtitle">Quick reference for Fahrenheit to Celsius conversions</p>
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Common Conversions</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {[
-              { f: '32°F', c: '0°C' },
-              { f: '50°F', c: '10°C' },
-              { f: '68°F', c: '20°C' },
-              { f: '77°F', c: '25°C' },
-              { f: '86°F', c: '30°C' },
-              { f: '98.6°F', c: '37°C' },
-              { f: '104°F', c: '40°C' },
-              { f: '212°F', c: '100°C' },
-              { f: '14°F', c: '-10°C' },
-              { f: '-4°F', c: '-20°C' },
-              { f: '-40°F', c: '-40°C' },
-              { f: '59°F', c: '15°C' },
-            ].map((item, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow text-center">
-                <p className="font-semibold text-blue-600">{item.f}</p>
-                <p className="text-gray-600 dark:text-gray-400">=</p>
-                <p className="font-semibold text-gray-900 dark:text-white">{item.c}</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary">
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Celsius</h3>
               </div>
-            ))}
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 fahrenheit ≈ ? celsius</li>
+                <li>10 fahrenheit ≈ ? celsius</li>
+                <li>50 fahrenheit ≈ ? celsius</li>
+                <li>100 fahrenheit ≈ ? celsius</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Celsius to Fahrenheit</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 celsius ≈ ? fahrenheit</li>
+                <li>10 celsius ≈ ? fahrenheit</li>
+                <li>50 celsius ≈ ? fahrenheit</li>
+                <li>100 celsius ≈ ? fahrenheit</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>500 fahrenheit ≈ ? celsius</li>
+                <li>1000 fahrenheit ≈ ? celsius</li>
+                <li>5000 fahrenheit ≈ ? celsius</li>
+                <li>10000 fahrenheit ≈ ? celsius</li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Related Converters</h2>
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Link href="/celsius-to-fahrenheit/" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">Celsius to Fahrenheit</Link>
-            <Link href="/fahrenheit-to-kelvin/" className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700">Fahrenheit to Kelvin</Link>
-            <Link href="/temperature-converter/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Converters</Link>
+        {/* How to Use */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">How to Use</h3>
+            <p className="section-subtitle">Simple steps to convert Fahrenheit to Celsius</p>
           </div>
-        </div>
-      </section>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto">
+                <span className="text-2xl font-bold text-white">1</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enter Value</h4>
+              <p className="text-sm text-gray-600">Type the amount you want to convert in the input field</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#10b981' }}>
+                <span className="text-2xl font-bold text-white">2</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
+              <p className="text-sm text-gray-600">Choose Fahrenheit as input and Celsius as output</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
+                <span className="text-2xl font-bold text-white">3</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Get Result</h4>
+              <p className="text-sm text-gray-600">Click convert to see your accurate result instantly</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Unit Definitions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Unit Definitions</h3>
+            <p className="section-subtitle">Understanding temperature measurement units</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Celsius (°C)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Metric temperature scale</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Fahrenheit (°F)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Imperial temperature scale</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Kelvin (K)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Scientific absolute temperature</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Rankine (°R)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Absolute Fahrenheit scale</p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Frequently Asked Questions</h3>
+            <p className="section-subtitle">Common questions about Fahrenheit to Celsius conversions</p>
+          </div>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Fahrenheit to Celsius?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Fahrenheit, select Fahrenheit as input and Celsius as output, then click convert.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
+              <p className="text-sm text-gray-600">The conversion uses standard mathematical formulas based on the relationship between these units. Our calculator handles all calculations automatically.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
+              <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
+              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Instant Results</h4>
+              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
+              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Always Available</h4>
+              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center">
+          <div className="gradient-border p-8">
+            <h3 className="section-title mb-4">Explore More Converters</h3>
+            <p className="section-subtitle mb-8">
+              Discover our other temperature conversion tools
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/temperature-converter/"
+                className="btn btn-primary"
+              >
+                <span>All Temperature Converters</span>
+                <FiArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

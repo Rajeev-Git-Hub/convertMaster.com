@@ -1,85 +1,244 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
+import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'MPH to Meters/sec Converter - Convert mph to m/s',
-  description: 'Free mph to m/s converter. Convert miles per hour to meters per second instantly. 1 mph = 0.44704 m/s. Accurate results, conversion formula, and practical examples.',
-  keywords: 'mph to m/s, miles per hour to meter per second, convert mph to m/s, speed converter',
+  description: 'mph to m/s converter. Convert miles per hour to meters per second instantly. 1 mph = 0.44704 m/s. Accurate results, conversion formula, and practical examples.',
   openGraph: {
-    title: 'MPH to Meters/sec Converter',
-    description: 'Convert mph to m/s instantly',
+    title: 'MPH to Meters/sec Converter - Convert mph to m/s',
+    description: 'mph to m/s converter. Convert miles per hour to meters per second instantly. 1 mph = 0.44704 m/s. Accurate results, conversion formula, and practical examples.',
     type: 'website',
   },
 };
 
-export default function MphToMpsPage() {
+export default function ConverterPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <section className="bg-white dark:bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">MPH to Meters/sec Converter</h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
-              Convert mph to m/s instantly. 1 mph = 0.44704 m/s.
-            </p>
-            <div className="max-w-2xl mx-auto">
-              <ConverterCard category="speed" defaultFrom="mph" defaultTo="mps" />
-            </div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container py-16">
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="hero-gradient text-4xl font-bold mb-4">MPH to Meters/sec Converter - Convert mph to m/s</h1>
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            mph to m/s converter. Convert miles per hour to meters per second instantly. 1 mph = 0.44704 m/s. Accurate results, conversion formula, and practical examples.. Get accurate results instantly.
+          </p>
+          
+          <div className="max-w-2xl mx-auto mt-8">
+            <ConverterCard category="speed" defaultFrom="mph" defaultTo="mps" />
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Conversion Formula</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-orange-50 dark:bg-orange-900/20 p-8 rounded-xl text-center">
-              <p className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">m/s = mph × 0.44704</p>
-              <p className="text-gray-600 dark:text-gray-300">Multiply mph by 0.44704 to get m/s</p>
-            </div>
+        {/* Common Conversions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Common Conversions</h3>
+            <p className="section-subtitle">Quick reference for Mph to Mps conversions</p>
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Common Conversions</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {[
-              { mph: '10 mph', mps: '4.47 m/s' },
-              { mph: '20 mph', mps: '8.94 m/s' },
-              { mph: '30 mph', mps: '13.41 m/s' },
-              { mph: '40 mph', mps: '17.88 m/s' },
-              { mph: '50 mph', mps: '22.35 m/s' },
-              { mph: '60 mph', mps: '26.82 m/s' },
-              { mph: '70 mph', mps: '31.29 m/s' },
-              { mph: '80 mph', mps: '35.76 m/s' },
-              { mph: '5 mph', mps: '2.24 m/s' },
-              { mph: '25 mph', mps: '11.18 m/s' },
-              { mph: '55 mph', mps: '24.59 m/s' },
-              { mph: '100 mph', mps: '44.70 m/s' },
-            ].map((item, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow text-center">
-                <p className="font-semibold text-orange-600">{item.mph}</p>
-                <p className="text-gray-600 dark:text-gray-400">=</p>
-                <p className="font-semibold text-gray-900 dark:text-white">{item.mps}</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary">
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Mph to Mps</h3>
               </div>
-            ))}
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 mph ≈ ? mps</li>
+                <li>10 mph ≈ ? mps</li>
+                <li>50 mph ≈ ? mps</li>
+                <li>100 mph ≈ ? mps</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Mps to Mph</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 mps ≈ ? mph</li>
+                <li>10 mps ≈ ? mph</li>
+                <li>50 mps ≈ ? mph</li>
+                <li>100 mps ≈ ? mph</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>500 mph ≈ ? mps</li>
+                <li>1000 mph ≈ ? mps</li>
+                <li>5000 mph ≈ ? mps</li>
+                <li>10000 mph ≈ ? mps</li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Related Converters</h2>
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Link href="/mps-to-mph/" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">MPS to MPH</Link>
-            <Link href="/mph-to-kmh/" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">MPH to KMH</Link>
-            <Link href="/speed-converter/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Converters</Link>
+        {/* How to Use */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">How to Use</h3>
+            <p className="section-subtitle">Simple steps to convert Mph to Mps</p>
           </div>
-        </div>
-      </section>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto">
+                <span className="text-2xl font-bold text-white">1</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enter Value</h4>
+              <p className="text-sm text-gray-600">Type the amount you want to convert in the input field</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#10b981' }}>
+                <span className="text-2xl font-bold text-white">2</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
+              <p className="text-sm text-gray-600">Choose Mph as input and Mps as output</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
+                <span className="text-2xl font-bold text-white">3</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Get Result</h4>
+              <p className="text-sm text-gray-600">Click convert to see your accurate result instantly</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Unit Definitions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Unit Definitions</h3>
+            <p className="section-subtitle">Understanding speed measurement units</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">mph</h4>
+              </div>
+              <p className="text-sm text-gray-600">Miles per hour, common in US/UK</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">km/h</h4>
+              </div>
+              <p className="text-sm text-gray-600">Kilometers per hour, metric unit</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">m/s</h4>
+              </div>
+              <p className="text-sm text-gray-600">Meters per second, scientific unit</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">ft/s</h4>
+              </div>
+              <p className="text-sm text-gray-600">Feet per second, engineering unit</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#ef4444' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">knots</h4>
+              </div>
+              <p className="text-sm text-gray-600">Nautical miles per hour</p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Frequently Asked Questions</h3>
+            <p className="section-subtitle">Common questions about Mph to Mps conversions</p>
+          </div>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Mph to Mps?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Mph, select Mph as input and Mps as output, then click convert.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
+              <p className="text-sm text-gray-600">The conversion uses standard mathematical formulas based on the relationship between these units. Our calculator handles all calculations automatically.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
+              <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
+              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Instant Results</h4>
+              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
+              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Always Available</h4>
+              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center">
+          <div className="gradient-border p-8">
+            <h3 className="section-title mb-4">Explore More Converters</h3>
+            <p className="section-subtitle mb-8">
+              Discover our other speed conversion tools
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/speed-converter/"
+                className="btn btn-primary"
+              >
+                <span>All Speed Converters</span>
+                <FiArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

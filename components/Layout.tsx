@@ -28,8 +28,7 @@ const developerToolsSidebar = [
 const utilityToolsSidebar = [
   { key: 'time-duration-calculator', title: 'Time Duration Calculator', icon: FiClock, color: 'text-violet-600' },
   { key: 'percentage-calculator', title: 'Percentage Calculator', icon: FiPercent, color: 'text-green-600' },
-  { key: 'age-calculator', title: 'Age Calculator', icon: FiUser, color: 'text-violet-600' },
-  { key: 'tip-calculator', title: 'Tip Calculator', icon: FiTrendingUp, color: 'text-orange-600' },
+  { key: 'age-calculator', title: 'Age Calculator', icon: FiUser, color: 'text-violet-600' }
 ];
 
 function LayoutContent({ children }: { children: React.ReactNode }) {

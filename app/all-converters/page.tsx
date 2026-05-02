@@ -2,8 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle, FiZap, FiShield, FiUsers } from 'react-icons/fi';
-import ConverterCard from '@/components/ConverterCard';
+import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle } from 'react-icons/fi';
 
 const converterCategories = [
   {
@@ -753,43 +752,34 @@ export default function AllConvertersPage() {
         <section className="text-center mb-16">
           <h1 className="hero-gradient text-4xl font-bold mb-4">All Unit Converters</h1>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">
-            Access our complete directory of free unit converters. Instantly convert length, weight, 
-            area, volume, temperature, speed, data storage, and more. Fast, accurate, and SEO-optimized conversion tools 
-            for everyday use.
+            Convert anything. Anytime. Anywhere. Transform any measurement in seconds with precision tools 
+            designed for professionals and everyday users alike. Stop guessing, start converting — 
+            get accurate results in one click.
           </p>
         </section>
 
         {/* Search Bar */}
         <section className="mb-12">
-          <div className="max-w-4xl mx-auto mt-8">
-            <ConverterCard category="length" />
-          </div>
           <div className="max-w-3xl mx-auto">
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <FiSearch className="h-5 w-5 text-gray-400"></FiSearch>
+                <FiSearch className="h-5 w-5 text-gray-400" aria-hidden="true" />
               </div>
               <input
                 type="text"
                 placeholder="Search converters..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="input pl-10"
+                className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               />
             </div>
           </div>
         </section>
 
         {/* Popular Converters */}
-        {!searchTerm && (
-          <section className="mb-12">
-            <div className="gradient-border p-8">
-              <h3 className="section-title flex items-center justify-center gap-2">
-                <FiActivity className="text-gray-500"></FiActivity>
-                Popular Converters
-              </h3>
-              
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <section className="mb-12">
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <Link href="/kg-to-lbs" className="card p-6 text-center group">
                   <div className="icon-box icon-box-primary mb-4">
                     <FiAnchor className="w-10 h-10" />
@@ -840,7 +830,6 @@ export default function AllConvertersPage() {
               </div>
             </div>
           </section>
-        )}
 
         {/* Converter Categories */}
         <section className="mb-12">
@@ -852,9 +841,6 @@ export default function AllConvertersPage() {
                     <category.icon className="w-8 h-8" />
                   </div>
                   <h2 className="section-title ml-4">{category.title}</h2>
-                  <span className="ml-4 badge badge-secondary">
-                    {category.converters.length} tools
-                  </span>
                 </div>
                 <p className="text-gray-600 mb-6 ml-16">{category.description}</p>
                 
@@ -877,114 +863,6 @@ export default function AllConvertersPage() {
           </div>
         </section>
 
-        {/* Quick Stats */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Platform Statistics</h3>
-            <p className="section-subtitle">Trusted by professionals worldwide</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <div className="metric-label">Unit Converters</div>
-              <div className="metric-value">70+</div>
-              <div className="metric-change positive">
-                <FiArrowRight className="w-3 h-3"></FiArrowRight>
-                <span>Available</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Categories</div>
-              <div className="metric-value">8</div>
-              <div className="metric-change positive">
-                <FiArrowRight className="w-3 h-3"></FiArrowRight>
-                <span>Comprehensive</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Free to Use</div>
-              <div className="metric-value">100%</div>
-              <div className="metric-change positive">
-                <FiArrowRight className="w-3 h-3"></FiArrowRight>
-                <span>Professional</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">SEO</div>
-              <div className="metric-value">Optimized</div>
-              <div className="metric-change positive">
-                <FiArrowRight className="w-3 h-3"></FiArrowRight>
-                <span>Pages</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Trust Indicators */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Why Choose ConvertMaster?</h3>
-            <p className="section-subtitle">Professional features designed for precision and reliability</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4">
-                <FiShield className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Enterprise Security</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Bank-level encryption with GDPR compliance and complete data privacy protection.
-              </p>
-              <div className="flex items-center justify-center text-gray-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4" style={{ background: '#6b7280' }}>
-                <FiUsers className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Global Trust</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                50M+ active users worldwide trust our platform for accurate, instant conversions.
-              </p>
-              <div className="flex items-center justify-center text-gray-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4" style={{ background: '#6b7280' }}>
-                <FiZap className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Lightning Fast</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                0.1s response time with instant calculations and real-time results.
-              </p>
-              <div className="flex items-center justify-center text-gray-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA */}
-        <section className="text-center">
-          <Link
-            href="/"
-            className="btn btn-primary"
-          >
-            <span>Back to Home</span>
-            <FiArrowRight className="w-4 h-4" />
-          </Link>
-        </section>
       </div>
     </div>
   );

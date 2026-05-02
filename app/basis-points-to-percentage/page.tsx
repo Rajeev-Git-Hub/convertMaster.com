@@ -1,126 +1,244 @@
-'use client';
-
+import { Metadata } from 'next';
 import Link from 'next/link';
-import { useState } from 'react';
+import ConverterCard from '../../components/ConverterCard';
+import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
 
-export default function BasisPointsToPercentagePage() {
-  const [bps, setBps] = useState('');
-  const [result, setResult] = useState<number | null>(null);
+export const metadata: Metadata = {
+  title: 'Basis-points to Percentage Converter',
+  description: 'basis-points to percentage converter. Convert Basis-points to Percentage instantly.',
+  openGraph: {
+    title: 'Basis-points to Percentage Converter',
+    description: 'basis-points to percentage converter. Convert Basis-points to Percentage instantly.',
+    type: 'website',
+  },
+};
 
-  const convertToPercentage = () => {
-    const basisPoints = parseFloat(bps);
-    if (basisPoints >= 0) {
-      const percentage = basisPoints / 100;
-      setResult(percentage);
-    }
-  };
-
+export default function ConverterPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <section className="bg-white dark:bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Basis Points to Percentage</h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
-              Convert basis points (bps) to percentage. 100 bps = 1%
-            </p>
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl max-w-2xl mx-auto">
-              <div className="text-center py-8">
-                <div className="text-6xl mb-4">📊</div>
-                <p className="text-gray-600 dark:text-gray-400">Enter basis points to convert to percentage</p>
-                <div className="mt-6 space-y-4">
-                  <input 
-                    type="number" 
-                    value={bps}
-                    onChange={(e) => setBps(e.target.value)}
-                    placeholder="Basis points (e.g., 50)..." 
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white" 
-                  />
-                  <button 
-                    onClick={convertToPercentage}
-                    className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                  >
-                    Convert to %
-                  </button>
-                  {result !== null && (
-                    <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-900/30 rounded-lg">
-                      <p className="text-lg text-gray-700 dark:text-gray-300">Percentage:</p>
-                      <p className="text-3xl font-bold text-gray-900">{result.toFixed(2)}%</p>
-                    </div>
-                  )}
+    <div className="min-h-screen bg-gray-50">
+      <div className="container py-16">
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="hero-gradient text-4xl font-bold mb-4">Basis-points to Percentage Converter</h1>
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            basis-points to percentage converter. Convert Basis-points to Percentage instantly.. Get accurate results instantly.
+          </p>
+          
+          <div className="max-w-2xl mx-auto mt-8">
+            <ConverterCard category="speed" defaultFrom="basis-points" defaultTo="percentage" />
+          </div>
+        </section>
+
+        {/* Common Conversions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Common Conversions</h3>
+            <p className="section-subtitle">Quick reference for Basis-points to Percentage conversions</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary">
+                  <FiMaximize className="w-5 h-5" />
                 </div>
+                <h3 className="text-lg font-semibold text-gray-900">Basis-points to Percentage</h3>
               </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 basis-points ≈ ? percentage</li>
+                <li>10 basis-points ≈ ? percentage</li>
+                <li>50 basis-points ≈ ? percentage</li>
+                <li>100 basis-points ≈ ? percentage</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Percentage to Basis-points</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 percentage ≈ ? basis-points</li>
+                <li>10 percentage ≈ ? basis-points</li>
+                <li>50 percentage ≈ ? basis-points</li>
+                <li>100 percentage ≈ ? basis-points</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>500 basis-points ≈ ? percentage</li>
+                <li>1000 basis-points ≈ ? percentage</li>
+                <li>5000 basis-points ≈ ? percentage</li>
+                <li>10000 basis-points ≈ ? percentage</li>
+              </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">What are Basis Points?</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-gray-50 dark:bg-gray-700 p-8 rounded-xl">
-              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-                A basis point (bp or bps) is a unit of measure used in finance to describe the percentage change in the value or rate of a financial instrument.
-              </p>
-              <p className="text-xl font-bold text-center text-gray-900">1 basis point = 0.01% = 0.0001 in decimal</p>
-              <p className="text-xl font-bold text-center text-gray-900 mt-2">100 basis points = 1%</p>
-            </div>
+        {/* How to Use */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">How to Use</h3>
+            <p className="section-subtitle">Simple steps to convert Basis-points to Percentage</p>
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Common Conversions</h2>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { bps: '25 bps', percent: '0.25%' },
-              { bps: '50 bps', percent: '0.50%' },
-              { bps: '100 bps', percent: '1.00%' },
-              { bps: '150 bps', percent: '1.50%' },
-              { bps: '200 bps', percent: '2.00%' },
-            ].map((item, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow text-center">
-                <p className="font-semibold text-gray-700">{item.bps}</p>
-                <p className="text-gray-600 dark:text-gray-400">=</p>
-                <p className="font-bold text-gray-900 dark:text-white">{item.percent}</p>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto">
+                <span className="text-2xl font-bold text-white">1</span>
               </div>
-            ))}
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enter Value</h4>
+              <p className="text-sm text-gray-600">Type the amount you want to convert in the input field</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#10b981' }}>
+                <span className="text-2xl font-bold text-white">2</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
+              <p className="text-sm text-gray-600">Choose Basis-points as input and Percentage as output</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
+                <span className="text-2xl font-bold text-white">3</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Get Result</h4>
+              <p className="text-sm text-gray-600">Click convert to see your accurate result instantly</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Where Are Basis Points Used?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow">
-              <p className="font-semibold text-lg text-gray-900 dark:text-white">🏦 Interest Rates</p>
-              <p className="text-gray-600 dark:text-gray-400 mt-2">Central banks change rates by 25 or 50 basis points</p>
+        {/* Unit Definitions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Unit Definitions</h3>
+            <p className="section-subtitle">Understanding speed measurement units</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">mph</h4>
+              </div>
+              <p className="text-sm text-gray-600">Miles per hour, common in US/UK</p>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow">
-              <p className="font-semibold text-lg text-gray-900 dark:text-white">📈 Bond Yields</p>
-              <p className="text-gray-600 dark:text-gray-400 mt-2">Bond yield changes are measured in basis points</p>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">km/h</h4>
+              </div>
+              <p className="text-sm text-gray-600">Kilometers per hour, metric unit</p>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow">
-              <p className="font-semibold text-lg text-gray-900 dark:text-white">💳 Credit Cards</p>
-              <p className="text-gray-600 dark:text-gray-400 mt-2">APR differences between cards in basis points</p>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">m/s</h4>
+              </div>
+              <p className="text-sm text-gray-600">Meters per second, scientific unit</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">ft/s</h4>
+              </div>
+              <p className="text-sm text-gray-600">Feet per second, engineering unit</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#ef4444' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">knots</h4>
+              </div>
+              <p className="text-sm text-gray-600">Nautical miles per hour</p>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Related Calculators</h2>
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Link href="/percentage-to-decimal" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">% to Decimal</Link>
-            <Link href="/percentage-calculator" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">% Calculator</Link>
-            <Link href="/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Tools</Link>
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Frequently Asked Questions</h3>
+            <p className="section-subtitle">Common questions about Basis-points to Percentage conversions</p>
           </div>
-        </div>
-      </section>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Basis-points to Percentage?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Basis-points, select Basis-points as input and Percentage as output, then click convert.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
+              <p className="text-sm text-gray-600">The conversion uses standard mathematical formulas based on the relationship between these units. Our calculator handles all calculations automatically.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
+              <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
+              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Instant Results</h4>
+              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
+              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Always Available</h4>
+              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center">
+          <div className="gradient-border p-8">
+            <h3 className="section-title mb-4">Explore More Converters</h3>
+            <p className="section-subtitle mb-8">
+              Discover our other speed conversion tools
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/speed-converter/"
+                className="btn btn-primary"
+              >
+                <span>All Speed Converters</span>
+                <FiArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

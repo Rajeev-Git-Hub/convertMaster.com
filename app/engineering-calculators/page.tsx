@@ -296,46 +296,8 @@ export default function EngineeringCalculatorsPage() {
           </div>
         </section>
 
-        {/* Quick Stats */}
-        {/* Trust Indicators */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Why Choose ConvertMaster?</h3>
-            <p className="section-subtitle">Professional features designed for engineers</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4">
-                <FiShield className="w-5 h-5" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Industry Standards</h4>
-              <p className="text-sm text-gray-600 mb-4">
-                All calculators follow established engineering standards and best practices.
-              </p>
-              <div className="flex items-center justify-center text-blue-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4" style={{ background: '#8b5cf6' }}>
-                <FiZap className="w-5 h-5" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Lightning Fast</h4>
-              <p className="text-sm text-gray-600 mb-4">
-                0.1s response time with instant calculations and real-time results.
-              </p>
-              <div className="flex items-center justify-center text-purple-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* CTA Section */}
+
         <section className="text-center">
           <div className="gradient-border p-8">
             <h3 className="section-title mb-4">Ready to Calculate More?</h3>

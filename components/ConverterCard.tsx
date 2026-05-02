@@ -11,7 +11,7 @@ import {
 } from '../lib';
 import { categories } from '../lib/categories';
 import { useConversionHistory } from '../lib/hooks/useConversionHistory';
-import { FaCalculator, FaCaretDown, FaArrowRight, FaExchangeAlt, FaInfoCircle, FaCopy, FaShare, FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaCalculator, FaCaretDown, FaArrowRight, FaExchangeAlt, FaCopy, FaShare, FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { useLocalization } from '../lib/LocalizationContext';
 
 type Props = {
@@ -233,7 +233,7 @@ export default function ConverterCard({ category, defaultFrom, defaultTo }: Prop
   // For categories that don't have conversion units, show a message
   if (units.length === 0) {
     return (
-      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md w-full border border-gray-200 dark:border-gray-700 text-center">
+      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md w-full border border-gray-200 dark:border-gray-700 text-center">
         <div className="text-gray-600 dark:text-gray-400">
           <p className="text-lg font-medium mb-2">
             {category === 'analytics' && t('analytics.title')}
@@ -251,7 +251,7 @@ export default function ConverterCard({ category, defaultFrom, defaultTo }: Prop
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md w-full border border-gray-200 dark:border-gray-700">
+    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md w-full border border-gray-200 dark:border-gray-700">
 
       {/* --- Value Input --- */}
       <div className="mb-4">
@@ -326,19 +326,31 @@ export default function ConverterCard({ category, defaultFrom, defaultTo }: Prop
         </div>
       </div>
 
-      {/* --- Convert Button --- */}
-      <button
-        onClick={handleConvert}
-        className="w-full flex items-center justify-center gap-3 bg-blue-600 text-white font-bold py-4 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-800 focus:ring-blue-500 transition-all duration-300 ease-in-out mb-6"
-      >
-        {t('converter.convert')}
-        <FaArrowRight />
-      </button>
+      {/* --- Buttons --- */}
+      <div className="flex gap-2 mb-4">
+        <button
+          onClick={handleConvert}
+          className="flex-1 flex items-center justify-center gap-3 bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-800 focus:ring-blue-500 transition-all duration-300 ease-in-out"
+        >
+          {t('converter.convert')}
+          <FaArrowRight />
+        </button>
+        <button
+          onClick={() => {
+            setValue('');
+            setResult(null);
+            setValidationError(null);
+          }}
+          className="flex items-center justify-center gap-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 font-bold py-3 px-4 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 focus:outline-none transition-all duration-300 ease-in-out"
+        >
+          Reset
+        </button>
+      </div>
 
       {/* --- Result Display --- */}
-      <div className="p-6 rounded-lg text-center border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 overflow-hidden">
-        <span className="text-gray-500 dark:text-gray-400 text-sm font-bold uppercase tracking-wider">Result</span>
-        <div className={`text-2xl md:text-3xl font-extrabold mt-2 wrap-break-word min-h-12.5 flex items-center justify-center`}>
+      <div className="p-2 rounded-lg text-center border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900">
+        <span className="text-gray-500 dark:text-gray-400 text-xs font-bold uppercase tracking-wider">Result</span>
+        <div className="text-lg md:text-xl font-extrabold mt-1 wrap-break-word flex items-center justify-center">
           {result !== null ? (
             <span className="text-gray-900 dark:text-gray-100">{result}</span>
           ) : validationError ? (
@@ -429,40 +441,6 @@ export default function ConverterCard({ category, defaultFrom, defaultTo }: Prop
           </div>
         )}
 
-        {result !== null && meta && (
-          <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700 text-left">
-            <h3 className="flex items-center text-lg font-bold text-gray-900 dark:text-gray-100 mb-4">
-              <FaInfoCircle className="mr-2 text-gray-600 dark:text-gray-400" />
-              Conversion Information
-            </h3>
-            <dl className="space-y-3">
-              {meta.formula && (
-                <div>
-                  <dt className="font-semibold text-gray-700 dark:text-gray-200 text-sm">Formula:</dt>
-                  <dd className="mt-1 text-gray-800 dark:text-gray-100 bg-gray-100 dark:bg-gray-700 p-2 rounded-md font-mono text-xs">{meta.formula}</dd>
-                </div>
-              )}
-              {meta.constants && (
-                <div>
-                  <dt className="font-semibold text-gray-700 dark:text-gray-200 text-sm">Constants:</dt>
-                  <dd className="text-gray-600 dark:text-gray-400 text-sm">{meta.constants}</dd>
-                </div>
-              )}
-              {meta.assumptions && (
-                <div>
-                  <dt className="font-semibold text-gray-700 dark:text-gray-200 text-sm">Assumptions:</dt>
-                  <dd className="text-gray-600 dark:text-gray-400 text-sm">{meta.assumptions}</dd>
-                </div>
-              )}
-              {meta.standard && (
-                <div>
-                  <dt className="font-semibold text-gray-700 dark:text-gray-200 text-sm">Standard:</dt>
-                  <dd className="text-gray-600 dark:text-gray-400 text-sm">{meta.standard}</dd>
-                </div>
-              )}
-            </dl>
-          </div>
-        )}
       </div>
     </div>
   );

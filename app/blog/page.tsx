@@ -153,53 +153,8 @@ export default function BlogPage() {
           </div>
         </section>
 
-        {/* Quick Stats */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Blog Statistics</h3>
-            <p className="section-subtitle">Growing resource for conversion knowledge</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <div className="metric-label">Total Articles</div>
-              <div className="metric-value">5</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Published</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Categories</div>
-              <div className="metric-value">5</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Topics</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Avg Read Time</div>
-              <div className="metric-value">4m</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Quick Read</span>
-              </div>
-            </div>
-            
-            <div className="card p-6 text-center">
-              <div className="metric-label">Updated</div>
-              <div className="metric-value">Weekly</div>
-              <div className="metric-change positive">
-                <FiTrendingUp className="w-3 h-3"></FiTrendingUp>
-                <span>Fresh Content</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* CTA Section */}
+
         <section className="text-center">
           <div className="gradient-border p-8">
             <h3 className="section-title mb-4">Need to Convert Something Now?</h3>

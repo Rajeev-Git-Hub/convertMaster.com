@@ -1,35 +1,244 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
+import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
 
 export const metadata: Metadata = {
-  title: 'Square Yards to Square Meters Converter – yd² to m² | Free Tool',
-  description: 'Free square yards to square meters converter. Convert yd² to m² instantly with accurate results.',
-  keywords: 'square yards to square meters, yd² to m², convert square yards to square meters, area converter',
+  title: 'Square Yards to Square Meters Converter',
+  description: 'square yards to square meters converter. Convert yd² to m² instantly with accurate results.',
   openGraph: {
-    title: 'Square Yards to Square Meters Converter – yd² to m²',
-    description: 'Convert square yards to square meters instantly with accurate results',
+    title: 'Square Yards to Square Meters Converter',
+    description: 'square yards to square meters converter. Convert yd² to m² instantly with accurate results.',
     type: 'website',
   },
 };
 
-export default function Yd2ToM2Page() {
+export default function ConverterPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <section className="bg-gray-100 dark:bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
-              Square Yards to Square Meters Converter
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-300">
-              Convert square yards to square meters instantly. 1 yd² = 0.836 m².
-            </p>
-            <div className="max-w-2xl mx-auto">
-              <ConverterCard category="area" defaultFrom="square-yard" defaultTo="square-meter" />
+    <div className="min-h-screen bg-gray-50">
+      <div className="container py-16">
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="hero-gradient text-4xl font-bold mb-4">Square Yards to Square Meters Converter</h1>
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            square yards to square meters converter. Convert yd² to m² instantly with accurate results.. Get accurate results instantly.
+          </p>
+          
+          <div className="max-w-2xl mx-auto mt-8">
+            <ConverterCard category="area" defaultFrom="yd2" defaultTo="m2" />
+          </div>
+        </section>
+
+        {/* Common Conversions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Common Conversions</h3>
+            <p className="section-subtitle">Quick reference for Yd2 to M2 conversions</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary">
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Yd2 to M2</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 yd2 ≈ ? m2</li>
+                <li>10 yd2 ≈ ? m2</li>
+                <li>50 yd2 ≈ ? m2</li>
+                <li>100 yd2 ≈ ? m2</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">M2 to Yd2</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 m2 ≈ ? yd2</li>
+                <li>10 m2 ≈ ? yd2</li>
+                <li>50 m2 ≈ ? yd2</li>
+                <li>100 m2 ≈ ? yd2</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>500 yd2 ≈ ? m2</li>
+                <li>1000 yd2 ≈ ? m2</li>
+                <li>5000 yd2 ≈ ? m2</li>
+                <li>10000 yd2 ≈ ? m2</li>
+              </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* How to Use */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">How to Use</h3>
+            <p className="section-subtitle">Simple steps to convert Yd2 to M2</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto">
+                <span className="text-2xl font-bold text-white">1</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enter Value</h4>
+              <p className="text-sm text-gray-600">Type the amount you want to convert in the input field</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#10b981' }}>
+                <span className="text-2xl font-bold text-white">2</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
+              <p className="text-sm text-gray-600">Choose Yd2 as input and M2 as output</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
+                <span className="text-2xl font-bold text-white">3</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Get Result</h4>
+              <p className="text-sm text-gray-600">Click convert to see your accurate result instantly</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Unit Definitions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Unit Definitions</h3>
+            <p className="section-subtitle">Understanding area measurement units</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Square Meter (m²)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Base metric unit for area</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Square Foot (ft²)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Common imperial unit</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Acre</h4>
+              </div>
+              <p className="text-sm text-gray-600">43,560 square feet</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Hectare (ha)</h4>
+              </div>
+              <p className="text-sm text-gray-600">10,000 square meters</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#ef4444' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Square Kilometer (km²)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1 million square meters</p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Frequently Asked Questions</h3>
+            <p className="section-subtitle">Common questions about Yd2 to M2 conversions</p>
+          </div>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Yd2 to M2?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Yd2, select Yd2 as input and M2 as output, then click convert.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
+              <p className="text-sm text-gray-600">The conversion uses standard mathematical formulas based on the relationship between these units. Our calculator handles all calculations automatically.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
+              <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
+              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Instant Results</h4>
+              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
+              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Always Available</h4>
+              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center">
+          <div className="gradient-border p-8">
+            <h3 className="section-title mb-4">Explore More Converters</h3>
+            <p className="section-subtitle mb-8">
+              Discover our other area conversion tools
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/area-converter/"
+                className="btn btn-primary"
+              >
+                <span>All Area Converters</span>
+                <FiArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { FiCalendar, FiChevronRight, FiUser, FiClock, FiPercent, FiTrendingUp } from 'react-icons/fi';
+import { FiChevronRight, FiUser, FiClock, FiPercent, FiTrendingUp } from 'react-icons/fi';
 import { useLocalization } from '../../lib/LocalizationContext';
 
 const utilityTools = [
@@ -36,15 +36,7 @@ const utilityTools = [
     href: '/interest-calculator',
     color: 'text-orange-600',
     bgColor: 'bg-orange-100',
-  },
-  {
-    title: 'utilities.tip_calculator',
-    description: 'utilities.tip_calculator.desc',
-    icon: FiCalendar,
-    href: '/tip-calculator',
-    color: 'text-purple-600',
-    bgColor: 'bg-purple-100',
-  },
+  }
 ];
 
 export default function UtilitiesPage() {

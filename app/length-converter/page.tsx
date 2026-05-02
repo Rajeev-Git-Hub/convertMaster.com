@@ -201,58 +201,6 @@ export default function LengthConverterLandingPage() {
           </div>
         </section>
 
-        {/* Trust Indicators */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Why Choose ConvertMaster?</h3>
-            <p className="section-subtitle">Professional features designed for precision and reliability</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4">
-                <FiShield className="w-5 h-5" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enterprise Security</h4>
-              <p className="text-sm text-gray-600 mb-4">
-                Bank-level encryption with GDPR compliance and complete data privacy protection.
-              </p>
-              <div className="flex items-center justify-center text-blue-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4" style={{ background: '#10b981' }}>
-                <FiUsers className="w-5 h-5" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Global Trust</h4>
-              <p className="text-sm text-gray-600 mb-4">
-                50M+ active users worldwide trust our platform for accurate, instant conversions.
-              </p>
-              <div className="flex items-center justify-center text-green-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-
-            <div className="card p-6 text-center group">
-              <div className="icon-box icon-box-primary mb-4" style={{ background: '#8b5cf6' }}>
-                <FiZap className="w-5 h-5" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Lightning Fast</h4>
-              <p className="text-sm text-gray-600 mb-4">
-                0.1s response time with instant calculations and real-time results.
-              </p>
-              <div className="flex items-center justify-center text-purple-600 font-medium">
-                <span>Learn more</span>
-                <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* CTA Section */}
         <section className="text-center">
           <div className="gradient-border p-8">

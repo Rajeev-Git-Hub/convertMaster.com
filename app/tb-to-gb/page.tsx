@@ -1,85 +1,244 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
+import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'TB to GB Converter - Convert Terabytes to Gigabytes',
-  description: 'Free TB to GB converter. Convert terabytes to gigabytes instantly. 1 TB = 1024 GB. Accurate results, conversion formula, and practical examples.',
-  keywords: 'tb to gb, terabytes to gigabytes, convert tb to gb, tb gb converter, data storage converter',
+  description: 'TB to GB converter. Convert terabytes to gigabytes instantly. 1 TB = 1024 GB. Accurate results, conversion formula, and practical examples.',
   openGraph: {
-    title: 'TB to GB Converter',
-    description: 'Convert terabytes to gigabytes instantly',
+    title: 'TB to GB Converter - Convert Terabytes to Gigabytes',
+    description: 'TB to GB converter. Convert terabytes to gigabytes instantly. 1 TB = 1024 GB. Accurate results, conversion formula, and practical examples.',
     type: 'website',
   },
 };
 
-export default function TbToGbPage() {
+export default function ConverterPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <section className="bg-white dark:bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">TB to GB Converter</h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
-              Convert terabytes to gigabytes instantly. 1 TB = 1024 GB
-            </p>
-            <div className="max-w-2xl mx-auto">
-              <ConverterCard category="data" defaultFrom="terabyte" defaultTo="gigabyte" />
-            </div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container py-16">
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="hero-gradient text-4xl font-bold mb-4">TB to GB Converter - Convert Terabytes to Gigabytes</h1>
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            TB to GB converter. Convert terabytes to gigabytes instantly. 1 TB = 1024 GB. Accurate results, conversion formula, and practical examples.. Get accurate results instantly.
+          </p>
+          
+          <div className="max-w-2xl mx-auto mt-8">
+            <ConverterCard category="data" defaultFrom="tb" defaultTo="gb" />
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Conversion Formula</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-indigo-50 dark:bg-indigo-900/20 p-8 rounded-xl text-center">
-              <p className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">GB = TB × 1024</p>
-              <p className="text-gray-600 dark:text-gray-300">Multiply terabytes by 1024 to get gigabytes</p>
-            </div>
+        {/* Common Conversions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Common Conversions</h3>
+            <p className="section-subtitle">Quick reference for Tb to Gb conversions</p>
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Common Conversions</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {[
-              { tb: '0.5 TB', gb: '512 GB' },
-              { tb: '1 TB', gb: '1024 GB' },
-              { tb: '2 TB', gb: '2048 GB' },
-              { tb: '4 TB', gb: '4096 GB' },
-              { tb: '8 TB', gb: '8192 GB' },
-              { tb: '10 TB', gb: '10240 GB' },
-              { tb: '16 TB', gb: '16384 GB' },
-              { tb: '32 TB', gb: '32768 GB' },
-              { tb: '0.25 TB', gb: '256 GB' },
-              { tb: '0.125 TB', gb: '128 GB' },
-              { tb: '5 TB', gb: '5120 GB' },
-              { tb: '100 TB', gb: '102400 GB' },
-            ].map((item, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow text-center">
-                <p className="font-semibold text-indigo-600">{item.tb}</p>
-                <p className="text-gray-600 dark:text-gray-400">=</p>
-                <p className="font-semibold text-gray-900 dark:text-white">{item.gb}</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary">
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Tb to Gb</h3>
               </div>
-            ))}
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 tb ≈ ? gb</li>
+                <li>10 tb ≈ ? gb</li>
+                <li>50 tb ≈ ? gb</li>
+                <li>100 tb ≈ ? gb</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Gb to Tb</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 gb ≈ ? tb</li>
+                <li>10 gb ≈ ? tb</li>
+                <li>50 gb ≈ ? tb</li>
+                <li>100 gb ≈ ? tb</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>500 tb ≈ ? gb</li>
+                <li>1000 tb ≈ ? gb</li>
+                <li>5000 tb ≈ ? gb</li>
+                <li>10000 tb ≈ ? gb</li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Related Converters</h2>
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Link href="/gb-to-tb/" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">GB to TB</Link>
-            <Link href="/tb-to-pb/" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">TB to PB</Link>
-            <Link href="/data-converter/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Converters</Link>
+        {/* How to Use */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">How to Use</h3>
+            <p className="section-subtitle">Simple steps to convert Tb to Gb</p>
           </div>
-        </div>
-      </section>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto">
+                <span className="text-2xl font-bold text-white">1</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enter Value</h4>
+              <p className="text-sm text-gray-600">Type the amount you want to convert in the input field</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#10b981' }}>
+                <span className="text-2xl font-bold text-white">2</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
+              <p className="text-sm text-gray-600">Choose Tb as input and Gb as output</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
+                <span className="text-2xl font-bold text-white">3</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Get Result</h4>
+              <p className="text-sm text-gray-600">Click convert to see your accurate result instantly</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Unit Definitions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Unit Definitions</h3>
+            <p className="section-subtitle">Understanding data measurement units</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Byte (B)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Basic unit of digital information</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Kilobyte (KB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 bytes</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Megabyte (MB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 kilobytes</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Gigabyte (GB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 megabytes</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#ef4444' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Terabyte (TB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 gigabytes</p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Frequently Asked Questions</h3>
+            <p className="section-subtitle">Common questions about Tb to Gb conversions</p>
+          </div>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Tb to Gb?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Tb, select Tb as input and Gb as output, then click convert.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
+              <p className="text-sm text-gray-600">The conversion uses standard mathematical formulas based on the relationship between these units. Our calculator handles all calculations automatically.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
+              <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
+              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Instant Results</h4>
+              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
+              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Always Available</h4>
+              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center">
+          <div className="gradient-border p-8">
+            <h3 className="section-title mb-4">Explore More Converters</h3>
+            <p className="section-subtitle mb-8">
+              Discover our other data conversion tools
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/data-converter/"
+                className="btn btn-primary"
+              >
+                <span>All Data Converters</span>
+                <FiArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

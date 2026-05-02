@@ -1,85 +1,244 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
+import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'KB to Bytes Converter - Convert Kilobytes to Bytes',
-  description: 'Free KB to bytes converter. Convert kilobytes to bytes instantly. 1 KB = 1024 bytes. Accurate results, conversion formula, and practical examples.',
-  keywords: 'kb to bytes, kilobytes to bytes, convert kb to bytes, kb bytes converter, data storage converter',
+  description: 'KB to bytes converter. Convert kilobytes to bytes instantly. 1 KB = 1024 bytes. Accurate results, conversion formula, and practical examples.',
   openGraph: {
-    title: 'KB to Bytes Converter',
-    description: 'Convert kilobytes to bytes instantly',
+    title: 'KB to Bytes Converter - Convert Kilobytes to Bytes',
+    description: 'KB to bytes converter. Convert kilobytes to bytes instantly. 1 KB = 1024 bytes. Accurate results, conversion formula, and practical examples.',
     type: 'website',
   },
 };
 
-export default function KbToBytesPage() {
+export default function ConverterPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <section className="bg-white dark:bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">KB to Bytes Converter</h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400">
-              Convert kilobytes to bytes instantly. 1 KB = 1024 bytes
-            </p>
-            <div className="max-w-2xl mx-auto">
-              <ConverterCard category="data" defaultFrom="kilobyte" defaultTo="byte" />
-            </div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container py-16">
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="hero-gradient text-4xl font-bold mb-4">KB to Bytes Converter - Convert Kilobytes to Bytes</h1>
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
+            KB to bytes converter. Convert kilobytes to bytes instantly. 1 KB = 1024 bytes. Accurate results, conversion formula, and practical examples.. Get accurate results instantly.
+          </p>
+          
+          <div className="max-w-2xl mx-auto mt-8">
+            <ConverterCard category="data" defaultFrom="kb" defaultTo="bytes" />
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Conversion Formula</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-indigo-50 dark:bg-indigo-900/20 p-8 rounded-xl text-center">
-              <p className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">bytes = KB × 1024</p>
-              <p className="text-gray-600 dark:text-gray-300">Multiply kilobytes by 1024 to get bytes</p>
-            </div>
+        {/* Common Conversions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Common Conversions</h3>
+            <p className="section-subtitle">Quick reference for Kb to Bytes conversions</p>
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Common Conversions</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {[
-              { kb: '0.5 KB', bytes: '512 B' },
-              { kb: '1 KB', bytes: '1024 B' },
-              { kb: '2 KB', bytes: '2048 B' },
-              { kb: '5 KB', bytes: '5120 B' },
-              { kb: '10 KB', bytes: '10240 B' },
-              { kb: '50 KB', bytes: '51200 B' },
-              { kb: '100 KB', bytes: '102400 B' },
-              { kb: '0.25 KB', bytes: '256 B' },
-              { kb: '0.125 KB', bytes: '128 B' },
-              { kb: '0.1 KB', bytes: '102 B' },
-              { kb: '0.05 KB', bytes: '51 B' },
-              { kb: '0.01 KB', bytes: '10 B' },
-            ].map((item, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow text-center">
-                <p className="font-semibold text-indigo-600">{item.kb}</p>
-                <p className="text-gray-600 dark:text-gray-400">=</p>
-                <p className="font-semibold text-gray-900 dark:text-white">{item.bytes}</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary">
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Kb to Bytes</h3>
               </div>
-            ))}
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 kb ≈ ? bytes</li>
+                <li>10 kb ≈ ? bytes</li>
+                <li>50 kb ≈ ? bytes</li>
+                <li>100 kb ≈ ? bytes</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Bytes to Kb</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>1 bytes ≈ ? kb</li>
+                <li>10 bytes ≈ ? kb</li>
+                <li>50 bytes ≈ ? kb</li>
+                <li>100 bytes ≈ ? kb</li>
+              </ul>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiMaximize className="w-5 h-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
+              </div>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>500 kb ≈ ? bytes</li>
+                <li>1000 kb ≈ ? bytes</li>
+                <li>5000 kb ≈ ? bytes</li>
+                <li>10000 kb ≈ ? bytes</li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Related Converters</h2>
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Link href="/bytes-to-kb/" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">Bytes to KB</Link>
-            <Link href="/kb-to-mb/" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">KB to MB</Link>
-            <Link href="/data-converter/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Converters</Link>
+        {/* How to Use */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">How to Use</h3>
+            <p className="section-subtitle">Simple steps to convert Kb to Bytes</p>
           </div>
-        </div>
-      </section>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto">
+                <span className="text-2xl font-bold text-white">1</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Enter Value</h4>
+              <p className="text-sm text-gray-600">Type the amount you want to convert in the input field</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#10b981' }}>
+                <span className="text-2xl font-bold text-white">2</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
+              <p className="text-sm text-gray-600">Choose Kb as input and Bytes as output</p>
+            </div>
+            <div className="card p-6 text-center group">
+              <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
+                <span className="text-2xl font-bold text-white">3</span>
+              </div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Get Result</h4>
+              <p className="text-sm text-gray-600">Click convert to see your accurate result instantly</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Unit Definitions */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Unit Definitions</h3>
+            <p className="section-subtitle">Understanding data measurement units</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Byte (B)</h4>
+              </div>
+              <p className="text-sm text-gray-600">Basic unit of digital information</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Kilobyte (KB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 bytes</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Megabyte (MB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 kilobytes</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Gigabyte (GB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 megabytes</p>
+            </div>
+            <div className="card p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="icon-box icon-box-primary" style={{ background: '#ef4444' }}>
+                  <FiBook className="w-5 h-5" />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Terabyte (TB)</h4>
+              </div>
+              <p className="text-sm text-gray-600">1024 gigabytes</p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="section-title">Frequently Asked Questions</h3>
+            <p className="section-subtitle">Common questions about Kb to Bytes conversions</p>
+          </div>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Kb to Bytes?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Kb, select Kb as input and Bytes as output, then click convert.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
+              <p className="text-sm text-gray-600">The conversion uses standard mathematical formulas based on the relationship between these units. Our calculator handles all calculations automatically.</p>
+            </div>
+            <div className="card p-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
+              <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
+              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Instant Results</h4>
+              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
+              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
+            </div>
+            <div className="card p-6 text-center">
+              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+              <h4 className="font-semibold text-gray-900">Always Available</h4>
+              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center">
+          <div className="gradient-border p-8">
+            <h3 className="section-title mb-4">Explore More Converters</h3>
+            <p className="section-subtitle mb-8">
+              Discover our other data conversion tools
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/data-converter/"
+                className="btn btn-primary"
+              >
+                <span>All Data Converters</span>
+                <FiArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }
