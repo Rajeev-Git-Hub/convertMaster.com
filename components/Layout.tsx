@@ -157,14 +157,15 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   <Link
                     key={c.key}
                     href={`/${c.key}-converter`}
-                    className={`flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
+                    className={`flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
                       category === c.key ? 'text-white bg-blue-600' : ''
                     }`}
                     title={t(`category.${c.key}`)}
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    <c.icon className={`w-5 h-5 md:w-4 md:h-4 ${c.color}`} />
-                    <span className="hidden md:inline">{t(`category.${c.key}`)}</span>
-                    {category === c.key && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold">Active</span>}
+                    <c.icon className={`w-5 h-5 md:w-4 md:h-4 ${c.color} shrink-0`} />
+                    <span>{t(`category.${c.key}`)}</span>
+                    {category === c.key && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold shrink-0">Active</span>}
                   </Link>
                 ))}
               </nav>
@@ -175,11 +176,10 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('developerTools')}
-                className="flex items-center justify-center md:justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
               >
-                <span className="hidden md:inline">Developer Tools</span>
-                <span className="md:hidden">...</span>
-                <span className="hidden md:inline">{collapsedSections['developerTools'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
+                <span>Developer Tools</span>
+                <span>{collapsedSections['developerTools'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
               </button>
               {!collapsedSections['developerTools'] && (
                 <nav className="space-y-1">
@@ -209,70 +209,74 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('engineering')}
-                className="flex items-center justify-center md:justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
               >
-                <span className="hidden md:inline">Engineering</span>
-                <span className="md:hidden">...</span>
-                <span className="hidden md:inline">{collapsedSections['engineering'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
+                <span>Engineering</span>
+                <span>{collapsedSections['engineering'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
               </button>
               {!collapsedSections['engineering'] && (
                 <nav className="space-y-1">
                   {/* Main Engineering Page */}
                   <Link
                     href="/engineering-calculators"
-                    className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     title="All Engineering Calculators"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    <FiCpu className="w-5 h-5 md:w-4 md:h-4 text-orange-400" />
-                    <span className="hidden md:inline">All Engineering</span>
+                    <FiCpu className="w-5 h-5 md:w-4 md:h-4 text-orange-400 shrink-0" />
+                    <span>All Engineering</span>
                   </Link>
 
                   {/* Mechanical Engineering */}
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('mechanical')}
-                      className="flex items-center justify-center md:justify-between w-full px-2 md:px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
-                      <span className="hidden md:inline">Mechanical</span>
-                      <span className="md:hidden">Mech</span>
-                      <span className="hidden md:inline">{collapsedSections['mechanical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
+                      <span>Mechanical</span>
+                      <span>{collapsedSections['mechanical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
                     </button>
                     {!collapsedSections['mechanical'] && (
                       <nav className="space-y-1 pl-2 md:pl-4 mt-1">
                         <Link
                           href="/thermodynamics-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiActivity className="w-4 h-4 text-red-400" />
-                          <span className="hidden md:inline">Thermodynamics</span>
+                          <FiActivity className="w-4 h-4 text-red-400 shrink-0" />
+                          <span>Thermodynamics</span>
                         </Link>
                         <Link
                           href="/fluid-mechanics-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiGlobe className="w-4 h-4 text-blue-400" />
-                          <span className="hidden md:inline">Fluid Mechanics</span>
+                          <FiGlobe className="w-4 h-4 text-blue-400 shrink-0" />
+                          <span>Fluid Mechanics</span>
                         </Link>
                         <Link
                           href="/stress-analysis-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiTool className="w-4 h-4 text-green-400" />
-                          <span className="hidden md:inline">Stress Analysis</span>
+                          <FiTool className="w-4 h-4 text-green-400 shrink-0" />
+                          <span>Stress Analysis</span>
                         </Link>
                         <Link
                           href="/machine-design-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiCpu className="w-4 h-4 text-purple-400" />
-                          <span className="hidden md:inline">Machine Design</span>
+                          <FiCpu className="w-4 h-4 text-purple-400 shrink-0" />
+                          <span>Machine Design</span>
                         </Link>
                         <Link
                           href="/concrete-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiLayers className="w-4 h-4 text-orange-400" />
-                          <span className="hidden md:inline">Concrete</span>
+                          <FiLayers className="w-4 h-4 text-orange-400 shrink-0" />
+                          <span>Concrete</span>
                         </Link>
                       </nav>
                     )}
@@ -282,34 +286,36 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('electrical')}
-                      className="flex items-center justify-center md:justify-between w-full px-2 md:px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
-                      <span className="hidden md:inline">Electrical</span>
-                      <span className="md:hidden">Elec</span>
-                      <span className="hidden md:inline">{collapsedSections['electrical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
+                      <span>Electrical</span>
+                      <span>{collapsedSections['electrical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
                     </button>
                     {!collapsedSections['electrical'] && (
                       <nav className="space-y-1 pl-2 md:pl-4 mt-1">
                         <Link
                           href="/ohms-law-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiZap className="w-4 h-4 text-yellow-400" />
-                          <span className="hidden md:inline">Ohm's Law</span>
+                          <FiZap className="w-4 h-4 text-yellow-400 shrink-0" />
+                          <span>Ohm's Law</span>
                         </Link>
                         <Link
                           href="/circuit-analysis-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiActivity className="w-4 h-4 text-cyan-400" />
-                          <span className="hidden md:inline">Circuit Analysis</span>
+                          <FiActivity className="w-4 h-4 text-cyan-400 shrink-0" />
+                          <span>Circuit Analysis</span>
                         </Link>
                         <Link
                           href="/power-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiZap className="w-4 h-4 text-green-400" />
-                          <span className="hidden md:inline">Power Calculations</span>
+                          <FiZap className="w-4 h-4 text-green-400 shrink-0" />
+                          <span>Power Calculations</span>
                         </Link>
                       </nav>
                     )}
@@ -319,41 +325,44 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('chemical')}
-                      className="flex items-center justify-center md:justify-between w-full px-2 md:px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
-                      <span className="hidden md:inline">Chemical</span>
-                      <span className="md:hidden">Chem</span>
-                      <span className="hidden md:inline">{collapsedSections['chemical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
+                      <span>Chemical</span>
+                      <span>{collapsedSections['chemical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
                     </button>
                     {!collapsedSections['chemical'] && (
                       <nav className="space-y-1 pl-2 md:pl-4 mt-1">
                         <Link
                           href="/process-calculations"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiSettings className="w-4 h-4 text-blue-400" />
-                          <span className="hidden md:inline">Process Calculations</span>
+                          <FiSettings className="w-4 h-4 text-blue-400 shrink-0" />
+                          <span>Process Calculations</span>
                         </Link>
                         <Link
                           href="/chemical-thermodynamics"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiActivity className="w-4 h-4 text-red-400" />
-                          <span className="hidden md:inline">Thermodynamics</span>
+                          <FiActivity className="w-4 h-4 text-red-400 shrink-0" />
+                          <span>Thermodynamics</span>
                         </Link>
                         <Link
                           href="/fluid-flow-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiGlobe className="w-4 h-4 text-cyan-400" />
-                          <span className="hidden md:inline">Fluid Flow</span>
+                          <FiGlobe className="w-4 h-4 text-cyan-400 shrink-0" />
+                          <span>Fluid Flow</span>
                         </Link>
                         <Link
                           href="/reaction-kinetics"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiZap className="w-4 h-4 text-purple-400" />
-                          <span className="hidden md:inline">Reaction Kinetics</span>
+                          <FiZap className="w-4 h-4 text-purple-400 shrink-0" />
+                          <span>Reaction Kinetics</span>
                         </Link>
                       </nav>
                     )}
@@ -363,27 +372,28 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('electronics')}
-                      className="flex items-center justify-center md:justify-between w-full px-2 md:px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-xs font-semibold text-gray-300 uppercase tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
-                      <span className="hidden md:inline">Electronics</span>
-                      <span className="md:hidden">Elec</span>
-                      <span className="hidden md:inline">{collapsedSections['electronics'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
+                      <span>Electronics</span>
+                      <span>{collapsedSections['electronics'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
                     </button>
                     {!collapsedSections['electronics'] && (
                       <nav className="space-y-1 pl-2 md:pl-4 mt-1">
                         <Link
                           href="/resistor-calculator"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiTool className="w-4 h-4 text-blue-400" />
-                          <span className="hidden md:inline">Resistor</span>
+                          <FiTool className="w-4 h-4 text-blue-400 shrink-0" />
+                          <span>Resistor</span>
                         </Link>
                         <Link
                           href="/electronics-tools"
-                          className="flex items-center justify-center md:justify-start gap-0 md:gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-xs text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
                         >
-                          <FiCpu className="w-4 h-4 text-green-400" />
-                          <span className="hidden md:inline">Electronics Tools</span>
+                          <FiCpu className="w-4 h-4 text-green-400 shrink-0" />
+                          <span>Electronics Tools</span>
                         </Link>
                       </nav>
                     )}
@@ -396,45 +406,39 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('utilities')}
-                className="flex items-center justify-center md:justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
               >
-                <span className="hidden md:inline">Utilities</span>
-                <span className="md:hidden">...</span>
-                <span className="hidden md:inline">{collapsedSections['utilities'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
+                <span>Utilities</span>
+                <span>{collapsedSections['utilities'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
               </button>
               {!collapsedSections['utilities'] && (
                 <nav className="space-y-1">
                   <Link
                     href="/time-duration-calculator"
-                    className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     title="Time Duration"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    <FiClock className="w-5 h-5 md:w-4 md:h-4 text-blue-400" />
-                    <span className="hidden md:inline">Time Duration</span>
+                    <FiClock className="w-5 h-5 md:w-4 md:h-4 text-blue-400 shrink-0" />
+                    <span>Time Duration</span>
                   </Link>
                   <Link
                     href="/percentage-calculator"
-                    className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     title="Percentage"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    <FiPercent className="w-5 h-5 md:w-4 md:h-4 text-green-400" />
-                    <span className="hidden md:inline">Percentage</span>
+                    <FiPercent className="w-5 h-5 md:w-4 md:h-4 text-green-400 shrink-0" />
+                    <span>Percentage</span>
                   </Link>
                   <Link
                     href="/age-calculator"
-                    className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
+                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     title="Age Calculator"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    <FiUser className="w-5 h-5 md:w-4 md:h-4 text-violet-400" />
-                    <span className="hidden md:inline">Age</span>
-                  </Link>
-                  <Link
-                    href="/tip-calculator"
-                    className="flex items-center justify-center md:justify-start gap-0 md:gap-3 px-2 md:px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
-                    title="Tip Calculator"
-                  >
-                    <FiTrendingUp className="w-5 h-5 md:w-4 md:h-4 text-orange-400" />
-                    <span className="hidden md:inline">Tip</span>
+                    <FiUser className="w-5 h-5 md:w-4 md:h-4 text-violet-400 shrink-0" />
+                    <span>Age</span>
                   </Link>
                 </nav>
               )}
