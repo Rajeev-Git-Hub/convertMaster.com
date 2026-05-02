@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { FiChevronRight, FiUser, FiClock, FiPercent, FiTrendingUp } from 'react-icons/fi';
+import { FiChevronRight, FiUser, FiClock, FiPercent, FiTrendingUp, FiCalendar } from 'react-icons/fi';
 import { useLocalization } from '../../lib/LocalizationContext';
 
 const utilityTools = [
