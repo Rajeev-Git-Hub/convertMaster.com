@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight, FiSearch } from 'react-icons/fi';
 import { categories } from '../lib/categories';
 import { useLocalization } from '../lib/LocalizationContext';
 
 interface SearchDropdownProps {
-  results: { category: string; name: string }[];
+  results: { category: string; name: string; href: string }[];
   onClose: () => void;
 }
 
@@ -23,24 +23,18 @@ export default function SearchDropdown({ results, onClose }: SearchDropdownProps
             return (
               <li key={`${c.category}-${c.name}-${index}`}>
                 <Link
-                  href={`/${c.category}`}
-                  className="flex items-center justify-between p-4 hover:bg-gray-100 dark:hover:bg-gray-700"
-                  onClick={onClose}
+                  key={index}
+                  href={c.href}
+                  onClick={() => onClose()}
+                  className="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors"
                 >
-                  <div className="flex items-center">
-                    <div className={`mr-4 ${category.color}`}>
-                      <category.icon className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 dark:text-gray-100 capitalize">
-                        {t(`category.${c.category}`)}
-                      </h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">
-                        {c.name}
-                      </p>
-                    </div>
+                  <div className="p-2 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600">
+                    <FiSearch className="w-4 h-4" />
                   </div>
-                  <FiArrowRight className="w-5 h-5 text-gray-400" />
+                  <div>
+                    <p className="font-medium text-gray-900 dark:text-white">{c.name}</p>
+                    <p className="text-sm text-gray-500">{c.category}</p>
+                  </div>
                 </Link>
               </li>
             );

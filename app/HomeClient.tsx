@@ -10,12 +10,16 @@ const SearchDropdown = lazy(() => import('../components/SearchDropdown'));
 
 const simpleSearch = (term: string) => {
   const converters = [
-    { name: 'KG to LBS', category: 'weight' },
-    { name: 'CM to Inches', category: 'length' },
-    { name: 'Celsius to Fahrenheit', category: 'temperature' },
-    { name: 'MB to GB', category: 'data' },
-    { name: 'Meters to Feet', category: 'length' },
-    { name: 'Miles to KM', category: 'length' },
+    { name: 'KG to LBS', category: 'weight', href: '/kg-to-lbs' },
+    { name: 'CM to Inches', category: 'length', href: '/cm-to-inches' },
+    { name: 'Celsius to Fahrenheit', category: 'temperature', href: '/celsius-to-fahrenheit' },
+    { name: 'MB to GB', category: 'data', href: '/mb-to-gb' },
+    { name: 'Meters to Feet', category: 'length', href: '/meters-to-feet' },
+    { name: 'Miles to KM', category: 'length', href: '/miles-to-km' },
+    { name: 'KM to Miles', category: 'length', href: '/km-to-miles' },
+    { name: 'Inches to CM', category: 'length', href: '/inches-to-cm' },
+    { name: 'LBS to KG', category: 'weight', href: '/lbs-to-kg' },
+    { name: 'Fahrenheit to Celsius', category: 'temperature', href: '/fahrenheit-to-celsius' },
   ];
   return converters.filter(c => 
     c.name.toLowerCase().includes(term.toLowerCase()) ||
@@ -26,7 +30,7 @@ const simpleSearch = (term: string) => {
 function HomeContent() {
   const { t } = useLocalization();
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredConverters, setFilteredConverters] = useState<{ category: string; name: string }[]>([]);
+  const [filteredConverters, setFilteredConverters] = useState<{ category: string; name: string; href: string }[]>([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
 
@@ -78,6 +82,14 @@ function HomeContent() {
                 {isDropdownOpen && (
                   <Suspense fallback={<div className="p-4 text-center text-gray-500">Loading...</div>}>
                     <SearchDropdown results={filteredConverters} onClose={() => setIsDropdownOpen(false)} />
+                    {searchTerm && (
+                      <Link 
+                        href={`/all-converters?search=${encodeURIComponent(searchTerm)}`}
+                        className="block w-full text-center py-3 text-blue-600 font-medium hover:bg-blue-50 border-t border-gray-200"
+                      >
+                        View all {filteredConverters.length} results →
+                      </Link>
+                    )}
                   </Suspense>
                 )}
               </div>

@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle } from 'react-icons/fi';
 
 const converterCategories = [
@@ -9,8 +10,8 @@ const converterCategories = [
     title: 'Length Converters',
     description: 'Convert between meters, kilometers, feet, inches, yards, and more instantly.',
     icon: FiMaximize,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       { name: 'CM to Inches', href: '/cm-to-inches', popular: true },
       { name: 'Inches to CM', href: '/inches-to-cm' },
@@ -173,8 +174,8 @@ const converterCategories = [
     title: 'Weight Converters',
     description: 'Convert kilograms, pounds, ounces, grams, stones, and tons easily.',
     icon: FiPackage,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       { name: 'KG to Pound/LBS', href: '/kg-to-lbs', popular: true },
       { name: 'Pound/LBS to KG', href: '/lbs-to-kg', popular: true },
@@ -262,8 +263,8 @@ const converterCategories = [
     title: 'Area Converters',
     description: 'Convert square meters, hectares, acres, square feet, and more area units.',
     icon: FiPackage,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       { name: 'm² to km²', href: '/m2-to-km2' },
       { name: 'm² to cm²', href: '/m2-to-cm2' },
@@ -361,8 +362,8 @@ const converterCategories = [
     title: 'Volume Converters',
     description: 'Convert liters, gallons, cubic meters, fluid ounces, and more volume units.',
     icon: FiDroplet,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       { name: 'L to mL', href: '/liter-to-ml' },
       { name: 'L to m³', href: '/liter-to-m3' },
@@ -426,8 +427,8 @@ const converterCategories = [
     title: 'Temperature Converters',
     description: 'Convert between Celsius, Fahrenheit, Kelvin, Rankine, and Réaumur temperature scales.',
     icon: FiThermometer,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       // Celsius conversions
       { name: 'Celsius to Fahrenheit', href: '/celsius-to-fahrenheit', popular: true },
@@ -465,8 +466,8 @@ const converterCategories = [
     title: 'Time Converters',
     description: 'Convert between seconds, minutes, hours, days, weeks, years, milliseconds, microseconds, and nanoseconds instantly.',
     icon: FiClock,
-    color: 'text-amber-600',
-    bgColor: 'bg-amber-50 dark:bg-amber-900/20',
+    color: 'text-yellow-600',
+    bgColor: 'bg-yellow-50 dark:bg-yellow-900/20',
     converters: [
       // Second conversions
       { name: 'Seconds to Minutes', href: '/second-to-minute', popular: true },
@@ -555,8 +556,8 @@ const converterCategories = [
     title: 'Speed Converters',
     description: 'Convert km/h, mph, m/s, and speed of light measurements.',
     icon: FiTrendingUp,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       { name: 'KM/H to MPH', href: '/kmh-to-mph', popular: true },
       { name: 'MPH to KM/H', href: '/mph-to-kmh', popular: true },
@@ -584,8 +585,8 @@ const converterCategories = [
     title: 'Data Storage Converters',
     description: 'Convert bytes, KB, MB, GB, TB, PB, EB, bits, Kb, Mb, Gb for files, storage, and memory sizes.',
     icon: FiDatabase,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       // Byte conversions
       { name: 'Bytes to KB', href: '/bytes-to-kb' },
@@ -713,8 +714,8 @@ const converterCategories = [
     title: 'Finance & Percentage Calculators',
     description: 'Calculate interest, ROI, profit margins, discounts, and percentage changes.',
     icon: FiPercent,
-    color: 'text-gray-600',
-    bgColor: 'bg-gray-50 dark:bg-gray-900/20',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     converters: [
       { name: '% Increase Calculator', href: '/percentage-increase-calculator', popular: true },
       { name: '% Decrease Calculator', href: '/percentage-decrease-calculator' },
@@ -730,7 +731,35 @@ const converterCategories = [
 ];
 
 export default function AllConvertersPage() {
-  const [searchTerm, setSearchTerm] = useState('');
+  const searchParams = useSearchParams();
+  const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
+  const [expandedCategories, setExpandedCategories] = useState<string[]>([]);
+  const categoriesRef = useRef<HTMLDivElement>(null);
+
+  // Set search from URL on mount
+  useEffect(() => {
+    const urlSearch = searchParams.get('search');
+    if (urlSearch) {
+      setSearchTerm(urlSearch);
+    }
+  }, [searchParams]);
+
+  // Auto-expand all categories when searching and scroll to results
+  useEffect(() => {
+    if (searchTerm) {
+      setExpandedCategories(filteredCategories.map(c => c.title));
+      // Scroll to categories section
+      categoriesRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [searchTerm]);
+
+  const toggleCategory = (title: string) => {
+    setExpandedCategories(prev => 
+      prev.includes(title) 
+        ? prev.filter(t => t !== title)
+        : [...prev, title]
+    );
+  };
 
   const filteredCategories = useMemo(() => {
     if (!searchTerm) return converterCategories;
@@ -778,88 +807,116 @@ export default function AllConvertersPage() {
 
         {/* Popular Converters */}
         <section className="mb-12">
-          <div className="max-w-3xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <Link href="/kg-to-lbs" className="card p-6 text-center group">
-                  <div className="icon-box icon-box-primary mb-4">
-                    <FiAnchor className="w-10 h-10" />
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-blue-600 mb-2">Popular Converters</h2>
+            <p className="text-gray-600">Most used conversion tools</p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <Link href="/kg-to-lbs" className="card p-4 text-center group">
+                  <div className="icon-box icon-box-primary mb-3">
+                    <FiAnchor className="w-8 h-8" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">KG to LBS</h3>
-                  <p className="text-sm text-gray-600">Weight Conversion</p>
-                  <div className="flex items-center justify-center text-gray-600 font-medium">
-                    <span>Convert now</span>
-                    <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </div>
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">KG to LBS</h3>
+                  <p className="text-xs text-gray-600">Weight</p>
                 </Link>
                 
-                <Link href="/cm-to-inches" className="card p-6 text-center group">
-                  <div className="icon-box icon-box-primary mb-4">
-                    <FiMaximize className="w-10 h-10" />
+                <Link href="/cm-to-inches" className="card p-4 text-center group">
+                  <div className="icon-box icon-box-primary mb-3">
+                    <FiMaximize className="w-8 h-8" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">CM to Inches</h3>
-                  <p className="text-sm text-gray-600">Length Conversion</p>
-                  <div className="flex items-center justify-center text-gray-600 font-medium">
-                    <span>Convert now</span>
-                    <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </div>
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">CM to Inches</h3>
+                  <p className="text-xs text-gray-600">Length</p>
                 </Link>
                 
-                <Link href="/celsius-to-fahrenheit" className="card p-6 text-center group">
-                  <div className="icon-box icon-box-primary mb-4">
-                    <FiThermometer className="w-10 h-10" />
+                <Link href="/celsius-to-fahrenheit" className="card p-4 text-center group">
+                  <div className="icon-box icon-box-primary mb-3">
+                    <FiThermometer className="w-8 h-8" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">°C to °F</h3>
-                  <p className="text-sm text-gray-600">Temperature</p>
-                  <div className="flex items-center justify-center text-gray-600 font-medium">
-                    <span>Convert now</span>
-                    <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </div>
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">°C to °F</h3>
+                  <p className="text-xs text-gray-600">Temperature</p>
                 </Link>
                 
-                <Link href="/mb-to-gb" className="card p-6 text-center group">
-                  <div className="icon-box icon-box-primary mb-4">
-                    <FiDatabase className="w-10 h-10" />
+                <Link href="/mb-to-gb" className="card p-4 text-center group">
+                  <div className="icon-box icon-box-primary mb-3">
+                    <FiDatabase className="w-8 h-8" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">MB to GB</h3>
-                  <p className="text-sm text-gray-600">Data Storage</p>
-                  <div className="flex items-center justify-center text-gray-600 font-medium">
-                    <span>Convert now</span>
-                    <FiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">MB to GB</h3>
+                  <p className="text-xs text-gray-600">Data</p>
+                </Link>
+
+                <Link href="/km-to-miles" className="card p-4 text-center group">
+                  <div className="icon-box icon-box-primary mb-3">
+                    <FiTrendingUp className="w-8 h-8" />
                   </div>
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">KM to Miles</h3>
+                  <p className="text-xs text-gray-600">Distance</p>
+                </Link>
+
+                <Link href="/meters-to-feet" className="card p-4 text-center group">
+                  <div className="icon-box icon-box-primary mb-3">
+                    <FiMaximize className="w-8 h-8" />
+                  </div>
+                  <h3 className="text-base font-semibold text-gray-900 mb-1">M to Feet</h3>
+                  <p className="text-xs text-gray-600">Length</p>
                 </Link>
               </div>
             </div>
           </section>
 
-        {/* Converter Categories */}
-        <section className="mb-12">
-          <div className="space-y-8">
-            {filteredCategories.map((category) => (
-              <div key={category.title} className="card p-8">
-                <div className="flex items-center mb-6">
-                  <div className={`icon-box icon-box-primary ${category.bgColor} ${category.color}`}>
-                    <category.icon className="w-8 h-8" />
-                  </div>
-                  <h2 className="section-title ml-4">{category.title}</h2>
+        {/* Converter Categories - Collapsible */}
+        <section ref={categoriesRef} className="mb-12">
+          <div className="space-y-4">
+            {filteredCategories.map((category) => {
+              const isExpanded = expandedCategories.includes(category.title);
+              return (
+                <div key={category.title} className="card overflow-hidden">
+                  <button
+                    onClick={() => toggleCategory(category.title)}
+                    className="w-full p-4 flex items-center justify-between hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors"
+                  >
+                    <div className="flex items-center">
+                      <div className={`p-2 rounded-lg ${category.bgColor} ${category.color}`}>
+                        <category.icon className="w-5 h-5" />
+                      </div>
+                      <h2 className="ml-3 font-semibold text-gray-900 dark:text-white">{category.title}</h2>
+                    </div>
+                    <div className="text-gray-400">
+                      {isExpanded ? (
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      ) : (
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      )}
+                    </div>
+                  </button>
+                  
+                  {isExpanded && (
+                    <div className="px-4 pb-4">
+                      <div className="bg-gray-50 dark:bg-gray-800/50 rounded-lg p-3">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
+                          {category.converters.map((converter) => (
+                            <Link
+                              key={converter.href}
+                              href={converter.href}
+                              className="group flex items-center justify-between px-3 py-2 rounded-md transition-all duration-200 bg-white dark:bg-gray-700 hover:bg-blue-50 dark:hover:bg-blue-900/30 text-sm"
+                            >
+                              <span className="font-medium text-gray-900 dark:text-gray-100">
+                                {converter.name}
+                              </span>
+                              <FiArrowRight className="w-3 h-3 text-gray-400 group-hover:text-blue-500" />
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
-                <p className="text-gray-600 mb-6 ml-16">{category.description}</p>
-                
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                  {category.converters.map((converter) => (
-                    <Link
-                      key={converter.href}
-                      href={converter.href}
-                      className="group flex items-center justify-between p-4 rounded-xl transition-all duration-200 bg-gray-50 hover:bg-blue-50"
-                    >
-                      <span className="font-medium text-gray-900 group-hover:text-gray-600 flex items-center gap-2">
-                        {converter.name}
-                      </span>
-                      <FiArrowRight className="w-4 h-4 text-gray-400 group-hover:text-gray-500 transform group-hover:translate-x-1 transition-all" />
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
 

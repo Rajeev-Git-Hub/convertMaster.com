@@ -33,7 +33,11 @@ const utilityToolsSidebar = [
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const category = pathname?.split('/')[1] as CategoryKey | undefined;
+  const pathSegment = pathname?.split('/')[1];
+// Only treat as category if it's exactly a category key (not an individual converter)
+const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSegment === 'temperature' || pathSegment === 'data')
+  ? (pathSegment as CategoryKey)
+  : undefined;
   const { t } = useLocalization();
   
   // Collapsible state for each section
