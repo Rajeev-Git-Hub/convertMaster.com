@@ -1,1 +1,8 @@
-{}
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/all-converters/page": "app/all-converters/page.js",
+  "/cm-to-inches/page": "app/cm-to-inches/page.js",
+  "/kg-to-lbs/page": "app/kg-to-lbs/page.js",
+  "/page": "app/page.js",
+  "/second-to-hour/page": "app/second-to-hour/page.js"
+}

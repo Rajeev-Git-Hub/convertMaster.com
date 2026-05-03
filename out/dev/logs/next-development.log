@@ -1,1 +1,6 @@
 [00:00:05.402] Server  LOG     ✓ Ready in 3.9s
+[00:01:19.989] Server  LOG     ○ Compiling /_not-found/page ...
+[00:01:31.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:35.783] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:49.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:02.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
