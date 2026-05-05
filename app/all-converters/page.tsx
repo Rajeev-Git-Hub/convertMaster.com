@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useState, useMemo, useEffect, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle, FiType } from 'react-icons/fi';
@@ -745,7 +745,7 @@ const converterCategories = [
   },
 ];
 
-export default function AllConvertersPage() {
+function AllConvertersPage() {
   const searchParams = useSearchParams();
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
   const [expandedCategories, setExpandedCategories] = useState<string[]>([]);
@@ -937,5 +937,13 @@ export default function AllConvertersPage() {
 
       </div>
     </div>
+  );
+}
+
+export default function AllConvertersPageWrapper() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 flex items-center justify-center"><div className="text-center"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div><p className="text-gray-600 dark:text-gray-300">Loading converters...</p></div></div>}>
+      <AllConvertersPage />
+    </Suspense>
   );
 }
