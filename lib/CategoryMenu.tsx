@@ -92,16 +92,6 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
             >
               Converter
             </Link>
-            <span
-              className="inline-flex items-center px-4 py-2 text-base font-bold text-gray-400 cursor-not-allowed rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
-            >
-              Image
-            </span>
-            <span
-              className="inline-flex items-center px-4 py-2 text-base font-bold text-gray-400 cursor-not-allowed rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
-            >
-              Video
-            </span>
             <Link
               href="/pdf-conversion/"
               className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
@@ -221,12 +211,6 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
               >
                 Converter
               </Link>
-              <span className="block px-4 py-3 text-lg font-bold text-gray-400 cursor-not-allowed">
-                Image (Coming Soon)
-              </span>
-              <span className="block px-4 py-3 text-lg font-bold text-gray-400 cursor-not-allowed">
-                Video (Coming Soon)
-              </span>
               <Link
                 href="/pdf-conversion/"
                 onClick={() => setMobileMenuOpen(false)}

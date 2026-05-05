@@ -3,8 +3,6 @@
 import Link from 'next/link';
 import { 
   FiMaximize,
-  FiImage, 
-  FiVideo, 
   FiFileText, 
   FiTool
 } from 'react-icons/fi';
@@ -18,24 +16,6 @@ const mainSections = [
     borderColor: 'border-blue-200',
     description: 'Length, Weight, Temperature, Data converters',
     href: '/unit-conversion/'
-  },
-  {
-    name: 'Image',
-    icon: FiImage,
-    bgColor: 'bg-purple-600',
-    textColor: 'text-purple-600',
-    borderColor: 'border-purple-200',
-    description: 'Compress, Convert, Resize, Edit images',
-    href: '#'
-  },
-  {
-    name: 'Video',
-    icon: FiVideo,
-    bgColor: 'bg-red-600',
-    textColor: 'text-red-600',
-    borderColor: 'border-red-200',
-    description: 'Compress, Convert, Trim, Merge videos',
-    href: '#'
   },
   {
     name: 'PDF',

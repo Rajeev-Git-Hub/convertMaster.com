@@ -58,8 +58,6 @@ const utilityToolsSidebar = [];
 // Main sections for convertMaster.com sidebar
 const mainSectionsSidebar = [
   { key: 'unit-conversion', title: 'Converter', icon: FiMaximize, color: 'text-blue-400', href: '/unit-conversion/', active: true },
-  { key: 'image', title: 'Image', icon: FiImage, color: 'text-purple-400', href: '#', active: false },
-  { key: 'video', title: 'Video', icon: FiVideo, color: 'text-red-400', href: '#', active: false },
   { key: 'pdf-conversion', title: 'PDF', icon: FiFileText, color: 'text-orange-400', href: '/pdf-conversion/', active: true },
   { key: 'tools', title: 'Tools', icon: FiTool, color: 'text-green-400', href: '/tools-conversion/', active: true },
 ];
