@@ -67,7 +67,7 @@ const utilityToolsSidebar = [];
 
 // Main sections for convertMaster.com sidebar
 const mainSectionsSidebar = [
-  { key: 'unit-conversion', title: 'Converter', icon: FiMaximize, color: 'text-blue-400', href: '/unit-conversion/', active: true },
+  { key: 'unit-conversion', title: 'Converters', icon: FiMaximize, color: 'text-blue-400', href: '/unit-conversion/', active: true },
   { key: 'pdf-conversion', title: 'PDF', icon: FiFileText, color: 'text-orange-400', href: '/pdf-conversion/', active: true },
   { key: 'tools', title: 'Tools', icon: FiTool, color: 'text-green-400', href: '/tools-conversion/', active: true },
 ];
@@ -303,50 +303,50 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
 
                             {/* Chemical - Alphabetical */}
                             <div className="mb-2">
-                              <button onClick={() => toggleSection('chemical')} className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"><span>Chemical</span><span>{collapsedSections['chemical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
+                              <button onClick={() => toggleSection('chemical')} className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"><span>Chemical</span><span>{collapsedSections['chemical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
                               {!collapsedSections['chemical'] && (
                                 <nav className="space-y-1 pl-4 mt-1">
-                                  <Link href="/fluid-flow-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiGlobe className="w-4 h-4 text-cyan-400 shrink-0" /><span>Fluid Flow</span></Link>
-                                  <Link href="/process-calculations" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiSettings className="w-4 h-4 text-blue-400 shrink-0" /><span>Process Calculations</span></Link>
-                                  <Link href="/reaction-kinetics" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiZap className="w-4 h-4 text-purple-400 shrink-0" /><span>Reaction Kinetics</span></Link>
-                                  <Link href="/chemical-thermodynamics" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiActivity className="w-4 h-4 text-red-400 shrink-0" /><span>Thermodynamics</span></Link>
+                                  <Link href="/fluid-flow-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiGlobe className="w-4 h-4 text-cyan-400 shrink-0" /><span>Fluid Flow</span></Link>
+                                  <Link href="/process-calculations" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiSettings className="w-4 h-4 text-blue-400 shrink-0" /><span>Process Calculations</span></Link>
+                                  <Link href="/reaction-kinetics" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiZap className="w-4 h-4 text-purple-400 shrink-0" /><span>Reaction Kinetics</span></Link>
+                                  <Link href="/chemical-thermodynamics" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiActivity className="w-4 h-4 text-red-400 shrink-0" /><span>Thermodynamics</span></Link>
                                 </nav>
                               )}
                             </div>
 
                             {/* Electrical - Alphabetical */}
                             <div className="mb-2">
-                              <button onClick={() => toggleSection('electrical')} className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"><span>Electrical</span><span>{collapsedSections['electrical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
+                              <button onClick={() => toggleSection('electrical')} className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"><span>Electrical</span><span>{collapsedSections['electrical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
                               {!collapsedSections['electrical'] && (
                                 <nav className="space-y-1 pl-4 mt-1">
-                                  <Link href="/circuit-analysis-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiActivity className="w-4 h-4 text-cyan-400 shrink-0" /><span>Circuit Analysis</span></Link>
-                                  <Link href="/ohms-law-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiZap className="w-4 h-4 text-yellow-400 shrink-0" /><span>Ohms Law</span></Link>
-                                  <Link href="/power-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiZap className="w-4 h-4 text-green-400 shrink-0" /><span>Power Calculations</span></Link>
+                                  <Link href="/circuit-analysis-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiActivity className="w-4 h-4 text-cyan-400 shrink-0" /><span>Circuit Analysis</span></Link>
+                                  <Link href="/ohms-law-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiZap className="w-4 h-4 text-yellow-400 shrink-0" /><span>Ohms Law</span></Link>
+                                  <Link href="/power-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiZap className="w-4 h-4 text-green-400 shrink-0" /><span>Power Calculations</span></Link>
                                 </nav>
                               )}
                             </div>
 
                             {/* Electronics - Alphabetical */}
                             <div className="mb-2">
-                              <button onClick={() => toggleSection('electronics')} className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"><span>Electronics</span><span>{collapsedSections['electronics'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
+                              <button onClick={() => toggleSection('electronics')} className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"><span>Electronics</span><span>{collapsedSections['electronics'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
                               {!collapsedSections['electronics'] && (
                                 <nav className="space-y-1 pl-4 mt-1">
-                                  <Link href="/electronics-tools" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiCpu className="w-4 h-4 text-green-400 shrink-0" /><span>Electronics Tools</span></Link>
-                                  <Link href="/resistor-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiTool className="w-4 h-4 text-blue-400 shrink-0" /><span>Resistor</span></Link>
+                                  <Link href="/electronics-tools" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiCpu className="w-4 h-4 text-green-400 shrink-0" /><span>Electronics Tools</span></Link>
+                                  <Link href="/resistor-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiTool className="w-4 h-4 text-blue-400 shrink-0" /><span>Resistor</span></Link>
                                 </nav>
                               )}
                             </div>
 
                             {/* Mechanical - Alphabetical */}
                             <div className="mb-2">
-                              <button onClick={() => toggleSection('mechanical')} className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"><span>Mechanical</span><span>{collapsedSections['mechanical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
+                              <button onClick={() => toggleSection('mechanical')} className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"><span>Mechanical</span><span>{collapsedSections['mechanical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span></button>
                               {!collapsedSections['mechanical'] && (
                                 <nav className="space-y-1 pl-4 mt-1">
-                                  <Link href="/concrete-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiLayers className="w-4 h-4 text-orange-400 shrink-0" /><span>Concrete</span></Link>
-                                  <Link href="/fluid-mechanics-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiGlobe className="w-4 h-4 text-blue-400 shrink-0" /><span>Fluid Mechanics</span></Link>
-                                  <Link href="/machine-design-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiCpu className="w-4 h-4 text-purple-400 shrink-0" /><span>Machine Design</span></Link>
-                                  <Link href="/stress-analysis-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiTool className="w-4 h-4 text-green-400 shrink-0" /><span>Stress Analysis</span></Link>
-                                  <Link href="/thermodynamics-calculator" className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiActivity className="w-4 h-4 text-red-400 shrink-0" /><span>Thermodynamics</span></Link>
+                                  <Link href="/concrete-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiLayers className="w-4 h-4 text-orange-400 shrink-0" /><span>Concrete</span></Link>
+                                  <Link href="/fluid-mechanics-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiGlobe className="w-4 h-4 text-blue-400 shrink-0" /><span>Fluid Mechanics</span></Link>
+                                  <Link href="/machine-design-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiCpu className="w-4 h-4 text-purple-400 shrink-0" /><span>Machine Design</span></Link>
+                                  <Link href="/stress-analysis-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiTool className="w-4 h-4 text-green-400 shrink-0" /><span>Stress Analysis</span></Link>
+                                  <Link href="/thermodynamics-calculator" className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors" onClick={() => setMobileMenuOpen(false)}><FiActivity className="w-4 h-4 text-red-400 shrink-0" /><span>Thermodynamics</span></Link>
                                 </nav>
                               )}
                             </div>
@@ -561,7 +561,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('categories')}
-                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors px-3 py-2"
               >
                 <span>Unit Types</span>
                 <span>{collapsedSections['categories'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
@@ -592,7 +592,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
             <div className="mb-8">
               <button
                 onClick={() => toggleSection('engineering')}
-                className="flex items-center justify-between w-full mb-4 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"
+                className="flex items-center justify-between w-full mb-4 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors px-3 py-2"
               >
                 <span>Engineering</span>
                 <span>{collapsedSections['engineering'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
@@ -614,7 +614,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('mechanical')}
-                      className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
                       <span>Mechanical</span>
                       <span>{collapsedSections['mechanical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
@@ -623,7 +623,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                       <nav className="space-y-1 pl-4 mt-1">
                         <Link
                           href="/thermodynamics-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiActivity className="w-4 h-4 text-red-400 shrink-0" />
@@ -631,7 +631,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/fluid-mechanics-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiGlobe className="w-4 h-4 text-blue-400 shrink-0" />
@@ -639,7 +639,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/stress-analysis-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiTool className="w-4 h-4 text-green-400 shrink-0" />
@@ -647,7 +647,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/machine-design-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiCpu className="w-4 h-4 text-purple-400 shrink-0" />
@@ -655,7 +655,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/concrete-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiLayers className="w-4 h-4 text-orange-400 shrink-0" />
@@ -669,7 +669,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('electrical')}
-                      className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
                       <span>Electrical</span>
                       <span>{collapsedSections['electrical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
@@ -678,7 +678,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                       <nav className="space-y-1 pl-4 mt-1">
                         <Link
                           href="/ohms-law-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiZap className="w-4 h-4 text-yellow-400 shrink-0" />
@@ -686,7 +686,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/circuit-analysis-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiActivity className="w-4 h-4 text-cyan-400 shrink-0" />
@@ -694,7 +694,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/power-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiZap className="w-4 h-4 text-green-400 shrink-0" />
@@ -708,7 +708,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('chemical')}
-                      className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
                       <span>Chemical</span>
                       <span>{collapsedSections['chemical'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
@@ -717,7 +717,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                       <nav className="space-y-1 pl-4 mt-1">
                         <Link
                           href="/process-calculations"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiSettings className="w-4 h-4 text-blue-400 shrink-0" />
@@ -725,7 +725,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/chemical-thermodynamics"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiActivity className="w-4 h-4 text-red-400 shrink-0" />
@@ -733,7 +733,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/fluid-flow-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiGlobe className="w-4 h-4 text-cyan-400 shrink-0" />
@@ -741,7 +741,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/reaction-kinetics"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiZap className="w-4 h-4 text-purple-400 shrink-0" />
@@ -755,7 +755,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                   <div className="mb-2">
                     <button
                       onClick={() => toggleSection('electronics')}
-                      className="flex items-center justify-between w-full px-2 py-1.5 text-sm font-semibold text-gray-400 tracking-wider hover:text-gray-300 transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2 text-sm font-semibold text-gray-300 tracking-wider hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                     >
                       <span>Electronics</span>
                       <span>{collapsedSections['electronics'] ? <FiChevronUp className="w-3 h-3" /> : <FiChevronDown className="w-3 h-3" />}</span>
@@ -764,7 +764,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                       <nav className="space-y-1 pl-4 mt-1">
                         <Link
                           href="/resistor-calculator"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiTool className="w-4 h-4 text-blue-400 shrink-0" />
@@ -772,7 +772,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                         </Link>
                         <Link
                           href="/electronics-tools"
-                          className="flex items-center justify-start gap-2 px-2 py-1 text-sm text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                          className="flex items-center justify-start gap-2 px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <FiCpu className="w-4 h-4 text-green-400 shrink-0" />
