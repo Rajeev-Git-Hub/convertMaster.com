@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/unit-conversion',
+  assetPrefix: '/unit-conversion',
   distDir: 'out',
   
   // Performance optimizations
