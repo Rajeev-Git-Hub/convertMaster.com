@@ -261,7 +261,7 @@ function ConverterCard({ category }: { category: typeof categoryConverters[0] })
           <Icon className="w-4 h-4" />
         </div>
         <div className="flex-1 min-w-0">
-          <h3 className={`font-semibold text-xs ${category.textColor} leading-tight break-words`}>
+          <h3 className="font-semibold text-xs text-gray-900 leading-tight break-words">
             {category.name}
           </h3>
         </div>

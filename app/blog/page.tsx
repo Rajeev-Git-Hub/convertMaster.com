@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { FiArrowRight, FiBook, FiClock, FiTag, FiCheckCircle, FiZap, FiActivity, FiTrendingUp } from 'react-icons/fi';
+import { FiArrowRight, FiClock, FiTag } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Blog - Unit Conversion Guides & Tips | ConvertMaster',
@@ -15,6 +15,8 @@ const blogPosts = [
     excerpt: 'I used to always get confused converting kilos to pounds. Here is the easy trick I learned that works every time.',
     category: 'Weight',
     readTime: '3 min read',
+    color: 'bg-emerald-500',
+    borderColor: 'border-emerald-200',
   },
   {
     slug: 'understanding-celsius-fahrenheit',
@@ -22,6 +24,8 @@ const blogPosts = [
     excerpt: 'Ever wondered why some countries use Celsius and others use Fahrenheit? I break it down simply.',
     category: 'Temperature',
     readTime: '4 min read',
+    color: 'bg-red-500',
+    borderColor: 'border-red-200',
   },
   {
     slug: 'metric-vs-imperial-systems',
@@ -29,6 +33,8 @@ const blogPosts = [
     excerpt: 'I have lived in countries that use both systems. Here is my honest take on which one makes more sense.',
     category: 'Education',
     readTime: '6 min read',
+    color: 'bg-violet-500',
+    borderColor: 'border-violet-200',
   },
   {
     slug: 'body-temperature-guide',
@@ -36,6 +42,8 @@ const blogPosts = [
     excerpt: 'I checked my temperature and panicked. Turns out normal body temp varies more than you think.',
     category: 'Health',
     readTime: '3 min read',
+    color: 'bg-amber-500',
+    borderColor: 'border-amber-200',
   },
   {
     slug: 'data-storage-explained',
@@ -43,131 +51,65 @@ const blogPosts = [
     excerpt: 'Buying a new phone or laptop? Here is what those storage numbers really mean in plain English.',
     category: 'Technology',
     readTime: '4 min read',
+    color: 'bg-blue-500',
+    borderColor: 'border-blue-200',
   },
 ];
 
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="container py-16">
-        {/* Hero Section */}
-        <section className="text-center mb-16">
-          <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="premium-badge">
-              <FiBook className="w-3 h-3"></FiBook>
-              <span>Expert Guides</span>
-            </div>
-            <div className="badge badge-success">
-              <FiCheckCircle className="w-3 h-3"></FiCheckCircle>
-              <span>5 Articles</span>
+      <div className="container py-12">
+        {/* About Blog Section */}
+        <section>
+          <div className="h-16" />
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h1 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6">
+                About Blog
+              </h1>
+              <p className="text-lg text-gray-600 wrap-break-word">
+                The Blog is where we share practical knowledge about measurements, conversions, and everyday calculations. We believe understanding units should be simple and accessible to everyone. Whether you are measuring, traveling, studying, or working, our articles help you make sense of numbers in plain language without confusing.
+              </p>
             </div>
           </div>
-          
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Learn about unit conversions, formulas, and practical examples. New articles are added regularly.
-          </p>
-          
-          <h1 className="hero-gradient text-4xl font-bold mb-4">ConvertMaster Blog</h1>
-          <p className="text-base text-gray-600 max-w-2xl mx-auto">
-            Expert guides, tips, and insights on unit conversions and measurement systems
-          </p>
         </section>
 
         {/* Blog Posts Grid */}
         <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Latest Articles</h3>
-            <p className="section-subtitle">Practical guides and expert insights</p>
-          </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {blogPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="card p-6 text-left group hover:shadow-lg transition-all duration-300"
+                className={`rounded-lg border ${post.borderColor} bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer p-3 text-left group`}
               >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="icon-box icon-box-primary mb-2" style={{ background: '#3b82f6' }}>
-                    <FiTag className="w-4 h-4 text-white" />
+                <div className="flex items-center gap-2 mb-3">
+                  <div className={`flex items-center justify-center w-7 h-7 rounded ${post.color} text-white shrink-0`}>
+                    <FiTag className="w-3.5 h-3.5" />
                   </div>
-                  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+                  <span className="px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">
                     {post.category}
                   </span>
-                  <span className="text-sm text-gray-500 flex items-center gap-1">
-                    <FiClock className="w-3 h-3"></FiClock>
-                    {post.readTime}
-                  </span>
                 </div>
-                <h2 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                <h2 className="text-sm font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                   {post.title}
                 </h2>
-                <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+                <p className="text-xs text-gray-600 leading-relaxed">
                   {post.excerpt}
                 </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-gray-500 flex items-center gap-1">
+                <div className="flex items-center justify-between mt-3 pt-2 border-t border-gray-100">
+                  <span className="text-xs text-gray-500 flex items-center gap-1">
                     <FiClock className="w-3 h-3"></FiClock>
                     {post.readTime}
                   </span>
-                  <span className="text-blue-600 font-medium flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                    Read More
-                    <FiArrowRight className="w-4 h-4" />
+                  <span className="text-blue-600 text-xs font-medium flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                    Read More →
                   </span>
                 </div>
               </Link>
             ))}
-          </div>
-        </section>
-
-        {/* Blog Categories */}
-        <section className="mb-12">
-          <div className="text-center mb-8">
-            <h3 className="section-title">Browse by Category</h3>
-            <p className="section-subtitle">Find articles that match your interests</p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {['Weight', 'Temperature', 'Education', 'Health', 'Technology'].map((category) => (
-              <Link
-                key={category}
-                href={`/blog/category/${category.toLowerCase()}`}
-                className="card p-4 text-center group hover:bg-blue-50 transition-colors"
-              >
-                <div className="icon-box icon-box-primary mb-3 mx-auto" style={{ 
-                  background: category === 'Weight' ? '#10b981' : 
-                             category === 'Temperature' ? '#ef4444' : 
-                             category === 'Education' ? '#8b5cf6' : 
-                             category === 'Health' ? '#f59e0b' : '#3b82f6'
-                }}>
-                  <FiTag className="w-5 h-5 text-white" />
-                </div>
-                <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
-                  {category}
-                </h4>
-                <p className="text-xs text-gray-500 mt-1">
-                  {blogPosts.filter(post => post.category === category).length} articles
-                </p>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        {/* CTA Section */}
-
-        <section className="text-center">
-          <div className="gradient-border p-8">
-            <h3 className="section-title mb-4">Need to Convert Something Now?</h3>
-            <p className="section-subtitle mb-8">
-              Try our free online converters for instant, accurate results
-            </p>
-            <Link
-              href="/all-converters"
-              className="btn btn-primary"
-            >
-              <span>Explore All Converters</span>
-              <FiArrowRight className="w-4 h-4" />
-            </Link>
           </div>
         </section>
       </div>
