@@ -71,14 +71,14 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo and Brand */}
-          <div className="flex items-center gap-3">
+          <Link href="/convertMaster.com" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md">
               <FiLayers className="h-6 w-6" />
             </div>
             <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white whitespace-nowrap">
               {t('app.title')}
             </span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
