@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   basePath: '/unit-conversion',
-  assetPrefix: '/unit-conversion',
+  assetPrefix: '.',
   distDir: 'out',
   
   // Performance optimizations
