@@ -1,4 +1,4 @@
-import HomeClient from './HomeClient';
+import { redirect } from 'next/navigation';
 
 export const metadata = {
   title: 'ConvertMaster – Free Unit Converter | Length, Weight, Temperature & More',
@@ -6,5 +6,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <HomeClient />;
+  redirect('/all-converters/');
 }

@@ -224,7 +224,7 @@ export default function LengthConverterLandingPage() {
                 <FiArrowRight className="w-4 h-4" />
               </Link>
               <Link
-                href="/"
+                href="/all-converters/"
                 className="btn btn-secondary"
               >
                 <span>All Converters</span>

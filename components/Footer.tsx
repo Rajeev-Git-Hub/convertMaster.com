@@ -20,10 +20,6 @@ export default function Footer() {
             <span className="font-bold text-lg text-gray-900">ConvertMaster</span>
           </Link>
           <div className="flex items-center gap-4">
-            <Link href="/blog" className="font-bold text-gray-900 hover:text-blue-600 transition-colors">
-              Blog
-            </Link>
-            <span className="font-bold text-gray-900 mx-1">|</span>
             <Link href="/privacy-policy" className="font-bold text-gray-900 hover:text-blue-600 transition-colors">
               Privacy Policy
             </Link>

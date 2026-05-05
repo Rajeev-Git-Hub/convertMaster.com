@@ -278,13 +278,6 @@ export default function TimeConverterLandingPage() {
                 <span>Weight Converter</span>
                 <FiArrowRight className="w-4 h-4" />
               </Link>
-              <Link
-                href="/"
-                className="btn btn-secondary"
-              >
-                <span>All Converters</span>
-                <FiArrowRight className="w-4 h-4" />
-              </Link>
             </div>
           </div>
         </section>

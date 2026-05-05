@@ -151,7 +151,7 @@ export default function Base64EncoderPage() {
           <div className="gradient-border p-8">
             <h3 className="section-title mb-4">Ready to Encode More?</h3>
             <p className="section-subtitle mb-8">
-              Explore our other free developer tools for all your needs
+              Explore our other free developer All Converters for all your needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -169,10 +169,10 @@ export default function Base64EncoderPage() {
                 <FiArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="/"
+                href="/all-converters/"
                 className="btn btn-secondary"
               >
-                <span>All Tools</span>
+                <span>All Converters</span>
                 <FiArrowRight className="w-4 h-4" />
               </a>
             </div>

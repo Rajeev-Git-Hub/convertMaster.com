@@ -1,8 +1,14 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/all-converters/page": "app/all-converters/page.js",
-  "/cm-to-inches/page": "app/cm-to-inches/page.js",
-  "/kg-to-lbs/page": "app/kg-to-lbs/page.js",
-  "/page": "app/page.js",
-  "/second-to-hour/page": "app/second-to-hour/page.js"
+  "/about/page": "app/about/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/case-converter/page": "app/case-converter/page.js",
+  "/convertMaster.com/page": "app/convertMaster.com/page.js",
+  "/electronics-tools/page": "app/electronics-tools/page.js",
+  "/length-converter/page": "app/length-converter/page.js",
+  "/machine-design-calculator/page": "app/machine-design-calculator/page.js",
+  "/pdf-conversion/page": "app/pdf-conversion/page.js",
+  "/thermodynamics-calculator/page": "app/thermodynamics-calculator/page.js",
+  "/tools-conversion/page": "app/tools-conversion/page.js",
+  "/unit-conversion/page": "app/unit-conversion/page.js"
 }

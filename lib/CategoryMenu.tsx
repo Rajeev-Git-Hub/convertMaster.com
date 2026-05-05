@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { FiChevronDown, FiGlobe, FiCheck, FiLayers, FiSearch, FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiMenu, FiX } from 'react-icons/fi';
 import { categories } from './categories';
 import { CategoryKey } from './types';
@@ -42,6 +43,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
 }) => {
   // Toggle to enable/disable builtin auth pages (signup/login)
   const AUTH_ENABLED = false
+  const pathname = usePathname();
   const { t, language, setLanguage } = useLocalization();
   const [activeGroup, setActiveGroup] = useState<GroupName | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
@@ -69,31 +71,67 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo and Brand */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md group-hover:shadow-lg transition-all duration-200 shrink-0">
+          <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md">
               <FiLayers className="h-6 w-6" />
             </div>
-            <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors whitespace-nowrap">
+            <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white whitespace-nowrap">
               {t('app.title')}
             </span>
-          </Link>
+          </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-1">
             <Link
-              href="/about"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
+              href="/unit-conversion/"
+              className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
+                pathname?.includes('unit-conversion') 
+                  ? 'text-blue-600 bg-blue-100' 
+                  : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+              }`}
             >
-              {t('nav.about')}
+              Converter
             </Link>
-
+            <span
+              className="inline-flex items-center px-4 py-2 text-base font-bold text-gray-400 cursor-not-allowed rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
+            >
+              Image
+            </span>
+            <span
+              className="inline-flex items-center px-4 py-2 text-base font-bold text-gray-400 cursor-not-allowed rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
+            >
+              Video
+            </span>
+            <Link
+              href="/pdf-conversion/"
+              className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
+                pathname?.includes('pdf') 
+                  ? 'text-blue-600 bg-blue-100' 
+                  : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+              }`}
+            >
+              PDF
+            </Link>
+            <Link
+              href="/tools-conversion/"
+              className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
+                pathname?.includes('tools-conversion') 
+                  ? 'text-blue-600 bg-blue-100' 
+                  : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+              }`}
+            >
+              Tool
+            </Link>
             <Link
               href="/blog"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap"
+              className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
+                pathname?.includes('blog') 
+                  ? 'text-blue-600 bg-blue-100' 
+                  : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+              }`}
             >
               Blog
             </Link>
-
           </div>
 
           {/* Mobile and Right Side Controls */}
@@ -171,19 +209,54 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-            <div className="px-4 py-3 space-y-1">
+            <div className="px-4 py-3 space-y-2">
               <Link
-                href="/about"
+                href="/unit-conversion/"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                className={`block px-4 py-3 text-lg font-bold rounded-md ${
+                  pathname?.includes('unit-conversion')
+                    ? 'text-blue-600 bg-blue-100'
+                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+                }`}
               >
-                {t('nav.about')}
+                Converter
               </Link>
-
+              <span className="block px-4 py-3 text-lg font-bold text-gray-400 cursor-not-allowed">
+                Image (Coming Soon)
+              </span>
+              <span className="block px-4 py-3 text-lg font-bold text-gray-400 cursor-not-allowed">
+                Video (Coming Soon)
+              </span>
+              <Link
+                href="/pdf-conversion/"
+                onClick={() => setMobileMenuOpen(false)}
+                className={`block px-4 py-3 text-lg font-bold rounded-md ${
+                  pathname?.includes('pdf')
+                    ? 'text-orange-600 bg-orange-100'
+                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                }`}
+              >
+                PDF
+              </Link>
+              <Link
+                href="/tools-conversion/"
+                onClick={() => setMobileMenuOpen(false)}
+                className={`block px-4 py-3 text-lg font-bold rounded-md ${
+                  pathname?.includes('tools-conversion')
+                    ? 'text-green-600 bg-green-100'
+                    : 'text-gray-700 hover:text-green-600 hover:bg-green-50'
+                }`}
+              >
+                Tool
+              </Link>
               <Link
                 href="/blog"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                className={`block px-4 py-3 text-lg font-bold rounded-md ${
+                  pathname?.includes('blog')
+                    ? 'text-purple-600 bg-purple-100'
+                    : 'text-gray-700 hover:text-purple-600 hover:bg-purple-50'
+                }`}
               >
                 Blog
               </Link>

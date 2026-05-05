@@ -1,0 +1,16 @@
+import { Metadata } from 'next';
+import MainSectionsClient from './MainSectionsClient';
+
+export const metadata: Metadata = {
+  title: 'ConvertMaster – Free Online Tools | Unit, Image, Video, PDF & More',
+  description: 'Free online tools for all your needs. Unit converters, image tools, video tools, PDF tools, and utilities. Fast, accurate, and easy to use.',
+  openGraph: {
+    title: 'ConvertMaster – Free Online Tools',
+    description: 'Unit converters, image tools, video tools, PDF tools, and utilities.',
+    type: 'website',
+  },
+};
+
+export default function Page() {
+  return <MainSectionsClient />;
+}

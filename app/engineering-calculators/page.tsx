@@ -307,7 +307,7 @@ export default function EngineeringCalculatorsPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/all-converters/"
-                className="btn btn-primary"
+                className="btn btn-secondary"
               >
                 <span>All Converters</span>
                 <FiArrowRight className="w-4 h-4" />

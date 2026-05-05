@@ -162,6 +162,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/alternate-case/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/alternate-case">> = Specific
+  const handler = {} as typeof import("../../../app/alternate-case/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/analytics/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/analytics">> = Specific
@@ -472,6 +481,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/c-to-mps">> = Specific
   const handler = {} as typeof import("../../../app/c-to-mps/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/case-converter/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/case-converter">> = Specific
+  const handler = {} as typeof import("../../../app/case-converter/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -796,6 +814,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/concrete-calculator">> = Specific
   const handler = {} as typeof import("../../../app/concrete-calculator/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/convertMaster.com/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/convertMaster.com">> = Specific
+  const handler = {} as typeof import("../../../app/convertMaster.com/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -3114,6 +3141,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/lower-case/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/lower-case">> = Specific
+  const handler = {} as typeof import("../../../app/lower-case/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/m2-to-acre/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/m2-to-acre">> = Specific
@@ -5058,6 +5094,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/pdf-conversion/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/pdf-conversion">> = Specific
+  const handler = {} as typeof import("../../../app/pdf-conversion/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/percentage-calculator/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/percentage-calculator">> = Specific
@@ -5179,6 +5224,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/power-calculator">> = Specific
   const handler = {} as typeof import("../../../app/power-calculator/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/preview/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/preview">> = Specific
+  const handler = {} as typeof import("../../../app/preview/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -5400,6 +5454,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/sentence-case/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/sentence-case">> = Specific
+  const handler = {} as typeof import("../../../app/sentence-case/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/simple-interest-calculator/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/simple-interest-calculator">> = Specific
@@ -5589,10 +5652,55 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/title-case/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/title-case">> = Specific
+  const handler = {} as typeof import("../../../app/title-case/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/toggle-case/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/toggle-case">> = Specific
+  const handler = {} as typeof import("../../../app/toggle-case/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/tons-to-kg/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/tons-to-kg">> = Specific
   const handler = {} as typeof import("../../../app/tons-to-kg/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/tools-conversion/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/tools-conversion">> = Specific
+  const handler = {} as typeof import("../../../app/tools-conversion/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/unit-conversion/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/unit-conversion">> = Specific
+  const handler = {} as typeof import("../../../app/unit-conversion/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/upper-case/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/upper-case">> = Specific
+  const handler = {} as typeof import("../../../app/upper-case/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

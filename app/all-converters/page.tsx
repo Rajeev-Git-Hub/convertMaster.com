@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle } from 'react-icons/fi';
+import { FiArrowRight, FiDroplet, FiMaximize, FiPackage, FiThermometer, FiDatabase, FiTrendingUp, FiPercent, FiSearch, FiClock, FiActivity, FiAnchor, FiGitCommit, FiSave, FiCheckCircle, FiType } from 'react-icons/fi';
 
 const converterCategories = [
   {
@@ -726,6 +726,21 @@ const converterCategories = [
       { name: '% to Decimal', href: '/percentage-to-decimal' },
       { name: 'ROI Calculator', href: '/roi-calculator', popular: true },
       { name: 'Discount Calculator', href: '/discount-calculator', popular: true },
+    ]
+  },
+  {
+    title: 'Case Converters',
+    description: 'Convert text between different cases — sentence case, UPPER CASE, lower case, Title Case, aLtErNaTe, and tOGGLE.',
+    icon: FiType,
+    color: 'text-cyan-600',
+    bgColor: 'bg-cyan-50 dark:bg-cyan-900/20',
+    converters: [
+      { name: 'Sentence Case', href: '/sentence-case' },
+      { name: 'UPPER CASE', href: '/upper-case' },
+      { name: 'lower case', href: '/lower-case' },
+      { name: 'Title Case', href: '/title-case' },
+      { name: 'aLtErNaTe Case', href: '/alternate-case' },
+      { name: 'tOGGLE Case', href: '/toggle-case' },
     ]
   },
 ];

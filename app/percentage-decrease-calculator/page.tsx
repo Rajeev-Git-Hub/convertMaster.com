@@ -105,7 +105,7 @@ export default function PercentageDecreaseCalculatorPage() {
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <Link href="/percentage-increase-calculator" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">% Increase</Link>
             <Link href="/discount-calculator" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Discount Calc</Link>
-            <Link href="/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Tools</Link>
+            <Link href="/all-converters/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Converters</Link>
           </div>
         </div>
       </section>

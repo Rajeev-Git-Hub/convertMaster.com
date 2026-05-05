@@ -235,10 +235,10 @@ export default function URLEncoderPage() {
                 <FiArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="/"
+                href="/all-converters/"
                 className="btn btn-secondary"
               >
-                <span>All Tools</span>
+                <span>All Converters</span>
                 <FiArrowRight className="w-4 h-4" />
               </a>
             </div>

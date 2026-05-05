@@ -120,7 +120,7 @@ export default function SimpleInterestCalculatorPage() {
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <Link href="/compound-interest-calculator" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Compound Interest</Link>
             <Link href="/roi-calculator" className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700">ROI Calculator</Link>
-            <Link href="/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Tools</Link>
+            <Link href="/" className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700">All Converters</Link>
           </div>
         </div>
       </section>

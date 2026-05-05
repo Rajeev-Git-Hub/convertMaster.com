@@ -3,7 +3,40 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiHome, FiActivity, FiSettings, FiChevronDown, FiChevronUp, FiCpu, FiZap, FiTool, FiLayers, FiGlobe, FiMenu, FiX } from 'react-icons/fi';
+import { 
+  FiHome,
+  FiGrid,
+  FiMenu,
+  FiX,
+  FiChevronDown,
+  FiChevronUp,
+  FiSettings,
+  FiMoon,
+  FiSun,
+  FiUser,
+  FiFileText,
+  FiLink,
+  FiLock,
+  FiClock,
+  FiPercent,
+  FiTrendingUp,
+  FiLayers,
+  FiGlobe,
+  FiGitMerge,
+  FiMaximize,
+  FiImage,
+  FiVideo,
+  FiTool,
+  FiType,
+  FiScissors,
+  FiMinimize2,
+  FiFile,
+  FiRotateCw,
+  FiUnlock,
+  FiActivity,
+  FiCpu,
+  FiZap
+} from 'react-icons/fi';
 import { CategoryMenu } from '../lib/CategoryMenu';
 import { LocalizationProvider, useLocalization } from '../lib/LocalizationContext';
 import { CategoryKey } from '../lib';
@@ -16,19 +49,36 @@ import DarkModeToggle from './DarkModeToggle';
 // Filter out dev-tools and utilities, and add individual tools
 const sidebarCategories = categories.filter(c => c.key !== 'dev-tools' && c.key !== 'utilities');
 
-// Individual developer tools for sidebar
-const developerToolsSidebar = [
-  { key: 'json-formatter', title: 'JSON Formatter', icon: FiFileText, color: 'text-blue-600' },
-  { key: 'base64-encoder', title: 'Base64 Encoder', icon: FiLock, color: 'text-green-600' },
-  { key: 'url-encoder', title: 'URL Encoder', icon: FiLink, color: 'text-purple-600' },
-  { key: 'timestamp-converter', title: 'Timestamp Converter', icon: FiClock, color: 'text-orange-600' },
+// Individual developer tools for sidebar (removed - now only PDF tools in sidebar)
+const developerToolsSidebar = [];
+
+// Individual utility tools for sidebar (removed - now only PDF tools in sidebar)
+const utilityToolsSidebar = [];
+
+// Main sections for convertMaster.com sidebar
+const mainSectionsSidebar = [
+  { key: 'unit-conversion', title: 'Converter', icon: FiMaximize, color: 'text-blue-400', href: '/unit-conversion/', active: true },
+  { key: 'image', title: 'Image', icon: FiImage, color: 'text-purple-400', href: '#', active: false },
+  { key: 'video', title: 'Video', icon: FiVideo, color: 'text-red-400', href: '#', active: false },
+  { key: 'pdf-conversion', title: 'PDF', icon: FiFileText, color: 'text-orange-400', href: '/pdf-conversion/', active: true },
+  { key: 'tools', title: 'Tools', icon: FiTool, color: 'text-green-400', href: '/tools-conversion/', active: true },
 ];
 
-// Individual utility tools for sidebar
-const utilityToolsSidebar = [
-  { key: 'time-duration-calculator', title: 'Time Duration Calculator', icon: FiClock, color: 'text-violet-600' },
-  { key: 'percentage-calculator', title: 'Percentage Calculator', icon: FiPercent, color: 'text-green-600' },
-  { key: 'age-calculator', title: 'Age Calculator', icon: FiUser, color: 'text-violet-600' }
+// Developer tools for tools-conversion sidebar (removed - now only PDF tools in sidebar)
+const developerToolsForTools = [];
+
+// Utility tools for tools-conversion sidebar (removed - now only PDF tools in sidebar)
+const utilityToolsForTools = [
+  // PDF tools for sidebar - only the 9 specific tools requested
+  { key: 'merge-pdf', title: 'Merge PDF', icon: FiGitMerge, color: 'text-orange-600' },
+  { key: 'split-pdf', title: 'Split PDF', icon: FiScissors, color: 'text-green-600' },
+  { key: 'compress-pdf', title: 'Compress PDF', icon: FiMinimize2, color: 'text-blue-600' },
+  { key: 'pdf-to-word', title: 'PDF to Word', icon: FiFile, color: 'text-purple-600' },
+  { key: 'pdf-to-excel', title: 'PDF to Excel', icon: FiFileText, color: 'text-indigo-600' },
+  { key: 'pdf-to-jpg', title: 'PDF to JPG', icon: FiImage, color: 'text-cyan-600' },
+  { key: 'rotate-pdf', title: 'Rotate PDF', icon: FiRotateCw, color: 'text-teal-600' },
+  { key: 'protect-pdf', title: 'Protect PDF', icon: FiLock, color: 'text-red-600' },
+  { key: 'unlock-pdf', title: 'Unlock PDF', icon: FiUnlock, color: 'text-yellow-600' }
 ];
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
@@ -39,6 +89,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
   ? (pathSegment as CategoryKey)
   : undefined;
   const { t } = useLocalization();
+  const isConvertMasterPage = pathname?.includes('/convertMaster.com') || pathname === '/convertMaster.com';
   
   // Collapsible state for each section
   const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
@@ -78,24 +129,18 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
           background: #6b7280;
         }
       `}</style>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col" suppressHydrationWarning>
       {/* Mobile Header with Hamburger */}
       <div className="md:hidden fixed top-0 left-0 right-0 h-16 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 z-50 flex items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md group-hover:shadow-lg transition-all duration-200 shrink-0">
-            <FiLayers className="h-6 w-6" />
-          </div>
-          <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors whitespace-nowrap">
-            ConvertMaster
-          </span>
-        </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <Link
-            href="/about"
-            className="px-2 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            href="http://localhost:3000/convertMaster.com"
+            className="font-bold text-xl tracking-tight text-gray-900 dark:text-white whitespace-nowrap hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
           >
-            About
+            ConvertMaster
           </Link>
+        </div>
+        <div className="flex items-center gap-2">
           <Link
             href="/blog"
             className="px-2 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -112,43 +157,87 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
         </div>
       </div>
 
-      {/* Desktop Header */}
+      {/* Desktop Header - Same for all pages */}
       <div className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 shadow-md">
         <CategoryMenu selectedCategory={category} />
       </div>
 
       <div className="flex flex-1 overflow-x-hidden pt-16 md:pt-16">
         {/* Mobile Menu Overlay */}
-        {mobileMenuOpen && (
-          <div
-            className="fixed inset-0 bg-black/50 z-40 md:hidden"
-            onClick={closeMobileMenu}
-          />
-        )}
+        <div
+          className={`fixed inset-0 bg-black/50 z-40 md:hidden transition-opacity duration-300 ${
+            mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+          }`}
+          onClick={closeMobileMenu}
+        />
 
         {/* Sidebar */}
         <aside className={`fixed left-0 top-16 md:top-16 w-64 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar z-50 ${
           mobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         } md:block transition-transform duration-300`}>
           <div className="p-2 md:p-6">
+            {isConvertMasterPage ? (
+              /* ConvertMaster.com Main Sections Sidebar */
+              <div className="mb-8">
+                <nav className="space-y-1">
+                  {mainSectionsSidebar.map((section) => {
+                    const isActive = pathname === section.href || (section.key === 'unit-conversion' && pathname === '/unit-conversion/');
+                    return (
+                      <Link
+                        key={section.key}
+                        href={section.href}
+                        className={`flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
+                          isActive ? 'text-white bg-blue-600' : ''
+                        }`}
+                        title={section.title}
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        <section.icon className={`w-5 h-5 md:w-4 md:h-4 ${section.color} shrink-0`} />
+                        <span>{section.title}</span>
+                      </Link>
+                    );
+                  })}
+                </nav>
+              </div>
+            ) : pathname?.includes('tools-conversion') || pathname?.includes('pdf-conversion') ? (
+              /* Tools Conversion Sidebar */
+              <div className="mb-8">
+                {/* PDF Tools Section */}
+                <div className="mb-8">
+                  <nav className="space-y-1">
+                    {utilityToolsForTools.map((tool) => {
+                      const isActive = pathname === `/${tool.key}`;
+                      return (
+                        <Link
+                          key={tool.key}
+                          href={`/${tool.key}`}
+                          className={`flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
+                            isActive ? 'text-white bg-blue-600' : ''
+                          }`}
+                          title={tool.title}
+                          onClick={() => setMobileMenuOpen(false)}
+                        >
+                          <tool.icon className={`w-5 h-5 md:w-4 md:h-4 ${tool.color} shrink-0`} />
+                          <span>{tool.title}</span>
+                          {isActive && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold shrink-0">Active</span>}
+                        </Link>
+                      );
+                    })}
+                  </nav>
+                </div>
+              </div>
+            ) : (
+            <>
             {/* Main Navigation */}
             <div className="mb-8">
-              <button
-                onClick={() => toggleSection('main')}
-                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
-              >
-                <span>Main</span>
-                <span>{collapsedSections['main'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
-              </button>
-              {!collapsedSections['main'] && (
-                <nav className="space-y-1">
+              <nav className="space-y-1">
                 <Link
                   href="/all-converters"
                   className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
                   title="Converters"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  <FiActivity className="w-5 h-5 md:w-4 md:h-4 text-green-400 flex-shrink-0" />
+                  <FiActivity className="w-5 h-5 md:w-4 md:h-4 text-green-400 shrink-0" />
                   <span>Converters</span>
                 </Link>
                 <Link
@@ -161,7 +250,6 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
                   <span>Analytics</span>
                 </Link>
               </nav>
-              )}
             </div>
 
             {/* Categories Section */}
@@ -194,39 +282,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
               )}
             </div>
 
-            {/* Developer Tools Section */}
-            <div className="mb-8">
-              <button
-                onClick={() => toggleSection('developerTools')}
-                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
-              >
-                <span>Developer Tools</span>
-                <span>{collapsedSections['developerTools'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
-              </button>
-              {!collapsedSections['developerTools'] && (
-                <nav className="space-y-1">
-                {developerToolsSidebar.map((tool) => {
-                  const isActive = pathname === `/${tool.key}`;
-                  return (
-                    <Link
-                      key={tool.key}
-                      href={`/${tool.key}`}
-                      className={`flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors ${
-                        isActive ? 'text-white bg-blue-600' : ''
-                      }`}
-                      title={tool.title}
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      <tool.icon className={`w-5 h-5 md:w-4 md:h-4 ${tool.color} flex-shrink-0`} />
-                      <span>{tool.title}</span>
-                      {isActive && <span className="ml-auto bg-white text-blue-600 text-xs px-2 py-1 rounded-full font-semibold flex-shrink-0">Active</span>}
-                    </Link>
-                  );
-                })}
-              </nav>
-              )}
-            </div>
-
+            
             {/* Engineering Section */}
             <div className="mb-8">
               <button
@@ -424,48 +480,9 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
               )}
             </div>
 
-            {/* Utilities Section */}
-            <div className="mb-8">
-              <button
-                onClick={() => toggleSection('utilities')}
-                className="flex items-center justify-between w-full mb-4 text-xs font-semibold text-gray-400 uppercase tracking-wider hover:text-gray-300 transition-colors"
-              >
-                <span>Utilities</span>
-                <span>{collapsedSections['utilities'] ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}</span>
-              </button>
-              {!collapsedSections['utilities'] && (
-                <nav className="space-y-1">
-                  <Link
-                    href="/time-duration-calculator"
-                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
-                    title="Time Duration"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <FiClock className="w-5 h-5 md:w-4 md:h-4 text-blue-400 shrink-0" />
-                    <span>Time Duration</span>
-                  </Link>
-                  <Link
-                    href="/percentage-calculator"
-                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
-                    title="Percentage"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <FiPercent className="w-5 h-5 md:w-4 md:h-4 text-green-400 shrink-0" />
-                    <span>Percentage</span>
-                  </Link>
-                  <Link
-                    href="/age-calculator"
-                    className="flex items-center justify-start gap-3 px-3 py-2 text-sm text-gray-200 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
-                    title="Age Calculator"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <FiUser className="w-5 h-5 md:w-4 md:h-4 text-violet-400 shrink-0" />
-                    <span>Age</span>
-                  </Link>
-                </nav>
-              )}
-            </div>
-
+            
+            </>
+            )}
           </div>
         </aside>
 
