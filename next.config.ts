@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/unit-conversion',
+  basePath: '/convertMaster.com',
   distDir: 'out',
   
   // Performance optimizations
