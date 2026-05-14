@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km2 to M2</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 ≈ ? m2</li>
-                <li>10 km2 ≈ ? m2</li>
-                <li>50 km2 ≈ ? m2</li>
-                <li>100 km2 ≈ ? m2</li>
+                <li>1 km2 = 1000000 m2</li>
+                <li>10 km2 = 10000000 m2</li>
+                <li>50 km2 = 50000000 m2</li>
+                <li>100 km2 = 100000000 m2</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">M2 to Km2</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? km2</li>
-                <li>10 m2 ≈ ? km2</li>
-                <li>50 m2 ≈ ? km2</li>
-                <li>100 m2 ≈ ? km2</li>
+                <li>1 m2 = 0.000001 km2</li>
+                <li>10 m2 = 0.00001 km2</li>
+                <li>50 m2 = 0.00005 km2</li>
+                <li>100 m2 = 0.0001 km2</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km2 ≈ ? m2</li>
-                <li>1000 km2 ≈ ? m2</li>
-                <li>5000 km2 ≈ ? m2</li>
-                <li>10000 km2 ≈ ? m2</li>
+                <li>500 km2 = 500000000 m2</li>
+                <li>1000 km2 = 1000000000 m2</li>
+                <li>5000 km2 = 5000000000 m2</li>
+                <li>10000 km2 = 10000000000 m2</li>
               </ul>
             </div>
           </div>
@@ -205,12 +205,7 @@ export default function ConverterPage() {
 
         {/* Trust Indicators */}
         <section className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
-              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="card p-6 text-center">
               <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h4 className="font-semibold text-gray-900">Instant Results</h4>

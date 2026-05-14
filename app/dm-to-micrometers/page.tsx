@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? micrometers</li>
-                <li>10 dm ≈ ? micrometers</li>
-                <li>50 dm ≈ ? micrometers</li>
-                <li>100 dm ≈ ? micrometers</li>
+                <li>1 dm = ? micrometers</li>
+                <li>10 dm = ? micrometers</li>
+                <li>50 dm = ? micrometers</li>
+                <li>100 dm = ? micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? dm</li>
-                <li>10 micrometers ≈ ? dm</li>
-                <li>50 micrometers ≈ ? dm</li>
-                <li>100 micrometers ≈ ? dm</li>
+                <li>1 micrometers = ? dm</li>
+                <li>10 micrometers = ? dm</li>
+                <li>50 micrometers = ? dm</li>
+                <li>100 micrometers = ? dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm ≈ ? micrometers</li>
-                <li>1000 dm ≈ ? micrometers</li>
-                <li>5000 dm ≈ ? micrometers</li>
-                <li>10000 dm ≈ ? micrometers</li>
+                <li>500 dm = ? micrometers</li>
+                <li>1000 dm = ? micrometers</li>
+                <li>5000 dm = ? micrometers</li>
+                <li>10000 dm = ? micrometers</li>
               </ul>
             </div>
           </div>

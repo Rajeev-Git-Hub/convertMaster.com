@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? dam</li>
-                <li>10 meters ≈ ? dam</li>
-                <li>50 meters ≈ ? dam</li>
-                <li>100 meters ≈ ? dam</li>
+                <li>1 meters = 0.1 dam</li>
+                <li>10 meters = 1 dam</li>
+                <li>50 meters = 5 dam</li>
+                <li>100 meters = 10 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? meters</li>
-                <li>10 dam ≈ ? meters</li>
-                <li>50 dam ≈ ? meters</li>
-                <li>100 dam ≈ ? meters</li>
+                <li>1 dam = 10 meters</li>
+                <li>10 dam = 100 meters</li>
+                <li>50 dam = 500 meters</li>
+                <li>100 dam = 1000 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters ≈ ? dam</li>
-                <li>1000 meters ≈ ? dam</li>
-                <li>5000 meters ≈ ? dam</li>
-                <li>10000 meters ≈ ? dam</li>
+                <li>500 meters = 50 dam</li>
+                <li>1000 meters = 100 dam</li>
+                <li>5000 meters = 500 dam</li>
+                <li>10000 meters = 1000 dam</li>
               </ul>
             </div>
           </div>

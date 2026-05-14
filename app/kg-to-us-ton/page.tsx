@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? us-ton</li>
-                <li>10 kg ≈ ? us-ton</li>
-                <li>50 kg ≈ ? us-ton</li>
-                <li>100 kg ≈ ? us-ton</li>
+                <li>1 kg = 0.001102 us-ton</li>
+                <li>10 kg = 0.01102 us-ton</li>
+                <li>50 kg = 0.0551 us-ton</li>
+                <li>100 kg = 0.1102 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton ≈ ? kg</li>
-                <li>10 us-ton ≈ ? kg</li>
-                <li>50 us-ton ≈ ? kg</li>
-                <li>100 us-ton ≈ ? kg</li>
+                <li>1 us-ton = 907.185 kg</li>
+                <li>10 us-ton = 9071.85 kg</li>
+                <li>50 us-ton = 45359.25 kg</li>
+                <li>100 us-ton = 90718.5 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? us-ton</li>
-                <li>1000 kg ≈ ? us-ton</li>
-                <li>5000 kg ≈ ? us-ton</li>
-                <li>10000 kg ≈ ? us-ton</li>
+                <li>500 kg = 0.551 us-ton</li>
+                <li>1000 kg = 1.102 us-ton</li>
+                <li>5000 kg = 5.51 us-ton</li>
+                <li>10000 kg = 11.02 us-ton</li>
               </ul>
             </div>
           </div>

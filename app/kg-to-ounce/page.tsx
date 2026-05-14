@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? ounce</li>
-                <li>10 kg ≈ ? ounce</li>
-                <li>50 kg ≈ ? ounce</li>
-                <li>100 kg ≈ ? ounce</li>
+                <li>1 kg = 35.274 ounce</li>
+                <li>10 kg = 352.74 ounce</li>
+                <li>50 kg = 1763.7 ounce</li>
+                <li>100 kg = 3527.4 ounce</li>
               </ul>
             </div>
             <div className="card p-6">

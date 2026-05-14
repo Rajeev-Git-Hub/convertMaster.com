@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Eb to Bit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 eb ≈ ? bit</li>
-                <li>10 eb ≈ ? bit</li>
-                <li>50 eb ≈ ? bit</li>
-                <li>100 eb ≈ ? bit</li>
+                <li>1 eb = ? bit</li>
+                <li>10 eb = ? bit</li>
+                <li>50 eb = ? bit</li>
+                <li>100 eb = ? bit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bit to Eb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bit ≈ ? eb</li>
-                <li>10 bit ≈ ? eb</li>
-                <li>50 bit ≈ ? eb</li>
-                <li>100 bit ≈ ? eb</li>
+                <li>1 bit = ? eb</li>
+                <li>10 bit = ? eb</li>
+                <li>50 bit = ? eb</li>
+                <li>100 bit = ? eb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 eb ≈ ? bit</li>
-                <li>1000 eb ≈ ? bit</li>
-                <li>5000 eb ≈ ? bit</li>
-                <li>10000 eb ≈ ? bit</li>
+                <li>500 eb = ? bit</li>
+                <li>1000 eb = ? bit</li>
+                <li>5000 eb = ? bit</li>
+                <li>10000 eb = ? bit</li>
               </ul>
             </div>
           </div>

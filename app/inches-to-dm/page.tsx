@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? dm</li>
-                <li>10 inches ≈ ? dm</li>
-                <li>50 inches ≈ ? dm</li>
-                <li>100 inches ≈ ? dm</li>
+                <li>1 inches = 0.254 dm</li>
+                <li>10 inches = 2.54 dm</li>
+                <li>50 inches = 12.7 dm</li>
+                <li>100 inches = 25.4 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? inches</li>
-                <li>10 dm ≈ ? inches</li>
-                <li>50 dm ≈ ? inches</li>
-                <li>100 dm ≈ ? inches</li>
+                <li>1 dm = 3.93701 inches</li>
+                <li>10 dm = 39.3701 inches</li>
+                <li>50 dm = 196.851 inches</li>
+                <li>100 dm = 393.701 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? dm</li>
-                <li>1000 inches ≈ ? dm</li>
-                <li>5000 inches ≈ ? dm</li>
-                <li>10000 inches ≈ ? dm</li>
+                <li>500 inches = 127 dm</li>
+                <li>1000 inches = 254 dm</li>
+                <li>5000 inches = 1270 dm</li>
+                <li>10000 inches = 2540 dm</li>
               </ul>
             </div>
           </div>

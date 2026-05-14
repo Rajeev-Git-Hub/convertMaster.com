@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? hm</li>
-                <li>10 meters ≈ ? hm</li>
-                <li>50 meters ≈ ? hm</li>
-                <li>100 meters ≈ ? hm</li>
+                <li>1 meters = 0.01 hm</li>
+                <li>10 meters = 0.1 hm</li>
+                <li>50 meters = 0.5 hm</li>
+                <li>100 meters = 1 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? meters</li>
-                <li>10 hm ≈ ? meters</li>
-                <li>50 hm ≈ ? meters</li>
-                <li>100 hm ≈ ? meters</li>
+                <li>1 hm = 100 meters</li>
+                <li>10 hm = 1000 meters</li>
+                <li>50 hm = 5000 meters</li>
+                <li>100 hm = 10000 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters ≈ ? hm</li>
-                <li>1000 meters ≈ ? hm</li>
-                <li>5000 meters ≈ ? hm</li>
-                <li>10000 meters ≈ ? hm</li>
+                <li>500 meters = 5 hm</li>
+                <li>1000 meters = 10 hm</li>
+                <li>5000 meters = 50 hm</li>
+                <li>10000 meters = 100 hm</li>
               </ul>
             </div>
           </div>

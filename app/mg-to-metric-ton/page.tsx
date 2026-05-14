@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? metric-ton</li>
-                <li>10 mg ≈ ? metric-ton</li>
-                <li>50 mg ≈ ? metric-ton</li>
-                <li>100 mg ≈ ? metric-ton</li>
+                <li>1 mg = 0.000000001 metric-ton</li>
+                <li>10 mg = 0.00000001 metric-ton</li>
+                <li>50 mg = 0.00000005 metric-ton</li>
+                <li>100 mg = 0.0000001 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton ≈ ? mg</li>
-                <li>10 metric-ton ≈ ? mg</li>
-                <li>50 metric-ton ≈ ? mg</li>
-                <li>100 metric-ton ≈ ? mg</li>
+                <li>1 metric-ton = 1000000000 mg</li>
+                <li>10 metric-ton = 10000000000 mg</li>
+                <li>50 metric-ton = 50000000000 mg</li>
+                <li>100 metric-ton = 100000000000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mg ≈ ? metric-ton</li>
-                <li>1000 mg ≈ ? metric-ton</li>
-                <li>5000 mg ≈ ? metric-ton</li>
-                <li>10000 mg ≈ ? metric-ton</li>
+                <li>500 mg = 0.0000005 metric-ton</li>
+                <li>1000 mg = 0.000001 metric-ton</li>
+                <li>5000 mg = 0.000005 metric-ton</li>
+                <li>10000 mg = 0.00001 metric-ton</li>
               </ul>
             </div>
           </div>

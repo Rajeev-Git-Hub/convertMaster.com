@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mm2 to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mm² to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm2 ≈ ? in2</li>
-                <li>10 mm2 ≈ ? in2</li>
-                <li>50 mm2 ≈ ? in2</li>
-                <li>100 mm2 ≈ ? in2</li>
+                <li>1 mm² = 0.00155 in²</li>
+                <li>10 mm² = 0.0155 in²</li>
+                <li>50 mm² = 0.0775 in²</li>
+                <li>100 mm² = 0.155 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to Mm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to mm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? mm2</li>
-                <li>10 in2 ≈ ? mm2</li>
-                <li>50 in2 ≈ ? mm2</li>
-                <li>100 in2 ≈ ? mm2</li>
+                <li>1 in² = 645.2 mm²</li>
+                <li>10 in² = 6452 mm²</li>
+                <li>50 in² = 32260 mm²</li>
+                <li>100 in² = 64520 mm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm2 ≈ ? in2</li>
-                <li>1000 mm2 ≈ ? in2</li>
-                <li>5000 mm2 ≈ ? in2</li>
-                <li>10000 mm2 ≈ ? in2</li>
+                <li>500 mm² = 0.775 in²</li>
+                <li>1000 mm² = 1.55 in²</li>
+                <li>5000 mm² = 7.75 in²</li>
+                <li>10000 mm² = 15.5 in²</li>
               </ul>
             </div>
           </div>

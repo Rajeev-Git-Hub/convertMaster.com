@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? mg</li>
-                <li>10 ounce ≈ ? mg</li>
-                <li>50 ounce ≈ ? mg</li>
-                <li>100 ounce ≈ ? mg</li>
+                <li>1 ounce = 28350 mg</li>
+                <li>10 ounce = 283500 mg</li>
+                <li>50 ounce = 1417500 mg</li>
+                <li>100 ounce = 2835000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? ounce</li>
-                <li>10 mg ≈ ? ounce</li>
-                <li>50 mg ≈ ? ounce</li>
-                <li>100 mg ≈ ? ounce</li>
+                <li>1 mg = 0.0000353 ounce</li>
+                <li>10 mg = 0.000353 ounce</li>
+                <li>50 mg = 0.001765 ounce</li>
+                <li>100 mg = 0.00353 ounce</li>
               </ul>
             </div>
             <div className="card p-6">

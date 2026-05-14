@@ -42,7 +42,7 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Tons to Kg</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>1 tons ≈ ? kg</li>

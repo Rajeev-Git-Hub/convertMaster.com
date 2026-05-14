@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? miles</li>
-                <li>10 km ≈ ? miles</li>
-                <li>50 km ≈ ? miles</li>
-                <li>100 km ≈ ? miles</li>
+                <li>1 km = 0.621 miles</li>
+                <li>10 km = 6.214 miles</li>
+                <li>50 km = 31.069 miles</li>
+                <li>100 km = 62.137 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? km</li>
-                <li>10 miles ≈ ? km</li>
-                <li>50 miles ≈ ? km</li>
-                <li>100 miles ≈ ? km</li>
+                <li>1 miles = 1.609 km</li>
+                <li>10 miles = 16.094 km</li>
+                <li>50 miles = 80.467 km</li>
+                <li>100 miles = 160.934 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km ≈ ? miles</li>
-                <li>1000 km ≈ ? miles</li>
-                <li>5000 km ≈ ? miles</li>
-                <li>10000 km ≈ ? miles</li>
+                <li>500 km = 310.686 miles</li>
+                <li>1000 km = 621.371 miles</li>
+                <li>5000 km = 3106.86 miles</li>
+                <li>10000 km = 6213.71 miles</li>
               </ul>
             </div>
           </div>

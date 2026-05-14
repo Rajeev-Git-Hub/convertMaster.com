@@ -20,6 +20,7 @@ export default function TemperatureConverterLandingPage() {
       <div className="container py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
+          <div className="h-16" />
           <h1 className="hero-gradient text-4xl font-bold mb-4">Temperature Converter</h1>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">
             Convert between Celsius, Fahrenheit, and Kelvin

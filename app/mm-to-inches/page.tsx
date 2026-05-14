@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm ≈ ? inches</li>
-                <li>10 mm ≈ ? inches</li>
-                <li>50 mm ≈ ? inches</li>
-                <li>100 mm ≈ ? inches</li>
+                <li>1 mm = 0.039 inches</li>
+                <li>10 mm = 0.394 inches</li>
+                <li>50 mm = 1.969 inches</li>
+                <li>100 mm = 3.937 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? mm</li>
-                <li>10 inches ≈ ? mm</li>
-                <li>50 inches ≈ ? mm</li>
-                <li>100 inches ≈ ? mm</li>
+                <li>1 inches = 25.4 mm</li>
+                <li>10 inches = 254 mm</li>
+                <li>50 inches = 1270 mm</li>
+                <li>100 inches = 2540 mm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm ≈ ? inches</li>
-                <li>1000 mm ≈ ? inches</li>
-                <li>5000 mm ≈ ? inches</li>
-                <li>10000 mm ≈ ? inches</li>
+                <li>500 mm = 19.685 inches</li>
+                <li>1000 mm = 39.37 inches</li>
+                <li>5000 mm = 196.85 inches</li>
+                <li>10000 mm = 393.7 inches</li>
               </ul>
             </div>
           </div>

@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mg to Grams</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Mg to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? grams</li>
-                <li>10 mg ≈ ? grams</li>
-                <li>50 mg ≈ ? grams</li>
-                <li>100 mg ≈ ? grams</li>
+                <li>1 mg = 0.001 grams</li>
+                <li>10 mg = 0.01 grams</li>
+                <li>50 mg = 0.05 grams</li>
+                <li>100 mg = 0.1 grams</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Grams to Mg</h3>
+                <h3 className="text-lg font-semibold text-gray-900">G to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 grams ≈ ? mg</li>
-                <li>10 grams ≈ ? mg</li>
-                <li>50 grams ≈ ? mg</li>
-                <li>100 grams ≈ ? mg</li>
+                <li>1 grams = 1000 mg</li>
+                <li>10 grams = 10000 mg</li>
+                <li>50 grams = 50000 mg</li>
+                <li>100 grams = 100000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mg ≈ ? grams</li>
-                <li>1000 mg ≈ ? grams</li>
-                <li>5000 mg ≈ ? grams</li>
-                <li>10000 mg ≈ ? grams</li>
+                <li>500 mg = 0.5 grams</li>
+                <li>1000 mg = 1 gram</li>
+                <li>5000 mg = 5 grams</li>
+                <li>10000 mg = 10 grams</li>
               </ul>
             </div>
           </div>

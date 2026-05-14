@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? us-ton</li>
-                <li>10 ounce ≈ ? us-ton</li>
-                <li>50 ounce ≈ ? us-ton</li>
-                <li>100 ounce ≈ ? us-ton</li>
+                <li>1 ounce = 0.00003125 us-ton</li>
+                <li>10 ounce = 0.0003125 us-ton</li>
+                <li>50 ounce = 0.0015625 us-ton</li>
+                <li>100 ounce = 0.003125 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton ≈ ? ounce</li>
-                <li>10 us-ton ≈ ? ounce</li>
-                <li>50 us-ton ≈ ? ounce</li>
-                <li>100 us-ton ≈ ? ounce</li>
+                <li>1 us-ton = 32000 ounce</li>
+                <li>10 us-ton = 320000 ounce</li>
+                <li>50 us-ton = 1600000 ounce</li>
+                <li>100 us-ton = 3200000 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ounce ≈ ? us-ton</li>
-                <li>1000 ounce ≈ ? us-ton</li>
-                <li>5000 ounce ≈ ? us-ton</li>
-                <li>10000 ounce ≈ ? us-ton</li>
+                <li>500 ounce = 0.015625 us-ton</li>
+                <li>1000 ounce = 0.03125 us-ton</li>
+                <li>5000 ounce = 0.15625 us-ton</li>
+                <li>10000 ounce = 0.3125 us-ton</li>
               </ul>
             </div>
           </div>

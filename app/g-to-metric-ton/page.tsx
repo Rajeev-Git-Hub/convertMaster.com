@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g ≈ ? metric-ton</li>
-                <li>10 g ≈ ? metric-ton</li>
-                <li>50 g ≈ ? metric-ton</li>
-                <li>100 g ≈ ? metric-ton</li>
+                <li>1 g = 0.000001 metric-ton</li>
+                <li>10 g = 0.00001 metric-ton</li>
+                <li>50 g = 0.00005 metric-ton</li>
+                <li>100 g = 0.0001 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton ≈ ? g</li>
-                <li>10 metric-ton ≈ ? g</li>
-                <li>50 metric-ton ≈ ? g</li>
-                <li>100 metric-ton ≈ ? g</li>
+                <li>1 metric-ton = 1000000 g</li>
+                <li>10 metric-ton = 10000000 g</li>
+                <li>50 metric-ton = 50000000 g</li>
+                <li>100 metric-ton = 100000000 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 g ≈ ? metric-ton</li>
-                <li>1000 g ≈ ? metric-ton</li>
-                <li>5000 g ≈ ? metric-ton</li>
-                <li>10000 g ≈ ? metric-ton</li>
+                <li>500 g = 0.0005 metric-ton</li>
+                <li>1000 g = 0.001 metric-ton</li>
+                <li>5000 g = 0.005 metric-ton</li>
+                <li>10000 g = 0.01 metric-ton</li>
               </ul>
             </div>
           </div>

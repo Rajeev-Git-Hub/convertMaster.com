@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g ≈ ? mg</li>
-                <li>10 g ≈ ? mg</li>
-                <li>50 g ≈ ? mg</li>
-                <li>100 g ≈ ? mg</li>
+                <li>1 g = 1000 mg</li>
+                <li>10 g = 10000 mg</li>
+                <li>50 g = 50000 mg</li>
+                <li>100 g = 100000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? g</li>
-                <li>10 mg ≈ ? g</li>
-                <li>50 mg ≈ ? g</li>
-                <li>100 mg ≈ ? g</li>
+                <li>1 mg = 0.001 g</li>
+                <li>10 mg = 0.01 g</li>
+                <li>50 mg = 0.05 g</li>
+                <li>100 mg = 0.1 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 g ≈ ? mg</li>
-                <li>1000 g ≈ ? mg</li>
-                <li>5000 g ≈ ? mg</li>
-                <li>10000 g ≈ ? mg</li>
+                <li>500 g = 500000 mg</li>
+                <li>1000 g = 1000000 mg</li>
+                <li>5000 g = 5000000 mg</li>
+                <li>10000 g = 10000000 mg</li>
               </ul>
             </div>
           </div>

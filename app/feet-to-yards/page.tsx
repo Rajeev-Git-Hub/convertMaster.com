@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? yards</li>
-                <li>10 feet ≈ ? yards</li>
-                <li>50 feet ≈ ? yards</li>
-                <li>100 feet ≈ ? yards</li>
+                <li>1 feet = 0.333333 yards</li>
+                <li>10 feet = 3.33333 yards</li>
+                <li>50 feet = 16.6667 yards</li>
+                <li>100 feet = 33.3333 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? feet</li>
-                <li>10 yards ≈ ? feet</li>
-                <li>50 yards ≈ ? feet</li>
-                <li>100 yards ≈ ? feet</li>
+                <li>1 yards = 3 feet</li>
+                <li>10 yards = 30 feet</li>
+                <li>50 yards = 150 feet</li>
+                <li>100 yards = 300 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 feet ≈ ? yards</li>
-                <li>1000 feet ≈ ? yards</li>
-                <li>5000 feet ≈ ? yards</li>
-                <li>10000 feet ≈ ? yards</li>
+                <li>500 feet = 166.667 yards</li>
+                <li>1000 feet = 333.333 yards</li>
+                <li>5000 feet = 1666.67 yards</li>
+                <li>10000 feet = 3333.33 yards</li>
               </ul>
             </div>
           </div>

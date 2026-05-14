@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? inches</li>
-                <li>10 meters ≈ ? inches</li>
-                <li>50 meters ≈ ? inches</li>
-                <li>100 meters ≈ ? inches</li>
+                <li>1 meters = 39.37 inches</li>
+                <li>10 meters = 393.701 inches</li>
+                <li>50 meters = 1968.504 inches</li>
+                <li>100 meters = 3937.01 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? meters</li>
-                <li>10 inches ≈ ? meters</li>
-                <li>50 inches ≈ ? meters</li>
-                <li>100 inches ≈ ? meters</li>
+                <li>1 inches = 0.025 meters</li>
+                <li>10 inches = 0.254 meters</li>
+                <li>50 inches = 1.27 meters</li>
+                <li>100 inches = 2.54 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters ≈ ? inches</li>
-                <li>1000 meters ≈ ? inches</li>
-                <li>5000 meters ≈ ? inches</li>
-                <li>10000 meters ≈ ? inches</li>
+                <li>500 meters = 19685.04 inches</li>
+                <li>1000 meters = 39370.08 inches</li>
+                <li>5000 meters = 196850.4 inches</li>
+                <li>10000 meters = 393700.8 inches</li>
               </ul>
             </div>
           </div>

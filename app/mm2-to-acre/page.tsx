@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mm2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mm² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm2 ≈ ? acre</li>
-                <li>10 mm2 ≈ ? acre</li>
-                <li>50 mm2 ≈ ? acre</li>
-                <li>100 mm2 ≈ ? acre</li>
+                <li>1 mm² = 0.000000025 acre</li>
+                <li>10 mm² = 0.00000025 acre</li>
+                <li>50 mm² = 0.00000125 acre</li>
+                <li>100 mm² = 0.0000025 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to Mm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to mm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? mm2</li>
-                <li>10 acre ≈ ? mm2</li>
-                <li>50 acre ≈ ? mm2</li>
-                <li>100 acre ≈ ? mm2</li>
+                <li>1 acre = 40469000 mm²</li>
+                <li>10 acre = 404690000 mm²</li>
+                <li>50 acre = 2023450000 mm²</li>
+                <li>100 acre = 4046900000 mm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm2 ≈ ? acre</li>
-                <li>1000 mm2 ≈ ? acre</li>
-                <li>5000 mm2 ≈ ? acre</li>
-                <li>10000 mm2 ≈ ? acre</li>
+                <li>500 mm² = 0.0000125 acre</li>
+                <li>1000 mm² = 0.000025 acre</li>
+                <li>5000 mm² = 0.000125 acre</li>
+                <li>10000 mm² = 0.00025 acre</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pounds to Ounces</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pounds ≈ ? ounces</li>
-                <li>10 pounds ≈ ? ounces</li>
-                <li>50 pounds ≈ ? ounces</li>
-                <li>100 pounds ≈ ? ounces</li>
+                <li>1 pounds = 16 ounces</li>
+                <li>10 pounds = 160 ounces</li>
+                <li>50 pounds = 800 ounces</li>
+                <li>100 pounds = 1600 ounces</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 pounds ≈ ? ounces</li>
-                <li>1000 pounds ≈ ? ounces</li>
-                <li>5000 pounds ≈ ? ounces</li>
-                <li>10000 pounds ≈ ? ounces</li>
+                <li>500 pounds = 8000 ounces</li>
+                <li>1000 pounds = 16000 ounces</li>
+                <li>5000 pounds = 80000 ounces</li>
+                <li>10000 pounds = 160000 ounces</li>
               </ul>
             </div>
           </div>

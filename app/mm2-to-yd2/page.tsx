@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mm2 to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mm² to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm2 ≈ ? yd2</li>
-                <li>10 mm2 ≈ ? yd2</li>
-                <li>50 mm2 ≈ ? yd2</li>
-                <li>100 mm2 ≈ ? yd2</li>
+                <li>1 mm² = 0.0000012 yd²</li>
+                <li>10 mm² = 0.000012 yd²</li>
+                <li>50 mm² = 0.00006 yd²</li>
+                <li>100 mm² = 0.00012 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to Mm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to mm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? mm2</li>
-                <li>10 yd2 ≈ ? mm2</li>
-                <li>50 yd2 ≈ ? mm2</li>
-                <li>100 yd2 ≈ ? mm2</li>
+                <li>1 yd² = 836100 mm²</li>
+                <li>10 yd² = 8361000 mm²</li>
+                <li>50 yd² = 41805000 mm²</li>
+                <li>100 yd² = 83610000 mm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm2 ≈ ? yd2</li>
-                <li>1000 mm2 ≈ ? yd2</li>
-                <li>5000 mm2 ≈ ? yd2</li>
-                <li>10000 mm2 ≈ ? yd2</li>
+                <li>500 mm² = 0.0006 yd²</li>
+                <li>1000 mm² = 0.0012 yd²</li>
+                <li>5000 mm² = 0.006 yd²</li>
+                <li>10000 mm² = 0.012 yd²</li>
               </ul>
             </div>
           </div>

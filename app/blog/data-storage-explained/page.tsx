@@ -192,15 +192,15 @@ export default function DataStorageExplainedPage() {
                 Storage Buying Guide
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
-                <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-xl text-center">
+                <div className="bg-blue-50 p-6 rounded-xl text-center">
                   <div className="text-4xl mb-3">💻</div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Laptop</h3>
-                  <p className="text-gray-700 dark:text-gray-300">256 GB – 512 GB for most users</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Laptop</h3>
+                  <p className="text-gray-700">256 GB – 512 GB for most users</p>
                 </div>
-                <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl text-center">
+                <div className="bg-blue-50 p-6 rounded-xl text-center">
                   <div className="text-4xl mb-3">📱</div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Smartphone</h3>
-                  <p className="text-gray-700 dark:text-gray-300">128 GB – 256 GB recommended</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Smartphone</h3>
+                  <p className="text-gray-700">128 GB – 256 GB recommended</p>
                 </div>
                 <div className="bg-orange-50 dark:bg-orange-900/20 p-6 rounded-xl text-center">
                   <div className="text-4xl mb-3">🎮</div>

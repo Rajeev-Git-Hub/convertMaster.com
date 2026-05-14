@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? miles</li>
-                <li>10 meters ≈ ? miles</li>
-                <li>50 meters ≈ ? miles</li>
-                <li>100 meters ≈ ? miles</li>
+                <li>1 meters = 0.621 miles</li>
+                <li>10 meters = 6.214 miles</li>
+                <li>50 meters = 31.069 miles</li>
+                <li>100 meters = 62.137 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? meters</li>
-                <li>10 miles ≈ ? meters</li>
-                <li>50 miles ≈ ? meters</li>
-                <li>100 miles ≈ ? meters</li>
+                <li>1 miles = 1609.34 meters</li>
+                <li>10 miles = 16093.4 meters</li>
+                <li>50 miles = 80467 meters</li>
+                <li>100 miles = 160934 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters ≈ ? miles</li>
-                <li>1000 meters ≈ ? miles</li>
-                <li>5000 meters ≈ ? miles</li>
-                <li>10000 meters ≈ ? miles</li>
+                <li>500 meters = 310.686 miles</li>
+                <li>1000 meters = 621.371 miles</li>
+                <li>5000 meters = 3106.86 miles</li>
+                <li>10000 meters = 6213.71 miles</li>
               </ul>
             </div>
           </div>

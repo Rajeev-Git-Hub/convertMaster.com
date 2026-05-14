@@ -79,176 +79,6 @@ const categoryConverters = [
   }
 ];
 
-const engineeringConverters = [
-  // Mechanical
-  {
-    name: 'Thermodynamics',
-    icon: FiActivity,
-    bgColor: 'bg-red-600',
-    textColor: 'text-red-600',
-    borderColor: 'border-red-200',
-    description: 'Heat, Work, Energy Transfer',
-    href: '/thermodynamics-calculator'
-  },
-  {
-    name: 'Fluid Mechanics',
-    icon: FiWind,
-    bgColor: 'bg-blue-600',
-    textColor: 'text-blue-600',
-    borderColor: 'border-blue-200',
-    description: 'Flow, Pressure, Velocity',
-    href: '/fluid-mechanics-calculator'
-  },
-  {
-    name: 'Stress Analysis',
-    icon: FiTool,
-    bgColor: 'bg-green-600',
-    textColor: 'text-green-600',
-    borderColor: 'border-green-200',
-    description: 'Force, Strain, Deformation',
-    href: '/stress-analysis-calculator'
-  },
-  {
-    name: 'Machine Design',
-    icon: FiCpu,
-    bgColor: 'bg-purple-600',
-    textColor: 'text-purple-600',
-    borderColor: 'border-purple-200',
-    description: 'Gears, Bearings, Shafts',
-    href: '/machine-design-calculator'
-  },
-  {
-    name: 'Concrete',
-    icon: FiLayers,
-    bgColor: 'bg-orange-600',
-    textColor: 'text-orange-600',
-    borderColor: 'border-orange-200',
-    description: 'Mix, Strength, Volume',
-    href: '/concrete-calculator'
-  },
-  // Electrical
-  {
-    name: "Ohm's Law",
-    icon: FiZap,
-    bgColor: 'bg-yellow-600',
-    textColor: 'text-yellow-600',
-    borderColor: 'border-yellow-200',
-    description: 'V=IR, Voltage, Current',
-    href: '/ohms-law-calculator'
-  },
-  {
-    name: 'Circuit Analysis',
-    icon: FiActivity,
-    bgColor: 'bg-cyan-600',
-    textColor: 'text-cyan-600',
-    borderColor: 'border-cyan-200',
-    description: 'KCL, KVL, Networks',
-    href: '/circuit-analysis-calculator'
-  },
-  {
-    name: 'Power Calc',
-    icon: FiZap,
-    bgColor: 'bg-green-600',
-    textColor: 'text-green-600',
-    borderColor: 'border-green-200',
-    description: 'AC, DC, 3-Phase',
-    href: '/power-calculator'
-  },
-  // Chemical
-  {
-    name: 'Process Calc',
-    icon: FiSettings,
-    bgColor: 'bg-blue-600',
-    textColor: 'text-blue-600',
-    borderColor: 'border-blue-200',
-    description: 'Mass, Energy Balance',
-    href: '/process-calculations'
-  },
-  {
-    name: 'Chem Thermo',
-    icon: FiActivity,
-    bgColor: 'bg-red-600',
-    textColor: 'text-red-600',
-    borderColor: 'border-red-200',
-    description: 'Enthalpy, Entropy',
-    href: '/chemical-thermodynamics'
-  },
-  {
-    name: 'Fluid Flow',
-    icon: FiWind,
-    bgColor: 'bg-cyan-600',
-    textColor: 'text-cyan-600',
-    borderColor: 'border-cyan-200',
-    description: 'Pipes, Reynolds, Friction',
-    href: '/fluid-flow-calculator'
-  },
-  {
-    name: 'Reaction Kinetics',
-    icon: FiZap,
-    bgColor: 'bg-purple-600',
-    textColor: 'text-purple-600',
-    borderColor: 'border-purple-200',
-    description: 'Rate, Order, Conversion',
-    href: '/reaction-kinetics'
-  },
-  // Electronics
-  {
-    name: 'Resistor',
-    icon: FiTool,
-    bgColor: 'bg-indigo-600',
-    textColor: 'text-indigo-600',
-    borderColor: 'border-indigo-200',
-    description: 'Color Code, Series, Parallel',
-    href: '/resistor-calculator'
-  },
-  {
-    name: 'Electronics',
-    icon: FiCpu,
-    bgColor: 'bg-pink-600',
-    textColor: 'text-pink-600',
-    borderColor: 'border-pink-200',
-    description: 'Components, Circuits',
-    href: '/electronics-tools'
-  },
-  // Basic Engineering
-  {
-    name: 'Pressure',
-    icon: FiActivity,
-    bgColor: 'bg-pink-600',
-    textColor: 'text-pink-600',
-    borderColor: 'border-pink-200',
-    description: 'Pascal, Bar, PSI, ATM',
-    href: '/pressure-converter/'
-  },
-  {
-    name: 'Energy',
-    icon: FiZap,
-    bgColor: 'bg-yellow-600',
-    textColor: 'text-yellow-600',
-    borderColor: 'border-yellow-200',
-    description: 'Joules, Calories, BTU',
-    href: '/energy-converter/'
-  },
-  {
-    name: 'Power',
-    icon: FiZap,
-    bgColor: 'bg-rose-600',
-    textColor: 'text-rose-600',
-    borderColor: 'border-rose-200',
-    description: 'Watts, HP, Kilowatts',
-    href: '/power-converter/'
-  },
-  {
-    name: 'Angle',
-    icon: FiLayers,
-    bgColor: 'bg-slate-600',
-    textColor: 'text-slate-600',
-    borderColor: 'border-slate-200',
-    description: 'Degrees, Radians, Grad',
-    href: '/angle-converter/'
-  }
-];
-
 function ConverterCard({ category }: { category: typeof categoryConverters[0] }) {
   const Icon = category.icon;
   return (
@@ -275,7 +105,6 @@ function ConverterCard({ category }: { category: typeof categoryConverters[0] })
 
 export default function HomeClient() {
   const [showCategories, setShowCategories] = useState(true);
-  const [showEngineering, setShowEngineering] = useState(true);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -310,24 +139,7 @@ export default function HomeClient() {
             )}
           </div>
 
-          {/* Engineering Section */}
-          <div className="mb-8">
-            <button
-              onClick={() => setShowEngineering(!showEngineering)}
-              className="flex items-center justify-between w-full mb-4 text-sm font-semibold text-gray-500 uppercase tracking-wider hover:text-gray-700 transition-colors border-b border-gray-200 pb-2"
-            >
-              <span>Engineering</span>
-              {showEngineering ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}
-            </button>
-            {showEngineering && (
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {engineeringConverters.map((category) => (
-                  <ConverterCard key={category.name} category={category} />
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
+                  </div>
       </section>
 
     </div>

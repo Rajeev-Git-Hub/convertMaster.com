@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? inches</li>
-                <li>10 hm ≈ ? inches</li>
-                <li>50 hm ≈ ? inches</li>
-                <li>100 hm ≈ ? inches</li>
+                <li>1 hm = 3937.01 inches</li>
+                <li>10 hm = 39370.1 inches</li>
+                <li>50 hm = 196850 inches</li>
+                <li>100 hm = 393701 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? hm</li>
-                <li>10 inches ≈ ? hm</li>
-                <li>50 inches ≈ ? hm</li>
-                <li>100 inches ≈ ? hm</li>
+                <li>1 inches = 0.000254 hm</li>
+                <li>10 inches = 0.00254 hm</li>
+                <li>50 inches = 0.0127 hm</li>
+                <li>100 inches = 0.0254 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hm ≈ ? inches</li>
-                <li>1000 hm ≈ ? inches</li>
-                <li>5000 hm ≈ ? inches</li>
-                <li>10000 hm ≈ ? inches</li>
+                <li>500 hm = 1968505 inches</li>
+                <li>1000 hm = 3937008 inches</li>
+                <li>5000 hm = 19685039 inches</li>
+                <li>10000 hm = 39370079 inches</li>
               </ul>
             </div>
           </div>

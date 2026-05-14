@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? g</li>
-                <li>10 pound ≈ ? g</li>
-                <li>50 pound ≈ ? g</li>
-                <li>100 pound ≈ ? g</li>
+                <li>1 pound = 453.592 g</li>
+                <li>10 pound = 4535.92 g</li>
+                <li>50 pound = 22679.6 g</li>
+                <li>100 pound = 45359.2 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g ≈ ? pound</li>
-                <li>10 g ≈ ? pound</li>
-                <li>50 g ≈ ? pound</li>
-                <li>100 g ≈ ? pound</li>
+                <li>1 g = 0.002205 pound</li>
+                <li>10 g = 0.02205 pound</li>
+                <li>50 g = 0.11025 pound</li>
+                <li>100 g = 0.2205 pound</li>
               </ul>
             </div>
             <div className="card p-6">

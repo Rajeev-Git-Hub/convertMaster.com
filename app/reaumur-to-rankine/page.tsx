@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Reaumur to Rankine</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 reaumur ≈ ? rankine</li>
-                <li>10 reaumur ≈ ? rankine</li>
-                <li>50 reaumur ≈ ? rankine</li>
-                <li>100 reaumur ≈ ? rankine</li>
+                <li>1 reaumur = 493.47 rankine</li>
+                <li>10 reaumur = 509.67 rankine</li>
+                <li>50 reaumur = 581.67 rankine</li>
+                <li>100 reaumur = 671.67 rankine</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Reaumur</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine ≈ ? reaumur</li>
-                <li>10 rankine ≈ ? reaumur</li>
-                <li>50 rankine ≈ ? reaumur</li>
-                <li>100 rankine ≈ ? reaumur</li>
+                <li>1 rankine = -218.07 reaumur</li>
+                <li>10 rankine = -214.07 reaumur</li>
+                <li>50 rankine = -198.07 reaumur</li>
+                <li>100 rankine = -174.07 reaumur</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 reaumur ≈ ? rankine</li>
-                <li>1000 reaumur ≈ ? rankine</li>
-                <li>5000 reaumur ≈ ? rankine</li>
-                <li>10000 reaumur ≈ ? rankine</li>
+                <li>500 reaumur = 1616.67 rankine</li>
+                <li>1000 reaumur = 2660.67 rankine</li>
+                <li>5000 reaumur = 11660.67 rankine</li>
+                <li>10000 reaumur = 23000.67 rankine</li>
               </ul>
             </div>
           </div>

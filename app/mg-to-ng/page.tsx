@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? ng</li>
-                <li>10 mg ≈ ? ng</li>
-                <li>50 mg ≈ ? ng</li>
-                <li>100 mg ≈ ? ng</li>
+                <li>1 mg = 1000000 ng</li>
+                <li>10 mg = 10000000 ng</li>
+                <li>50 mg = 50000000 ng</li>
+                <li>100 mg = 100000000 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? mg</li>
-                <li>10 ng ≈ ? mg</li>
-                <li>50 ng ≈ ? mg</li>
-                <li>100 ng ≈ ? mg</li>
+                <li>1 ng = 0.000001 mg</li>
+                <li>10 ng = 0.00001 mg</li>
+                <li>50 ng = 0.00005 mg</li>
+                <li>100 ng = 0.0001 mg</li>
               </ul>
             </div>
             <div className="card p-6">

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? miles</li>
-                <li>10 dm ≈ ? miles</li>
-                <li>50 dm ≈ ? miles</li>
-                <li>100 dm ≈ ? miles</li>
+                <li>1 dm = 0.000062 miles</li>
+                <li>10 dm = 0.000621 miles</li>
+                <li>50 dm = 0.003107 miles</li>
+                <li>100 dm = 0.006214 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? dm</li>
-                <li>10 miles ≈ ? dm</li>
-                <li>50 miles ≈ ? dm</li>
-                <li>100 miles ≈ ? dm</li>
+                <li>1 miles = 16093.4 dm</li>
+                <li>10 miles = 160934 dm</li>
+                <li>50 miles = 804670 dm</li>
+                <li>100 miles = 1609340 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm ≈ ? miles</li>
-                <li>1000 dm ≈ ? miles</li>
-                <li>5000 dm ≈ ? miles</li>
-                <li>10000 dm ≈ ? miles</li>
+                <li>500 dm = 0.031069 miles</li>
+                <li>1000 dm = 0.062137 miles</li>
+                <li>5000 dm = 0.310686 miles</li>
+                <li>10000 dm = 0.621371 miles</li>
               </ul>
             </div>
           </div>

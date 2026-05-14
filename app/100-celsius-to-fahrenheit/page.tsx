@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">100-celsius to Fahrenheit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 100-celsius ≈ ? fahrenheit</li>
-                <li>10 100-celsius ≈ ? fahrenheit</li>
-                <li>50 100-celsius ≈ ? fahrenheit</li>
-                <li>100 100-celsius ≈ ? fahrenheit</li>
+                <li>1 100-celsius = 212 fahrenheit</li>
+                <li>10 100-celsius = 2120 fahrenheit</li>
+                <li>50 100-celsius = 10600 fahrenheit</li>
+                <li>100 100-celsius = 21200 fahrenheit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to 100-celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit ≈ ? 100-celsius</li>
-                <li>10 fahrenheit ≈ ? 100-celsius</li>
-                <li>50 fahrenheit ≈ ? 100-celsius</li>
-                <li>100 fahrenheit ≈ ? 100-celsius</li>
+                <li>1 fahrenheit = 0.47 100-celsius</li>
+                <li>10 fahrenheit = 4.72 100-celsius</li>
+                <li>50 fahrenheit = 23.58 100-celsius</li>
+                <li>100 fahrenheit = 47.17 100-celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 100-celsius ≈ ? fahrenheit</li>
-                <li>1000 100-celsius ≈ ? fahrenheit</li>
-                <li>5000 100-celsius ≈ ? fahrenheit</li>
-                <li>10000 100-celsius ≈ ? fahrenheit</li>
+                <li>500 100-celsius = 106000 fahrenheit</li>
+                <li>1000 100-celsius = 212000 fahrenheit</li>
+                <li>5000 100-celsius = 1060000 fahrenheit</li>
+                <li>10000 100-celsius = 2120000 fahrenheit</li>
               </ul>
             </div>
           </div>

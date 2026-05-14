@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Kg to Grams</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Kg to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? grams</li>
-                <li>10 kg ≈ ? grams</li>
-                <li>50 kg ≈ ? grams</li>
-                <li>100 kg ≈ ? grams</li>
+                <li>1 kg = 1000 grams</li>
+                <li>10 kg = 10000 grams</li>
+                <li>50 kg = 50000 grams</li>
+                <li>100 kg = 100000 grams</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Grams to Kg</h3>
+                <h3 className="text-lg font-semibold text-gray-900">G to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 grams ≈ ? kg</li>
-                <li>10 grams ≈ ? kg</li>
-                <li>50 grams ≈ ? kg</li>
-                <li>100 grams ≈ ? kg</li>
+                <li>1 grams = 0.001 kg</li>
+                <li>10 grams = 0.01 kg</li>
+                <li>50 grams = 0.05 kg</li>
+                <li>100 grams = 0.1 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? grams</li>
-                <li>1000 kg ≈ ? grams</li>
-                <li>5000 kg ≈ ? grams</li>
-                <li>10000 kg ≈ ? grams</li>
+                <li>500 kg = 500000 grams</li>
+                <li>1000 kg = 1000000 grams</li>
+                <li>5000 kg = 5000000 grams</li>
+                <li>10000 kg = 10000000 grams</li>
               </ul>
             </div>
           </div>

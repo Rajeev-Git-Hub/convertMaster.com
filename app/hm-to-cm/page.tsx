@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? cm</li>
-                <li>10 hm ≈ ? cm</li>
-                <li>50 hm ≈ ? cm</li>
-                <li>100 hm ≈ ? cm</li>
+                <li>1 hm = 10000 cm</li>
+                <li>10 hm = 100000 cm</li>
+                <li>50 hm = 500000 cm</li>
+                <li>100 hm = 1000000 cm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm ≈ ? hm</li>
-                <li>10 cm ≈ ? hm</li>
-                <li>50 cm ≈ ? hm</li>
-                <li>100 cm ≈ ? hm</li>
+                <li>1 cm = 0.0001 hm</li>
+                <li>10 cm = 0.001 hm</li>
+                <li>50 cm = 0.005 hm</li>
+                <li>100 cm = 0.01 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hm ≈ ? cm</li>
-                <li>1000 hm ≈ ? cm</li>
-                <li>5000 hm ≈ ? cm</li>
-                <li>10000 hm ≈ ? cm</li>
+                <li>500 hm = 5000000 cm</li>
+                <li>1000 hm = 10000000 cm</li>
+                <li>5000 hm = 50000000 cm</li>
+                <li>10000 hm = 100000000 cm</li>
               </ul>
             </div>
           </div>

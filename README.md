@@ -1,22 +1,24 @@
 # Unit Conversion App
 
-🚀 **Professional Unit Converter with Analytics Dashboard & Universal Search**
+🚀 **ConvertMaster - Professional Unit Conversion Platform**
 
-A comprehensive and user-friendly unit conversion application built with Next.js 13. This premium tool features 50+ converters, real-time analytics dashboard, universal search, and a modern UI/UX design trusted by engineers, students, and developers worldwide.
+A comprehensive unit conversion application built with Next.js 13. This premium tool features unit converters, PDF tools, developer utilities, and a blog with practical guides - all with a modern UI/UX design trusted by engineers, students, and developers worldwide.
 
 ## ✨ **Key Features**
 
-### 🎯 **MVP Features**
-- **🔍 Universal Search**: Search across 50+ converters with intelligent auto-complete
-- **📊 Analytics Dashboard**: Track conversion patterns and optimize workflow
-- **🎨 Premium UI/UX**: Professional design with gradients, animations, and dark mode
+### 🎯 **Main Sections**
+- **� Unit Converters**: 50+ converters across multiple categories
+- **📄 PDF Tools**: Merge, Split, Compress, Convert PDFs
+- **�️ Developer Tools**: Base64, JSON, URL encoding, and more
+- **📝 Blog**: Practical guides on conversions and measurements
+- **🎨 Premium UI/UX**: Professional design with gradients and animations
 
 ### 📱 **Core Functionality**
-- **50+ Converters**: Length, Weight, Temperature, Data, Speed, Time, Volume, Area, and more
-- **Real-time Conversion**: Instant results as you type
-- **Batch Processing**: Upload CSV files for multiple conversions
+- **50+ Unit Converters**: Length, Weight, Temperature, Data, and more
+- **9 PDF Tools**: Complete PDF manipulation suite
+- **Developer Utilities**: Essential encoding and formatting tools
 - **Responsive Design**: Perfect on desktop, tablet, and mobile
-- **Dark Mode Support**: Complete dark theme implementation
+- **Light Theme**: Consistent, professional styling throughout
 
 ### 🛠️ **Technical Stack**
 - **Frontend**: Next.js 13, React, TypeScript, Tailwind CSS
@@ -66,26 +68,28 @@ A comprehensive and user-friendly unit conversion application built with Next.js
 
 ## 🎯 **Usage Guide**
 
-### 🔍 **Universal Search**
-- Type any converter name or category in the search box
-- Get instant results with intelligent suggestions
-- Access all 50+ converters from one search bar
+### � **Unit Converters**
+1. Navigate to `/unit-conversion/`
+2. Select conversion category (Length, Weight, etc.)
+3. Choose source and target units
+4. Enter value - results appear instantly
 
-### 📊 **Analytics Dashboard**
-- Track your conversion history
-- Analyze usage patterns
-- Monitor performance metrics
-- Optimize your workflow
+### � **PDF Tools**
+1. Navigate to `/pdf-conversion/`
+2. Select desired PDF operation
+3. Upload your PDF file
+4. Process and download result
 
-### 📱 **Single Conversion**
-1. Select conversion category (Length, Weight, etc.)
-2. Choose source and target units
-3. Enter value - results appear instantly
+### �️ **Developer Tools**
+1. Navigate to `/tools-conversion/`
+2. Choose utility (Base64, JSON, etc.)
+3. Input your data
+4. Get instant results
 
-### 📄 **Batch Conversion**
-1. Navigate to Batch Conversion
-2. Upload CSV with conversion data
-3. Download converted results
+### � **Blog**
+1. Navigate to `/blog/`
+2. Browse practical guides and tips
+3. Read detailed conversion tutorials
 
 ## 🌟 **Available Categories**
 
@@ -103,10 +107,10 @@ A comprehensive and user-friendly unit conversion application built with Next.js
 
 ## 🎨 **Design Highlights**
 
-- **Premium Gradients**: Modern color schemes throughout
+- **Premium Gradients**: Modern blue color scheme throughout
 - **Micro-interactions**: Hover effects, transitions, animations
-- **Dark Mode**: Complete dark theme support
-- **Responsive**: Perfect on all screen sizes
+- **Light Theme**: Consistent professional styling
+- **Responsive**: Optimized for all screen sizes
 - **Professional Typography**: Clear hierarchy and readability
 
 ## 📊 **Trust & Credibility**
@@ -118,21 +122,27 @@ A comprehensive and user-friendly unit conversion application built with Next.js
 
 ## 🔧 **Development**
 
-### Database Setup
-```bash
-# Start PostgreSQL (optional, uses SQLite by default)
-npm run db:up
-
-# Run migrations
-npm run db:migrate
+### Project Structure
 ```
+app/
+├── unit-conversion/          # Unit converter pages
+├── pdf-conversion/           # PDF tool pages  
+├── tools-conversion/         # Developer utilities
+├── blog/                    # Blog posts and listings
+├── convertMaster.com/        # Main landing page
+└── [converter]/             # Dynamic converter routes
 
-### API Endpoints
-- `POST /api/auth/signup` - User registration
-- `POST /api/auth/login` - User authentication
-- `POST /api/auth/logout` - Clear session
-- `GET /api/auth/me` - Current user info
-- `GET/POST /api/converters` - Saved converters
+components/
+├── Layout.tsx               # Main layout with navigation
+├── ConverterCard.tsx        # Unit converter component
+├── PDFConversionClient.tsx   # PDF tools component
+└── ...
+
+lib/
+├── converters/              # Conversion logic
+├── categories.ts            # Category definitions
+└── LocalizationContext.tsx  # Internationalization
+```
 
 ## 🚀 **Deployment**
 

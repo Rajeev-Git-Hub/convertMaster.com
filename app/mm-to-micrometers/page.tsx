@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm ≈ ? micrometers</li>
-                <li>10 mm ≈ ? micrometers</li>
-                <li>50 mm ≈ ? micrometers</li>
-                <li>100 mm ≈ ? micrometers</li>
+                <li>1 mm = 1000 micrometers</li>
+                <li>10 mm = 10000 micrometers</li>
+                <li>50 mm = 50000 micrometers</li>
+                <li>100 mm = 100000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? mm</li>
-                <li>10 micrometers ≈ ? mm</li>
-                <li>50 micrometers ≈ ? mm</li>
-                <li>100 micrometers ≈ ? mm</li>
+                <li>1 micrometers = 0.001 mm</li>
+                <li>10 micrometers = 0.01 mm</li>
+                <li>50 micrometers = 0.05 mm</li>
+                <li>100 micrometers = 0.1 mm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm ≈ ? micrometers</li>
-                <li>1000 mm ≈ ? micrometers</li>
-                <li>5000 mm ≈ ? micrometers</li>
-                <li>10000 mm ≈ ? micrometers</li>
+                <li>500 mm = 500000 micrometers</li>
+                <li>1000 mm = 1000000 micrometers</li>
+                <li>5000 mm = 5000000 micrometers</li>
+                <li>10000 mm = 10000000 micrometers</li>
               </ul>
             </div>
           </div>

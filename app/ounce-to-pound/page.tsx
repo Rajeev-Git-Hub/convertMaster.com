@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? pound</li>
-                <li>10 ounce ≈ ? pound</li>
-                <li>50 ounce ≈ ? pound</li>
-                <li>100 ounce ≈ ? pound</li>
+                <li>1 ounce = 0.0625 pound</li>
+                <li>10 ounce = 0.625 pound</li>
+                <li>50 ounce = 3.125 pound</li>
+                <li>100 ounce = 6.25 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? ounce</li>
-                <li>10 pound ≈ ? ounce</li>
-                <li>50 pound ≈ ? ounce</li>
-                <li>100 pound ≈ ? ounce</li>
+                <li>1 pound = 16 ounce</li>
+                <li>10 pound = 160 ounce</li>
+                <li>50 pound = 800 ounce</li>
+                <li>100 pound = 1600 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ounce ≈ ? pound</li>
-                <li>1000 ounce ≈ ? pound</li>
-                <li>5000 ounce ≈ ? pound</li>
-                <li>10000 ounce ≈ ? pound</li>
+                <li>500 ounce = 31.25 pound</li>
+                <li>1000 ounce = 62.5 pound</li>
+                <li>5000 ounce = 312.5 pound</li>
+                <li>10000 ounce = 625 pound</li>
               </ul>
             </div>
           </div>

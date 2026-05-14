@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? g</li>
-                <li>10 ng ≈ ? g</li>
-                <li>50 ng ≈ ? g</li>
-                <li>100 ng ≈ ? g</li>
+                <li>1 ng = 0.000000001 g</li>
+                <li>10 ng = 0.00000001 g</li>
+                <li>50 ng = 0.00000005 g</li>
+                <li>100 ng = 0.0000001 g</li>
               </ul>
             </div>
             <div className="card p-6">

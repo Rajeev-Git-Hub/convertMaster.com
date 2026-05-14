@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kelvin to Rankine</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kelvin ≈ ? rankine</li>
-                <li>10 kelvin ≈ ? rankine</li>
-                <li>50 kelvin ≈ ? rankine</li>
-                <li>100 kelvin ≈ ? rankine</li>
+                <li>1 kelvin = 1.8 rankine</li>
+                <li>10 kelvin = 18 rankine</li>
+                <li>50 kelvin = 90 rankine</li>
+                <li>100 kelvin = 180 rankine</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine ≈ ? kelvin</li>
-                <li>10 rankine ≈ ? kelvin</li>
-                <li>50 rankine ≈ ? kelvin</li>
-                <li>100 rankine ≈ ? kelvin</li>
+                <li>1 rankine = 0.56 kelvin</li>
+                <li>10 rankine = 5.56 kelvin</li>
+                <li>50 rankine = 27.78 kelvin</li>
+                <li>100 rankine = 55.56 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kelvin ≈ ? rankine</li>
-                <li>1000 kelvin ≈ ? rankine</li>
-                <li>5000 kelvin ≈ ? rankine</li>
-                <li>10000 kelvin ≈ ? rankine</li>
+                <li>500 kelvin = 900 rankine</li>
+                <li>1000 kelvin = 1800 rankine</li>
+                <li>5000 kelvin = 9000 rankine</li>
+                <li>10000 kelvin = 18000 rankine</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Fahrenheit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine ≈ ? fahrenheit</li>
-                <li>10 rankine ≈ ? fahrenheit</li>
-                <li>50 rankine ≈ ? fahrenheit</li>
-                <li>100 rankine ≈ ? fahrenheit</li>
+                <li>1 rankine = -458.67 fahrenheit</li>
+                <li>10 rankine = -449.67 fahrenheit</li>
+                <li>50 rankine = -409.67 fahrenheit</li>
+                <li>100 rankine = -359.67 fahrenheit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Rankine</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit ≈ ? rankine</li>
-                <li>10 fahrenheit ≈ ? rankine</li>
-                <li>50 fahrenheit ≈ ? rankine</li>
-                <li>100 fahrenheit ≈ ? rankine</li>
+                <li>1 fahrenheit = 460.67 rankine</li>
+                <li>10 fahrenheit = 469.67 rankine</li>
+                <li>50 fahrenheit = 509.67 rankine</li>
+                <li>100 fahrenheit = 559.67 rankine</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 rankine ≈ ? fahrenheit</li>
-                <li>1000 rankine ≈ ? fahrenheit</li>
-                <li>5000 rankine ≈ ? fahrenheit</li>
-                <li>10000 rankine ≈ ? fahrenheit</li>
+                <li>500 rankine = 39.67 fahrenheit</li>
+                <li>1000 rankine = 540.67 fahrenheit</li>
+                <li>5000 rankine = 4540.67 fahrenheit</li>
+                <li>10000 rankine = 9540.67 fahrenheit</li>
               </ul>
             </div>
           </div>

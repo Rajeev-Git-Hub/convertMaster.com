@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Grams to Ounces</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 grams ≈ ? ounces</li>
-                <li>10 grams ≈ ? ounces</li>
-                <li>50 grams ≈ ? ounces</li>
-                <li>100 grams ≈ ? ounces</li>
+                <li>1 grams = 0.0353 ounces</li>
+                <li>10 grams = 0.353 ounces</li>
+                <li>50 grams = 1.764 ounces</li>
+                <li>100 grams = 3.527 ounces</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 grams ≈ ? ounces</li>
-                <li>1000 grams ≈ ? ounces</li>
-                <li>5000 grams ≈ ? ounces</li>
-                <li>10000 grams ≈ ? ounces</li>
+                <li>500 grams = 17.637 ounces</li>
+                <li>1000 grams = 35.274 ounces</li>
+                <li>5000 grams = 176.37 ounces</li>
+                <li>10000 grams = 352.74 ounces</li>
               </ul>
             </div>
           </div>

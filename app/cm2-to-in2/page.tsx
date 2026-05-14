@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? in2</li>
-                <li>10 cm2 ≈ ? in2</li>
-                <li>50 cm2 ≈ ? in2</li>
-                <li>100 cm2 ≈ ? in2</li>
+                <li>1 cm² = 0.155 in²</li>
+                <li>10 cm² = 1.55 in²</li>
+                <li>50 cm² = 7.75 in²</li>
+                <li>100 cm² = 15.5 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? cm2</li>
-                <li>10 in2 ≈ ? cm2</li>
-                <li>50 in2 ≈ ? cm2</li>
-                <li>100 in2 ≈ ? cm2</li>
+                <li>1 in² = 6.452 cm²</li>
+                <li>10 in² = 64.52 cm²</li>
+                <li>50 in² = 322.6 cm²</li>
+                <li>100 in² = 645.2 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm2 ≈ ? in2</li>
-                <li>1000 cm2 ≈ ? in2</li>
-                <li>5000 cm2 ≈ ? in2</li>
-                <li>10000 cm2 ≈ ? in2</li>
+                <li>500 cm² = 77.5 in²</li>
+                <li>1000 cm² = 155 in²</li>
+                <li>5000 cm² = 775 in²</li>
+                <li>10000 cm² = 1550 in²</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? dam</li>
-                <li>10 km ≈ ? dam</li>
-                <li>50 km ≈ ? dam</li>
-                <li>100 km ≈ ? dam</li>
+                <li>1 km = 100 dam</li>
+                <li>10 km = 1000 dam</li>
+                <li>50 km = 5000 dam</li>
+                <li>100 km = 10000 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? km</li>
-                <li>10 dam ≈ ? km</li>
-                <li>50 dam ≈ ? km</li>
-                <li>100 dam ≈ ? km</li>
+                <li>1 dam = 0.01 km</li>
+                <li>10 dam = 0.1 km</li>
+                <li>50 dam = 0.5 km</li>
+                <li>100 dam = 1 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km ≈ ? dam</li>
-                <li>1000 km ≈ ? dam</li>
-                <li>5000 km ≈ ? dam</li>
-                <li>10000 km ≈ ? dam</li>
+                <li>500 km = 5000 dam</li>
+                <li>1000 km = 10000 dam</li>
+                <li>5000 km = 50000 dam</li>
+                <li>10000 km = 100000 dam</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit ≈ ? kelvin</li>
-                <li>10 fahrenheit ≈ ? kelvin</li>
-                <li>50 fahrenheit ≈ ? kelvin</li>
-                <li>100 fahrenheit ≈ ? kelvin</li>
+                <li>1 fahrenheit = 255.93 kelvin</li>
+                <li>10 fahrenheit = 260.93 kelvin</li>
+                <li>50 fahrenheit = 283.15 kelvin</li>
+                <li>100 fahrenheit = 310.93 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kelvin to Fahrenheit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kelvin ≈ ? fahrenheit</li>
-                <li>10 kelvin ≈ ? fahrenheit</li>
-                <li>50 kelvin ≈ ? fahrenheit</li>
-                <li>100 kelvin ≈ ? fahrenheit</li>
+                <li>1 kelvin = -457.87 fahrenheit</li>
+                <li>10 kelvin = -441.67 fahrenheit</li>
+                <li>50 kelvin = -369.67 fahrenheit</li>
+                <li>100 kelvin = -279.67 fahrenheit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 fahrenheit ≈ ? kelvin</li>
-                <li>1000 fahrenheit ≈ ? kelvin</li>
-                <li>5000 fahrenheit ≈ ? kelvin</li>
-                <li>10000 fahrenheit ≈ ? kelvin</li>
+                <li>500 fahrenheit = 533.15 kelvin</li>
+                <li>1000 fahrenheit = 810.93 kelvin</li>
+                <li>5000 fahrenheit = 3033.15 kelvin</li>
+                <li>10000 fahrenheit = 5555.37 kelvin</li>
               </ul>
             </div>
           </div>

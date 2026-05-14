@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Reaumur to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 reaumur ≈ ? kelvin</li>
-                <li>10 reaumur ≈ ? kelvin</li>
-                <li>50 reaumur ≈ ? kelvin</li>
-                <li>100 reaumur ≈ ? kelvin</li>
+                <li>1 reaumur = 278.15 kelvin</li>
+                <li>10 reaumur = 298.15 kelvin</li>
+                <li>50 reaumur = 398.15 kelvin</li>
+                <li>100 reaumur = 518.15 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kelvin to Reaumur</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kelvin ≈ ? reaumur</li>
-                <li>10 kelvin ≈ ? reaumur</li>
-                <li>50 kelvin ≈ ? reaumur</li>
-                <li>100 kelvin ≈ ? reaumur</li>
+                <li>1 kelvin = -217.72 reaumur</li>
+                <li>10 kelvin = -210.52 reaumur</li>
+                <li>50 kelvin = -178.52 reaumur</li>
+                <li>100 kelvin = -138.52 reaumur</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 reaumur ≈ ? kelvin</li>
-                <li>1000 reaumur ≈ ? kelvin</li>
-                <li>5000 reaumur ≈ ? kelvin</li>
-                <li>10000 reaumur ≈ ? kelvin</li>
+                <li>500 reaumur = 898.15 kelvin</li>
+                <li>1000 reaumur = 1478.15 kelvin</li>
+                <li>5000 reaumur = 6478.15 kelvin</li>
+                <li>10000 reaumur = 12778.15 kelvin</li>
               </ul>
             </div>
           </div>

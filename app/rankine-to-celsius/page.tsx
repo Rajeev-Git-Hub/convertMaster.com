@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine ≈ ? celsius</li>
-                <li>10 rankine ≈ ? celsius</li>
-                <li>50 rankine ≈ ? celsius</li>
-                <li>100 rankine ≈ ? celsius</li>
+                <li>1 rankine = -272.59 celsius</li>
+                <li>10 rankine = -267.59 celsius</li>
+                <li>50 rankine = -247.59 celsius</li>
+                <li>100 rankine = -217.59 celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Celsius to Rankine</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 celsius ≈ ? rankine</li>
-                <li>10 celsius ≈ ? rankine</li>
-                <li>50 celsius ≈ ? rankine</li>
-                <li>100 celsius ≈ ? rankine</li>
+                <li>1 celsius = 493.47 rankine</li>
+                <li>10 celsius = 509.67 rankine</li>
+                <li>50 celsius = 581.67 rankine</li>
+                <li>100 celsius = 671.67 rankine</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 rankine ≈ ? celsius</li>
-                <li>1000 rankine ≈ ? celsius</li>
-                <li>5000 rankine ≈ ? celsius</li>
-                <li>10000 rankine ≈ ? celsius</li>
+                <li>500 rankine = 4.26 celsius</li>
+                <li>1000 rankine = 282.59 celsius</li>
+                <li>5000 rankine = 2515.93 celsius</li>
+                <li>10000 rankine = 5304.26 celsius</li>
               </ul>
             </div>
           </div>

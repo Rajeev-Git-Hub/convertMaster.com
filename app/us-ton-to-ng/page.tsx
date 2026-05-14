@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton ≈ ? ng</li>
-                <li>10 us-ton ≈ ? ng</li>
-                <li>50 us-ton ≈ ? ng</li>
-                <li>100 us-ton ≈ ? ng</li>
+                <li>1 us-ton = 907185000000000 ng</li>
+                <li>10 us-ton = 9071850000000000 ng</li>
+                <li>50 us-ton = 45359250000000000 ng</li>
+                <li>100 us-ton = 90718500000000000 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? us-ton</li>
-                <li>10 ng ≈ ? us-ton</li>
-                <li>50 ng ≈ ? us-ton</li>
-                <li>100 ng ≈ ? us-ton</li>
+                <li>1 ng = 0.000000000001102 us-ton</li>
+                <li>10 ng = 0.00000000001102 us-ton</li>
+                <li>50 ng = 0.0000000000551 us-ton</li>
+                <li>100 ng = 0.0000000001102 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 us-ton ≈ ? ng</li>
-                <li>1000 us-ton ≈ ? ng</li>
-                <li>5000 us-ton ≈ ? ng</li>
-                <li>10000 us-ton ≈ ? ng</li>
+                <li>500 us-ton = 453592500000000 ng</li>
+                <li>1000 us-ton = 907185000000000 ng</li>
+                <li>5000 us-ton = 4535925000000000 ng</li>
+                <li>10000 us-ton = 9071850000000000 ng</li>
               </ul>
             </div>
           </div>

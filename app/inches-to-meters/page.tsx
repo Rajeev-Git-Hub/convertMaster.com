@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? meters</li>
-                <li>10 inches ≈ ? meters</li>
-                <li>50 inches ≈ ? meters</li>
-                <li>100 inches ≈ ? meters</li>
+                <li>1 inches = 0.0254 meters</li>
+                <li>10 inches = 0.254 meters</li>
+                <li>50 inches = 1.27 meters</li>
+                <li>100 inches = 2.54 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? inches</li>
-                <li>10 meters ≈ ? inches</li>
-                <li>50 meters ≈ ? inches</li>
-                <li>100 meters ≈ ? inches</li>
+                <li>1 meters = 39.37 inches</li>
+                <li>10 meters = 393.701 inches</li>
+                <li>50 meters = 1968.5 inches</li>
+                <li>100 meters = 3937.01 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? meters</li>
-                <li>1000 inches ≈ ? meters</li>
-                <li>5000 inches ≈ ? meters</li>
-                <li>10000 inches ≈ ? meters</li>
+                <li>500 inches = 12.7 meters</li>
+                <li>1000 inches = 25.4 meters</li>
+                <li>5000 inches = 127 meters</li>
+                <li>10000 inches = 254 meters</li>
               </ul>
             </div>
           </div>

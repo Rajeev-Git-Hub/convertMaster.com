@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Eb to Kbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 eb ≈ ? kbit</li>
-                <li>10 eb ≈ ? kbit</li>
-                <li>50 eb ≈ ? kbit</li>
-                <li>100 eb ≈ ? kbit</li>
+                <li>1 eb = ? kbit</li>
+                <li>10 eb = ? kbit</li>
+                <li>50 eb = ? kbit</li>
+                <li>100 eb = ? kbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kbit to Eb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kbit ≈ ? eb</li>
-                <li>10 kbit ≈ ? eb</li>
-                <li>50 kbit ≈ ? eb</li>
-                <li>100 kbit ≈ ? eb</li>
+                <li>1 kbit = ? eb</li>
+                <li>10 kbit = ? eb</li>
+                <li>50 kbit = ? eb</li>
+                <li>100 kbit = ? eb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 eb ≈ ? kbit</li>
-                <li>1000 eb ≈ ? kbit</li>
-                <li>5000 eb ≈ ? kbit</li>
-                <li>10000 eb ≈ ? kbit</li>
+                <li>500 eb = ? kbit</li>
+                <li>1000 eb = ? kbit</li>
+                <li>5000 eb = ? kbit</li>
+                <li>10000 eb = ? kbit</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? kg</li>
-                <li>10 ng ≈ ? kg</li>
-                <li>50 ng ≈ ? kg</li>
-                <li>100 ng ≈ ? kg</li>
+                <li>1 ng = 0.000000001 kg</li>
+                <li>10 ng = 0.00000001 kg</li>
+                <li>50 ng = 0.00000005 kg</li>
+                <li>100 ng = 0.0000001 kg</li>
               </ul>
             </div>
             <div className="card p-6">

@@ -20,6 +20,7 @@ export default function LengthConverterLandingPage() {
       <div className="container py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
+          <div className="h-16" />
           <h1 className="hero-gradient text-4xl font-bold mb-4">Length Converter</h1>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">
             Convert between meters, feet, inches, kilometers, miles, and more
@@ -75,8 +76,8 @@ export default function LengthConverterLandingPage() {
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>1 inch = 2.54 centimeters</li>
-                <li>5 inches = 12.7 centimeters</li>
-                <li>10 inches = 25.4 centimeters</li>
+                <li>5 inches = 12.70 centimeters</li>
+                <li>10 inches = 25.40 centimeters</li>
                 <li>12 inches = 30.48 centimeters</li>
               </ul>
             </div>

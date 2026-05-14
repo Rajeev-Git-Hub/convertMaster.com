@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? meters</li>
-                <li>10 km ≈ ? meters</li>
-                <li>50 km ≈ ? meters</li>
-                <li>100 km ≈ ? meters</li>
+                <li>1 km = 1000 meters</li>
+                <li>10 km = 10000 meters</li>
+                <li>50 km = 50000 meters</li>
+                <li>100 km = 100000 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? km</li>
-                <li>10 meters ≈ ? km</li>
-                <li>50 meters ≈ ? km</li>
-                <li>100 meters ≈ ? km</li>
+                <li>1 meters = 0.001 km</li>
+                <li>10 meters = 0.01 km</li>
+                <li>50 meters = 0.05 km</li>
+                <li>100 meters = 0.1 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km ≈ ? meters</li>
-                <li>1000 km ≈ ? meters</li>
-                <li>5000 km ≈ ? meters</li>
-                <li>10000 km ≈ ? meters</li>
+                <li>500 km = 500000 meters</li>
+                <li>1000 km = 1000000 meters</li>
+                <li>5000 km = 5000000 meters</li>
+                <li>10000 km = 10000000 meters</li>
               </ul>
             </div>
           </div>

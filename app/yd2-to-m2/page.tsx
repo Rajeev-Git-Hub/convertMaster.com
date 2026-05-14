@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? m2</li>
-                <li>10 yd2 ≈ ? m2</li>
-                <li>50 yd2 ≈ ? m2</li>
-                <li>100 yd2 ≈ ? m2</li>
+                <li>1 yd² = 0.836 m²</li>
+                <li>10 yd² = 8.36 m²</li>
+                <li>50 yd² = 41.8 m²</li>
+                <li>100 yd² = 83.6 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? yd2</li>
-                <li>10 m2 ≈ ? yd2</li>
-                <li>50 m2 ≈ ? yd2</li>
-                <li>100 m2 ≈ ? yd2</li>
+                <li>1 m² = 1.196 yd²</li>
+                <li>10 m² = 11.96 yd²</li>
+                <li>50 m² = 59.8 yd²</li>
+                <li>100 m² = 119.6 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yd2 ≈ ? m2</li>
-                <li>1000 yd2 ≈ ? m2</li>
-                <li>5000 yd2 ≈ ? m2</li>
-                <li>10000 yd2 ≈ ? m2</li>
+                <li>500 yd² = 418 m²</li>
+                <li>1000 yd² = 836 m²</li>
+                <li>5000 yd² = 4180 m²</li>
+                <li>10000 yd² = 8360 m²</li>
               </ul>
             </div>
           </div>

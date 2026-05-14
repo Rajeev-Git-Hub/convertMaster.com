@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm ≈ ? inches</li>
-                <li>10 cm ≈ ? inches</li>
-                <li>50 cm ≈ ? inches</li>
-                <li>100 cm ≈ ? inches</li>
+                <li>1 cm = 0.39 inches</li>
+                <li>10 cm = 3.94 inches</li>
+                <li>50 cm = 19.69 inches</li>
+                <li>100 cm = 39.37 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? cm</li>
-                <li>10 inches ≈ ? cm</li>
-                <li>50 inches ≈ ? cm</li>
-                <li>100 inches ≈ ? cm</li>
+                <li>1 inches = 2.54 cm</li>
+                <li>10 inches = 25.4 cm</li>
+                <li>50 inches = 127 cm</li>
+                <li>100 inches = 254 cm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm ≈ ? inches</li>
-                <li>1000 cm ≈ ? inches</li>
-                <li>5000 cm ≈ ? inches</li>
-                <li>10000 cm ≈ ? inches</li>
+                <li>500 cm = 196.85 inches</li>
+                <li>1000 cm = 393.7 inches</li>
+                <li>5000 cm = 1968.5 inches</li>
+                <li>10000 cm = 3937 inches</li>
               </ul>
             </div>
           </div>

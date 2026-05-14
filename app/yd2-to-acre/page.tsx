@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? acre</li>
-                <li>10 yd2 ≈ ? acre</li>
-                <li>50 yd2 ≈ ? acre</li>
-                <li>100 yd2 ≈ ? acre</li>
+                <li>1 yd² = 0.000206 acre</li>
+                <li>10 yd² = 0.00206 acre</li>
+                <li>50 yd² = 0.0103 acre</li>
+                <li>100 yd² = 0.0206 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? yd2</li>
-                <li>10 acre ≈ ? yd2</li>
-                <li>50 acre ≈ ? yd2</li>
-                <li>100 acre ≈ ? yd2</li>
+                <li>1 acre = 4840 yd²</li>
+                <li>10 acre = 48400 yd²</li>
+                <li>50 acre = 242000 yd²</li>
+                <li>100 acre = 484000 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yd2 ≈ ? acre</li>
-                <li>1000 yd2 ≈ ? acre</li>
-                <li>5000 yd2 ≈ ? acre</li>
-                <li>10000 yd2 ≈ ? acre</li>
+                <li>500 yd² = 0.103 acre</li>
+                <li>1000 yd² = 0.206 acre</li>
+                <li>5000 yd² = 1.03 acre</li>
+                <li>10000 yd² = 2.06 acre</li>
               </ul>
             </div>
           </div>

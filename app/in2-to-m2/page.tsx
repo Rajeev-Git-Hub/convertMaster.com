@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? m2</li>
-                <li>10 in2 ≈ ? m2</li>
-                <li>50 in2 ≈ ? m2</li>
-                <li>100 in2 ≈ ? m2</li>
+                <li>1 in² = 0.000645 m²</li>
+                <li>10 in² = 0.00645 m²</li>
+                <li>50 in² = 0.0323 m²</li>
+                <li>100 in² = 0.0645 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? in2</li>
-                <li>10 m2 ≈ ? in2</li>
-                <li>50 m2 ≈ ? in2</li>
-                <li>100 m2 ≈ ? in2</li>
+                <li>1 m² = 1550 in²</li>
+                <li>10 m² = 15500 in²</li>
+                <li>50 m² = 77500 in²</li>
+                <li>100 m² = 155000 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 in2 ≈ ? m2</li>
-                <li>1000 in2 ≈ ? m2</li>
-                <li>5000 in2 ≈ ? m2</li>
-                <li>10000 in2 ≈ ? m2</li>
+                <li>500 in² = 0.323 m²</li>
+                <li>1000 in² = 0.645 m²</li>
+                <li>5000 in² = 3.23 m²</li>
+                <li>10000 in² = 6.45 m²</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? g</li>
-                <li>10 ounce ≈ ? g</li>
-                <li>50 ounce ≈ ? g</li>
-                <li>100 ounce ≈ ? g</li>
+                <li>1 ounce = 28.35 g</li>
+                <li>10 ounce = 283.5 g</li>
+                <li>50 ounce = 1417.5 g</li>
+                <li>100 ounce = 2835 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g ≈ ? ounce</li>
-                <li>10 g ≈ ? ounce</li>
-                <li>50 g ≈ ? ounce</li>
-                <li>100 g ≈ ? ounce</li>
+                <li>1 g = 0.0353 ounce</li>
+                <li>10 g = 0.353 ounce</li>
+                <li>50 g = 1.764 ounce</li>
+                <li>100 g = 3.527 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ounce ≈ ? g</li>
-                <li>1000 ounce ≈ ? g</li>
-                <li>5000 ounce ≈ ? g</li>
-                <li>10000 ounce ≈ ? g</li>
+                <li>500 ounce = 14175 g</li>
+                <li>1000 ounce = 28350 g</li>
+                <li>5000 ounce = 141750 g</li>
+                <li>10000 ounce = 283500 g</li>
               </ul>
             </div>
           </div>

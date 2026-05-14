@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Km2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">km² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 ≈ ? acre</li>
-                <li>10 km2 ≈ ? acre</li>
-                <li>50 km2 ≈ ? acre</li>
-                <li>100 km2 ≈ ? acre</li>
+                <li>1 km² = 247.1 acre</li>
+                <li>10 km² = 2471 acre</li>
+                <li>50 km² = 12355 acre</li>
+                <li>100 km² = 24710 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to Km2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to km²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? km2</li>
-                <li>10 acre ≈ ? km2</li>
-                <li>50 acre ≈ ? km2</li>
-                <li>100 acre ≈ ? km2</li>
+                <li>1 acre = 0.004046 km²</li>
+                <li>10 acre = 0.04046 km²</li>
+                <li>50 acre = 0.2023 km²</li>
+                <li>100 acre = 0.4046 km²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km2 ≈ ? acre</li>
-                <li>1000 km2 ≈ ? acre</li>
-                <li>5000 km2 ≈ ? acre</li>
-                <li>10000 km2 ≈ ? acre</li>
+                <li>500 km² = 123550 acre</li>
+                <li>1000 km² = 247100 acre</li>
+                <li>5000 km² = 1235500 acre</li>
+                <li>10000 km² = 2471000 acre</li>
               </ul>
             </div>
           </div>

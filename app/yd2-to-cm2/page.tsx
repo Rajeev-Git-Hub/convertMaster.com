@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? cm2</li>
-                <li>10 yd2 ≈ ? cm2</li>
-                <li>50 yd2 ≈ ? cm2</li>
-                <li>100 yd2 ≈ ? cm2</li>
+                <li>1 yd² = 8361 cm²</li>
+                <li>10 yd² = 83610 cm²</li>
+                <li>50 yd² = 418050 cm²</li>
+                <li>100 yd² = 836100 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? yd2</li>
-                <li>10 cm2 ≈ ? yd2</li>
-                <li>50 cm2 ≈ ? yd2</li>
-                <li>100 cm2 ≈ ? yd2</li>
+                <li>1 cm² = 0.00012 yd²</li>
+                <li>10 cm² = 0.0012 yd²</li>
+                <li>50 cm² = 0.00598 yd²</li>
+                <li>100 cm² = 0.01196 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yd2 ≈ ? cm2</li>
-                <li>1000 yd2 ≈ ? cm2</li>
-                <li>5000 yd2 ≈ ? cm2</li>
-                <li>10000 yd2 ≈ ? cm2</li>
+                <li>500 yd² = 4180500 cm²</li>
+                <li>1000 yd² = 8361000 cm²</li>
+                <li>5000 yd² = 41805000 cm²</li>
+                <li>10000 yd² = 83610000 cm²</li>
               </ul>
             </div>
           </div>

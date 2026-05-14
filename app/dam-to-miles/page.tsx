@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? miles</li>
-                <li>10 dam ≈ ? miles</li>
-                <li>50 dam ≈ ? miles</li>
-                <li>100 dam ≈ ? miles</li>
+                <li>1 dam = 0.006214 miles</li>
+                <li>10 dam = 0.062137 miles</li>
+                <li>50 dam = 0.310686 miles</li>
+                <li>100 dam = 0.621371 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? dam</li>
-                <li>10 miles ≈ ? dam</li>
-                <li>50 miles ≈ ? dam</li>
-                <li>100 miles ≈ ? dam</li>
+                <li>1 miles = 160.934 dam</li>
+                <li>10 miles = 1609.34 dam</li>
+                <li>50 miles = 8046.7 dam</li>
+                <li>100 miles = 16093.4 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dam ≈ ? miles</li>
-                <li>1000 dam ≈ ? miles</li>
-                <li>5000 dam ≈ ? miles</li>
-                <li>10000 dam ≈ ? miles</li>
+                <li>500 dam = 3.10686 miles</li>
+                <li>1000 dam = 6.21371 miles</li>
+                <li>5000 dam = 31.0686 miles</li>
+                <li>10000 dam = 62.1371 miles</li>
               </ul>
             </div>
           </div>

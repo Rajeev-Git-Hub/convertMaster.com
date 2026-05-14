@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? yards</li>
-                <li>10 inches ≈ ? yards</li>
-                <li>50 inches ≈ ? yards</li>
-                <li>100 inches ≈ ? yards</li>
+                <li>1 inches = 0.02778 yards</li>
+                <li>10 inches = 0.27778 yards</li>
+                <li>50 inches = 1.38889 yards</li>
+                <li>100 inches = 2.77778 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? inches</li>
-                <li>10 yards ≈ ? inches</li>
-                <li>50 yards ≈ ? inches</li>
-                <li>100 yards ≈ ? inches</li>
+                <li>1 yards = 36 inches</li>
+                <li>10 yards = 360 inches</li>
+                <li>50 yards = 1800 inches</li>
+                <li>100 yards = 3600 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? yards</li>
-                <li>1000 inches ≈ ? yards</li>
-                <li>5000 inches ≈ ? yards</li>
-                <li>10000 inches ≈ ? yards</li>
+                <li>500 inches = 13.8889 yards</li>
+                <li>1000 inches = 27.7778 yards</li>
+                <li>5000 inches = 138.889 yards</li>
+                <li>10000 inches = 277.778 yards</li>
               </ul>
             </div>
           </div>

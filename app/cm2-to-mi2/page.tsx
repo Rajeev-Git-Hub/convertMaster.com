@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to Mi2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to mi²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? mi2</li>
-                <li>10 cm2 ≈ ? mi2</li>
-                <li>50 cm2 ≈ ? mi2</li>
-                <li>100 cm2 ≈ ? mi2</li>
+                <li>1 cm² = 0.000000000386 mi²</li>
+                <li>10 cm² = 0.00000000386 mi²</li>
+                <li>50 cm² = 0.0000000193 mi²</li>
+                <li>100 cm² = 0.0000000386 mi²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mi2 to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mi² to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mi2 ≈ ? cm2</li>
-                <li>10 mi2 ≈ ? cm2</li>
-                <li>50 mi2 ≈ ? cm2</li>
-                <li>100 mi2 ≈ ? cm2</li>
+                <li>1 mi² = 25900000 cm²</li>
+                <li>10 mi² = 259000000 cm²</li>
+                <li>50 mi² = 1295000000 cm²</li>
+                <li>100 mi² = 2590000000 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm2 ≈ ? mi2</li>
-                <li>1000 cm2 ≈ ? mi2</li>
-                <li>5000 cm2 ≈ ? mi2</li>
-                <li>10000 cm2 ≈ ? mi2</li>
+                <li>500 cm² = 0.000000193 mi²</li>
+                <li>1000 cm² = 0.000000386 mi²</li>
+                <li>5000 cm² = 0.00000193 mi²</li>
+                <li>10000 cm² = 0.00000386 mi²</li>
               </ul>
             </div>
           </div>

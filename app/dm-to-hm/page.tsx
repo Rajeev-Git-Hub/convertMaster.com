@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? hm</li>
-                <li>10 dm ≈ ? hm</li>
-                <li>50 dm ≈ ? hm</li>
-                <li>100 dm ≈ ? hm</li>
+                <li>1 dm = 0.001 hm</li>
+                <li>10 dm = 0.01 hm</li>
+                <li>50 dm = 0.05 hm</li>
+                <li>100 dm = 0.1 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? dm</li>
-                <li>10 hm ≈ ? dm</li>
-                <li>50 hm ≈ ? dm</li>
-                <li>100 hm ≈ ? dm</li>
+                <li>1 hm = 1000 dm</li>
+                <li>10 hm = 10000 dm</li>
+                <li>50 hm = 50000 dm</li>
+                <li>100 hm = 100000 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm ≈ ? hm</li>
-                <li>1000 dm ≈ ? hm</li>
-                <li>5000 dm ≈ ? hm</li>
-                <li>10000 dm ≈ ? hm</li>
+                <li>500 dm = 0.5 hm</li>
+                <li>1000 dm = 1 hm</li>
+                <li>5000 dm = 5 hm</li>
+                <li>10000 dm = 10 hm</li>
               </ul>
             </div>
           </div>

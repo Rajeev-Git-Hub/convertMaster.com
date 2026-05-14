@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Celsius to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 celsius ≈ ? kelvin</li>
-                <li>10 celsius ≈ ? kelvin</li>
-                <li>50 celsius ≈ ? kelvin</li>
-                <li>100 celsius ≈ ? kelvin</li>
+                <li>1 celsius = 274.15 kelvin</li>
+                <li>10 celsius = 283.15 kelvin</li>
+                <li>50 celsius = 323.15 kelvin</li>
+                <li>100 celsius = 373.15 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kelvin to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kelvin ≈ ? celsius</li>
-                <li>10 kelvin ≈ ? celsius</li>
-                <li>50 kelvin ≈ ? celsius</li>
-                <li>100 kelvin ≈ ? celsius</li>
+                <li>1 kelvin = -273.15 celsius</li>
+                <li>10 kelvin = -263.15 celsius</li>
+                <li>50 kelvin = -223.15 celsius</li>
+                <li>100 kelvin = -173.15 celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 celsius ≈ ? kelvin</li>
-                <li>1000 celsius ≈ ? kelvin</li>
-                <li>5000 celsius ≈ ? kelvin</li>
-                <li>10000 celsius ≈ ? kelvin</li>
+                <li>500 celsius = 773.15 kelvin</li>
+                <li>1000 celsius = 1273.15 kelvin</li>
+                <li>5000 celsius = 5273.15 kelvin</li>
+                <li>10000 celsius = 10273.15 kelvin</li>
               </ul>
             </div>
           </div>

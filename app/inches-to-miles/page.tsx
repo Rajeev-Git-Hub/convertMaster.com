@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? miles</li>
-                <li>10 inches ≈ ? miles</li>
-                <li>50 inches ≈ ? miles</li>
-                <li>100 inches ≈ ? miles</li>
+                <li>1 inches = 0.0000158 miles</li>
+                <li>10 inches = 0.000158 miles</li>
+                <li>50 inches = 0.000789 miles</li>
+                <li>100 inches = 0.001579 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? inches</li>
-                <li>10 miles ≈ ? inches</li>
-                <li>50 miles ≈ ? inches</li>
-                <li>100 miles ≈ ? inches</li>
+                <li>1 miles = 63360 inches</li>
+                <li>10 miles = 633600 inches</li>
+                <li>50 miles = 3168000 inches</li>
+                <li>100 miles = 6336000 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? miles</li>
-                <li>1000 inches ≈ ? miles</li>
-                <li>5000 inches ≈ ? miles</li>
-                <li>10000 inches ≈ ? miles</li>
+                <li>500 inches = 0.007891 miles</li>
+                <li>1000 inches = 0.015789 miles</li>
+                <li>5000 inches = 0.078945 miles</li>
+                <li>10000 inches = 0.157891 miles</li>
               </ul>
             </div>
           </div>

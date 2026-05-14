@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? cm2</li>
-                <li>10 ft2 ≈ ? cm2</li>
-                <li>50 ft2 ≈ ? cm2</li>
-                <li>100 ft2 ≈ ? cm2</li>
+                <li>1 ft² = 929 cm²</li>
+                <li>10 ft² = 9290 cm²</li>
+                <li>50 ft² = 46450 cm²</li>
+                <li>100 ft² = 92900 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? ft2</li>
-                <li>10 cm2 ≈ ? ft2</li>
-                <li>50 cm2 ≈ ? ft2</li>
-                <li>100 cm2 ≈ ? ft2</li>
+                <li>1 cm² = 0.001076 ft²</li>
+                <li>10 cm² = 0.01076 ft²</li>
+                <li>50 cm² = 0.0538 ft²</li>
+                <li>100 cm² = 0.1076 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ft2 ≈ ? cm2</li>
-                <li>1000 ft2 ≈ ? cm2</li>
-                <li>5000 ft2 ≈ ? cm2</li>
-                <li>10000 ft2 ≈ ? cm2</li>
+                <li>500 ft² = 464500 cm²</li>
+                <li>1000 ft² = 929000 cm²</li>
+                <li>5000 ft² = 4645000 cm²</li>
+                <li>10000 ft² = 9290000 cm²</li>
               </ul>
             </div>
           </div>

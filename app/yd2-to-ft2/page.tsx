@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? ft2</li>
-                <li>10 yd2 ≈ ? ft2</li>
-                <li>50 yd2 ≈ ? ft2</li>
-                <li>100 yd2 ≈ ? ft2</li>
+                <li>1 yd² = 9 ft²</li>
+                <li>10 yd² = 90 ft²</li>
+                <li>50 yd² = 450 ft²</li>
+                <li>100 yd² = 900 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? yd2</li>
-                <li>10 ft2 ≈ ? yd2</li>
-                <li>50 ft2 ≈ ? yd2</li>
-                <li>100 ft2 ≈ ? yd2</li>
+                <li>1 ft² = 0.111 yd²</li>
+                <li>10 ft² = 1.11 yd²</li>
+                <li>50 ft² = 5.55 yd²</li>
+                <li>100 ft² = 11.1 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yd2 ≈ ? ft2</li>
-                <li>1000 yd2 ≈ ? ft2</li>
-                <li>5000 yd2 ≈ ? ft2</li>
-                <li>10000 yd2 ≈ ? ft2</li>
+                <li>500 yd² = 4500 ft²</li>
+                <li>1000 yd² = 9000 ft²</li>
+                <li>5000 yd² = 45000 ft²</li>
+                <li>10000 yd² = 90000 ft²</li>
               </ul>
             </div>
           </div>

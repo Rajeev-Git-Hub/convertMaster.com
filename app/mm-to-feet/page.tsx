@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm ≈ ? feet</li>
-                <li>10 mm ≈ ? feet</li>
-                <li>50 mm ≈ ? feet</li>
-                <li>100 mm ≈ ? feet</li>
+                <li>1 mm = 0.003281 feet</li>
+                <li>10 mm = 0.03281 feet</li>
+                <li>50 mm = 0.164042 feet</li>
+                <li>100 mm = 0.328084 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? mm</li>
-                <li>10 feet ≈ ? mm</li>
-                <li>50 feet ≈ ? mm</li>
-                <li>100 feet ≈ ? mm</li>
+                <li>1 feet = 304.8 mm</li>
+                <li>10 feet = 3048 mm</li>
+                <li>50 feet = 15240 mm</li>
+                <li>100 feet = 30480 mm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm ≈ ? feet</li>
-                <li>1000 mm ≈ ? feet</li>
-                <li>5000 mm ≈ ? feet</li>
-                <li>10000 mm ≈ ? feet</li>
+                <li>500 mm = 1.64042 feet</li>
+                <li>1000 mm = 3.28084 feet</li>
+                <li>5000 mm = 16.4042 feet</li>
+                <li>10000 mm = 32.8084 feet</li>
               </ul>
             </div>
           </div>

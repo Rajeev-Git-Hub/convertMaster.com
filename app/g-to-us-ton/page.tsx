@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g ≈ ? us-ton</li>
-                <li>10 g ≈ ? us-ton</li>
-                <li>50 g ≈ ? us-ton</li>
-                <li>100 g ≈ ? us-ton</li>
+                <li>1 g = 0.000001102 us-ton</li>
+                <li>10 g = 0.00001102 us-ton</li>
+                <li>50 g = 0.0000551 us-ton</li>
+                <li>100 g = 0.0001102 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton ≈ ? g</li>
-                <li>10 us-ton ≈ ? g</li>
-                <li>50 us-ton ≈ ? g</li>
-                <li>100 us-ton ≈ ? g</li>
+                <li>1 us-ton = 907185 g</li>
+                <li>10 us-ton = 9071850 g</li>
+                <li>50 us-ton = 45359250 g</li>
+                <li>100 us-ton = 90718500 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 g ≈ ? us-ton</li>
-                <li>1000 g ≈ ? us-ton</li>
-                <li>5000 g ≈ ? us-ton</li>
-                <li>10000 g ≈ ? us-ton</li>
+                <li>500 g = 0.000551 us-ton</li>
+                <li>1000 g = 0.001102 us-ton</li>
+                <li>5000 g = 0.00551 us-ton</li>
+                <li>10000 g = 0.01102 us-ton</li>
               </ul>
             </div>
           </div>

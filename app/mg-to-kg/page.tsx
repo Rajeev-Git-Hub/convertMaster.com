@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? kg</li>
-                <li>10 mg ≈ ? kg</li>
-                <li>50 mg ≈ ? kg</li>
-                <li>100 mg ≈ ? kg</li>
+                <li>1 mg = 0.000001 kg</li>
+                <li>10 mg = 0.00001 kg</li>
+                <li>50 mg = 0.00005 kg</li>
+                <li>100 mg = 0.0001 kg</li>
               </ul>
             </div>
             <div className="card p-6">

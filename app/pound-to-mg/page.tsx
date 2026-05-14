@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? mg</li>
-                <li>10 pound ≈ ? mg</li>
-                <li>50 pound ≈ ? mg</li>
-                <li>100 pound ≈ ? mg</li>
+                <li>1 pound = 453592.37 mg</li>
+                <li>10 pound = 4535923.7 mg</li>
+                <li>50 pound = 22679618.5 mg</li>
+                <li>100 pound = 45359237 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? pound</li>
-                <li>10 mg ≈ ? pound</li>
-                <li>50 mg ≈ ? pound</li>
-                <li>100 mg ≈ ? pound</li>
+                <li>1 mg = 0.000002205 pound</li>
+                <li>10 mg = 0.00002205 pound</li>
+                <li>50 mg = 0.00011025 pound</li>
+                <li>100 mg = 0.0002205 pound</li>
               </ul>
             </div>
             <div className="card p-6">

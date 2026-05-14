@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Km2 to Mi2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">km² to mi²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 ≈ ? mi2</li>
-                <li>10 km2 ≈ ? mi2</li>
-                <li>50 km2 ≈ ? mi2</li>
-                <li>100 km2 ≈ ? mi2</li>
+                <li>1 km² = 0.386 mi²</li>
+                <li>10 km² = 3.86 mi²</li>
+                <li>50 km² = 19.3 mi²</li>
+                <li>100 km² = 38.6 mi²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mi2 to Km2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mi² to km²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mi2 ≈ ? km2</li>
-                <li>10 mi2 ≈ ? km2</li>
-                <li>50 mi2 ≈ ? km2</li>
-                <li>100 mi2 ≈ ? km2</li>
+                <li>1 mi² = 2.59 km²</li>
+                <li>10 mi² = 25.9 km²</li>
+                <li>50 mi² = 129.5 km²</li>
+                <li>100 mi² = 259 km²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km2 ≈ ? mi2</li>
-                <li>1000 km2 ≈ ? mi2</li>
-                <li>5000 km2 ≈ ? mi2</li>
-                <li>10000 km2 ≈ ? mi2</li>
+                <li>500 km² = 193 mi²</li>
+                <li>1000 km² = 386 mi²</li>
+                <li>5000 km² = 1930 mi²</li>
+                <li>10000 km² = 3860 mi²</li>
               </ul>
             </div>
           </div>

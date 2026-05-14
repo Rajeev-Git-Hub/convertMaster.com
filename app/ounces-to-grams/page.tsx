@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ounces to Grams</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Ounce to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounces ≈ ? grams</li>
-                <li>10 ounces ≈ ? grams</li>
-                <li>50 ounces ≈ ? grams</li>
-                <li>100 ounces ≈ ? grams</li>
+                <li>1 ounces = 28.35 grams</li>
+                <li>10 ounces = 283.5 grams</li>
+                <li>50 ounces = 1417.5 grams</li>
+                <li>100 ounces = 2835 grams</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ounces ≈ ? grams</li>
-                <li>1000 ounces ≈ ? grams</li>
-                <li>5000 ounces ≈ ? grams</li>
-                <li>10000 ounces ≈ ? grams</li>
+                <li>500 ounces = 14175 grams</li>
+                <li>1000 ounces = 28350 grams</li>
+                <li>5000 ounces = 141750 grams</li>
+                <li>10000 ounces = 283500 grams</li>
               </ul>
             </div>
           </div>

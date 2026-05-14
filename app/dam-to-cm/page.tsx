@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? cm</li>
-                <li>10 dam ≈ ? cm</li>
-                <li>50 dam ≈ ? cm</li>
-                <li>100 dam ≈ ? cm</li>
+                <li>1 dam = 1000 cm</li>
+                <li>10 dam = 10000 cm</li>
+                <li>50 dam = 50000 cm</li>
+                <li>100 dam = 100000 cm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm ≈ ? dam</li>
-                <li>10 cm ≈ ? dam</li>
-                <li>50 cm ≈ ? dam</li>
-                <li>100 cm ≈ ? dam</li>
+                <li>1 cm = 0.001 dam</li>
+                <li>10 cm = 0.01 dam</li>
+                <li>50 cm = 0.05 dam</li>
+                <li>100 cm = 0.1 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dam ≈ ? cm</li>
-                <li>1000 dam ≈ ? cm</li>
-                <li>5000 dam ≈ ? cm</li>
-                <li>10000 dam ≈ ? cm</li>
+                <li>500 dam = 500000 cm</li>
+                <li>1000 dam = 1000000 cm</li>
+                <li>5000 dam = 5000000 cm</li>
+                <li>10000 dam = 10000000 cm</li>
               </ul>
             </div>
           </div>

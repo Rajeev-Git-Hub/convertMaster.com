@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Kg to Lbs</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Kg to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? lbs</li>
-                <li>10 kg ≈ ? lbs</li>
-                <li>50 kg ≈ ? lbs</li>
-                <li>100 kg ≈ ? lbs</li>
+                <li>1 kg = 2.205 lbs</li>
+                <li>10 kg = 22.05 lbs</li>
+                <li>50 kg = 110.23 lbs</li>
+                <li>100 kg = 220.46 lbs</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Lbs to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 lbs ≈ ? kg</li>
-                <li>10 lbs ≈ ? kg</li>
-                <li>50 lbs ≈ ? kg</li>
-                <li>100 lbs ≈ ? kg</li>
+                <li>1 lbs = 0.454 kg</li>
+                <li>10 lbs = 4.536 kg</li>
+                <li>50 lbs = 22.68 kg</li>
+                <li>100 lbs = 45.36 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? lbs</li>
-                <li>1000 kg ≈ ? lbs</li>
-                <li>5000 kg ≈ ? lbs</li>
-                <li>10000 kg ≈ ? lbs</li>
+                <li>500 kg = 1102.31 lbs</li>
+                <li>1000 kg = 2204.62 lbs</li>
+                <li>5000 kg = 11023.11 lbs</li>
+                <li>10000 kg = 22046.23 lbs</li>
               </ul>
             </div>
           </div>

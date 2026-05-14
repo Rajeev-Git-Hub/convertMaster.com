@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Km2 to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">km² to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 ≈ ? ft2</li>
-                <li>10 km2 ≈ ? ft2</li>
-                <li>50 km2 ≈ ? ft2</li>
-                <li>100 km2 ≈ ? ft2</li>
+                <li>1 km² = 10764000 ft²</li>
+                <li>10 km² = 107640000 ft²</li>
+                <li>50 km² = 538200000 ft²</li>
+                <li>100 km² = 1076400000 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to Km2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to km²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? km2</li>
-                <li>10 ft2 ≈ ? km2</li>
-                <li>50 ft2 ≈ ? km2</li>
-                <li>100 ft2 ≈ ? km2</li>
+                <li>1 ft² = 0.0000000929 km²</li>
+                <li>10 ft² = 0.000000929 km²</li>
+                <li>50 ft² = 0.000004645 km²</li>
+                <li>100 ft² = 0.00000929 km²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km2 ≈ ? ft2</li>
-                <li>1000 km2 ≈ ? ft2</li>
-                <li>5000 km2 ≈ ? ft2</li>
-                <li>10000 km2 ≈ ? ft2</li>
+                <li>500 km² = 5382000000 ft²</li>
+                <li>1000 km² = 10764000000 ft²</li>
+                <li>5000 km² = 53820000000 ft²</li>
+                <li>10000 km² = 107640000000 ft²</li>
               </ul>
             </div>
           </div>

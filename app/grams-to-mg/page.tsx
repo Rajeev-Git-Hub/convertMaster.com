@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Grams to Mg</h3>
+                <h3 className="text-lg font-semibold text-gray-900">G to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 grams ≈ ? mg</li>
-                <li>10 grams ≈ ? mg</li>
-                <li>50 grams ≈ ? mg</li>
-                <li>100 grams ≈ ? mg</li>
+                <li>1 grams = 1000 mg</li>
+                <li>10 grams = 10000 mg</li>
+                <li>50 grams = 50000 mg</li>
+                <li>100 grams = 100000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 grams ≈ ? mg</li>
-                <li>1000 grams ≈ ? mg</li>
-                <li>5000 grams ≈ ? mg</li>
-                <li>10000 grams ≈ ? mg</li>
+                <li>500 grams = 500000 mg</li>
+                <li>1000 grams = 1000000 mg</li>
+                <li>5000 grams = 5000000 mg</li>
+                <li>10000 grams = 10000000 mg</li>
               </ul>
             </div>
           </div>

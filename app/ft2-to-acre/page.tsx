@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? acre</li>
-                <li>10 ft2 ≈ ? acre</li>
-                <li>50 ft2 ≈ ? acre</li>
-                <li>100 ft2 ≈ ? acre</li>
+                <li>1 ft² = 0.0000229 acre</li>
+                <li>10 ft² = 0.000229 acre</li>
+                <li>50 ft² = 0.00115 acre</li>
+                <li>100 ft² = 0.00229 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? ft2</li>
-                <li>10 acre ≈ ? ft2</li>
-                <li>50 acre ≈ ? ft2</li>
-                <li>100 acre ≈ ? ft2</li>
+                <li>1 acre = 43560 ft²</li>
+                <li>10 acre = 435600 ft²</li>
+                <li>50 acre = 2178000 ft²</li>
+                <li>100 acre = 4356000 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ft2 ≈ ? acre</li>
-                <li>1000 ft2 ≈ ? acre</li>
-                <li>5000 ft2 ≈ ? acre</li>
-                <li>10000 ft2 ≈ ? acre</li>
+                <li>500 ft² = 0.0115 acre</li>
+                <li>1000 ft² = 0.0229 acre</li>
+                <li>5000 ft² = 0.115 acre</li>
+                <li>10000 ft² = 0.229 acre</li>
               </ul>
             </div>
           </div>

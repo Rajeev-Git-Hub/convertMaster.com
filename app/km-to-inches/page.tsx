@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? inches</li>
-                <li>10 km ≈ ? inches</li>
-                <li>50 km ≈ ? inches</li>
-                <li>100 km ≈ ? inches</li>
+                <li>1 km = 39370.1 inches</li>
+                <li>10 km = 393701 inches</li>
+                <li>50 km = 1968505 inches</li>
+                <li>100 km = 3937010 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? km</li>
-                <li>10 inches ≈ ? km</li>
-                <li>50 inches ≈ ? km</li>
-                <li>100 inches ≈ ? km</li>
+                <li>1 inches = 0.0000254 km</li>
+                <li>10 inches = 0.000254 km</li>
+                <li>50 inches = 0.00127 km</li>
+                <li>100 inches = 0.00254 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km ≈ ? inches</li>
-                <li>1000 km ≈ ? inches</li>
-                <li>5000 km ≈ ? inches</li>
-                <li>10000 km ≈ ? inches</li>
+                <li>500 km = 19685050 inches</li>
+                <li>1000 km = 39370100 inches</li>
+                <li>5000 km = 196850500 inches</li>
+                <li>10000 km = 393701000 inches</li>
               </ul>
             </div>
           </div>

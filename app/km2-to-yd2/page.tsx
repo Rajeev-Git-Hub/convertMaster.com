@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Km2 to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">km² to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 ≈ ? yd2</li>
-                <li>10 km2 ≈ ? yd2</li>
-                <li>50 km2 ≈ ? yd2</li>
-                <li>100 km2 ≈ ? yd2</li>
+                <li>1 km² = 1195990 yd²</li>
+                <li>10 km² = 11959900 yd²</li>
+                <li>50 km² = 59799500 yd²</li>
+                <li>100 km² = 119599000 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to Km2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to km²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? km2</li>
-                <li>10 yd2 ≈ ? km2</li>
-                <li>50 yd2 ≈ ? km2</li>
-                <li>100 yd2 ≈ ? km2</li>
+                <li>1 yd² = 0.000001 km²</li>
+                <li>10 yd² = 0.000008 km²</li>
+                <li>50 yd² = 0.000042 km²</li>
+                <li>100 yd² = 0.000084 km²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km2 ≈ ? yd2</li>
-                <li>1000 km2 ≈ ? yd2</li>
-                <li>5000 km2 ≈ ? yd2</li>
-                <li>10000 km2 ≈ ? yd2</li>
+                <li>500 km² = 597995000 yd²</li>
+                <li>1000 km² = 1195990000 yd²</li>
+                <li>5000 km² = 5979950000 yd²</li>
+                <li>10000 km² = 11959900000 yd²</li>
               </ul>
             </div>
           </div>

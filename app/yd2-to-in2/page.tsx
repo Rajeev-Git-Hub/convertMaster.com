@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? in2</li>
-                <li>10 yd2 ≈ ? in2</li>
-                <li>50 yd2 ≈ ? in2</li>
-                <li>100 yd2 ≈ ? in2</li>
+                <li>1 yd² = 1296 in²</li>
+                <li>10 yd² = 12960 in²</li>
+                <li>50 yd² = 64800 in²</li>
+                <li>100 yd² = 129600 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? yd2</li>
-                <li>10 in2 ≈ ? yd2</li>
-                <li>50 in2 ≈ ? yd2</li>
-                <li>100 in2 ≈ ? yd2</li>
+                <li>1 in² = 0.000772 yd²</li>
+                <li>10 in² = 0.00772 yd²</li>
+                <li>50 in² = 0.0386 yd²</li>
+                <li>100 in² = 0.0772 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yd2 ≈ ? in2</li>
-                <li>1000 yd2 ≈ ? in2</li>
-                <li>5000 yd2 ≈ ? in2</li>
-                <li>10000 yd2 ≈ ? in2</li>
+                <li>500 yd² = 648000 in²</li>
+                <li>1000 yd² = 1296000 in²</li>
+                <li>5000 yd² = 6480000 in²</li>
+                <li>10000 yd² = 12960000 in²</li>
               </ul>
             </div>
           </div>

@@ -25,7 +25,7 @@ export default function ConverterPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <ConverterCard category="length" defaultFrom="cm2" defaultTo="m2" />
+            <ConverterCard category="area" defaultFrom="cm2" defaultTo="m2" />
           </div>
         </section>
 
@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for Cm2 to M2 conversions</p>
+            <p className="section-subtitle">Quick reference for cm² to m² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? m2</li>
-                <li>10 cm2 ≈ ? m2</li>
-                <li>50 cm2 ≈ ? m2</li>
-                <li>100 cm2 ≈ ? m2</li>
+                <li>1 cm² = 0.0001 m²</li>
+                <li>10 cm² = 0.001 m²</li>
+                <li>50 cm² = 0.005 m²</li>
+                <li>100 cm² = 0.01 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? cm2</li>
-                <li>10 m2 ≈ ? cm2</li>
-                <li>50 m2 ≈ ? cm2</li>
-                <li>100 m2 ≈ ? cm2</li>
+                <li>1 m² = 10000 cm²</li>
+                <li>10 m² = 100000 cm²</li>
+                <li>50 m² = 500000 cm²</li>
+                <li>100 m² = 1000000 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm2 ≈ ? m2</li>
-                <li>1000 cm2 ≈ ? m2</li>
-                <li>5000 cm2 ≈ ? m2</li>
-                <li>10000 cm2 ≈ ? m2</li>
+                <li>500 cm² = 0.05 m²</li>
+                <li>1000 cm² = 0.1 m²</li>
+                <li>5000 cm² = 0.5 m²</li>
+                <li>10000 cm² = 1 m²</li>
               </ul>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert Cm2 to M2</p>
+            <p className="section-subtitle">Simple steps to convert cm² to m²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -205,12 +205,7 @@ export default function ConverterPage() {
 
         {/* Trust Indicators */}
         <section className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
-              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="card p-6 text-center">
               <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h4 className="font-semibold text-gray-900">Instant Results</h4>

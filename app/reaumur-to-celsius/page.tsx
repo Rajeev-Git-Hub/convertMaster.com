@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Reaumur to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 reaumur ≈ ? celsius</li>
-                <li>10 reaumur ≈ ? celsius</li>
-                <li>50 reaumur ≈ ? celsius</li>
-                <li>100 reaumur ≈ ? celsius</li>
+                <li>1 reaumur = 1.25 celsius</li>
+                <li>10 reaumur = 12.5 celsius</li>
+                <li>50 reaumur = 62.5 celsius</li>
+                <li>100 reaumur = 125 celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Celsius to Reaumur</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 celsius ≈ ? reaumur</li>
-                <li>10 celsius ≈ ? reaumur</li>
-                <li>50 celsius ≈ ? reaumur</li>
-                <li>100 celsius ≈ ? reaumur</li>
+                <li>1 celsius = 0.8 reaumur</li>
+                <li>10 celsius = 8 reaumur</li>
+                <li>50 celsius = 40 reaumur</li>
+                <li>100 celsius = 80 reaumur</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 reaumur ≈ ? celsius</li>
-                <li>1000 reaumur ≈ ? celsius</li>
-                <li>5000 reaumur ≈ ? celsius</li>
-                <li>10000 reaumur ≈ ? celsius</li>
+                <li>500 reaumur = 625 celsius</li>
+                <li>1000 reaumur = 1250 celsius</li>
+                <li>5000 reaumur = 6250 celsius</li>
+                <li>10000 reaumur = 12500 celsius</li>
               </ul>
             </div>
           </div>

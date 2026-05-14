@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? metric-ton</li>
-                <li>10 kg ≈ ? metric-ton</li>
-                <li>50 kg ≈ ? metric-ton</li>
-                <li>100 kg ≈ ? metric-ton</li>
+                <li>1 kg = 0.001 metric-ton</li>
+                <li>10 kg = 0.01 metric-ton</li>
+                <li>50 kg = 0.05 metric-ton</li>
+                <li>100 kg = 0.1 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton ≈ ? kg</li>
-                <li>10 metric-ton ≈ ? kg</li>
-                <li>50 metric-ton ≈ ? kg</li>
-                <li>100 metric-ton ≈ ? kg</li>
+                <li>1 metric-ton = 1000 kg</li>
+                <li>10 metric-ton = 10000 kg</li>
+                <li>50 metric-ton = 50000 kg</li>
+                <li>100 metric-ton = 100000 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? metric-ton</li>
-                <li>1000 kg ≈ ? metric-ton</li>
-                <li>5000 kg ≈ ? metric-ton</li>
-                <li>10000 kg ≈ ? metric-ton</li>
+                <li>500 kg = 0.5 metric-ton</li>
+                <li>1000 kg = 1 metric-ton</li>
+                <li>5000 kg = 5 metric-ton</li>
+                <li>10000 kg = 10 metric-ton</li>
               </ul>
             </div>
           </div>

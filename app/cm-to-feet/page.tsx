@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm ≈ ? feet</li>
-                <li>10 cm ≈ ? feet</li>
-                <li>50 cm ≈ ? feet</li>
-                <li>100 cm ≈ ? feet</li>
+                <li>1 cm = 0.033 feet</li>
+                <li>10 cm = 0.328 feet</li>
+                <li>50 cm = 1.640 feet</li>
+                <li>100 cm = 3.281 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? cm</li>
-                <li>10 feet ≈ ? cm</li>
-                <li>50 feet ≈ ? cm</li>
-                <li>100 feet ≈ ? cm</li>
+                <li>1 feet = 30.48 cm</li>
+                <li>10 feet = 304.8 cm</li>
+                <li>50 feet = 1524 cm</li>
+                <li>100 feet = 3048 cm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm ≈ ? feet</li>
-                <li>1000 cm ≈ ? feet</li>
-                <li>5000 cm ≈ ? feet</li>
-                <li>10000 cm ≈ ? feet</li>
+                <li>500 cm = 16.404 feet</li>
+                <li>1000 cm = 32.808 feet</li>
+                <li>5000 cm = 164.042 feet</li>
+                <li>10000 cm = 328.084 feet</li>
               </ul>
             </div>
           </div>

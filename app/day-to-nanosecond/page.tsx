@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? nanosecond</li>
-                <li>10 day ≈ ? nanosecond</li>
-                <li>50 day ≈ ? nanosecond</li>
-                <li>100 day ≈ ? nanosecond</li>
+                <li>1 day = ? nanosecond</li>
+                <li>10 day = ? nanosecond</li>
+                <li>50 day = ? nanosecond</li>
+                <li>100 day = ? nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? day</li>
-                <li>10 nanosecond ≈ ? day</li>
-                <li>50 nanosecond ≈ ? day</li>
-                <li>100 nanosecond ≈ ? day</li>
+                <li>1 nanosecond = ? day</li>
+                <li>10 nanosecond = ? day</li>
+                <li>50 nanosecond = ? day</li>
+                <li>100 nanosecond = ? day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 day ≈ ? nanosecond</li>
-                <li>1000 day ≈ ? nanosecond</li>
-                <li>5000 day ≈ ? nanosecond</li>
-                <li>10000 day ≈ ? nanosecond</li>
+                <li>500 day = ? nanosecond</li>
+                <li>1000 day = ? nanosecond</li>
+                <li>5000 day = ? nanosecond</li>
+                <li>10000 day = ? nanosecond</li>
               </ul>
             </div>
           </div>

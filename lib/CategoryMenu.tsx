@@ -81,7 +81,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center justify-center gap-1">
             <Link
               href="/unit-conversion/"
               className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
@@ -92,17 +92,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
             >
               Converter
             </Link>
-            <Link
-              href="/pdf-conversion/"
-              className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
-                pathname?.includes('pdf') 
-                  ? 'text-blue-600 bg-blue-100' 
-                  : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
-              }`}
-            >
-              PDF
-            </Link>
-            <Link
+                        <Link
               href="/tools-conversion/"
               className={`inline-flex items-center px-4 py-2 text-base font-bold rounded-md transition-colors duration-150 focus:outline-none whitespace-nowrap ${
                 pathname?.includes('tools-conversion') 
@@ -211,18 +201,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
               >
                 Converter
               </Link>
-              <Link
-                href="/pdf-conversion/"
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block px-4 py-3 text-lg font-bold rounded-md ${
-                  pathname?.includes('pdf')
-                    ? 'text-orange-600 bg-orange-100'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
-                }`}
-              >
-                PDF
-              </Link>
-              <Link
+                            <Link
                 href="/tools-conversion/"
                 onClick={() => setMobileMenuOpen(false)}
                 className={`block px-4 py-3 text-lg font-bold rounded-md ${

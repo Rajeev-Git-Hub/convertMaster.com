@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">37-celsius to Fahrenheit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 37-celsius ≈ ? fahrenheit</li>
-                <li>10 37-celsius ≈ ? fahrenheit</li>
-                <li>50 37-celsius ≈ ? fahrenheit</li>
-                <li>100 37-celsius ≈ ? fahrenheit</li>
+                <li>1 37-celsius = 98.6 fahrenheit</li>
+                <li>10 37-celsius = 986 fahrenheit</li>
+                <li>50 37-celsius = 4930 fahrenheit</li>
+                <li>100 37-celsius = 9860 fahrenheit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to 37-celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit ≈ ? 37-celsius</li>
-                <li>10 fahrenheit ≈ ? 37-celsius</li>
-                <li>50 fahrenheit ≈ ? 37-celsius</li>
-                <li>100 fahrenheit ≈ ? 37-celsius</li>
+                <li>1 fahrenheit = 0.01 37-celsius</li>
+                <li>10 fahrenheit = 0.1 37-celsius</li>
+                <li>50 fahrenheit = 0.51 37-celsius</li>
+                <li>100 fahrenheit = 1.01 37-celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 37-celsius ≈ ? fahrenheit</li>
-                <li>1000 37-celsius ≈ ? fahrenheit</li>
-                <li>5000 37-celsius ≈ ? fahrenheit</li>
-                <li>10000 37-celsius ≈ ? fahrenheit</li>
+                <li>500 37-celsius = 49300 fahrenheit</li>
+                <li>1000 37-celsius = 98600 fahrenheit</li>
+                <li>5000 37-celsius = 493000 fahrenheit</li>
+                <li>10000 37-celsius = 986000 fahrenheit</li>
               </ul>
             </div>
           </div>

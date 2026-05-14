@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? ft2</li>
-                <li>10 in2 ≈ ? ft2</li>
-                <li>50 in2 ≈ ? ft2</li>
-                <li>100 in2 ≈ ? ft2</li>
+                <li>1 in² = 0.00694 ft²</li>
+                <li>10 in² = 0.0694 ft²</li>
+                <li>50 in² = 0.347 ft²</li>
+                <li>100 in² = 0.694 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? in2</li>
-                <li>10 ft2 ≈ ? in2</li>
-                <li>50 ft2 ≈ ? in2</li>
-                <li>100 ft2 ≈ ? in2</li>
+                <li>1 ft² = 144 in²</li>
+                <li>10 ft² = 1440 in²</li>
+                <li>50 ft² = 7200 in²</li>
+                <li>100 ft² = 14400 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 in2 ≈ ? ft2</li>
-                <li>1000 in2 ≈ ? ft2</li>
-                <li>5000 in2 ≈ ? ft2</li>
-                <li>10000 in2 ≈ ? ft2</li>
+                <li>500 in² = 3.47 ft²</li>
+                <li>1000 in² = 6.94 ft²</li>
+                <li>5000 in² = 34.7 ft²</li>
+                <li>10000 in² = 69.4 ft²</li>
               </ul>
             </div>
           </div>

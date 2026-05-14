@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? inches</li>
-                <li>10 dam ≈ ? inches</li>
-                <li>50 dam ≈ ? inches</li>
-                <li>100 dam ≈ ? inches</li>
+                <li>1 dam = 393.701 inches</li>
+                <li>10 dam = 3937.01 inches</li>
+                <li>50 dam = 19685 inches</li>
+                <li>100 dam = 39370.1 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? dam</li>
-                <li>10 inches ≈ ? dam</li>
-                <li>50 inches ≈ ? dam</li>
-                <li>100 inches ≈ ? dam</li>
+                <li>1 inches = 0.00254 dam</li>
+                <li>10 inches = 0.0254 dam</li>
+                <li>50 inches = 0.127 dam</li>
+                <li>100 inches = 0.254 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dam ≈ ? inches</li>
-                <li>1000 dam ≈ ? inches</li>
-                <li>5000 dam ≈ ? inches</li>
-                <li>10000 dam ≈ ? inches</li>
+                <li>500 dam = 196850 inches</li>
+                <li>1000 dam = 393701 inches</li>
+                <li>5000 dam = 1968505 inches</li>
+                <li>10000 dam = 3937008 inches</li>
               </ul>
             </div>
           </div>

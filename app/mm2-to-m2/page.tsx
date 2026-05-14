@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mm2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mm² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm2 ≈ ? m2</li>
-                <li>10 mm2 ≈ ? m2</li>
-                <li>50 mm2 ≈ ? m2</li>
-                <li>100 mm2 ≈ ? m2</li>
+                <li>1 mm² = 0.000001 m²</li>
+                <li>10 mm² = 0.00001 m²</li>
+                <li>50 mm² = 0.00005 m²</li>
+                <li>100 mm² = 0.0001 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Mm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to mm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? mm2</li>
-                <li>10 m2 ≈ ? mm2</li>
-                <li>50 m2 ≈ ? mm2</li>
-                <li>100 m2 ≈ ? mm2</li>
+                <li>1 m² = 1000000 mm²</li>
+                <li>10 m² = 10000000 mm²</li>
+                <li>50 m² = 50000000 mm²</li>
+                <li>100 m² = 100000000 mm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm2 ≈ ? m2</li>
-                <li>1000 mm2 ≈ ? m2</li>
-                <li>5000 mm2 ≈ ? m2</li>
-                <li>10000 mm2 ≈ ? m2</li>
+                <li>500 mm² = 0.0005 m²</li>
+                <li>1000 mm² = 0.001 m²</li>
+                <li>5000 mm² = 0.005 m²</li>
+                <li>10000 mm² = 0.01 m²</li>
               </ul>
             </div>
           </div>

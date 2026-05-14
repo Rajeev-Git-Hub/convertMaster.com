@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? m2</li>
-                <li>10 ft2 ≈ ? m2</li>
-                <li>50 ft2 ≈ ? m2</li>
-                <li>100 ft2 ≈ ? m2</li>
+                <li>1 ft² = 0.0929 m²</li>
+                <li>10 ft² = 0.929 m²</li>
+                <li>50 ft² = 4.645 m²</li>
+                <li>100 ft² = 9.29 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? ft2</li>
-                <li>10 m2 ≈ ? ft2</li>
-                <li>50 m2 ≈ ? ft2</li>
-                <li>100 m2 ≈ ? ft2</li>
+                <li>1 m² = 10.76 ft²</li>
+                <li>10 m² = 107.6 ft²</li>
+                <li>50 m² = 538 ft²</li>
+                <li>100 m² = 1076 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ft2 ≈ ? m2</li>
-                <li>1000 ft2 ≈ ? m2</li>
-                <li>5000 ft2 ≈ ? m2</li>
-                <li>10000 ft2 ≈ ? m2</li>
+                <li>500 ft² = 46.45 m²</li>
+                <li>1000 ft² = 92.9 m²</li>
+                <li>5000 ft² = 464.5 m²</li>
+                <li>10000 ft² = 929 m²</li>
               </ul>
             </div>
           </div>

@@ -63,20 +63,20 @@ export default function BodyTemperatureGuidePage() {
                       <td className="p-4 text-gray-700 dark:text-gray-300">Below 35.0°C</td>
                       <td className="p-4 text-gray-700 dark:text-gray-300">Below 95.0°F</td>
                     </tr>
-                    <tr className="bg-green-50 dark:bg-green-900/20">
-                      <td className="p-4 text-green-700 dark:text-green-300 font-medium">Normal</td>
-                      <td className="p-4 text-green-700 dark:text-green-300">36.1°C – 37.2°C</td>
-                      <td className="p-4 text-green-700 dark:text-green-300">97.0°F – 99.0°F</td>
+                    <tr className="bg-blue-50">
+                      <td className="p-4 text-blue-700 font-medium">Normal</td>
+                      <td className="p-4 text-blue-700">36.1°C – 37.2°C</td>
+                      <td className="p-4 text-blue-700">97.0°F – 99.0°F</td>
                     </tr>
-                    <tr className="bg-yellow-50 dark:bg-yellow-900/20">
-                      <td className="p-4 text-yellow-700 dark:text-yellow-300 font-medium">Low-Grade Fever</td>
-                      <td className="p-4 text-yellow-700 dark:text-yellow-300">37.3°C – 38.0°C</td>
-                      <td className="p-4 text-yellow-700 dark:text-yellow-300">99.1°F – 100.4°F</td>
+                    <tr className="bg-yellow-50">
+                      <td className="p-4 text-yellow-700 font-medium">Low-Grade Fever</td>
+                      <td className="p-4 text-yellow-700">37.3°C – 38.0°C</td>
+                      <td className="p-4 text-yellow-700">99.1°F – 100.4°F</td>
                     </tr>
-                    <tr className="bg-orange-50 dark:bg-orange-900/20">
-                      <td className="p-4 text-orange-700 dark:text-orange-300 font-medium">Fever</td>
-                      <td className="p-4 text-orange-700 dark:text-orange-300">38.1°C – 39.4°C</td>
-                      <td className="p-4 text-orange-700 dark:text-orange-300">100.5°F – 102.9°F</td>
+                    <tr className="bg-orange-50">
+                      <td className="p-4 text-orange-700 font-medium">Fever</td>
+                      <td className="p-4 text-orange-700">38.1°C – 39.4°C</td>
+                      <td className="p-4 text-orange-700">100.5°F – 102.9°F</td>
                     </tr>
                     <tr className="bg-red-50 dark:bg-red-900/20">
                       <td className="p-4 text-red-700 dark:text-red-300 font-medium">High Fever</td>

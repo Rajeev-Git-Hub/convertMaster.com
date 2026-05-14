@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm ≈ ? hm</li>
-                <li>10 mm ≈ ? hm</li>
-                <li>50 mm ≈ ? hm</li>
-                <li>100 mm ≈ ? hm</li>
+                <li>1 mm = 0.001 hm</li>
+                <li>10 mm = 0.01 hm</li>
+                <li>50 mm = 0.05 hm</li>
+                <li>100 mm = 0.1 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? mm</li>
-                <li>10 hm ≈ ? mm</li>
-                <li>50 hm ≈ ? mm</li>
-                <li>100 hm ≈ ? mm</li>
+                <li>1 hm = 100000 mm</li>
+                <li>10 hm = 1000000 mm</li>
+                <li>50 hm = 5000000 mm</li>
+                <li>100 hm = 10000000 mm</li>
               </ul>
             </div>
             <div className="card p-6">

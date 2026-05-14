@@ -17,16 +17,7 @@ const mainSections = [
     description: 'Length, Weight, Temperature, Data converters',
     href: '/unit-conversion/'
   },
-  {
-    name: 'PDF',
-    icon: FiFileText,
-    bgColor: 'bg-orange-600',
-    textColor: 'text-orange-600',
-    borderColor: 'border-orange-200',
-    description: 'Merge, Split, Compress, Convert PDFs',
-    href: '/pdf-conversion/'
-  },
-  {
+    {
     name: 'Tools',
     icon: FiTool,
     bgColor: 'bg-green-500',
@@ -42,8 +33,8 @@ export default function ConvertMasterClient() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* About Section */}
-      <section className="container py-12">
-        <div className="h-32" />
+      <section className="container py-16">
+        <div className="h-16" />
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-6">
             About ConvertMaster
@@ -56,8 +47,8 @@ export default function ConvertMasterClient() {
 
       {/* Main Sections */}
       <section className="container pb-12">
-        <div className="h-16" />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">
           {mainSections.map((section) => {
             const Icon = section.icon;
             return (
@@ -83,6 +74,7 @@ export default function ConvertMasterClient() {
               </Link>
             );
           })}
+          </div>
         </div>
       </section>
     </div>

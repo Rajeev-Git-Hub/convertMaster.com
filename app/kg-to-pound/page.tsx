@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? pound</li>
-                <li>10 kg ≈ ? pound</li>
-                <li>50 kg ≈ ? pound</li>
-                <li>100 kg ≈ ? pound</li>
+                <li>1 kg = 2.20462 pound</li>
+                <li>10 kg = 22.0462 pound</li>
+                <li>50 kg = 110.231 pound</li>
+                <li>100 kg = 220.462 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? kg</li>
-                <li>10 pound ≈ ? kg</li>
-                <li>50 pound ≈ ? kg</li>
-                <li>100 pound ≈ ? kg</li>
+                <li>1 pound = 0.453592 kg</li>
+                <li>10 pound = 4.53592 kg</li>
+                <li>50 pound = 22.6796 kg</li>
+                <li>100 pound = 45.3592 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? pound</li>
-                <li>1000 kg ≈ ? pound</li>
-                <li>5000 kg ≈ ? pound</li>
-                <li>10000 kg ≈ ? pound</li>
+                <li>500 kg = 1102.31 pound</li>
+                <li>1000 kg = 2204.62 pound</li>
+                <li>5000 kg = 11023.11 pound</li>
+                <li>10000 kg = 22046.23 pound</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit ≈ ? celsius</li>
-                <li>10 fahrenheit ≈ ? celsius</li>
-                <li>50 fahrenheit ≈ ? celsius</li>
-                <li>100 fahrenheit ≈ ? celsius</li>
+                <li>1 fahrenheit = -17.22 celsius</li>
+                <li>10 fahrenheit = -12.22 celsius</li>
+                <li>50 fahrenheit = 10 celsius</li>
+                <li>100 fahrenheit = 37.78 celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Celsius to Fahrenheit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 celsius ≈ ? fahrenheit</li>
-                <li>10 celsius ≈ ? fahrenheit</li>
-                <li>50 celsius ≈ ? fahrenheit</li>
-                <li>100 celsius ≈ ? fahrenheit</li>
+                <li>1 celsius = 33.8 fahrenheit</li>
+                <li>10 celsius = 50 fahrenheit</li>
+                <li>50 celsius = 122 fahrenheit</li>
+                <li>100 celsius = 212 fahrenheit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 fahrenheit ≈ ? celsius</li>
-                <li>1000 fahrenheit ≈ ? celsius</li>
-                <li>5000 fahrenheit ≈ ? celsius</li>
-                <li>10000 fahrenheit ≈ ? celsius</li>
+                <li>500 fahrenheit = 260 celsius</li>
+                <li>1000 fahrenheit = 537.78 celsius</li>
+                <li>5000 fahrenheit = 2760 celsius</li>
+                <li>10000 fahrenheit = 5537.78 celsius</li>
               </ul>
             </div>
           </div>

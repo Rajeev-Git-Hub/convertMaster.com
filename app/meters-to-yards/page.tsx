@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? yards</li>
-                <li>10 meters ≈ ? yards</li>
-                <li>50 meters ≈ ? yards</li>
-                <li>100 meters ≈ ? yards</li>
+                <li>1 meters = 1.094 yards</li>
+                <li>10 meters = 10.936 yards</li>
+                <li>50 meters = 54.681 yards</li>
+                <li>100 meters = 109.361 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? meters</li>
-                <li>10 yards ≈ ? meters</li>
-                <li>50 yards ≈ ? meters</li>
-                <li>100 yards ≈ ? meters</li>
+                <li>1 yards = 0.914 meters</li>
+                <li>10 yards = 9.144 meters</li>
+                <li>50 yards = 45.72 meters</li>
+                <li>100 yards = 91.44 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters ≈ ? yards</li>
-                <li>1000 meters ≈ ? yards</li>
-                <li>5000 meters ≈ ? yards</li>
-                <li>10000 meters ≈ ? yards</li>
+                <li>500 meters = 546.807 yards</li>
+                <li>1000 meters = 1093.613 yards</li>
+                <li>5000 meters = 5468.066 yards</li>
+                <li>10000 meters = 10936.133 yards</li>
               </ul>
             </div>
           </div>

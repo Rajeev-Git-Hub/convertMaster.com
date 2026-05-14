@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm3 to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm3 ≈ ? in3</li>
-                <li>10 cm3 ≈ ? in3</li>
-                <li>50 cm3 ≈ ? in3</li>
-                <li>100 cm3 ≈ ? in3</li>
+                <li>1 cm3 = ? in3</li>
+                <li>10 cm3 = ? in3</li>
+                <li>50 cm3 = ? in3</li>
+                <li>100 cm3 = ? in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to Cm3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? cm3</li>
-                <li>10 in3 ≈ ? cm3</li>
-                <li>50 in3 ≈ ? cm3</li>
-                <li>100 in3 ≈ ? cm3</li>
+                <li>1 in3 = ? cm3</li>
+                <li>10 in3 = ? cm3</li>
+                <li>50 in3 = ? cm3</li>
+                <li>100 in3 = ? cm3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm3 ≈ ? in3</li>
-                <li>1000 cm3 ≈ ? in3</li>
-                <li>5000 cm3 ≈ ? in3</li>
-                <li>10000 cm3 ≈ ? in3</li>
+                <li>500 cm3 = ? in3</li>
+                <li>1000 cm3 = ? in3</li>
+                <li>5000 cm3 = ? in3</li>
+                <li>10000 cm3 = ? in3</li>
               </ul>
             </div>
           </div>

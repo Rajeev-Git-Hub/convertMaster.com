@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? ng</li>
-                <li>10 ounce ≈ ? ng</li>
-                <li>50 ounce ≈ ? ng</li>
-                <li>100 ounce ≈ ? ng</li>
+                <li>1 ounce = 28350000 ng</li>
+                <li>10 ounce = 283500000 ng</li>
+                <li>50 ounce = 1417500000 ng</li>
+                <li>100 ounce = 2835000000 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? ounce</li>
-                <li>10 ng ≈ ? ounce</li>
-                <li>50 ng ≈ ? ounce</li>
-                <li>100 ng ≈ ? ounce</li>
+                <li>1 ng = 0.0000000353 ounce</li>
+                <li>10 ng = 0.000000353 ounce</li>
+                <li>50 ng = 0.000001765 ounce</li>
+                <li>100 ng = 0.00000353 ounce</li>
               </ul>
             </div>
             <div className="card p-6">

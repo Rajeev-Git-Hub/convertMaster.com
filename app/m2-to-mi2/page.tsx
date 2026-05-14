@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for M2 to Mi2 conversions</p>
+            <p className="section-subtitle">Quick reference for m² to mi² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Mi2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to mi²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? mi2</li>
-                <li>10 m2 ≈ ? mi2</li>
-                <li>50 m2 ≈ ? mi2</li>
-                <li>100 m2 ≈ ? mi2</li>
+                <li>1 m² = 0.000000386 mi²</li>
+                <li>10 m² = 0.00000386 mi²</li>
+                <li>50 m² = 0.0000193 mi²</li>
+                <li>100 m² = 0.0000386 mi²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mi2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mi² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mi2 ≈ ? m2</li>
-                <li>10 mi2 ≈ ? m2</li>
-                <li>50 mi2 ≈ ? m2</li>
-                <li>100 mi2 ≈ ? m2</li>
+                <li>1 mi² = 2589988 m²</li>
+                <li>10 mi² = 25899880 m²</li>
+                <li>50 mi² = 129499400 m²</li>
+                <li>100 mi² = 258998800 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 m2 ≈ ? mi2</li>
-                <li>1000 m2 ≈ ? mi2</li>
-                <li>5000 m2 ≈ ? mi2</li>
-                <li>10000 m2 ≈ ? mi2</li>
+                <li>500 m² = 0.000193 mi²</li>
+                <li>1000 m² = 0.000386 mi²</li>
+                <li>5000 m² = 0.00193 mi²</li>
+                <li>10000 m² = 0.00386 mi²</li>
               </ul>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert M2 to Mi2</p>
+            <p className="section-subtitle">Simple steps to convert m² to mi²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ export default function ConverterPage() {
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
-              <p className="text-sm text-gray-600">Choose M2 as input and Mi2 as output</p>
+              <p className="text-sm text-gray-600">Choose m² as input and mi² as output</p>
             </div>
             <div className="card p-6 text-center group">
               <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
@@ -175,13 +175,13 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Frequently Asked Questions</h3>
-            <p className="section-subtitle">Common questions about M2 to Mi2 conversions</p>
+            <p className="section-subtitle">Common questions about m² to mi² conversions</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="card p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert M2 to Mi2?</h4>
-              <p className="text-sm text-gray-600">Use our converter above. Enter the value in M2, select M2 as input and Mi2 as output, then click convert.</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert m² to mi²?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in m², select m² as input and mi² as output, then click convert.</p>
             </div>
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
@@ -196,12 +196,7 @@ export default function ConverterPage() {
 
         {/* Trust Indicators */}
         <section className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
-              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="card p-6 text-center">
               <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h4 className="font-semibold text-gray-900">Instant Results</h4>

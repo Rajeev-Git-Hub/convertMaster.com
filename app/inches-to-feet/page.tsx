@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? feet</li>
-                <li>10 inches ≈ ? feet</li>
-                <li>50 inches ≈ ? feet</li>
-                <li>100 inches ≈ ? feet</li>
+                <li>1 inches = 0.083 feet</li>
+                <li>10 inches = 0.833 feet</li>
+                <li>50 inches = 4.167 feet</li>
+                <li>100 inches = 8.333 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? inches</li>
-                <li>10 feet ≈ ? inches</li>
-                <li>50 feet ≈ ? inches</li>
-                <li>100 feet ≈ ? inches</li>
+                <li>1 feet = 12 inches</li>
+                <li>10 feet = 120 inches</li>
+                <li>50 feet = 600 inches</li>
+                <li>100 feet = 1200 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? feet</li>
-                <li>1000 inches ≈ ? feet</li>
-                <li>5000 inches ≈ ? feet</li>
-                <li>10000 inches ≈ ? feet</li>
+                <li>500 inches = 41.667 feet</li>
+                <li>1000 inches = 83.333 feet</li>
+                <li>5000 inches = 416.667 feet</li>
+                <li>10000 inches = 833.333 feet</li>
               </ul>
             </div>
           </div>

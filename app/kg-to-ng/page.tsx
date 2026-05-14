@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? ng</li>
-                <li>10 kg ≈ ? ng</li>
-                <li>50 kg ≈ ? ng</li>
-                <li>100 kg ≈ ? ng</li>
+                <li>1 kg = 1000000000000 ng</li>
+                <li>10 kg = 10000000000000 ng</li>
+                <li>50 kg = 50000000000000 ng</li>
+                <li>100 kg = 100000000000000 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? kg</li>
-                <li>10 ng ≈ ? kg</li>
-                <li>50 ng ≈ ? kg</li>
-                <li>100 ng ≈ ? kg</li>
+                <li>1 ng = 0.000000001 kg</li>
+                <li>10 ng = 0.00000001 kg</li>
+                <li>50 ng = 0.00000005 kg</li>
+                <li>100 ng = 0.0000001 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? ng</li>
-                <li>1000 kg ≈ ? ng</li>
-                <li>5000 kg ≈ ? ng</li>
-                <li>10000 kg ≈ ? ng</li>
+                <li>500 kg = 500000000000000 ng</li>
+                <li>1000 kg = 1000000000000000 ng</li>
+                <li>5000 kg = 5000000000000000 ng</li>
+                <li>10000 kg = 10000000000000000 ng</li>
               </ul>
             </div>
           </div>

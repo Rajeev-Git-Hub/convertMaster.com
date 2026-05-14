@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to Mi2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to mi²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? mi2</li>
-                <li>10 ft2 ≈ ? mi2</li>
-                <li>50 ft2 ≈ ? mi2</li>
-                <li>100 ft2 ≈ ? mi2</li>
+                <li>1 ft² = 0.0000000359 mi²</li>
+                <li>10 ft² = 0.000000359 mi²</li>
+                <li>50 ft² = 0.000001795 mi²</li>
+                <li>100 ft² = 0.00000359 mi²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mi2 to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mi² to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mi2 ≈ ? ft2</li>
-                <li>10 mi2 ≈ ? ft2</li>
-                <li>50 mi2 ≈ ? ft2</li>
-                <li>100 mi2 ≈ ? ft2</li>
+                <li>1 mi² = 27880000 ft²</li>
+                <li>10 mi² = 278800000 ft²</li>
+                <li>50 mi² = 1394000000 ft²</li>
+                <li>100 mi² = 2788000000 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ft2 ≈ ? mi2</li>
-                <li>1000 ft2 ≈ ? mi2</li>
-                <li>5000 ft2 ≈ ? mi2</li>
-                <li>10000 ft2 ≈ ? mi2</li>
+                <li>500 ft² = 0.00001795 mi²</li>
+                <li>1000 ft² = 0.0000359 mi²</li>
+                <li>5000 ft² = 0.0001795 mi²</li>
+                <li>10000 ft² = 0.000359 mi²</li>
               </ul>
             </div>
           </div>

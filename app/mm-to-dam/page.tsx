@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm ≈ ? dam</li>
-                <li>10 mm ≈ ? dam</li>
-                <li>50 mm ≈ ? dam</li>
-                <li>100 mm ≈ ? dam</li>
+                <li>1 mm = 0.0001 dam</li>
+                <li>10 mm = 0.001 dam</li>
+                <li>50 mm = 0.005 dam</li>
+                <li>100 mm = 0.01 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? mm</li>
-                <li>10 dam ≈ ? mm</li>
-                <li>50 dam ≈ ? mm</li>
-                <li>100 dam ≈ ? mm</li>
+                <li>1 dam = 10000 mm</li>
+                <li>10 dam = 100000 mm</li>
+                <li>50 dam = 500000 mm</li>
+                <li>100 dam = 1000000 mm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm ≈ ? dam</li>
-                <li>1000 mm ≈ ? dam</li>
-                <li>5000 mm ≈ ? dam</li>
-                <li>10000 mm ≈ ? dam</li>
+                <li>500 mm = 0.05 dam</li>
+                <li>1000 mm = 0.1 dam</li>
+                <li>5000 mm = 0.5 dam</li>
+                <li>10000 mm = 1 dam</li>
               </ul>
             </div>
           </div>

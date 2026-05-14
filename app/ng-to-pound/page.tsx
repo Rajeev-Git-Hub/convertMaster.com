@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? pound</li>
-                <li>10 ng ≈ ? pound</li>
-                <li>50 ng ≈ ? pound</li>
-                <li>100 ng ≈ ? pound</li>
+                <li>1 ng = 0.000000002205 pound</li>
+                <li>10 ng = 0.00000002205 pound</li>
+                <li>50 ng = 0.00000011025 pound</li>
+                <li>100 ng = 0.0000002205 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? ng</li>
-                <li>10 pound ≈ ? ng</li>
-                <li>50 pound ≈ ? ng</li>
-                <li>100 pound ≈ ? ng</li>
+                <li>1 pound = 453592370000 ng</li>
+                <li>10 pound = 4535923700000 ng</li>
+                <li>50 pound = 22679618500000 ng</li>
+                <li>100 pound = 45359237000000 ng</li>
               </ul>
             </div>
             <div className="card p-6">

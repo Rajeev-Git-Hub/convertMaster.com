@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? us-ton</li>
-                <li>10 pound ≈ ? us-ton</li>
-                <li>50 pound ≈ ? us-ton</li>
-                <li>100 pound ≈ ? us-ton</li>
+                <li>1 pound = 0.0005 us-ton</li>
+                <li>10 pound = 0.005 us-ton</li>
+                <li>50 pound = 0.025 us-ton</li>
+                <li>100 pound = 0.05 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton ≈ ? pound</li>
-                <li>10 us-ton ≈ ? pound</li>
-                <li>50 us-ton ≈ ? pound</li>
-                <li>100 us-ton ≈ ? pound</li>
+                <li>1 us-ton = 2000 pound</li>
+                <li>10 us-ton = 20000 pound</li>
+                <li>50 us-ton = 100000 pound</li>
+                <li>100 us-ton = 200000 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 pound ≈ ? us-ton</li>
-                <li>1000 pound ≈ ? us-ton</li>
-                <li>5000 pound ≈ ? us-ton</li>
-                <li>10000 pound ≈ ? us-ton</li>
+                <li>500 pound = 0.25 us-ton</li>
+                <li>1000 pound = 0.5 us-ton</li>
+                <li>5000 pound = 2.5 us-ton</li>
+                <li>10000 pound = 5 us-ton</li>
               </ul>
             </div>
           </div>
