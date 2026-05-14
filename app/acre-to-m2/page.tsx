@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? m2</li>
-                <li>10 acre ≈ ? m2</li>
-                <li>50 acre ≈ ? m2</li>
-                <li>100 acre ≈ ? m2</li>
+                <li>1 acre = 4047 m²</li>
+                <li>10 acre = 40470 m²</li>
+                <li>50 acre = 202350 m²</li>
+                <li>100 acre = 404700 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? acre</li>
-                <li>10 m2 ≈ ? acre</li>
-                <li>50 m2 ≈ ? acre</li>
-                <li>100 m2 ≈ ? acre</li>
+                <li>1 m² = 0.000247 acre</li>
+                <li>10 m² = 0.00247 acre</li>
+                <li>50 m² = 0.0124 acre</li>
+                <li>100 m² = 0.0247 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 acre ≈ ? m2</li>
-                <li>1000 acre ≈ ? m2</li>
-                <li>5000 acre ≈ ? m2</li>
-                <li>10000 acre ≈ ? m2</li>
+                <li>500 acre = 2023500 m²</li>
+                <li>1000 acre = 4047000 m²</li>
+                <li>5000 acre = 20235000 m²</li>
+                <li>10000 acre = 40470000 m²</li>
               </ul>
             </div>
           </div>

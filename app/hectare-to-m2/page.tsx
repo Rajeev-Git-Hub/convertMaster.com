@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? m2</li>
-                <li>10 hectare ≈ ? m2</li>
-                <li>50 hectare ≈ ? m2</li>
-                <li>100 hectare ≈ ? m2</li>
+                <li>1 hectare = 10000 m²</li>
+                <li>10 hectare = 100000 m²</li>
+                <li>50 hectare = 500000 m²</li>
+                <li>100 hectare = 1000000 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 ≈ ? hectare</li>
-                <li>10 m2 ≈ ? hectare</li>
-                <li>50 m2 ≈ ? hectare</li>
-                <li>100 m2 ≈ ? hectare</li>
+                <li>1 m² = 0.0001 hectare</li>
+                <li>10 m² = 0.001 hectare</li>
+                <li>50 m² = 0.005 hectare</li>
+                <li>100 m² = 0.01 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? m2</li>
-                <li>1000 hectare ≈ ? m2</li>
-                <li>5000 hectare ≈ ? m2</li>
-                <li>10000 hectare ≈ ? m2</li>
+                <li>500 hectare = 5000000 m²</li>
+                <li>1000 hectare = 10000000 m²</li>
+                <li>5000 hectare = 50000000 m²</li>
+                <li>10000 hectare = 100000000 m²</li>
               </ul>
             </div>
           </div>

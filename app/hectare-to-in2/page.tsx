@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? in2</li>
-                <li>10 hectare ≈ ? in2</li>
-                <li>50 hectare ≈ ? in2</li>
-                <li>100 hectare ≈ ? in2</li>
+                <li>1 hectare = 15500000 in²</li>
+                <li>10 hectare = 155000000 in²</li>
+                <li>50 hectare = 775000000 in²</li>
+                <li>100 hectare = 1550000000 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? hectare</li>
-                <li>10 in2 ≈ ? hectare</li>
-                <li>50 in2 ≈ ? hectare</li>
-                <li>100 in2 ≈ ? hectare</li>
+                <li>1 in² = 0.0000000645 hectare</li>
+                <li>10 in² = 0.000000645 hectare</li>
+                <li>50 in² = 0.00000323 hectare</li>
+                <li>100 in² = 0.00000645 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? in2</li>
-                <li>1000 hectare ≈ ? in2</li>
-                <li>5000 hectare ≈ ? in2</li>
-                <li>10000 hectare ≈ ? in2</li>
+                <li>500 hectare = 7750000000 in²</li>
+                <li>1000 hectare = 15500000000 in²</li>
+                <li>5000 hectare = 77500000000 in²</li>
+                <li>10000 hectare = 155000000000 in²</li>
               </ul>
             </div>
           </div>

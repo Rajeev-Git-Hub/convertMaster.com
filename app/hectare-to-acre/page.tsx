@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? acre</li>
-                <li>10 hectare ≈ ? acre</li>
-                <li>50 hectare ≈ ? acre</li>
-                <li>100 hectare ≈ ? acre</li>
+                <li>1 hectare = 2.47 acre</li>
+                <li>10 hectare = 24.7 acre</li>
+                <li>50 hectare = 123.5 acre</li>
+                <li>100 hectare = 247 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? hectare</li>
-                <li>10 acre ≈ ? hectare</li>
-                <li>50 acre ≈ ? hectare</li>
-                <li>100 acre ≈ ? hectare</li>
+                <li>1 acre = 0.405 hectare</li>
+                <li>10 acre = 4.05 hectare</li>
+                <li>50 acre = 20.2 hectare</li>
+                <li>100 acre = 40.5 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? acre</li>
-                <li>1000 hectare ≈ ? acre</li>
-                <li>5000 hectare ≈ ? acre</li>
-                <li>10000 hectare ≈ ? acre</li>
+                <li>500 hectare = 1235 acre</li>
+                <li>1000 hectare = 2470 acre</li>
+                <li>5000 hectare = 12350 acre</li>
+                <li>10000 hectare = 24700 acre</li>
               </ul>
             </div>
           </div>

@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to Mi2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to mi²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? mi2</li>
-                <li>10 hectare ≈ ? mi2</li>
-                <li>50 hectare ≈ ? mi2</li>
-                <li>100 hectare ≈ ? mi2</li>
+                <li>1 hectare = 0.00386 mi²</li>
+                <li>10 hectare = 0.0386 mi²</li>
+                <li>50 hectare = 0.193 mi²</li>
+                <li>100 hectare = 0.386 mi²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mi2 to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mi² to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mi2 ≈ ? hectare</li>
-                <li>10 mi2 ≈ ? hectare</li>
-                <li>50 mi2 ≈ ? hectare</li>
-                <li>100 mi2 ≈ ? hectare</li>
+                <li>1 mi² = 259 hectare</li>
+                <li>10 mi² = 2590 hectare</li>
+                <li>50 mi² = 12950 hectare</li>
+                <li>100 mi² = 25900 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? mi2</li>
-                <li>1000 hectare ≈ ? mi2</li>
-                <li>5000 hectare ≈ ? mi2</li>
-                <li>10000 hectare ≈ ? mi2</li>
+                <li>500 hectare = 1.93 mi²</li>
+                <li>1000 hectare = 3.86 mi²</li>
+                <li>5000 hectare = 19.3 mi²</li>
+                <li>10000 hectare = 38.6 mi²</li>
               </ul>
             </div>
           </div>

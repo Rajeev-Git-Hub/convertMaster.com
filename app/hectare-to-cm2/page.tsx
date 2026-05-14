@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? cm2</li>
-                <li>10 hectare ≈ ? cm2</li>
-                <li>50 hectare ≈ ? cm2</li>
-                <li>100 hectare ≈ ? cm2</li>
+                <li>1 hectare = 100000000 cm²</li>
+                <li>10 hectare = 1000000000 cm²</li>
+                <li>50 hectare = 5000000000 cm²</li>
+                <li>100 hectare = 10000000000 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? hectare</li>
-                <li>10 cm2 ≈ ? hectare</li>
-                <li>50 cm2 ≈ ? hectare</li>
-                <li>100 cm2 ≈ ? hectare</li>
+                <li>1 cm² = 0.00000001 hectare</li>
+                <li>10 cm² = 0.0000001 hectare</li>
+                <li>50 cm² = 0.0000005 hectare</li>
+                <li>100 cm² = 0.000001 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? cm2</li>
-                <li>1000 hectare ≈ ? cm2</li>
-                <li>5000 hectare ≈ ? cm2</li>
-                <li>10000 hectare ≈ ? cm2</li>
+                <li>500 hectare = 50000000000 cm²</li>
+                <li>1000 hectare = 100000000000 cm²</li>
+                <li>5000 hectare = 500000000000 cm²</li>
+                <li>10000 hectare = 1000000000000 cm²</li>
               </ul>
             </div>
           </div>

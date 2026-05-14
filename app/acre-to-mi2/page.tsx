@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to Mi2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to mi²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? mi2</li>
-                <li>10 acre ≈ ? mi2</li>
-                <li>50 acre ≈ ? mi2</li>
-                <li>100 acre ≈ ? mi2</li>
+                <li>1 acre = 0.00156 mi²</li>
+                <li>10 acre = 0.0156 mi²</li>
+                <li>50 acre = 0.0781 mi²</li>
+                <li>100 acre = 0.156 mi²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Mi2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">mi² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mi2 ≈ ? acre</li>
-                <li>10 mi2 ≈ ? acre</li>
-                <li>50 mi2 ≈ ? acre</li>
-                <li>100 mi2 ≈ ? acre</li>
+                <li>1 mi² = 640 acre</li>
+                <li>10 mi² = 6400 acre</li>
+                <li>50 mi² = 32000 acre</li>
+                <li>100 mi² = 64000 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 acre ≈ ? mi2</li>
-                <li>1000 acre ≈ ? mi2</li>
-                <li>5000 acre ≈ ? mi2</li>
-                <li>10000 acre ≈ ? mi2</li>
+                <li>500 acre = 0.781 mi²</li>
+                <li>1000 acre = 1.56 mi²</li>
+                <li>5000 acre = 7.81 mi²</li>
+                <li>10000 acre = 15.6 mi²</li>
               </ul>
             </div>
           </div>

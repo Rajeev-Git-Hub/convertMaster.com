@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to Yd2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to yd²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? yd2</li>
-                <li>10 hectare ≈ ? yd2</li>
-                <li>50 hectare ≈ ? yd2</li>
-                <li>100 hectare ≈ ? yd2</li>
+                <li>1 hectare = 11960 yd²</li>
+                <li>10 hectare = 119600 yd²</li>
+                <li>50 hectare = 598000 yd²</li>
+                <li>100 hectare = 1196000 yd²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Yd2 to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">yd² to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yd2 ≈ ? hectare</li>
-                <li>10 yd2 ≈ ? hectare</li>
-                <li>50 yd2 ≈ ? hectare</li>
-                <li>100 yd2 ≈ ? hectare</li>
+                <li>1 yd² = 0.0000836 hectare</li>
+                <li>10 yd² = 0.000836 hectare</li>
+                <li>50 yd² = 0.00418 hectare</li>
+                <li>100 yd² = 0.00836 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? yd2</li>
-                <li>1000 hectare ≈ ? yd2</li>
-                <li>5000 hectare ≈ ? yd2</li>
-                <li>10000 hectare ≈ ? yd2</li>
+                <li>500 hectare = 5980000 yd²</li>
+                <li>1000 hectare = 11960000 yd²</li>
+                <li>5000 hectare = 59800000 yd²</li>
+                <li>10000 hectare = 119600000 yd²</li>
               </ul>
             </div>
           </div>

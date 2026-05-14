@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Acre to In2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">acre to in²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? in2</li>
-                <li>10 acre ≈ ? in2</li>
-                <li>50 acre ≈ ? in2</li>
-                <li>100 acre ≈ ? in2</li>
+                <li>1 acre = 6273000 in²</li>
+                <li>10 acre = 62730000 in²</li>
+                <li>50 acre = 313650000 in²</li>
+                <li>100 acre = 627300000 in²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">In2 to Acre</h3>
+                <h3 className="text-lg font-semibold text-gray-900">in² to acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in2 ≈ ? acre</li>
-                <li>10 in2 ≈ ? acre</li>
-                <li>50 in2 ≈ ? acre</li>
-                <li>100 in2 ≈ ? acre</li>
+                <li>1 in² = 0.000000159 acre</li>
+                <li>10 in² = 0.00000159 acre</li>
+                <li>50 in² = 0.00000797 acre</li>
+                <li>100 in² = 0.0000159 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 acre ≈ ? in2</li>
-                <li>1000 acre ≈ ? in2</li>
-                <li>5000 acre ≈ ? in2</li>
-                <li>10000 acre ≈ ? in2</li>
+                <li>500 acre = 3136500000 in²</li>
+                <li>1000 acre = 6273000000 in²</li>
+                <li>5000 acre = 31365000000 in²</li>
+                <li>10000 acre = 62730000000 in²</li>
               </ul>
             </div>
           </div>

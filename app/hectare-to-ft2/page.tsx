@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Hectare to Ft2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">hectare to ft²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? ft2</li>
-                <li>10 hectare ≈ ? ft2</li>
-                <li>50 hectare ≈ ? ft2</li>
-                <li>100 hectare ≈ ? ft2</li>
+                <li>1 hectare = 107600 ft²</li>
+                <li>10 hectare = 1076000 ft²</li>
+                <li>50 hectare = 5380000 ft²</li>
+                <li>100 hectare = 10760000 ft²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Ft2 to Hectare</h3>
+                <h3 className="text-lg font-semibold text-gray-900">ft² to hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft2 ≈ ? hectare</li>
-                <li>10 ft2 ≈ ? hectare</li>
-                <li>50 ft2 ≈ ? hectare</li>
-                <li>100 ft2 ≈ ? hectare</li>
+                <li>1 ft² = 0.00000929 hectare</li>
+                <li>10 ft² = 0.0000929 hectare</li>
+                <li>50 ft² = 0.000464 hectare</li>
+                <li>100 ft² = 0.000929 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hectare ≈ ? ft2</li>
-                <li>1000 hectare ≈ ? ft2</li>
-                <li>5000 hectare ≈ ? ft2</li>
-                <li>10000 hectare ≈ ? ft2</li>
+                <li>500 hectare = 53800000 ft²</li>
+                <li>1000 hectare = 107600000 ft²</li>
+                <li>5000 hectare = 538000000 ft²</li>
+                <li>10000 hectare = 1076000000 ft²</li>
               </ul>
             </div>
           </div>
