@@ -196,12 +196,7 @@ export default function ConverterPage() {
 
         {/* Trust Indicators */}
         <section className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
-              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto max-w-3xl">
             <div className="card p-6 text-center">
               <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h4 className="font-semibold text-gray-900">Instant Results</h4>

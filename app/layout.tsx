@@ -102,6 +102,7 @@ export default function RootLayout({
         <SchemaMarkup type="WebSite" />
         {/* Schema Markup for Software Application */}
         <SchemaMarkup type="SoftwareApplication" data={{ name: "ConvertMaster Unit Converter" }} />
+        {/* UI fixes removed to avoid hydration mismatches; apply permanent server-side edits instead */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
