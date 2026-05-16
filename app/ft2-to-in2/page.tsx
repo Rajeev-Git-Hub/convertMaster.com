@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for Ft2 to In2 conversions</p>
+            <p className="section-subtitle">Quick reference for ft² to in² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert Ft2 to In2</p>
+            <p className="section-subtitle">Simple steps to convert ft² to in²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ export default function ConverterPage() {
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
-              <p className="text-sm text-gray-600">Choose Ft2 as input and In2 as output</p>
+              <p className="text-sm text-gray-600">Choose ft² as input and in² as output</p>
             </div>
             <div className="card p-6 text-center group">
               <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
@@ -175,13 +175,13 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Frequently Asked Questions</h3>
-            <p className="section-subtitle">Common questions about Ft2 to In2 conversions</p>
+            <p className="section-subtitle">Common questions about ft² to in² conversions</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="card p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Ft2 to In2?</h4>
-              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Ft2, select Ft2 as input and In2 as output, then click convert.</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert ft² to in²?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in ft², select ft² as input and in² as output, then click convert.</p>
             </div>
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>

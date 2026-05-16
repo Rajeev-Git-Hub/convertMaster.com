@@ -25,7 +25,7 @@ export default function ConverterPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <ConverterCard category="length" defaultFrom="cm2" defaultTo="km2" />
+            <ConverterCard category="area" defaultFrom="cm2" defaultTo="km2" />
           </div>
         </section>
 
@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for Cm2 to Km2 conversions</p>
+            <p className="section-subtitle">Quick reference for cm² to km² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Cm2 to Km2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">cm² to km²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm2 ≈ ? km2</li>
-                <li>10 cm2 ≈ ? km2</li>
-                <li>50 cm2 ≈ ? km2</li>
-                <li>100 cm2 ≈ ? km2</li>
+                <li>1 cm² = 0.0000000001 km²</li>
+                <li>10 cm² = 0.000000001 km²</li>
+                <li>50 cm² = 0.000000005 km²</li>
+                <li>100 cm² = 0.00000001 km²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Km2 to Cm2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">km² to cm²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 ≈ ? cm2</li>
-                <li>10 km2 ≈ ? cm2</li>
-                <li>50 km2 ≈ ? cm2</li>
-                <li>100 km2 ≈ ? cm2</li>
+                <li>1 km² = 10000000000 cm²</li>
+                <li>10 km² = 100000000000 cm²</li>
+                <li>50 km² = 500000000000 cm²</li>
+                <li>100 km² = 1000000000000 cm²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm2 ≈ ? km2</li>
-                <li>1000 cm2 ≈ ? km2</li>
-                <li>5000 cm2 ≈ ? km2</li>
-                <li>10000 cm2 ≈ ? km2</li>
+                <li>500 cm² = 0.00000005 km²</li>
+                <li>1000 cm² = 0.0000001 km²</li>
+                <li>5000 cm² = 0.0000005 km²</li>
+                <li>10000 cm² = 0.000001 km²</li>
               </ul>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert Cm2 to Km2</p>
+            <p className="section-subtitle">Simple steps to convert cm² to km²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ export default function ConverterPage() {
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
-              <p className="text-sm text-gray-600">Choose Cm2 as input and Km2 as output</p>
+              <p className="text-sm text-gray-600">Choose cm² as input and km² as output</p>
             </div>
             <div className="card p-6 text-center group">
               <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
@@ -118,7 +118,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Unit Definitions</h3>
-            <p className="section-subtitle">Understanding length measurement units</p>
+            <p className="section-subtitle">Understanding area measurement units</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -128,54 +128,54 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#3b82f6' }}>
                   <FiBook className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900">Centimeter (cm)</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Square Centimeter (cm²)</h4>
               </div>
-              <p className="text-sm text-gray-600">Metric unit, 1/100 of a meter</p>
+              <p className="text-sm text-gray-600">Metric area unit, 1/10000 of a square meter</p>
             </div>
             <div className="card p-6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiBook className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900">Inch (in)</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Square Inch (in²)</h4>
               </div>
-              <p className="text-sm text-gray-600">Imperial unit, 1/12 of a foot</p>
+              <p className="text-sm text-gray-600">Imperial area unit, 1/144 of a square foot</p>
             </div>
             <div className="card p-6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="icon-box icon-box-primary" style={{ background: '#8b5cf6' }}>
                   <FiBook className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900">Meter (m)</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Square Meter (m²)</h4>
               </div>
-              <p className="text-sm text-gray-600">Base metric unit for length</p>
+              <p className="text-sm text-gray-600">Base metric unit for area</p>
             </div>
             <div className="card p-6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="icon-box icon-box-primary" style={{ background: '#f59e0b' }}>
                   <FiBook className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900">Foot (ft)</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Square Foot (ft²)</h4>
               </div>
-              <p className="text-sm text-gray-600">Imperial unit, 12 inches</p>
+              <p className="text-sm text-gray-600">Imperial area unit, 144 square inches</p>
             </div>
             <div className="card p-6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="icon-box icon-box-primary" style={{ background: '#ef4444' }}>
                   <FiBook className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900">Kilometer (km)</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Square Kilometer (km²)</h4>
               </div>
-              <p className="text-sm text-gray-600">1000 meters, metric unit</p>
+              <p className="text-sm text-gray-600">1000000 square meters, metric area unit</p>
             </div>
             <div className="card p-6">
               <div className="flex items-center gap-3 mb-3">
                 <div className="icon-box icon-box-primary" style={{ background: '#06b6d4' }}>
                   <FiBook className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900">Mile (mi)</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Square Mile (mi²)</h4>
               </div>
-              <p className="text-sm text-gray-600">Imperial unit, 5280 feet</p>
+              <p className="text-sm text-gray-600">Imperial area unit, 640 acres</p>
             </div>
           </div>
         </section>
@@ -184,13 +184,13 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Frequently Asked Questions</h3>
-            <p className="section-subtitle">Common questions about Cm2 to Km2 conversions</p>
+            <p className="section-subtitle">Common questions about cm² to km² conversions</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="card p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Cm2 to Km2?</h4>
-              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Cm2, select Cm2 as input and Km2 as output, then click convert.</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert cm² to km²?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in cm², select cm² as input and km² as output, then click convert.</p>
             </div>
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
@@ -229,14 +229,14 @@ export default function ConverterPage() {
           <div className="gradient-border p-8">
             <h3 className="section-title mb-4">Explore More Converters</h3>
             <p className="section-subtitle mb-8">
-              Discover our other length conversion tools
+              Discover our other area conversion tools
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/length-converter/"
+                href="/area-converter/"
                 className="btn btn-primary"
               >
-                <span>All Length Converters</span>
+                <span>All Area Converters</span>
                 <FiArrowRight className="w-4 h-4" />
               </Link>
             </div>

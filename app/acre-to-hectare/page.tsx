@@ -25,7 +25,7 @@ export default function ConverterPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <ConverterCard category="speed" defaultFrom="acre" defaultTo="hectare" />
+            <ConverterCard category="area" defaultFrom="acre" defaultTo="hectare" />
           </div>
         </section>
 

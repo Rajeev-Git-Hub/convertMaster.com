@@ -46,7 +46,6 @@ const converterCategories = [
       { name: 'meter to mile', href: '/meter-to-mile' },
       { name: 'km to cm', href: '/km-to-cm' },
       { name: 'km to mm', href: '/km-to-mm' },
-      { name: 'km to meter', href: '/km-to-meter' },
       { name: 'km to nm', href: '/km-to-nm' },
       { name: 'km to dm', href: '/km-to-dm' },
       { name: 'km to dam', href: '/km-to-dam' },

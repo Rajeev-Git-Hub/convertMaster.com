@@ -25,7 +25,7 @@ export default function ConverterPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <ConverterCard category="speed" defaultFrom="hectare" defaultTo="ft2" />
+            <ConverterCard category="area" defaultFrom="hectare" defaultTo="ft2" />
           </div>
         </section>
 
@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for Hectare to Ft2 conversions</p>
+            <p className="section-subtitle">Quick reference for Hectare to ft² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert Hectare to Ft2</p>
+            <p className="section-subtitle">Simple steps to convert Hectare to ft²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ export default function ConverterPage() {
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
-              <p className="text-sm text-gray-600">Choose Hectare as input and Ft2 as output</p>
+              <p className="text-sm text-gray-600">Choose Hectare as input and ft² as output</p>
             </div>
             <div className="card p-6 text-center group">
               <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
@@ -175,13 +175,13 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Frequently Asked Questions</h3>
-            <p className="section-subtitle">Common questions about Hectare to Ft2 conversions</p>
+            <p className="section-subtitle">Common questions about Hectare to ft² conversions</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="card p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Hectare to Ft2?</h4>
-              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Hectare, select Hectare as input and Ft2 as output, then click convert.</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Hectare to ft²?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Hectare, select Hectare as input and ft² as output, then click convert.</p>
             </div>
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
@@ -196,12 +196,7 @@ export default function ConverterPage() {
 
         {/* Trust Indicators */}
         <section className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-green-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">100% Accurate</h4>
-              <p className="text-xs text-gray-600 mt-1">Standard formulas</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto max-w-3xl">
             <div className="card p-6 text-center">
               <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h4 className="font-semibold text-gray-900">Instant Results</h4>

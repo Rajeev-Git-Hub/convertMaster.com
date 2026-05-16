@@ -25,7 +25,7 @@ export default function ConverterPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <ConverterCard category="length" defaultFrom="cm2" defaultTo="mm2" />
+            <ConverterCard category="area" defaultFrom="cm2" defaultTo="mm2" />
           </div>
         </section>
 
@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for Cm2 to Mm2 conversions</p>
+            <p className="section-subtitle">Quick reference for cm² to mm² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert Cm2 to Mm2</p>
+            <p className="section-subtitle">Simple steps to convert cm² to mm²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ export default function ConverterPage() {
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
-              <p className="text-sm text-gray-600">Choose Cm2 as input and Mm2 as output</p>
+              <p className="text-sm text-gray-600">Choose cm² as input and mm² as output</p>
             </div>
             <div className="card p-6 text-center group">
               <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
@@ -184,13 +184,13 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Frequently Asked Questions</h3>
-            <p className="section-subtitle">Common questions about Cm2 to Mm2 conversions</p>
+            <p className="section-subtitle">Common questions about cm² to mm² conversions</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="card p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Cm2 to Mm2?</h4>
-              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Cm2, select Cm2 as input and Mm2 as output, then click convert.</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert cm² to mm²?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in cm², select cm² as input and mm² as output, then click convert.</p>
             </div>
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>

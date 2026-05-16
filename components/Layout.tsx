@@ -179,7 +179,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
         />
 
         {/* Sidebar */}
-        <aside className={`fixed left-0 top-16 md:top-16 w-80 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar z-50 ${
+        <aside className={`fixed left-0 top-16 md:top-16 w-64 h-[calc(100vh-4rem)] bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto custom-scrollbar z-50 ${
           mobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         } md:block transition-transform duration-300`}>
           <div className="p-2 md:p-6">
@@ -506,7 +506,7 @@ const category = (pathSegment === 'length' || pathSegment === 'weight' || pathSe
           </div>
         </aside>
 
-        <main className="flex-1 min-w-0 w-full ml-0 md:ml-80 overflow-x-hidden">
+        <main className="flex-1 min-w-0 w-full ml-0 md:ml-64 overflow-x-hidden">
           {children}
           <Footer />
         </main>

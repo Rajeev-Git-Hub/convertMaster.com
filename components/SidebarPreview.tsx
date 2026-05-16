@@ -21,7 +21,7 @@ import { FiHome, FiActivity, FiLayers, FiFileText, FiLock, FiLink, FiClock, FiPe
 
 export default function SidebarPreview() {
   return (
-    <div className="w-64 bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto p-6 min-h-screen">
+    <div className="w-20 bg-gray-800 dark:bg-gray-950 border-r border-gray-700 dark:border-gray-800 overflow-y-auto p-6 min-h-screen">
       
       {/* Application Branding */}
       <div className="mb-8">

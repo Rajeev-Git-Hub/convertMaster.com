@@ -25,7 +25,7 @@ export default function ConverterPage() {
           </p>
           
           <div className="max-w-2xl mx-auto mt-8">
-            <ConverterCard category="length" defaultFrom="km2" defaultTo="m2" />
+            <ConverterCard category="area" defaultFrom="km2" defaultTo="m2" />
           </div>
         </section>
 
@@ -33,7 +33,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Common Conversions</h3>
-            <p className="section-subtitle">Quick reference for Km2 to M2 conversions</p>
+            <p className="section-subtitle">Quick reference for km² to m² conversions</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,13 +42,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary">
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Km2 to M2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">km² to m²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km2 = 1000000 m2</li>
-                <li>10 km2 = 10000000 m2</li>
-                <li>50 km2 = 50000000 m2</li>
-                <li>100 km2 = 100000000 m2</li>
+                <li>1 km² = 1000000 m²</li>
+                <li>10 km² = 10000000 m²</li>
+                <li>50 km² = 50000000 m²</li>
+                <li>100 km² = 100000000 m²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -56,13 +56,13 @@ export default function ConverterPage() {
                 <div className="icon-box icon-box-primary" style={{ background: '#10b981' }}>
                   <FiMaximize className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">M2 to Km2</h3>
+                <h3 className="text-lg font-semibold text-gray-900">m² to km²</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m2 = 0.000001 km2</li>
-                <li>10 m2 = 0.00001 km2</li>
-                <li>50 m2 = 0.00005 km2</li>
-                <li>100 m2 = 0.0001 km2</li>
+                <li>1 m² = 0.000001 km²</li>
+                <li>10 m² = 0.00001 km²</li>
+                <li>50 m² = 0.00005 km²</li>
+                <li>100 m² = 0.0001 km²</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km2 = 500000000 m2</li>
-                <li>1000 km2 = 1000000000 m2</li>
-                <li>5000 km2 = 5000000000 m2</li>
-                <li>10000 km2 = 10000000000 m2</li>
+                <li>500 km² = 500000000 m²</li>
+                <li>1000 km² = 1000000000 m²</li>
+                <li>5000 km² = 5000000000 m²</li>
+                <li>10000 km² = 10000000000 m²</li>
               </ul>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">How to Use</h3>
-            <p className="section-subtitle">Simple steps to convert Km2 to M2</p>
+            <p className="section-subtitle">Simple steps to convert km² to m²</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ export default function ConverterPage() {
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Select Units</h4>
-              <p className="text-sm text-gray-600">Choose Km2 as input and M2 as output</p>
+              <p className="text-sm text-gray-600">Choose km² as input and m² as output</p>
             </div>
             <div className="card p-6 text-center group">
               <div className="icon-box icon-box-primary mb-4 mx-auto" style={{ background: '#8b5cf6' }}>
@@ -184,13 +184,13 @@ export default function ConverterPage() {
         <section className="mb-12">
           <div className="text-center mb-8">
             <h3 className="section-title">Frequently Asked Questions</h3>
-            <p className="section-subtitle">Common questions about Km2 to M2 conversions</p>
+            <p className="section-subtitle">Common questions about km² to m² conversions</p>
           </div>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="card p-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert Km2 to M2?</h4>
-              <p className="text-sm text-gray-600">Use our converter above. Enter the value in Km2, select Km2 as input and M2 as output, then click convert.</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">How do I convert km² to m²?</h4>
+              <p className="text-sm text-gray-600">Use our converter above. Enter the value in km², select km² as input and m² as output, then click convert.</p>
             </div>
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">What is the conversion formula?</h4>
