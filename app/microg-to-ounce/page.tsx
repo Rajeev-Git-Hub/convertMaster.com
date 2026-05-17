@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microg to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microg ≈ ? ounce</li>
-                <li>10 microg ≈ ? ounce</li>
-                <li>50 microg ≈ ? ounce</li>
-                <li>100 microg ≈ ? ounce</li>
+                <li>1 microg = 3.527396195e-8 ounce</li>
+                <li>10 microg = 3.527396195e-7 ounce</li>
+                <li>50 microg = 0.00000176369809748 ounce</li>
+                <li>100 microg = 0.00000352739619496 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Microg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? microg</li>
-                <li>10 ounce ≈ ? microg</li>
-                <li>50 ounce ≈ ? microg</li>
-                <li>100 ounce ≈ ? microg</li>
+                <li>1 ounce = 28349523.125 microg</li>
+                <li>10 ounce = 283495231.25 microg</li>
+                <li>50 ounce = 1417476156.25 microg</li>
+                <li>100 ounce = 2834952312.5 microg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microg ≈ ? ounce</li>
-                <li>1000 microg ≈ ? ounce</li>
-                <li>5000 microg ≈ ? ounce</li>
-                <li>10000 microg ≈ ? ounce</li>
+                <li>500 microg = 0.0000176369809748 ounce</li>
+                <li>1000 microg = 0.0000352739619496 ounce</li>
+                <li>5000 microg = 0.000176369809748 ounce</li>
+                <li>10000 microg = 0.000352739619496 ounce</li>
               </ul>
             </div>
           </div>

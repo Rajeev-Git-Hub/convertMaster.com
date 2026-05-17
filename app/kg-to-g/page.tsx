@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg = 1000000 g</li>
-                <li>10 kg = 10000000 g</li>
-                <li>50 kg = 50000000 g</li>
-                <li>100 kg = 100000000 g</li>
+                <li>1 kg = 1000 g</li>
+                <li>10 kg = 10000 g</li>
+                <li>50 kg = 50000 g</li>
+                <li>100 kg = 100000 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg = 500000000 g</li>
-                <li>1000 kg = 1000000000 g</li>
-                <li>5000 kg = 5000000000 g</li>
-                <li>10000 kg = 10000000000 g</li>
+                <li>500 kg = 500000 g</li>
+                <li>1000 kg = 1000000 g</li>
+                <li>5000 kg = 5000000 g</li>
+                <li>10000 kg = 10000000 g</li>
               </ul>
             </div>
           </div>

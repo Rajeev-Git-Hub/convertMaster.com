@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg = 0.0000353 ounce</li>
-                <li>10 mg = 0.000353 ounce</li>
-                <li>50 mg = 0.001765 ounce</li>
-                <li>100 mg = 0.00353 ounce</li>
+                <li>1 mg = 0.0000352739619496 ounce</li>
+                <li>10 mg = 0.000352739619496 ounce</li>
+                <li>50 mg = 0.00176369809748 ounce</li>
+                <li>100 mg = 0.00352739619496 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce = 28350 mg</li>
-                <li>10 ounce = 283500 mg</li>
-                <li>50 ounce = 1417500 mg</li>
-                <li>100 ounce = 2835000 mg</li>
+                <li>1 ounce = 28349.523125 mg</li>
+                <li>10 ounce = 283495.23125 mg</li>
+                <li>50 ounce = 1417476.15625 mg</li>
+                <li>100 ounce = 2834952.3125 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mg ≈ ? ounce</li>
-                <li>1000 mg ≈ ? ounce</li>
-                <li>5000 mg ≈ ? ounce</li>
-                <li>10000 mg ≈ ? ounce</li>
+                <li>500 mg = 0.0176369809748 ounce</li>
+                <li>1000 mg = 0.0352739619496 ounce</li>
+                <li>5000 mg = 0.176369809748 ounce</li>
+                <li>10000 mg = 0.352739619496 ounce</li>
               </ul>
             </div>
           </div>

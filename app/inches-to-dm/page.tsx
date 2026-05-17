@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm = 3.93701 inches</li>
-                <li>10 dm = 39.3701 inches</li>
-                <li>50 dm = 196.851 inches</li>
-                <li>100 dm = 393.701 inches</li>
+                <li>1 dm = 3.93700787402 inches</li>
+                <li>10 dm = 39.3700787402 inches</li>
+                <li>50 dm = 196.850393701 inches</li>
+                <li>100 dm = 393.700787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">

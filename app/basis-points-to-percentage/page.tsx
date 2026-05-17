@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Basis-points to Percentage</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 basis-points ≈ ? percentage</li>
-                <li>10 basis-points ≈ ? percentage</li>
-                <li>50 basis-points ≈ ? percentage</li>
-                <li>100 basis-points ≈ ? percentage</li>
+                <li>1 basis-point = 0.01 percentage</li>
+                <li>10 basis-points = 0.1 percentage</li>
+                <li>50 basis-points = 0.5 percentage</li>
+                <li>100 basis-points = 1 percentage</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Percentage to Basis-points</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 percentage ≈ ? basis-points</li>
-                <li>10 percentage ≈ ? basis-points</li>
-                <li>50 percentage ≈ ? basis-points</li>
-                <li>100 percentage ≈ ? basis-points</li>
+                <li>1 percentage = 100 basis-points</li>
+                <li>10 percentage = 1000 basis-points</li>
+                <li>50 percentage = 5000 basis-points</li>
+                <li>100 percentage = 10000 basis-points</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 basis-points ≈ ? percentage</li>
-                <li>1000 basis-points ≈ ? percentage</li>
-                <li>5000 basis-points ≈ ? percentage</li>
-                <li>10000 basis-points ≈ ? percentage</li>
+                <li>500 basis-points = 5 percentage</li>
+                <li>1000 basis-points = 10 percentage</li>
+                <li>5000 basis-points = 50 percentage</li>
+                <li>10000 basis-points = 100 percentage</li>
               </ul>
             </div>
           </div>

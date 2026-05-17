@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kbit to Tb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kbit ≈ ? tb</li>
-                <li>10 kbit ≈ ? tb</li>
-                <li>50 kbit ≈ ? tb</li>
-                <li>100 kbit ≈ ? tb</li>
+                <li>1 kbit = 1.1641532183e-10 tb</li>
+                <li>10 kbit = 1.1641532183e-9 tb</li>
+                <li>50 kbit = 5.8207660913e-9 tb</li>
+                <li>100 kbit = 1.1641532183e-8 tb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Tb to Kbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 tb ≈ ? kbit</li>
-                <li>10 tb ≈ ? kbit</li>
-                <li>50 tb ≈ ? kbit</li>
-                <li>100 tb ≈ ? kbit</li>
+                <li>1 tb = 8589934592 kbit</li>
+                <li>10 tb = 85899345920 kbit</li>
+                <li>50 tb = 429496729600 kbit</li>
+                <li>100 tb = 858993459200 kbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kbit ≈ ? tb</li>
-                <li>1000 kbit ≈ ? tb</li>
-                <li>5000 kbit ≈ ? tb</li>
-                <li>10000 kbit ≈ ? tb</li>
+                <li>500 kbit = 5.8207660913e-8 tb</li>
+                <li>1000 kbit = 1.1641532183e-7 tb</li>
+                <li>5000 kbit = 5.8207660913e-7 tb</li>
+                <li>10000 kbit = 0.00000116415321827 tb</li>
               </ul>
             </div>
           </div>

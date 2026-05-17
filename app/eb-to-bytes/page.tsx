@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Eb to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 eb ≈ ? bytes</li>
-                <li>10 eb ≈ ? bytes</li>
-                <li>50 eb ≈ ? bytes</li>
-                <li>100 eb ≈ ? bytes</li>
+                <li>1 eb = 1.1529215046e+18 bytes</li>
+                <li>10 eb = 1.1529215046e+19 bytes</li>
+                <li>50 eb = 5.764607523e+19 bytes</li>
+                <li>100 eb = 1.1529215046e+20 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Eb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? eb</li>
-                <li>10 bytes ≈ ? eb</li>
-                <li>50 bytes ≈ ? eb</li>
-                <li>100 bytes ≈ ? eb</li>
+                <li>1 bytes = 0 eb</li>
+                <li>10 bytes = 0 eb</li>
+                <li>50 bytes = 0 eb</li>
+                <li>100 bytes = 0 eb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 eb ≈ ? bytes</li>
-                <li>1000 eb ≈ ? bytes</li>
-                <li>5000 eb ≈ ? bytes</li>
-                <li>10000 eb ≈ ? bytes</li>
+                <li>500 eb = 5.764607523e+20 bytes</li>
+                <li>1000 eb = 1.1529215046e+21 bytes</li>
+                <li>5000 eb = 5.764607523e+21 bytes</li>
+                <li>10000 eb = 1.1529215046e+22 bytes</li>
               </ul>
             </div>
           </div>

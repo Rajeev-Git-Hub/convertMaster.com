@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton = 1000000000000 ng</li>
-                <li>10 metric-ton = 10000000000000 ng</li>
-                <li>50 metric-ton = 50000000000000 ng</li>
-                <li>100 metric-ton = 100000000000000 ng</li>
+                <li>1 metric-ton = 1000000000000000 ng</li>
+                <li>10 metric-ton = 1e+16 ng</li>
+                <li>50 metric-ton = 5e+16 ng</li>
+                <li>100 metric-ton = 1e+17 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng = 0.000000000001 metric-ton</li>
-                <li>10 ng = 0.00000000001 metric-ton</li>
-                <li>50 ng = 0.00000000005 metric-ton</li>
-                <li>100 ng = 0.0000000001 metric-ton</li>
+                <li>1 ng = 1e-15 metric-ton</li>
+                <li>10 ng = 1e-14 metric-ton</li>
+                <li>50 ng = 5e-14 metric-ton</li>
+                <li>100 ng = 1e-13 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 metric-ton = 500000000000000 ng</li>
-                <li>1000 metric-ton = 1000000000000000 ng</li>
-                <li>5000 metric-ton = 5000000000000000 ng</li>
-                <li>10000 metric-ton = 10000000000000000 ng</li>
+                <li>500 metric-ton = 5e+17 ng</li>
+                <li>1000 metric-ton = 1e+18 ng</li>
+                <li>5000 metric-ton = 5e+18 ng</li>
+                <li>10000 metric-ton = 1e+19 ng</li>
               </ul>
             </div>
           </div>

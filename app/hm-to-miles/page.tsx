@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm = 0.062137 miles</li>
-                <li>10 hm = 0.621371 miles</li>
-                <li>50 hm = 3.10686 miles</li>
-                <li>100 hm = 6.21371 miles</li>
+                <li>1 hm = 0.0621371192237 miles</li>
+                <li>10 hm = 0.621371192237 miles</li>
+                <li>50 hm = 3.10685596119 miles</li>
+                <li>100 hm = 6.21371192237 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles = 16.0934 hm</li>
-                <li>10 miles = 160.934 hm</li>
-                <li>50 miles = 804.67 hm</li>
-                <li>100 miles = 1609.34 hm</li>
+                <li>1 miles = 16.09344 hm</li>
+                <li>10 miles = 160.9344 hm</li>
+                <li>50 miles = 804.672 hm</li>
+                <li>100 miles = 1609.344 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hm = 31.0686 miles</li>
-                <li>1000 hm = 62.1371 miles</li>
-                <li>5000 hm = 310.686 miles</li>
-                <li>10000 hm = 621.371 miles</li>
+                <li>500 hm = 31.0685596119 miles</li>
+                <li>1000 hm = 62.1371192237 miles</li>
+                <li>5000 hm = 310.685596119 miles</li>
+                <li>10000 hm = 621.371192237 miles</li>
               </ul>
             </div>
           </div>

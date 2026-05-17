@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gb to Pb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gb ≈ ? pb</li>
-                <li>10 gb ≈ ? pb</li>
-                <li>50 gb ≈ ? pb</li>
-                <li>100 gb ≈ ? pb</li>
+                <li>1 gb = 9.5367431641e-7 pb</li>
+                <li>10 gb = 0.00000953674316406 pb</li>
+                <li>50 gb = 0.0000476837158203 pb</li>
+                <li>100 gb = 0.0000953674316406 pb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pb to Gb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pb ≈ ? gb</li>
-                <li>10 pb ≈ ? gb</li>
-                <li>50 pb ≈ ? gb</li>
-                <li>100 pb ≈ ? gb</li>
+                <li>1 pb = 1048576 gb</li>
+                <li>10 pb = 10485760 gb</li>
+                <li>50 pb = 52428800 gb</li>
+                <li>100 pb = 104857600 gb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gb ≈ ? pb</li>
-                <li>1000 gb ≈ ? pb</li>
-                <li>5000 gb ≈ ? pb</li>
-                <li>10000 gb ≈ ? pb</li>
+                <li>500 gb = 0.000476837158203 pb</li>
+                <li>1000 gb = 0.000953674316406 pb</li>
+                <li>5000 gb = 0.00476837158203 pb</li>
+                <li>10000 gb = 0.00953674316406 pb</li>
               </ul>
             </div>
           </div>

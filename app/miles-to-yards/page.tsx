@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? yards</li>
-                <li>10 miles ≈ ? yards</li>
-                <li>50 miles ≈ ? yards</li>
-                <li>100 miles ≈ ? yards</li>
+                <li>1 miles = 1760 yards</li>
+                <li>10 miles = 17600 yards</li>
+                <li>50 miles = 88000 yards</li>
+                <li>100 miles = 176000 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? miles</li>
-                <li>10 yards ≈ ? miles</li>
-                <li>50 yards ≈ ? miles</li>
-                <li>100 yards ≈ ? miles</li>
+                <li>1 yards = 0.000568181818182 miles</li>
+                <li>10 yards = 0.00568181818182 miles</li>
+                <li>50 yards = 0.0284090909091 miles</li>
+                <li>100 yards = 0.0568181818182 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 miles ≈ ? yards</li>
-                <li>1000 miles ≈ ? yards</li>
-                <li>5000 miles ≈ ? yards</li>
-                <li>10000 miles ≈ ? yards</li>
+                <li>500 miles = 880000 yards</li>
+                <li>1000 miles = 1760000 yards</li>
+                <li>5000 miles = 8800000 yards</li>
+                <li>10000 miles = 17600000 yards</li>
               </ul>
             </div>
           </div>

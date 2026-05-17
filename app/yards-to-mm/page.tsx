@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? mm</li>
-                <li>10 yards ≈ ? mm</li>
-                <li>50 yards ≈ ? mm</li>
-                <li>100 yards ≈ ? mm</li>
+                <li>1 yards = 914.4 mm</li>
+                <li>10 yards = 9144 mm</li>
+                <li>50 yards = 45720 mm</li>
+                <li>100 yards = 91440 mm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm ≈ ? yards</li>
-                <li>10 mm ≈ ? yards</li>
-                <li>50 mm ≈ ? yards</li>
-                <li>100 mm ≈ ? yards</li>
+                <li>1 mm = 0.00109361329834 yards</li>
+                <li>10 mm = 0.0109361329834 yards</li>
+                <li>50 mm = 0.0546806649169 yards</li>
+                <li>100 mm = 0.109361329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yards ≈ ? mm</li>
-                <li>1000 yards ≈ ? mm</li>
-                <li>5000 yards ≈ ? mm</li>
-                <li>10000 yards ≈ ? mm</li>
+                <li>500 yards = 457200 mm</li>
+                <li>1000 yards = 914400 mm</li>
+                <li>5000 yards = 4572000 mm</li>
+                <li>10000 yards = 9144000 mm</li>
               </ul>
             </div>
           </div>

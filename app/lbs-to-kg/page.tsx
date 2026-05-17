@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 lbs = 0.454 kg</li>
-                <li>10 lbs = 4.536 kg</li>
-                <li>50 lbs = 22.68 kg</li>
-                <li>100 lbs = 45.36 kg</li>
+                <li>1 lbs = 0.45359237 kg</li>
+                <li>10 lbs = 4.5359237 kg</li>
+                <li>50 lbs = 22.6796185 kg</li>
+                <li>100 lbs = 45.359237 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Lbs</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg = 2.205 lbs</li>
-                <li>10 kg = 22.05 lbs</li>
-                <li>50 kg = 110.23 lbs</li>
-                <li>100 kg = 220.46 lbs</li>
+                <li>1 kg = 2.20462262185 lbs</li>
+                <li>10 kg = 22.0462262185 lbs</li>
+                <li>50 kg = 110.231131092 lbs</li>
+                <li>100 kg = 220.462262185 lbs</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 lbs = 226.8 kg</li>
-                <li>1000 lbs = 453.6 kg</li>
-                <li>5000 lbs = 2268 kg</li>
-                <li>10000 lbs = 4536 kg</li>
+                <li>500 lbs = 226.796185 kg</li>
+                <li>1000 lbs = 453.59237 kg</li>
+                <li>5000 lbs = 2267.96185 kg</li>
+                <li>10000 lbs = 4535.9237 kg</li>
               </ul>
             </div>
           </div>

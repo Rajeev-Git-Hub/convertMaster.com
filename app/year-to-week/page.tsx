@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? week</li>
-                <li>10 year ≈ ? week</li>
-                <li>50 year ≈ ? week</li>
-                <li>100 year ≈ ? week</li>
+                <li>1 year = 52.1785714286 week</li>
+                <li>10 year = 521.785714286 week</li>
+                <li>50 year = 2608.92857143 week</li>
+                <li>100 year = 5217.85714286 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? year</li>
-                <li>10 week ≈ ? year</li>
-                <li>50 week ≈ ? year</li>
-                <li>100 week ≈ ? year</li>
+                <li>1 week = 0.0191649555099 year</li>
+                <li>10 week = 0.191649555099 year</li>
+                <li>50 week = 0.958247775496 year</li>
+                <li>100 week = 1.91649555099 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 year ≈ ? week</li>
-                <li>1000 year ≈ ? week</li>
-                <li>5000 year ≈ ? week</li>
-                <li>10000 year ≈ ? week</li>
+                <li>500 year = 26089.2857143 week</li>
+                <li>1000 year = 52178.5714286 week</li>
+                <li>5000 year = 260892.857143 week</li>
+                <li>10000 year = 521785.714286 week</li>
               </ul>
             </div>
           </div>

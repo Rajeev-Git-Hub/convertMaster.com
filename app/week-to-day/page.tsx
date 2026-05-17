@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? day</li>
-                <li>10 week ≈ ? day</li>
-                <li>50 week ≈ ? day</li>
-                <li>100 week ≈ ? day</li>
+                <li>1 week = 7 day</li>
+                <li>10 week = 70 day</li>
+                <li>50 week = 350 day</li>
+                <li>100 week = 700 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? week</li>
-                <li>10 day ≈ ? week</li>
-                <li>50 day ≈ ? week</li>
-                <li>100 day ≈ ? week</li>
+                <li>1 day = 0.142857142857 week</li>
+                <li>10 day = 1.42857142857 week</li>
+                <li>50 day = 7.14285714286 week</li>
+                <li>100 day = 14.2857142857 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 week ≈ ? day</li>
-                <li>1000 week ≈ ? day</li>
-                <li>5000 week ≈ ? day</li>
-                <li>10000 week ≈ ? day</li>
+                <li>500 week = 3500 day</li>
+                <li>1000 week = 7000 day</li>
+                <li>5000 week = 35000 day</li>
+                <li>10000 week = 70000 day</li>
               </ul>
             </div>
           </div>

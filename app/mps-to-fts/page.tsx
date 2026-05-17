@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mps to Fts</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mps ≈ ? fts</li>
-                <li>10 mps ≈ ? fts</li>
-                <li>50 mps ≈ ? fts</li>
-                <li>100 mps ≈ ? fts</li>
+                <li>1 mps = 3.28083989501 fts</li>
+                <li>10 mps = 32.8083989501 fts</li>
+                <li>50 mps = 164.041994751 fts</li>
+                <li>100 mps = 328.083989501 fts</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fts to Mps</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fts ≈ ? mps</li>
-                <li>10 fts ≈ ? mps</li>
-                <li>50 fts ≈ ? mps</li>
-                <li>100 fts ≈ ? mps</li>
+                <li>1 fts = 0.3048 mps</li>
+                <li>10 fts = 3.048 mps</li>
+                <li>50 fts = 15.24 mps</li>
+                <li>100 fts = 30.48 mps</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mps ≈ ? fts</li>
-                <li>1000 mps ≈ ? fts</li>
-                <li>5000 mps ≈ ? fts</li>
-                <li>10000 mps ≈ ? fts</li>
+                <li>500 mps = 1640.41994751 fts</li>
+                <li>1000 mps = 3280.83989501 fts</li>
+                <li>5000 mps = 16404.1994751 fts</li>
+                <li>10000 mps = 32808.3989501 fts</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches = 0.02778 yards</li>
-                <li>10 inches = 0.27778 yards</li>
-                <li>50 inches = 1.38889 yards</li>
-                <li>100 inches = 2.77778 yards</li>
+                <li>1 inches = 0.0277777777778 yards</li>
+                <li>10 inches = 0.277777777778 yards</li>
+                <li>50 inches = 1.38888888889 yards</li>
+                <li>100 inches = 2.77777777778 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches = 13.8889 yards</li>
-                <li>1000 inches = 27.7778 yards</li>
-                <li>5000 inches = 138.889 yards</li>
-                <li>10000 inches = 277.778 yards</li>
+                <li>500 inches = 13.8888888889 yards</li>
+                <li>1000 inches = 27.7777777778 yards</li>
+                <li>5000 inches = 138.888888889 yards</li>
+                <li>10000 inches = 277.777777778 yards</li>
               </ul>
             </div>
           </div>

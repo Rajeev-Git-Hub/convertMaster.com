@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Tb to Gbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 tb ≈ ? gbit</li>
-                <li>10 tb ≈ ? gbit</li>
-                <li>50 tb ≈ ? gbit</li>
-                <li>100 tb ≈ ? gbit</li>
+                <li>1 tb = 8192 gbit</li>
+                <li>10 tb = 81920 gbit</li>
+                <li>50 tb = 409600 gbit</li>
+                <li>100 tb = 819200 gbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gbit to Tb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gbit ≈ ? tb</li>
-                <li>10 gbit ≈ ? tb</li>
-                <li>50 gbit ≈ ? tb</li>
-                <li>100 gbit ≈ ? tb</li>
+                <li>1 gbit = 0.0001220703125 tb</li>
+                <li>10 gbit = 0.001220703125 tb</li>
+                <li>50 gbit = 0.006103515625 tb</li>
+                <li>100 gbit = 0.01220703125 tb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 tb ≈ ? gbit</li>
-                <li>1000 tb ≈ ? gbit</li>
-                <li>5000 tb ≈ ? gbit</li>
-                <li>10000 tb ≈ ? gbit</li>
+                <li>500 tb = 4096000 gbit</li>
+                <li>1000 tb = 8192000 gbit</li>
+                <li>5000 tb = 40960000 gbit</li>
+                <li>10000 tb = 81920000 gbit</li>
               </ul>
             </div>
           </div>

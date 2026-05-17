@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? feet</li>
-                <li>10 miles ≈ ? feet</li>
-                <li>50 miles ≈ ? feet</li>
-                <li>100 miles ≈ ? feet</li>
+                <li>1 miles = 5280 feet</li>
+                <li>10 miles = 52800 feet</li>
+                <li>50 miles = 264000 feet</li>
+                <li>100 miles = 528000 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? miles</li>
-                <li>10 feet ≈ ? miles</li>
-                <li>50 feet ≈ ? miles</li>
-                <li>100 feet ≈ ? miles</li>
+                <li>1 feet = 0.000189393939394 miles</li>
+                <li>10 feet = 0.00189393939394 miles</li>
+                <li>50 feet = 0.0094696969697 miles</li>
+                <li>100 feet = 0.0189393939394 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 miles ≈ ? feet</li>
-                <li>1000 miles ≈ ? feet</li>
-                <li>5000 miles ≈ ? feet</li>
-                <li>10000 miles ≈ ? feet</li>
+                <li>500 miles = 2640000 feet</li>
+                <li>1000 miles = 5280000 feet</li>
+                <li>5000 miles = 26400000 feet</li>
+                <li>10000 miles = 52800000 feet</li>
               </ul>
             </div>
           </div>

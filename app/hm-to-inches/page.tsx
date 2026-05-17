@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm = 3937.01 inches</li>
-                <li>10 hm = 39370.1 inches</li>
-                <li>50 hm = 196850 inches</li>
-                <li>100 hm = 393701 inches</li>
+                <li>1 hm = 3937.00787402 inches</li>
+                <li>10 hm = 39370.0787402 inches</li>
+                <li>50 hm = 196850.393701 inches</li>
+                <li>100 hm = 393700.787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hm = 1968505 inches</li>
-                <li>1000 hm = 3937008 inches</li>
-                <li>5000 hm = 19685039 inches</li>
-                <li>10000 hm = 39370079 inches</li>
+                <li>500 hm = 1968503.93701 inches</li>
+                <li>1000 hm = 3937007.87402 inches</li>
+                <li>5000 hm = 19685039.3701 inches</li>
+                <li>10000 hm = 39370078.7402 inches</li>
               </ul>
             </div>
           </div>

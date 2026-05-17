@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? feet</li>
-                <li>10 micrometers ≈ ? feet</li>
-                <li>50 micrometers ≈ ? feet</li>
-                <li>100 micrometers ≈ ? feet</li>
+                <li>1 micrometers = 0.00000328083989501 feet</li>
+                <li>10 micrometers = 0.0000328083989501 feet</li>
+                <li>50 micrometers = 0.000164041994751 feet</li>
+                <li>100 micrometers = 0.000328083989501 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? micrometers</li>
-                <li>10 feet ≈ ? micrometers</li>
-                <li>50 feet ≈ ? micrometers</li>
-                <li>100 feet ≈ ? micrometers</li>
+                <li>1 feet = 304800 micrometers</li>
+                <li>10 feet = 3048000 micrometers</li>
+                <li>50 feet = 15240000 micrometers</li>
+                <li>100 feet = 30480000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 micrometers ≈ ? feet</li>
-                <li>1000 micrometers ≈ ? feet</li>
-                <li>5000 micrometers ≈ ? feet</li>
-                <li>10000 micrometers ≈ ? feet</li>
+                <li>500 micrometers = 0.00164041994751 feet</li>
+                <li>1000 micrometers = 0.00328083989501 feet</li>
+                <li>5000 micrometers = 0.0164041994751 feet</li>
+                <li>10000 micrometers = 0.0328083989501 feet</li>
               </ul>
             </div>
           </div>

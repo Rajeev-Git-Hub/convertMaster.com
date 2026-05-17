@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pb to Eb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pb ≈ ? eb</li>
-                <li>10 pb ≈ ? eb</li>
-                <li>50 pb ≈ ? eb</li>
-                <li>100 pb ≈ ? eb</li>
+                <li>1 pb = 0.0009765625 eb</li>
+                <li>10 pb = 0.009765625 eb</li>
+                <li>50 pb = 0.048828125 eb</li>
+                <li>100 pb = 0.09765625 eb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Eb to Pb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 eb ≈ ? pb</li>
-                <li>10 eb ≈ ? pb</li>
-                <li>50 eb ≈ ? pb</li>
-                <li>100 eb ≈ ? pb</li>
+                <li>1 eb = 1024 pb</li>
+                <li>10 eb = 10240 pb</li>
+                <li>50 eb = 51200 pb</li>
+                <li>100 eb = 102400 pb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 pb ≈ ? eb</li>
-                <li>1000 pb ≈ ? eb</li>
-                <li>5000 pb ≈ ? eb</li>
-                <li>10000 pb ≈ ? eb</li>
+                <li>500 pb = 0.48828125 eb</li>
+                <li>1000 pb = 0.9765625 eb</li>
+                <li>5000 pb = 4.8828125 eb</li>
+                <li>10000 pb = 9.765625 eb</li>
               </ul>
             </div>
           </div>

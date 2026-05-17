@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Liter to Floz</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 liter ≈ ? floz</li>
-                <li>10 liter ≈ ? floz</li>
-                <li>50 liter ≈ ? floz</li>
-                <li>100 liter ≈ ? floz</li>
+                <li>1 liter = 33.8140227018 floz</li>
+                <li>10 liter = 338.140227018 floz</li>
+                <li>50 liter = 1690.70113509 floz</li>
+                <li>100 liter = 3381.40227018 floz</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Floz to Liter</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 floz ≈ ? liter</li>
-                <li>10 floz ≈ ? liter</li>
-                <li>50 floz ≈ ? liter</li>
-                <li>100 floz ≈ ? liter</li>
+                <li>1 floz = 0.0295735295625 liter</li>
+                <li>10 floz = 0.295735295625 liter</li>
+                <li>50 floz = 1.47867647812 liter</li>
+                <li>100 floz = 2.95735295625 liter</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 liter ≈ ? floz</li>
-                <li>1000 liter ≈ ? floz</li>
-                <li>5000 liter ≈ ? floz</li>
-                <li>10000 liter ≈ ? floz</li>
+                <li>500 liter = 16907.0113509 floz</li>
+                <li>1000 liter = 33814.0227018 floz</li>
+                <li>5000 liter = 169070.113509 floz</li>
+                <li>10000 liter = 338140.227018 floz</li>
               </ul>
             </div>
           </div>

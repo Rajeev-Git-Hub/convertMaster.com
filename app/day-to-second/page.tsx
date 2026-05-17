@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? second</li>
-                <li>10 day ≈ ? second</li>
-                <li>50 day ≈ ? second</li>
-                <li>100 day ≈ ? second</li>
+                <li>1 day = 86400 second</li>
+                <li>10 day = 864000 second</li>
+                <li>50 day = 4320000 second</li>
+                <li>100 day = 8640000 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? day</li>
-                <li>10 second ≈ ? day</li>
-                <li>50 second ≈ ? day</li>
-                <li>100 second ≈ ? day</li>
+                <li>1 second = 0.0000115740740741 day</li>
+                <li>10 second = 0.000115740740741 day</li>
+                <li>50 second = 0.000578703703704 day</li>
+                <li>100 second = 0.00115740740741 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 day ≈ ? second</li>
-                <li>1000 day ≈ ? second</li>
-                <li>5000 day ≈ ? second</li>
-                <li>10000 day ≈ ? second</li>
+                <li>500 day = 43200000 second</li>
+                <li>1000 day = 86400000 second</li>
+                <li>5000 day = 432000000 second</li>
+                <li>10000 day = 864000000 second</li>
               </ul>
             </div>
           </div>

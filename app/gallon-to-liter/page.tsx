@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to Liter</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? liter</li>
-                <li>10 gallon ≈ ? liter</li>
-                <li>50 gallon ≈ ? liter</li>
-                <li>100 gallon ≈ ? liter</li>
+                <li>1 gallon = 3.785411784 liter</li>
+                <li>10 gallon = 37.85411784 liter</li>
+                <li>50 gallon = 189.2705892 liter</li>
+                <li>100 gallon = 378.5411784 liter</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Liter to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 liter ≈ ? gallon</li>
-                <li>10 liter ≈ ? gallon</li>
-                <li>50 liter ≈ ? gallon</li>
-                <li>100 liter ≈ ? gallon</li>
+                <li>1 liter = 0.264172052358 gallon</li>
+                <li>10 liter = 2.64172052358 gallon</li>
+                <li>50 liter = 13.2086026179 gallon</li>
+                <li>100 liter = 26.4172052358 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gallon ≈ ? liter</li>
-                <li>1000 gallon ≈ ? liter</li>
-                <li>5000 gallon ≈ ? liter</li>
-                <li>10000 gallon ≈ ? liter</li>
+                <li>500 gallon = 1892.705892 liter</li>
+                <li>1000 gallon = 3785.411784 liter</li>
+                <li>5000 gallon = 18927.05892 liter</li>
+                <li>10000 gallon = 37854.11784 liter</li>
               </ul>
             </div>
           </div>

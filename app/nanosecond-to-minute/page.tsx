@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? minute</li>
-                <li>10 nanosecond ≈ ? minute</li>
-                <li>50 nanosecond ≈ ? minute</li>
-                <li>100 nanosecond ≈ ? minute</li>
+                <li>1 nanosecond = 1.6666666667e-11 minute</li>
+                <li>10 nanosecond = 1.6666666667e-10 minute</li>
+                <li>50 nanosecond = 8.3333333333e-10 minute</li>
+                <li>100 nanosecond = 1.6666666667e-9 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? nanosecond</li>
-                <li>10 minute ≈ ? nanosecond</li>
-                <li>50 minute ≈ ? nanosecond</li>
-                <li>100 minute ≈ ? nanosecond</li>
+                <li>1 minute = 60000000000 nanosecond</li>
+                <li>10 minute = 600000000000 nanosecond</li>
+                <li>50 minute = 3000000000000 nanosecond</li>
+                <li>100 minute = 6000000000000 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nanosecond ≈ ? minute</li>
-                <li>1000 nanosecond ≈ ? minute</li>
-                <li>5000 nanosecond ≈ ? minute</li>
-                <li>10000 nanosecond ≈ ? minute</li>
+                <li>500 nanosecond = 8.3333333333e-9 minute</li>
+                <li>1000 nanosecond = 1.6666666667e-8 minute</li>
+                <li>5000 nanosecond = 8.3333333333e-8 minute</li>
+                <li>10000 nanosecond = 1.6666666667e-7 minute</li>
               </ul>
             </div>
           </div>

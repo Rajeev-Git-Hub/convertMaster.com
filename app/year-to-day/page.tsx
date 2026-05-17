@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? day</li>
-                <li>10 year ≈ ? day</li>
-                <li>50 year ≈ ? day</li>
-                <li>100 year ≈ ? day</li>
+                <li>1 year = 365.25 day</li>
+                <li>10 year = 3652.5 day</li>
+                <li>50 year = 18262.5 day</li>
+                <li>100 year = 36525 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? year</li>
-                <li>10 day ≈ ? year</li>
-                <li>50 day ≈ ? year</li>
-                <li>100 day ≈ ? year</li>
+                <li>1 day = 0.00273785078713 year</li>
+                <li>10 day = 0.0273785078713 year</li>
+                <li>50 day = 0.136892539357 year</li>
+                <li>100 day = 0.273785078713 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 year ≈ ? day</li>
-                <li>1000 year ≈ ? day</li>
-                <li>5000 year ≈ ? day</li>
-                <li>10000 year ≈ ? day</li>
+                <li>500 year = 182625 day</li>
+                <li>1000 year = 365250 day</li>
+                <li>5000 year = 1826250 day</li>
+                <li>10000 year = 3652500 day</li>
               </ul>
             </div>
           </div>

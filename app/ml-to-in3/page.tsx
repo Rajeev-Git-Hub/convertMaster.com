@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ml to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ml ≈ ? in3</li>
-                <li>10 ml ≈ ? in3</li>
-                <li>50 ml ≈ ? in3</li>
-                <li>100 ml ≈ ? in3</li>
+                <li>1 ml = 0.0610237440947 in3</li>
+                <li>10 ml = 0.610237440947 in3</li>
+                <li>50 ml = 3.05118720474 in3</li>
+                <li>100 ml = 6.10237440947 in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to Ml</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? ml</li>
-                <li>10 in3 ≈ ? ml</li>
-                <li>50 in3 ≈ ? ml</li>
-                <li>100 in3 ≈ ? ml</li>
+                <li>1 in3 = 16.387064 ml</li>
+                <li>10 in3 = 163.87064 ml</li>
+                <li>50 in3 = 819.3532 ml</li>
+                <li>100 in3 = 1638.7064 ml</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ml ≈ ? in3</li>
-                <li>1000 ml ≈ ? in3</li>
-                <li>5000 ml ≈ ? in3</li>
-                <li>10000 ml ≈ ? in3</li>
+                <li>500 ml = 30.5118720474 in3</li>
+                <li>1000 ml = 61.0237440947 in3</li>
+                <li>5000 ml = 305.118720474 in3</li>
+                <li>10000 ml = 610.237440947 in3</li>
               </ul>
             </div>
           </div>

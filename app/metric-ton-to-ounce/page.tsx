@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton = 35274 ounce</li>
-                <li>10 metric-ton = 352740 ounce</li>
-                <li>50 metric-ton = 1763700 ounce</li>
-                <li>100 metric-ton = 3527400 ounce</li>
+                <li>1 metric-ton = 35273.9619496 ounce</li>
+                <li>10 metric-ton = 352739.619496 ounce</li>
+                <li>50 metric-ton = 1763698.09748 ounce</li>
+                <li>100 metric-ton = 3527396.19496 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce = 0.00002835 metric-ton</li>
-                <li>10 ounce = 0.0002835 metric-ton</li>
-                <li>50 ounce = 0.0014175 metric-ton</li>
-                <li>100 ounce = 0.002835 metric-ton</li>
+                <li>1 ounce = 0.000028349523125 metric-ton</li>
+                <li>10 ounce = 0.00028349523125 metric-ton</li>
+                <li>50 ounce = 0.00141747615625 metric-ton</li>
+                <li>100 ounce = 0.0028349523125 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 metric-ton = 17637000 ounce</li>
-                <li>1000 metric-ton = 35274000 ounce</li>
-                <li>5000 metric-ton = 176370000 ounce</li>
-                <li>10000 metric-ton = 352740000 ounce</li>
+                <li>500 metric-ton = 17636980.9748 ounce</li>
+                <li>1000 metric-ton = 35273961.9496 ounce</li>
+                <li>5000 metric-ton = 176369809.748 ounce</li>
+                <li>10000 metric-ton = 352739619.496 ounce</li>
               </ul>
             </div>
           </div>

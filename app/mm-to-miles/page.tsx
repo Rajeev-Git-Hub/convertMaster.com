@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm = 0.000001 miles</li>
-                <li>10 mm = 0.000006 miles</li>
-                <li>50 mm = 0.000031 miles</li>
-                <li>100 mm = 0.000062 miles</li>
+                <li>1 mm = 6.2137119224e-7 miles</li>
+                <li>10 mm = 0.00000621371192237 miles</li>
+                <li>50 mm = 0.0000310685596119 miles</li>
+                <li>100 mm = 0.0000621371192237 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Mm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles = 1609340 mm</li>
-                <li>10 miles = 16093400 mm</li>
-                <li>50 miles = 80467000 mm</li>
-                <li>100 miles = 160934000 mm</li>
+                <li>1 miles = 1609344 mm</li>
+                <li>10 miles = 16093440 mm</li>
+                <li>50 miles = 80467200 mm</li>
+                <li>100 miles = 160934400 mm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mm = 0.000311 miles</li>
-                <li>1000 mm = 0.000621 miles</li>
-                <li>5000 mm = 0.003107 miles</li>
-                <li>10000 mm = 0.006214 miles</li>
+                <li>500 mm = 0.000310685596119 miles</li>
+                <li>1000 mm = 0.000621371192237 miles</li>
+                <li>5000 mm = 0.00310685596119 miles</li>
+                <li>10000 mm = 0.00621371192237 miles</li>
               </ul>
             </div>
           </div>

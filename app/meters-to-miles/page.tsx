@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters = 0.621 miles</li>
-                <li>10 meters = 6.214 miles</li>
-                <li>50 meters = 31.069 miles</li>
-                <li>100 meters = 62.137 miles</li>
+                <li>1 meters = 0.000621371192237 miles</li>
+                <li>10 meters = 0.00621371192237 miles</li>
+                <li>50 meters = 0.0310685596119 miles</li>
+                <li>100 meters = 0.0621371192237 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles = 1609.34 meters</li>
-                <li>10 miles = 16093.4 meters</li>
-                <li>50 miles = 80467 meters</li>
-                <li>100 miles = 160934 meters</li>
+                <li>1 miles = 1609.344 meters</li>
+                <li>10 miles = 16093.44 meters</li>
+                <li>50 miles = 80467.2 meters</li>
+                <li>100 miles = 160934.4 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters = 310.686 miles</li>
-                <li>1000 meters = 621.371 miles</li>
-                <li>5000 meters = 3106.86 miles</li>
-                <li>10000 meters = 6213.71 miles</li>
+                <li>500 meters = 0.310685596119 miles</li>
+                <li>1000 meters = 0.621371192237 miles</li>
+                <li>5000 meters = 3.10685596119 miles</li>
+                <li>10000 meters = 6.21371192237 miles</li>
               </ul>
             </div>
           </div>

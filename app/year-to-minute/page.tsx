@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? minute</li>
-                <li>10 year ≈ ? minute</li>
-                <li>50 year ≈ ? minute</li>
-                <li>100 year ≈ ? minute</li>
+                <li>1 year = 525960 minute</li>
+                <li>10 year = 5259600 minute</li>
+                <li>50 year = 26298000 minute</li>
+                <li>100 year = 52596000 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? year</li>
-                <li>10 minute ≈ ? year</li>
-                <li>50 minute ≈ ? year</li>
-                <li>100 minute ≈ ? year</li>
+                <li>1 minute = 0.00000190128526884 year</li>
+                <li>10 minute = 0.0000190128526884 year</li>
+                <li>50 minute = 0.0000950642634421 year</li>
+                <li>100 minute = 0.000190128526884 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 year ≈ ? minute</li>
-                <li>1000 year ≈ ? minute</li>
-                <li>5000 year ≈ ? minute</li>
-                <li>10000 year ≈ ? minute</li>
+                <li>500 year = 262980000 minute</li>
+                <li>1000 year = 525960000 minute</li>
+                <li>5000 year = 2629800000 minute</li>
+                <li>10000 year = 5259600000 minute</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gbit to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gbit ≈ ? bytes</li>
-                <li>10 gbit ≈ ? bytes</li>
-                <li>50 gbit ≈ ? bytes</li>
-                <li>100 gbit ≈ ? bytes</li>
+                <li>1 gbit = 134217728 bytes</li>
+                <li>10 gbit = 1342177280 bytes</li>
+                <li>50 gbit = 6710886400 bytes</li>
+                <li>100 gbit = 13421772800 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Gbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? gbit</li>
-                <li>10 bytes ≈ ? gbit</li>
-                <li>50 bytes ≈ ? gbit</li>
-                <li>100 bytes ≈ ? gbit</li>
+                <li>1 bytes = 7.4505805969e-9 gbit</li>
+                <li>10 bytes = 7.4505805969e-8 gbit</li>
+                <li>50 bytes = 3.7252902985e-7 gbit</li>
+                <li>100 bytes = 7.4505805969e-7 gbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gbit ≈ ? bytes</li>
-                <li>1000 gbit ≈ ? bytes</li>
-                <li>5000 gbit ≈ ? bytes</li>
-                <li>10000 gbit ≈ ? bytes</li>
+                <li>500 gbit = 67108864000 bytes</li>
+                <li>1000 gbit = 134217728000 bytes</li>
+                <li>5000 gbit = 671088640000 bytes</li>
+                <li>10000 gbit = 1342177280000 bytes</li>
               </ul>
             </div>
           </div>

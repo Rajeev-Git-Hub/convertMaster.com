@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? nanosecond</li>
-                <li>10 millisecond ≈ ? nanosecond</li>
-                <li>50 millisecond ≈ ? nanosecond</li>
-                <li>100 millisecond ≈ ? nanosecond</li>
+                <li>1 millisecond = 1000000 nanosecond</li>
+                <li>10 millisecond = 10000000 nanosecond</li>
+                <li>50 millisecond = 50000000 nanosecond</li>
+                <li>100 millisecond = 100000000 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? millisecond</li>
-                <li>10 nanosecond ≈ ? millisecond</li>
-                <li>50 nanosecond ≈ ? millisecond</li>
-                <li>100 nanosecond ≈ ? millisecond</li>
+                <li>1 nanosecond = 0.000001 millisecond</li>
+                <li>10 nanosecond = 0.00001 millisecond</li>
+                <li>50 nanosecond = 0.00005 millisecond</li>
+                <li>100 nanosecond = 0.0001 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 millisecond ≈ ? nanosecond</li>
-                <li>1000 millisecond ≈ ? nanosecond</li>
-                <li>5000 millisecond ≈ ? nanosecond</li>
-                <li>10000 millisecond ≈ ? nanosecond</li>
+                <li>500 millisecond = 500000000 nanosecond</li>
+                <li>1000 millisecond = 1000000000 nanosecond</li>
+                <li>5000 millisecond = 5000000000 nanosecond</li>
+                <li>10000 millisecond = 10000000000 nanosecond</li>
               </ul>
             </div>
           </div>

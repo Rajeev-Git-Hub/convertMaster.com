@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton = 1.10231 us-ton</li>
-                <li>10 metric-ton = 11.0231 us-ton</li>
-                <li>50 metric-ton = 55.1155 us-ton</li>
-                <li>100 metric-ton = 110.231 us-ton</li>
+                <li>1 metric-ton = 1.10231131092 us-ton</li>
+                <li>10 metric-ton = 11.0231131092 us-ton</li>
+                <li>50 metric-ton = 55.1155655462 us-ton</li>
+                <li>100 metric-ton = 110.231131092 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton = 0.907185 metric-ton</li>
-                <li>10 us-ton = 9.07185 metric-ton</li>
-                <li>50 us-ton = 45.35925 metric-ton</li>
-                <li>100 us-ton = 90.7185 metric-ton</li>
+                <li>1 us-ton = 0.90718474 metric-ton</li>
+                <li>10 us-ton = 9.0718474 metric-ton</li>
+                <li>50 us-ton = 45.359237 metric-ton</li>
+                <li>100 us-ton = 90.718474 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 metric-ton ≈ ? us-ton</li>
-                <li>1000 metric-ton ≈ ? us-ton</li>
-                <li>5000 metric-ton ≈ ? us-ton</li>
-                <li>10000 metric-ton ≈ ? us-ton</li>
+                <li>500 metric-ton = 551.155655462 us-ton</li>
+                <li>1000 metric-ton = 1102.31131092 us-ton</li>
+                <li>5000 metric-ton = 5511.55655462 us-ton</li>
+                <li>10000 metric-ton = 11023.1131092 us-ton</li>
               </ul>
             </div>
           </div>

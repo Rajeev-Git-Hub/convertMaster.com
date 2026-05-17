@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g = 0.002205 pound</li>
-                <li>10 g = 0.02205 pound</li>
-                <li>50 g = 0.11025 pound</li>
-                <li>100 g = 0.2205 pound</li>
+                <li>1 g = 0.00220462262185 pound</li>
+                <li>10 g = 0.0220462262185 pound</li>
+                <li>50 g = 0.110231131092 pound</li>
+                <li>100 g = 0.220462262185 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound = 453.592 g</li>
-                <li>10 pound = 4535.92 g</li>
-                <li>50 pound = 22679.6 g</li>
-                <li>100 pound = 45359.2 g</li>
+                <li>1 pound = 453.59237 g</li>
+                <li>10 pound = 4535.9237 g</li>
+                <li>50 pound = 22679.6185 g</li>
+                <li>100 pound = 45359.237 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 g ≈ ? pound</li>
-                <li>1000 g ≈ ? pound</li>
-                <li>5000 g ≈ ? pound</li>
-                <li>10000 g ≈ ? pound</li>
+                <li>500 g = 1.10231131092 pound</li>
+                <li>1000 g = 2.20462262185 pound</li>
+                <li>5000 g = 11.0231131092 pound</li>
+                <li>10000 g = 22.0462262185 pound</li>
               </ul>
             </div>
           </div>

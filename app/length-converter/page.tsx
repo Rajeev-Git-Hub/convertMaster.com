@@ -47,10 +47,10 @@ export default function LengthConverterLandingPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meter to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meter = 3.28084 feet</li>
-                <li>2 meters = 6.56168 feet</li>
-                <li>5 meters = 16.4042 feet</li>
-                <li>10 meters = 32.8084 feet</li>
+                <li>1 meter = 3.28083989501 feet</li>
+                <li>2 meters = 6.56167979003 feet</li>
+                <li>5 meters = 16.4041994751 feet</li>
+                <li>10 meters = 32.8083989501 feet</li>
               </ul>
             </div>
             <div className="card p-6">

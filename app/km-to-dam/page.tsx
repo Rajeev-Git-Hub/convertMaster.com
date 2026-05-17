@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km = 5000 dam</li>
-                <li>1000 km = 10000 dam</li>
-                <li>5000 km = 50000 dam</li>
-                <li>10000 km = 100000 dam</li>
+                <li>500 km = 50000 dam</li>
+                <li>1000 km = 100000 dam</li>
+                <li>5000 km = 500000 dam</li>
+                <li>10000 km = 1000000 dam</li>
               </ul>
             </div>
           </div>

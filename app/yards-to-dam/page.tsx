@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? dam</li>
-                <li>10 yards ≈ ? dam</li>
-                <li>50 yards ≈ ? dam</li>
-                <li>100 yards ≈ ? dam</li>
+                <li>1 yards = 0.09144 dam</li>
+                <li>10 yards = 0.9144 dam</li>
+                <li>50 yards = 4.572 dam</li>
+                <li>100 yards = 9.144 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? yards</li>
-                <li>10 dam ≈ ? yards</li>
-                <li>50 dam ≈ ? yards</li>
-                <li>100 dam ≈ ? yards</li>
+                <li>1 dam = 10.9361329834 yards</li>
+                <li>10 dam = 109.361329834 yards</li>
+                <li>50 dam = 546.806649169 yards</li>
+                <li>100 dam = 1093.61329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yards ≈ ? dam</li>
-                <li>1000 yards ≈ ? dam</li>
-                <li>5000 yards ≈ ? dam</li>
-                <li>10000 yards ≈ ? dam</li>
+                <li>500 yards = 45.72 dam</li>
+                <li>1000 yards = 91.44 dam</li>
+                <li>5000 yards = 457.2 dam</li>
+                <li>10000 yards = 914.4 dam</li>
               </ul>
             </div>
           </div>

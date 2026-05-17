@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? second</li>
-                <li>10 week ≈ ? second</li>
-                <li>50 week ≈ ? second</li>
-                <li>100 week ≈ ? second</li>
+                <li>1 week = 604800 second</li>
+                <li>10 week = 6048000 second</li>
+                <li>50 week = 30240000 second</li>
+                <li>100 week = 60480000 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? week</li>
-                <li>10 second ≈ ? week</li>
-                <li>50 second ≈ ? week</li>
-                <li>100 second ≈ ? week</li>
+                <li>1 second = 0.00000165343915344 week</li>
+                <li>10 second = 0.0000165343915344 week</li>
+                <li>50 second = 0.000082671957672 week</li>
+                <li>100 second = 0.000165343915344 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 week ≈ ? second</li>
-                <li>1000 week ≈ ? second</li>
-                <li>5000 week ≈ ? second</li>
-                <li>10000 week ≈ ? second</li>
+                <li>500 week = 302400000 second</li>
+                <li>1000 week = 604800000 second</li>
+                <li>5000 week = 3024000000 second</li>
+                <li>10000 week = 6048000000 second</li>
               </ul>
             </div>
           </div>

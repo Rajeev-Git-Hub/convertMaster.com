@@ -114,8 +114,8 @@ export default function TimeConverterLandingPage() {
                 <h4 className="text-lg font-semibold text-gray-900">Days to Years</h4>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>365 days = 1 year</li>
-                <li>730 days = 2 years</li>
+                <li>365 days = 0.999315537303 year</li>
+                <li>730 days = 1.99863107461 years</li>
                 <li>1,825 days = 5 years</li>
                 <li>3,650 days = 10 years</li>
               </ul>

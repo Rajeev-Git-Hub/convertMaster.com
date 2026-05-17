@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm ≈ ? meters</li>
-                <li>10 nm ≈ ? meters</li>
-                <li>50 nm ≈ ? meters</li>
-                <li>100 nm ≈ ? meters</li>
+                <li>1 nm = 1e-9 meters</li>
+                <li>10 nm = 1e-8 meters</li>
+                <li>50 nm = 5e-8 meters</li>
+                <li>100 nm = 1e-7 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Nm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? nm</li>
-                <li>10 meters ≈ ? nm</li>
-                <li>50 meters ≈ ? nm</li>
-                <li>100 meters ≈ ? nm</li>
+                <li>1 meters = 1000000000 nm</li>
+                <li>10 meters = 10000000000 nm</li>
+                <li>50 meters = 50000000000 nm</li>
+                <li>100 meters = 100000000000 nm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nm ≈ ? meters</li>
-                <li>1000 nm ≈ ? meters</li>
-                <li>5000 nm ≈ ? meters</li>
-                <li>10000 nm ≈ ? meters</li>
+                <li>500 nm = 5e-7 meters</li>
+                <li>1000 nm = 0.000001 meters</li>
+                <li>5000 nm = 0.000005 meters</li>
+                <li>10000 nm = 0.00001 meters</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? year</li>
-                <li>10 nanosecond ≈ ? year</li>
-                <li>50 nanosecond ≈ ? year</li>
-                <li>100 nanosecond ≈ ? year</li>
+                <li>1 nanosecond = 0 year</li>
+                <li>10 nanosecond = 0 year</li>
+                <li>50 nanosecond = 1.5844043907e-15 year</li>
+                <li>100 nanosecond = 3.1688087814e-15 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? nanosecond</li>
-                <li>10 year ≈ ? nanosecond</li>
-                <li>50 year ≈ ? nanosecond</li>
-                <li>100 year ≈ ? nanosecond</li>
+                <li>1 year = 3.15576e+16 nanosecond</li>
+                <li>10 year = 3.15576e+17 nanosecond</li>
+                <li>50 year = 1.57788e+18 nanosecond</li>
+                <li>100 year = 3.15576e+18 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nanosecond ≈ ? year</li>
-                <li>1000 nanosecond ≈ ? year</li>
-                <li>5000 nanosecond ≈ ? year</li>
-                <li>10000 nanosecond ≈ ? year</li>
+                <li>500 nanosecond = 1.5844043907e-14 year</li>
+                <li>1000 nanosecond = 3.1688087814e-14 year</li>
+                <li>5000 nanosecond = 1.5844043907e-13 year</li>
+                <li>10000 nanosecond = 3.1688087814e-13 year</li>
               </ul>
             </div>
           </div>

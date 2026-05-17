@@ -54,7 +54,6 @@ import { categories } from '../lib/categories';
 import Footer from './Footer';
 import CommandPaletteProvider from './CommandPaletteProvider';
 import DarkModeProvider from './DarkModeProvider';
-import DarkModeToggle from './DarkModeToggle';
 
 // Filter out dev-tools and utilities, and add individual tools
 const sidebarCategories = categories.filter(c => c.key !== 'dev-tools' && c.key !== 'utilities');

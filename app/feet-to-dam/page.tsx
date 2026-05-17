@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? dam</li>
-                <li>10 feet ≈ ? dam</li>
-                <li>50 feet ≈ ? dam</li>
-                <li>100 feet ≈ ? dam</li>
+                <li>1 feet = 0.03048 dam</li>
+                <li>10 feet = 0.3048 dam</li>
+                <li>50 feet = 1.524 dam</li>
+                <li>100 feet = 3.048 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? feet</li>
-                <li>10 dam ≈ ? feet</li>
-                <li>50 dam ≈ ? feet</li>
-                <li>100 dam ≈ ? feet</li>
+                <li>1 dam = 32.8083989501 feet</li>
+                <li>10 dam = 328.083989501 feet</li>
+                <li>50 dam = 1640.41994751 feet</li>
+                <li>100 dam = 3280.83989501 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 feet ≈ ? dam</li>
-                <li>1000 feet ≈ ? dam</li>
-                <li>5000 feet ≈ ? dam</li>
-                <li>10000 feet ≈ ? dam</li>
+                <li>500 feet = 15.24 dam</li>
+                <li>1000 feet = 30.48 dam</li>
+                <li>5000 feet = 152.4 dam</li>
+                <li>10000 feet = 304.8 dam</li>
               </ul>
             </div>
           </div>

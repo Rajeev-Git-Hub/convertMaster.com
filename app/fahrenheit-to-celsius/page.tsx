@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit = -17.22 celsius</li>
-                <li>10 fahrenheit = -12.22 celsius</li>
+                <li>1 fahrenheit = -17.2222222222 celsius</li>
+                <li>10 fahrenheit = -12.2222222222 celsius</li>
                 <li>50 fahrenheit = 10 celsius</li>
-                <li>100 fahrenheit = 37.78 celsius</li>
+                <li>100 fahrenheit = 37.7777777778 celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -74,9 +74,9 @@ export default function ConverterPage() {
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>500 fahrenheit = 260 celsius</li>
-                <li>1000 fahrenheit = 537.78 celsius</li>
+                <li>1000 fahrenheit = 537.777777778 celsius</li>
                 <li>5000 fahrenheit = 2760 celsius</li>
-                <li>10000 fahrenheit = 5537.78 celsius</li>
+                <li>10000 fahrenheit = 5537.77777778 celsius</li>
               </ul>
             </div>
           </div>

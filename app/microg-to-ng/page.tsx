@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microg to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microg ≈ ? ng</li>
-                <li>10 microg ≈ ? ng</li>
-                <li>50 microg ≈ ? ng</li>
-                <li>100 microg ≈ ? ng</li>
+                <li>1 microg = 1000 ng</li>
+                <li>10 microg = 10000 ng</li>
+                <li>50 microg = 50000 ng</li>
+                <li>100 microg = 100000 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Microg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng ≈ ? microg</li>
-                <li>10 ng ≈ ? microg</li>
-                <li>50 ng ≈ ? microg</li>
-                <li>100 ng ≈ ? microg</li>
+                <li>1 ng = 0.001 microg</li>
+                <li>10 ng = 0.01 microg</li>
+                <li>50 ng = 0.05 microg</li>
+                <li>100 ng = 0.1 microg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microg ≈ ? ng</li>
-                <li>1000 microg ≈ ? ng</li>
-                <li>5000 microg ≈ ? ng</li>
-                <li>10000 microg ≈ ? ng</li>
+                <li>500 microg = 500000 ng</li>
+                <li>1000 microg = 1000000 ng</li>
+                <li>5000 microg = 5000000 ng</li>
+                <li>10000 microg = 10000000 ng</li>
               </ul>
             </div>
           </div>

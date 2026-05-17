@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to Ml</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? ml</li>
-                <li>10 gallon ≈ ? ml</li>
-                <li>50 gallon ≈ ? ml</li>
-                <li>100 gallon ≈ ? ml</li>
+                <li>1 gallon = 3785.411784 ml</li>
+                <li>10 gallon = 37854.11784 ml</li>
+                <li>50 gallon = 189270.5892 ml</li>
+                <li>100 gallon = 378541.1784 ml</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ml to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ml ≈ ? gallon</li>
-                <li>10 ml ≈ ? gallon</li>
-                <li>50 ml ≈ ? gallon</li>
-                <li>100 ml ≈ ? gallon</li>
+                <li>1 ml = 0.000264172052358 gallon</li>
+                <li>10 ml = 0.00264172052358 gallon</li>
+                <li>50 ml = 0.0132086026179 gallon</li>
+                <li>100 ml = 0.0264172052358 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gallon ≈ ? ml</li>
-                <li>1000 gallon ≈ ? ml</li>
-                <li>5000 gallon ≈ ? ml</li>
-                <li>10000 gallon ≈ ? ml</li>
+                <li>500 gallon = 1892705.892 ml</li>
+                <li>1000 gallon = 3785411.784 ml</li>
+                <li>5000 gallon = 18927058.92 ml</li>
+                <li>10000 gallon = 37854117.84 ml</li>
               </ul>
             </div>
           </div>

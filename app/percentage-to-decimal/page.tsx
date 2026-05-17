@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Percentage to Decimal</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 percentage ≈ ? decimal</li>
-                <li>10 percentage ≈ ? decimal</li>
-                <li>50 percentage ≈ ? decimal</li>
-                <li>100 percentage ≈ ? decimal</li>
+                <li>1 percentage = 0.01 decimal</li>
+                <li>10 percentage = 0.1 decimal</li>
+                <li>50 percentage = 0.5 decimal</li>
+                <li>100 percentage = 1 decimal</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Decimal to Percentage</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 decimal ≈ ? percentage</li>
-                <li>10 decimal ≈ ? percentage</li>
-                <li>50 decimal ≈ ? percentage</li>
-                <li>100 decimal ≈ ? percentage</li>
+                <li>1 decimal = 100 percentage</li>
+                <li>10 decimal = 1000 percentage</li>
+                <li>50 decimal = 5000 percentage</li>
+                <li>100 decimal = 10000 percentage</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 percentage ≈ ? decimal</li>
-                <li>1000 percentage ≈ ? decimal</li>
-                <li>5000 percentage ≈ ? decimal</li>
-                <li>10000 percentage ≈ ? decimal</li>
+                <li>500 percentage = 5 decimal</li>
+                <li>1000 percentage = 10 decimal</li>
+                <li>5000 percentage = 50 decimal</li>
+                <li>10000 percentage = 100 decimal</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? week</li>
-                <li>10 minute ≈ ? week</li>
-                <li>50 minute ≈ ? week</li>
-                <li>100 minute ≈ ? week</li>
+                <li>1 minute = 0.0000992063492063 week</li>
+                <li>10 minute = 0.000992063492063 week</li>
+                <li>50 minute = 0.00496031746032 week</li>
+                <li>100 minute = 0.00992063492063 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? minute</li>
-                <li>10 week ≈ ? minute</li>
-                <li>50 week ≈ ? minute</li>
-                <li>100 week ≈ ? minute</li>
+                <li>1 week = 10080 minute</li>
+                <li>10 week = 100800 minute</li>
+                <li>50 week = 504000 minute</li>
+                <li>100 week = 1008000 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 minute ≈ ? week</li>
-                <li>1000 minute ≈ ? week</li>
-                <li>5000 minute ≈ ? week</li>
-                <li>10000 minute ≈ ? week</li>
+                <li>500 minute = 0.0496031746032 week</li>
+                <li>1000 minute = 0.0992063492063 week</li>
+                <li>5000 minute = 0.496031746032 week</li>
+                <li>10000 minute = 0.992063492063 week</li>
               </ul>
             </div>
           </div>

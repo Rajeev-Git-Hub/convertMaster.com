@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kbit to Kb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kbit ≈ ? kb</li>
-                <li>10 kbit ≈ ? kb</li>
-                <li>50 kbit ≈ ? kb</li>
-                <li>100 kbit ≈ ? kb</li>
+                <li>1 kbit = 0.125 kb</li>
+                <li>10 kbit = 1.25 kb</li>
+                <li>50 kbit = 6.25 kb</li>
+                <li>100 kbit = 12.5 kb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kb to Kbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kb ≈ ? kbit</li>
-                <li>10 kb ≈ ? kbit</li>
-                <li>50 kb ≈ ? kbit</li>
-                <li>100 kb ≈ ? kbit</li>
+                <li>1 kb = 8 kbit</li>
+                <li>10 kb = 80 kbit</li>
+                <li>50 kb = 400 kbit</li>
+                <li>100 kb = 800 kbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kbit ≈ ? kb</li>
-                <li>1000 kbit ≈ ? kb</li>
-                <li>5000 kbit ≈ ? kb</li>
-                <li>10000 kbit ≈ ? kb</li>
+                <li>500 kbit = 62.5 kb</li>
+                <li>1000 kbit = 125 kb</li>
+                <li>5000 kbit = 625 kb</li>
+                <li>10000 kbit = 1250 kb</li>
               </ul>
             </div>
           </div>

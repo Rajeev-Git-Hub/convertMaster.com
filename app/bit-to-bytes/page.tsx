@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bit to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bit ≈ ? bytes</li>
-                <li>10 bit ≈ ? bytes</li>
-                <li>50 bit ≈ ? bytes</li>
-                <li>100 bit ≈ ? bytes</li>
+                <li>1 bit = 0.125 bytes</li>
+                <li>10 bit = 1.25 bytes</li>
+                <li>50 bit = 6.25 bytes</li>
+                <li>100 bit = 12.5 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Bit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? bit</li>
-                <li>10 bytes ≈ ? bit</li>
-                <li>50 bytes ≈ ? bit</li>
-                <li>100 bytes ≈ ? bit</li>
+                <li>1 bytes = 8 bit</li>
+                <li>10 bytes = 80 bit</li>
+                <li>50 bytes = 400 bit</li>
+                <li>100 bytes = 800 bit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 bit ≈ ? bytes</li>
-                <li>1000 bit ≈ ? bytes</li>
-                <li>5000 bit ≈ ? bytes</li>
-                <li>10000 bit ≈ ? bytes</li>
+                <li>500 bit = 62.5 bytes</li>
+                <li>1000 bit = 125 bytes</li>
+                <li>5000 bit = 625 bytes</li>
+                <li>10000 bit = 1250 bytes</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hour to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hour ≈ ? nanosecond</li>
-                <li>10 hour ≈ ? nanosecond</li>
-                <li>50 hour ≈ ? nanosecond</li>
-                <li>100 hour ≈ ? nanosecond</li>
+                <li>1 hour = 3600000000000 nanosecond</li>
+                <li>10 hour = 36000000000000 nanosecond</li>
+                <li>50 hour = 180000000000000 nanosecond</li>
+                <li>100 hour = 360000000000000 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Hour</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? hour</li>
-                <li>10 nanosecond ≈ ? hour</li>
-                <li>50 nanosecond ≈ ? hour</li>
-                <li>100 nanosecond ≈ ? hour</li>
+                <li>1 nanosecond = 2.7777777778e-13 hour</li>
+                <li>10 nanosecond = 2.7777777778e-12 hour</li>
+                <li>50 nanosecond = 1.3888888889e-11 hour</li>
+                <li>100 nanosecond = 2.7777777778e-11 hour</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hour ≈ ? nanosecond</li>
-                <li>1000 hour ≈ ? nanosecond</li>
-                <li>5000 hour ≈ ? nanosecond</li>
-                <li>10000 hour ≈ ? nanosecond</li>
+                <li>500 hour = 1800000000000000 nanosecond</li>
+                <li>1000 hour = 3600000000000000 nanosecond</li>
+                <li>5000 hour = 1.8e+16 nanosecond</li>
+                <li>10000 hour = 3.6e+16 nanosecond</li>
               </ul>
             </div>
           </div>

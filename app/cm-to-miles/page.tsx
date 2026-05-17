@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm = 0.000006 miles</li>
-                <li>10 cm = 0.000062 miles</li>
-                <li>50 cm = 0.000311 miles</li>
-                <li>100 cm = 0.000621 miles</li>
+                <li>1 cm = 0.00000621371192237 miles</li>
+                <li>10 cm = 0.0000621371192237 miles</li>
+                <li>50 cm = 0.000310685596119 miles</li>
+                <li>100 cm = 0.000621371192237 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles = 160934 cm</li>
-                <li>10 miles = 1609340 cm</li>
-                <li>50 miles = 8046700 cm</li>
-                <li>100 miles = 16093400 cm</li>
+                <li>1 miles = 160934.4 cm</li>
+                <li>10 miles = 1609344 cm</li>
+                <li>50 miles = 8046720 cm</li>
+                <li>100 miles = 16093440 cm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm = 0.003107 miles</li>
-                <li>1000 cm = 0.006214 miles</li>
-                <li>5000 cm = 0.031069 miles</li>
-                <li>10000 cm = 0.062137 miles</li>
+                <li>500 cm = 0.00310685596119 miles</li>
+                <li>1000 cm = 0.00621371192237 miles</li>
+                <li>5000 cm = 0.0310685596119 miles</li>
+                <li>10000 cm = 0.0621371192237 miles</li>
               </ul>
             </div>
           </div>

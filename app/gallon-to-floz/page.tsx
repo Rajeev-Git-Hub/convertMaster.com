@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to Floz</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? floz</li>
-                <li>10 gallon ≈ ? floz</li>
-                <li>50 gallon ≈ ? floz</li>
-                <li>100 gallon ≈ ? floz</li>
+                <li>1 gallon = 128 floz</li>
+                <li>10 gallon = 1280 floz</li>
+                <li>50 gallon = 6400 floz</li>
+                <li>100 gallon = 12800 floz</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Floz to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 floz ≈ ? gallon</li>
-                <li>10 floz ≈ ? gallon</li>
-                <li>50 floz ≈ ? gallon</li>
-                <li>100 floz ≈ ? gallon</li>
+                <li>1 floz = 0.0078125 gallon</li>
+                <li>10 floz = 0.078125 gallon</li>
+                <li>50 floz = 0.390625 gallon</li>
+                <li>100 floz = 0.78125 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gallon ≈ ? floz</li>
-                <li>1000 gallon ≈ ? floz</li>
-                <li>5000 gallon ≈ ? floz</li>
-                <li>10000 gallon ≈ ? floz</li>
+                <li>500 gallon = 64000 floz</li>
+                <li>1000 gallon = 128000 floz</li>
+                <li>5000 gallon = 640000 floz</li>
+                <li>10000 gallon = 1280000 floz</li>
               </ul>
             </div>
           </div>

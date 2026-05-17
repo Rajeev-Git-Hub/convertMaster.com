@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">M3 to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m3 ≈ ? gallon</li>
-                <li>10 m3 ≈ ? gallon</li>
-                <li>50 m3 ≈ ? gallon</li>
-                <li>100 m3 ≈ ? gallon</li>
+                <li>1 m3 = 264.172052358 gallon</li>
+                <li>10 m3 = 2641.72052358 gallon</li>
+                <li>50 m3 = 13208.6026179 gallon</li>
+                <li>100 m3 = 26417.2052358 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to M3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? m3</li>
-                <li>10 gallon ≈ ? m3</li>
-                <li>50 gallon ≈ ? m3</li>
-                <li>100 gallon ≈ ? m3</li>
+                <li>1 gallon = 0.003785411784 m3</li>
+                <li>10 gallon = 0.03785411784 m3</li>
+                <li>50 gallon = 0.1892705892 m3</li>
+                <li>100 gallon = 0.3785411784 m3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 m3 ≈ ? gallon</li>
-                <li>1000 m3 ≈ ? gallon</li>
-                <li>5000 m3 ≈ ? gallon</li>
-                <li>10000 m3 ≈ ? gallon</li>
+                <li>500 m3 = 132086.026179 gallon</li>
+                <li>1000 m3 = 264172.052358 gallon</li>
+                <li>5000 m3 = 1320860.26179 gallon</li>
+                <li>10000 m3 = 2641720.52358 gallon</li>
               </ul>
             </div>
           </div>

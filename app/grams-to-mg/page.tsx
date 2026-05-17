@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Grams</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg ≈ ? grams</li>
-                <li>10 mg ≈ ? grams</li>
-                <li>50 mg ≈ ? grams</li>
-                <li>100 mg ≈ ? grams</li>
+                <li>1 mg = 0.001 grams</li>
+                <li>10 mg = 0.01 grams</li>
+                <li>50 mg = 0.05 grams</li>
+                <li>100 mg = 0.1 grams</li>
               </ul>
             </div>
             <div className="card p-6">

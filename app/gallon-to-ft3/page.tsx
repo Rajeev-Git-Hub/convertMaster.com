@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to Ft3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? ft3</li>
-                <li>10 gallon ≈ ? ft3</li>
-                <li>50 gallon ≈ ? ft3</li>
-                <li>100 gallon ≈ ? ft3</li>
+                <li>1 gallon = 0.133680555556 ft3</li>
+                <li>10 gallon = 1.33680555556 ft3</li>
+                <li>50 gallon = 6.68402777778 ft3</li>
+                <li>100 gallon = 13.3680555556 ft3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ft3 to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft3 ≈ ? gallon</li>
-                <li>10 ft3 ≈ ? gallon</li>
-                <li>50 ft3 ≈ ? gallon</li>
-                <li>100 ft3 ≈ ? gallon</li>
+                <li>1 ft3 = 7.48051948052 gallon</li>
+                <li>10 ft3 = 74.8051948052 gallon</li>
+                <li>50 ft3 = 374.025974026 gallon</li>
+                <li>100 ft3 = 748.051948052 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gallon ≈ ? ft3</li>
-                <li>1000 gallon ≈ ? ft3</li>
-                <li>5000 gallon ≈ ? ft3</li>
-                <li>10000 gallon ≈ ? ft3</li>
+                <li>500 gallon = 66.8402777778 ft3</li>
+                <li>1000 gallon = 133.680555556 ft3</li>
+                <li>5000 gallon = 668.402777778 ft3</li>
+                <li>10000 gallon = 1336.80555556 ft3</li>
               </ul>
             </div>
           </div>

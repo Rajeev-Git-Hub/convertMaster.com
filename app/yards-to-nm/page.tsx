@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Nm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? nm</li>
-                <li>10 yards ≈ ? nm</li>
-                <li>50 yards ≈ ? nm</li>
-                <li>100 yards ≈ ? nm</li>
+                <li>1 yards = 914400000 nm</li>
+                <li>10 yards = 9144000000 nm</li>
+                <li>50 yards = 45720000000 nm</li>
+                <li>100 yards = 91440000000 nm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm ≈ ? yards</li>
-                <li>10 nm ≈ ? yards</li>
-                <li>50 nm ≈ ? yards</li>
-                <li>100 nm ≈ ? yards</li>
+                <li>1 nm = 1.0936132983e-9 yards</li>
+                <li>10 nm = 1.0936132983e-8 yards</li>
+                <li>50 nm = 5.4680664917e-8 yards</li>
+                <li>100 nm = 1.0936132983e-7 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yards ≈ ? nm</li>
-                <li>1000 yards ≈ ? nm</li>
-                <li>5000 yards ≈ ? nm</li>
-                <li>10000 yards ≈ ? nm</li>
+                <li>500 yards = 457200000000 nm</li>
+                <li>1000 yards = 914400000000 nm</li>
+                <li>5000 yards = 4572000000000 nm</li>
+                <li>10000 yards = 9144000000000 nm</li>
               </ul>
             </div>
           </div>

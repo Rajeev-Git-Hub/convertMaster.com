@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng = 0.0000000353 ounce</li>
-                <li>10 ng = 0.000000353 ounce</li>
-                <li>50 ng = 0.000001765 ounce</li>
-                <li>100 ng = 0.00000353 ounce</li>
+                <li>1 ng = 3.527396195e-11 ounce</li>
+                <li>10 ng = 3.527396195e-10 ounce</li>
+                <li>50 ng = 1.7636980975e-9 ounce</li>
+                <li>100 ng = 3.527396195e-9 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce = 28350000 ng</li>
-                <li>10 ounce = 283500000 ng</li>
-                <li>50 ounce = 1417500000 ng</li>
-                <li>100 ounce = 2835000000 ng</li>
+                <li>1 ounce = 28349523125 ng</li>
+                <li>10 ounce = 283495231250 ng</li>
+                <li>50 ounce = 1417476156250 ng</li>
+                <li>100 ounce = 2834952312500 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ng = 0.00001765 ounce</li>
-                <li>1000 ng = 0.0000353 ounce</li>
-                <li>5000 ng = 0.0001765 ounce</li>
-                <li>10000 ng = 0.000353 ounce</li>
+                <li>500 ng = 1.7636980975e-8 ounce</li>
+                <li>1000 ng = 3.527396195e-8 ounce</li>
+                <li>5000 ng = 1.7636980975e-7 ounce</li>
+                <li>10000 ng = 3.527396195e-7 ounce</li>
               </ul>
             </div>
           </div>

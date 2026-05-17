@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km = 39370.1 inches</li>
-                <li>10 km = 393701 inches</li>
-                <li>50 km = 1968505 inches</li>
-                <li>100 km = 3937010 inches</li>
+                <li>1 km = 39370.0787402 inches</li>
+                <li>10 km = 393700.787402 inches</li>
+                <li>50 km = 1968503.93701 inches</li>
+                <li>100 km = 3937007.87402 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km = 19685050 inches</li>
-                <li>1000 km = 39370100 inches</li>
-                <li>5000 km = 196850500 inches</li>
-                <li>10000 km = 393701000 inches</li>
+                <li>500 km = 19685039.3701 inches</li>
+                <li>1000 km = 39370078.7402 inches</li>
+                <li>5000 km = 196850393.701 inches</li>
+                <li>10000 km = 393700787.402 inches</li>
               </ul>
             </div>
           </div>

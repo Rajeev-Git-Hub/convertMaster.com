@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine = -272.59 celsius</li>
-                <li>10 rankine = -267.59 celsius</li>
-                <li>50 rankine = -247.59 celsius</li>
-                <li>100 rankine = -217.59 celsius</li>
+                <li>1 rankine = -272.594444444 celsius</li>
+                <li>10 rankine = -267.594444444 celsius</li>
+                <li>50 rankine = -245.372222222 celsius</li>
+                <li>100 rankine = -217.594444444 celsius</li>
               </ul>
             </div>
             <div className="card p-6">

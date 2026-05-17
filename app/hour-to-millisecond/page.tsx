@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hour to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hour ≈ ? millisecond</li>
-                <li>10 hour ≈ ? millisecond</li>
-                <li>50 hour ≈ ? millisecond</li>
-                <li>100 hour ≈ ? millisecond</li>
+                <li>1 hour = 3600000 millisecond</li>
+                <li>10 hour = 36000000 millisecond</li>
+                <li>50 hour = 180000000 millisecond</li>
+                <li>100 hour = 360000000 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Hour</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? hour</li>
-                <li>10 millisecond ≈ ? hour</li>
-                <li>50 millisecond ≈ ? hour</li>
-                <li>100 millisecond ≈ ? hour</li>
+                <li>1 millisecond = 2.7777777778e-7 hour</li>
+                <li>10 millisecond = 0.00000277777777778 hour</li>
+                <li>50 millisecond = 0.0000138888888889 hour</li>
+                <li>100 millisecond = 0.0000277777777778 hour</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hour ≈ ? millisecond</li>
-                <li>1000 hour ≈ ? millisecond</li>
-                <li>5000 hour ≈ ? millisecond</li>
-                <li>10000 hour ≈ ? millisecond</li>
+                <li>500 hour = 1800000000 millisecond</li>
+                <li>1000 hour = 3600000000 millisecond</li>
+                <li>5000 hour = 18000000000 millisecond</li>
+                <li>10000 hour = 36000000000 millisecond</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km = 100 hm</li>
-                <li>10 km = 1000 hm</li>
-                <li>50 km = 5000 hm</li>
-                <li>100 km = 10000 hm</li>
+                <li>1 km = 10 hm</li>
+                <li>10 km = 100 hm</li>
+                <li>50 km = 500 hm</li>
+                <li>100 km = 1000 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm = 0.01 km</li>
-                <li>10 hm = 0.1 km</li>
-                <li>50 hm = 0.5 km</li>
-                <li>100 hm = 1 km</li>
+                <li>1 hm = 0.1 km</li>
+                <li>10 hm = 1 km</li>
+                <li>50 hm = 5 km</li>
+                <li>100 hm = 10 km</li>
               </ul>
             </div>
             <div className="card p-6">

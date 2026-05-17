@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Microsecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? microsecond</li>
-                <li>10 nanosecond ≈ ? microsecond</li>
-                <li>50 nanosecond ≈ ? microsecond</li>
-                <li>100 nanosecond ≈ ? microsecond</li>
+                <li>1 nanosecond = 0.001 microsecond</li>
+                <li>10 nanosecond = 0.01 microsecond</li>
+                <li>50 nanosecond = 0.05 microsecond</li>
+                <li>100 nanosecond = 0.1 microsecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microsecond to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microsecond ≈ ? nanosecond</li>
-                <li>10 microsecond ≈ ? nanosecond</li>
-                <li>50 microsecond ≈ ? nanosecond</li>
-                <li>100 microsecond ≈ ? nanosecond</li>
+                <li>1 microsecond = 1000 nanosecond</li>
+                <li>10 microsecond = 10000 nanosecond</li>
+                <li>50 microsecond = 50000 nanosecond</li>
+                <li>100 microsecond = 100000 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nanosecond ≈ ? microsecond</li>
-                <li>1000 nanosecond ≈ ? microsecond</li>
-                <li>5000 nanosecond ≈ ? microsecond</li>
-                <li>10000 nanosecond ≈ ? microsecond</li>
+                <li>500 nanosecond = 0.5 microsecond</li>
+                <li>1000 nanosecond = 1 microsecond</li>
+                <li>5000 nanosecond = 5 microsecond</li>
+                <li>10000 nanosecond = 10 microsecond</li>
               </ul>
             </div>
           </div>

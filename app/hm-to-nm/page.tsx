@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm = 0.00000000001 hm</li>
-                <li>10 nm = 0.0000000001 hm</li>
-                <li>50 nm = 0.0000000005 hm</li>
-                <li>100 nm = 0.000000001 hm</li>
+                <li>1 nm = 1e-11 hm</li>
+                <li>10 nm = 1e-10 hm</li>
+                <li>50 nm = 5e-10 hm</li>
+                <li>100 nm = 1e-9 hm</li>
               </ul>
             </div>
             <div className="card p-6">

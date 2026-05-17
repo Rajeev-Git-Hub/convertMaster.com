@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam = 10.9361 yards</li>
-                <li>10 dam = 109.361 yards</li>
-                <li>50 dam = 546.805 yards</li>
-                <li>100 dam = 1093.61 yards</li>
+                <li>1 dam = 10.9361329834 yards</li>
+                <li>10 dam = 109.361329834 yards</li>
+                <li>50 dam = 546.806649169 yards</li>
+                <li>100 dam = 1093.61329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dam = 5468.05 yards</li>
-                <li>1000 dam = 10936.1 yards</li>
-                <li>5000 dam = 54680.5 yards</li>
-                <li>10000 dam = 109361 yards</li>
+                <li>500 dam = 5468.06649169 yards</li>
+                <li>1000 dam = 10936.1329834 yards</li>
+                <li>5000 dam = 54680.6649169 yards</li>
+                <li>10000 dam = 109361.329834 yards</li>
               </ul>
             </div>
           </div>

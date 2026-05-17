@@ -59,7 +59,7 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kelvin to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kelvin = -273.15 celsius</li>
+                <li>1 kelvin = -272.15 celsius</li>
                 <li>10 kelvin = -263.15 celsius</li>
                 <li>50 kelvin = -223.15 celsius</li>
                 <li>100 kelvin = -173.15 celsius</li>

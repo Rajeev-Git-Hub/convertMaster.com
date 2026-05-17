@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km = 3280.84 feet</li>
-                <li>10 km = 32808.4 feet</li>
-                <li>50 km = 164042 feet</li>
-                <li>100 km = 328084 feet</li>
+                <li>1 km = 3280.83989501 feet</li>
+                <li>10 km = 32808.3989501 feet</li>
+                <li>50 km = 164041.994751 feet</li>
+                <li>100 km = 328083.989501 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,8 +59,8 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet = 0.000305 km</li>
-                <li>10 feet = 0.00305 km</li>
+                <li>1 feet = 0.0003048 km</li>
+                <li>10 feet = 0.003048 km</li>
                 <li>50 feet = 0.01524 km</li>
                 <li>100 feet = 0.03048 km</li>
               </ul>
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km = 1640420 feet</li>
-                <li>1000 km = 3280840 feet</li>
-                <li>5000 km = 16404200 feet</li>
-                <li>10000 km = 32808400 feet</li>
+                <li>500 km = 1640419.94751 feet</li>
+                <li>1000 km = 3280839.89501 feet</li>
+                <li>5000 km = 16404199.4751 feet</li>
+                <li>10000 km = 32808398.9501 feet</li>
               </ul>
             </div>
           </div>

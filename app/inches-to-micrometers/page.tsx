@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? micrometers</li>
-                <li>10 inches ≈ ? micrometers</li>
-                <li>50 inches ≈ ? micrometers</li>
-                <li>100 inches ≈ ? micrometers</li>
+                <li>1 inches = 25400 micrometers</li>
+                <li>10 inches = 254000 micrometers</li>
+                <li>50 inches = 1270000 micrometers</li>
+                <li>100 inches = 2540000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? inches</li>
-                <li>10 micrometers ≈ ? inches</li>
-                <li>50 micrometers ≈ ? inches</li>
-                <li>100 micrometers ≈ ? inches</li>
+                <li>1 micrometers = 0.0000393700787402 inches</li>
+                <li>10 micrometers = 0.000393700787402 inches</li>
+                <li>50 micrometers = 0.00196850393701 inches</li>
+                <li>100 micrometers = 0.00393700787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? micrometers</li>
-                <li>1000 inches ≈ ? micrometers</li>
-                <li>5000 inches ≈ ? micrometers</li>
-                <li>10000 inches ≈ ? micrometers</li>
+                <li>500 inches = 12700000 micrometers</li>
+                <li>1000 inches = 25400000 micrometers</li>
+                <li>5000 inches = 127000000 micrometers</li>
+                <li>10000 inches = 254000000 micrometers</li>
               </ul>
             </div>
           </div>

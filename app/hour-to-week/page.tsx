@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hour to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hour ≈ ? week</li>
-                <li>10 hour ≈ ? week</li>
-                <li>50 hour ≈ ? week</li>
-                <li>100 hour ≈ ? week</li>
+                <li>1 hour = 0.00595238095238 week</li>
+                <li>10 hour = 0.0595238095238 week</li>
+                <li>50 hour = 0.297619047619 week</li>
+                <li>100 hour = 0.595238095238 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Hour</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? hour</li>
-                <li>10 week ≈ ? hour</li>
-                <li>50 week ≈ ? hour</li>
-                <li>100 week ≈ ? hour</li>
+                <li>1 week = 168 hour</li>
+                <li>10 week = 1680 hour</li>
+                <li>50 week = 8400 hour</li>
+                <li>100 week = 16800 hour</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 hour ≈ ? week</li>
-                <li>1000 hour ≈ ? week</li>
-                <li>5000 hour ≈ ? week</li>
-                <li>10000 hour ≈ ? week</li>
+                <li>500 hour = 2.97619047619 week</li>
+                <li>1000 hour = 5.95238095238 week</li>
+                <li>5000 hour = 29.7619047619 week</li>
+                <li>10000 hour = 59.5238095238 week</li>
               </ul>
             </div>
           </div>

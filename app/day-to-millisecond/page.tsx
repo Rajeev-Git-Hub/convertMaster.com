@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? millisecond</li>
-                <li>10 day ≈ ? millisecond</li>
-                <li>50 day ≈ ? millisecond</li>
-                <li>100 day ≈ ? millisecond</li>
+                <li>1 day = 86400000 millisecond</li>
+                <li>10 day = 864000000 millisecond</li>
+                <li>50 day = 4320000000 millisecond</li>
+                <li>100 day = 8640000000 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? day</li>
-                <li>10 millisecond ≈ ? day</li>
-                <li>50 millisecond ≈ ? day</li>
-                <li>100 millisecond ≈ ? day</li>
+                <li>1 millisecond = 1.1574074074e-8 day</li>
+                <li>10 millisecond = 1.1574074074e-7 day</li>
+                <li>50 millisecond = 5.787037037e-7 day</li>
+                <li>100 millisecond = 0.00000115740740741 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 day ≈ ? millisecond</li>
-                <li>1000 day ≈ ? millisecond</li>
-                <li>5000 day ≈ ? millisecond</li>
-                <li>10000 day ≈ ? millisecond</li>
+                <li>500 day = 43200000000 millisecond</li>
+                <li>1000 day = 86400000000 millisecond</li>
+                <li>5000 day = 432000000000 millisecond</li>
+                <li>10000 day = 864000000000 millisecond</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Microg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton ≈ ? microg</li>
-                <li>10 metric-ton ≈ ? microg</li>
-                <li>50 metric-ton ≈ ? microg</li>
-                <li>100 metric-ton ≈ ? microg</li>
+                <li>1 metric-ton = 1000000000000 microg</li>
+                <li>10 metric-ton = 10000000000000 microg</li>
+                <li>50 metric-ton = 50000000000000 microg</li>
+                <li>100 metric-ton = 100000000000000 microg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microg to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microg ≈ ? metric-ton</li>
-                <li>10 microg ≈ ? metric-ton</li>
-                <li>50 microg ≈ ? metric-ton</li>
-                <li>100 microg ≈ ? metric-ton</li>
+                <li>1 microg = 1e-12 metric-ton</li>
+                <li>10 microg = 1e-11 metric-ton</li>
+                <li>50 microg = 5e-11 metric-ton</li>
+                <li>100 microg = 1e-10 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 metric-ton ≈ ? microg</li>
-                <li>1000 metric-ton ≈ ? microg</li>
-                <li>5000 metric-ton ≈ ? microg</li>
-                <li>10000 metric-ton ≈ ? microg</li>
+                <li>500 metric-ton = 500000000000000 microg</li>
+                <li>1000 metric-ton = 1000000000000000 microg</li>
+                <li>5000 metric-ton = 5000000000000000 microg</li>
+                <li>10000 metric-ton = 1e+16 microg</li>
               </ul>
             </div>
           </div>

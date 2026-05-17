@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? second</li>
-                <li>10 millisecond ≈ ? second</li>
-                <li>50 millisecond ≈ ? second</li>
-                <li>100 millisecond ≈ ? second</li>
+                <li>1 millisecond = 0.001 second</li>
+                <li>10 millisecond = 0.01 second</li>
+                <li>50 millisecond = 0.05 second</li>
+                <li>100 millisecond = 0.1 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? millisecond</li>
-                <li>10 second ≈ ? millisecond</li>
-                <li>50 second ≈ ? millisecond</li>
-                <li>100 second ≈ ? millisecond</li>
+                <li>1 second = 1000 millisecond</li>
+                <li>10 second = 10000 millisecond</li>
+                <li>50 second = 50000 millisecond</li>
+                <li>100 second = 100000 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 millisecond ≈ ? second</li>
-                <li>1000 millisecond ≈ ? second</li>
-                <li>5000 millisecond ≈ ? second</li>
-                <li>10000 millisecond ≈ ? second</li>
+                <li>500 millisecond = 0.5 second</li>
+                <li>1000 millisecond = 1 second</li>
+                <li>5000 millisecond = 5 second</li>
+                <li>10000 millisecond = 10 second</li>
               </ul>
             </div>
           </div>

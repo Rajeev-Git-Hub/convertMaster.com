@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm = 0.328084 feet</li>
-                <li>10 dm = 3.28084 feet</li>
-                <li>50 dm = 16.4042 feet</li>
-                <li>100 dm = 32.8084 feet</li>
+                <li>1 dm = 0.328083989501 feet</li>
+                <li>10 dm = 3.28083989501 feet</li>
+                <li>50 dm = 16.4041994751 feet</li>
+                <li>100 dm = 32.8083989501 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm = 164.042 feet</li>
-                <li>1000 dm = 328.084 feet</li>
-                <li>5000 dm = 1640.42 feet</li>
-                <li>10000 dm = 3280.84 feet</li>
+                <li>500 dm = 164.041994751 feet</li>
+                <li>1000 dm = 328.083989501 feet</li>
+                <li>5000 dm = 1640.41994751 feet</li>
+                <li>10000 dm = 3280.83989501 feet</li>
               </ul>
             </div>
           </div>

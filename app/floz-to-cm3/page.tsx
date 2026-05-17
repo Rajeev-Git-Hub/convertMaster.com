@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Floz to Cm3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 floz ≈ ? cm3</li>
-                <li>10 floz ≈ ? cm3</li>
-                <li>50 floz ≈ ? cm3</li>
-                <li>100 floz ≈ ? cm3</li>
+                <li>1 floz = 29.5735295625 cm3</li>
+                <li>10 floz = 295.735295625 cm3</li>
+                <li>50 floz = 1478.67647812 cm3</li>
+                <li>100 floz = 2957.35295625 cm3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm3 to Floz</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm3 ≈ ? floz</li>
-                <li>10 cm3 ≈ ? floz</li>
-                <li>50 cm3 ≈ ? floz</li>
-                <li>100 cm3 ≈ ? floz</li>
+                <li>1 cm3 = 0.0338140227018 floz</li>
+                <li>10 cm3 = 0.338140227018 floz</li>
+                <li>50 cm3 = 1.69070113509 floz</li>
+                <li>100 cm3 = 3.38140227018 floz</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 floz ≈ ? cm3</li>
-                <li>1000 floz ≈ ? cm3</li>
-                <li>5000 floz ≈ ? cm3</li>
-                <li>10000 floz ≈ ? cm3</li>
+                <li>500 floz = 14786.7647812 cm3</li>
+                <li>1000 floz = 29573.5295625 cm3</li>
+                <li>5000 floz = 147867.647812 cm3</li>
+                <li>10000 floz = 295735.295625 cm3</li>
               </ul>
             </div>
           </div>

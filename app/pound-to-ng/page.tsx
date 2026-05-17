@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng = 0.000000002205 pound</li>
-                <li>10 ng = 0.00000002205 pound</li>
-                <li>50 ng = 0.00000011025 pound</li>
-                <li>100 ng = 0.0000002205 pound</li>
+                <li>1 ng = 2.2046226218e-12 pound</li>
+                <li>10 ng = 2.2046226218e-11 pound</li>
+                <li>50 ng = 1.1023113109e-10 pound</li>
+                <li>100 ng = 2.2046226218e-10 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 pound ≈ ? ng</li>
-                <li>1000 pound ≈ ? ng</li>
-                <li>5000 pound ≈ ? ng</li>
-                <li>10000 pound ≈ ? ng</li>
+                <li>500 pound = 2.26796185e+14 ng</li>
+                <li>1000 pound = 4.5359237e+14 ng</li>
+                <li>5000 pound = 2267961850000000 ng</li>
+                <li>10000 pound = 4535923700000000 ng</li>
               </ul>
             </div>
           </div>

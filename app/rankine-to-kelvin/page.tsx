@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine = 0.56 kelvin</li>
-                <li>10 rankine = 5.56 kelvin</li>
-                <li>50 rankine = 27.78 kelvin</li>
-                <li>100 rankine = 55.56 kelvin</li>
+                <li>1 rankine = 0.555555555556 kelvin</li>
+                <li>10 rankine = 5.55555555556 kelvin</li>
+                <li>50 rankine = 27.7777777778 kelvin</li>
+                <li>100 rankine = 55.5555555556 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 rankine = 277.78 kelvin</li>
-                <li>1000 rankine = 555.56 kelvin</li>
-                <li>5000 rankine = 2777.78 kelvin</li>
-                <li>10000 rankine = 5555.56 kelvin</li>
+                <li>500 rankine = 277.777777778 kelvin</li>
+                <li>1000 rankine = 555.555555556 kelvin</li>
+                <li>5000 rankine = 2777.77777778 kelvin</li>
+                <li>10000 rankine = 5555.55555556 kelvin</li>
               </ul>
             </div>
           </div>

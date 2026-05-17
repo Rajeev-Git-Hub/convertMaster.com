@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Grams</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? grams</li>
-                <li>10 kg ≈ ? grams</li>
-                <li>50 kg ≈ ? grams</li>
-                <li>100 kg ≈ ? grams</li>
+                <li>1 kg = 1000 grams</li>
+                <li>10 kg = 10000 grams</li>
+                <li>50 kg = 50000 grams</li>
+                <li>100 kg = 100000 grams</li>
               </ul>
             </div>
             <div className="card p-6">

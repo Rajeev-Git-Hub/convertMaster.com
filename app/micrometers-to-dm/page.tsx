@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? dm</li>
-                <li>10 micrometers ≈ ? dm</li>
-                <li>50 micrometers ≈ ? dm</li>
-                <li>100 micrometers ≈ ? dm</li>
+                <li>1 micrometers = 0.00001 dm</li>
+                <li>10 micrometers = 0.0001 dm</li>
+                <li>50 micrometers = 0.0005 dm</li>
+                <li>100 micrometers = 0.001 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? micrometers</li>
-                <li>10 dm ≈ ? micrometers</li>
-                <li>50 dm ≈ ? micrometers</li>
-                <li>100 dm ≈ ? micrometers</li>
+                <li>1 dm = 100000 micrometers</li>
+                <li>10 dm = 1000000 micrometers</li>
+                <li>50 dm = 5000000 micrometers</li>
+                <li>100 dm = 10000000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 micrometers ≈ ? dm</li>
-                <li>1000 micrometers ≈ ? dm</li>
-                <li>5000 micrometers ≈ ? dm</li>
-                <li>10000 micrometers ≈ ? dm</li>
+                <li>500 micrometers = 0.005 dm</li>
+                <li>1000 micrometers = 0.01 dm</li>
+                <li>5000 micrometers = 0.05 dm</li>
+                <li>10000 micrometers = 0.1 dm</li>
               </ul>
             </div>
           </div>

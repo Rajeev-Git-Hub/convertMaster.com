@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bit to Kbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bit ≈ ? kbit</li>
-                <li>10 bit ≈ ? kbit</li>
-                <li>50 bit ≈ ? kbit</li>
-                <li>100 bit ≈ ? kbit</li>
+                <li>1 bit = 0.0009765625 kbit</li>
+                <li>10 bit = 0.009765625 kbit</li>
+                <li>50 bit = 0.048828125 kbit</li>
+                <li>100 bit = 0.09765625 kbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kbit to Bit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kbit ≈ ? bit</li>
-                <li>10 kbit ≈ ? bit</li>
-                <li>50 kbit ≈ ? bit</li>
-                <li>100 kbit ≈ ? bit</li>
+                <li>1 kbit = 1024 bit</li>
+                <li>10 kbit = 10240 bit</li>
+                <li>50 kbit = 51200 bit</li>
+                <li>100 kbit = 102400 bit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 bit ≈ ? kbit</li>
-                <li>1000 bit ≈ ? kbit</li>
-                <li>5000 bit ≈ ? kbit</li>
-                <li>10000 bit ≈ ? kbit</li>
+                <li>500 bit = 0.48828125 kbit</li>
+                <li>1000 bit = 0.9765625 kbit</li>
+                <li>5000 bit = 4.8828125 kbit</li>
+                <li>10000 bit = 9.765625 kbit</li>
               </ul>
             </div>
           </div>

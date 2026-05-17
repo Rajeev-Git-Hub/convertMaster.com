@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm ≈ ? dm</li>
-                <li>10 nm ≈ ? dm</li>
-                <li>50 nm ≈ ? dm</li>
-                <li>100 nm ≈ ? dm</li>
+                <li>1 nm = 1e-8 dm</li>
+                <li>10 nm = 1e-7 dm</li>
+                <li>50 nm = 5e-7 dm</li>
+                <li>100 nm = 0.000001 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Nm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? nm</li>
-                <li>10 dm ≈ ? nm</li>
-                <li>50 dm ≈ ? nm</li>
-                <li>100 dm ≈ ? nm</li>
+                <li>1 dm = 100000000 nm</li>
+                <li>10 dm = 1000000000 nm</li>
+                <li>50 dm = 5000000000 nm</li>
+                <li>100 dm = 10000000000 nm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nm ≈ ? dm</li>
-                <li>1000 nm ≈ ? dm</li>
-                <li>5000 nm ≈ ? dm</li>
-                <li>10000 nm ≈ ? dm</li>
+                <li>500 nm = 0.000005 dm</li>
+                <li>1000 nm = 0.00001 dm</li>
+                <li>5000 nm = 0.00005 dm</li>
+                <li>10000 nm = 0.0001 dm</li>
               </ul>
             </div>
           </div>

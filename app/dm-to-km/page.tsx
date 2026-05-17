@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? km</li>
-                <li>10 dm ≈ ? km</li>
-                <li>50 dm ≈ ? km</li>
-                <li>100 dm ≈ ? km</li>
+                <li>1 dm = 0.0001 km</li>
+                <li>10 dm = 0.001 km</li>
+                <li>50 dm = 0.005 km</li>
+                <li>100 dm = 0.01 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? dm</li>
-                <li>10 km ≈ ? dm</li>
-                <li>50 km ≈ ? dm</li>
-                <li>100 km ≈ ? dm</li>
+                <li>1 km = 10000 dm</li>
+                <li>10 km = 100000 dm</li>
+                <li>50 km = 500000 dm</li>
+                <li>100 km = 1000000 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm ≈ ? km</li>
-                <li>1000 dm ≈ ? km</li>
-                <li>5000 dm ≈ ? km</li>
-                <li>10000 dm ≈ ? km</li>
+                <li>500 dm = 0.05 km</li>
+                <li>1000 dm = 0.1 km</li>
+                <li>5000 dm = 0.5 km</li>
+                <li>10000 dm = 1 km</li>
               </ul>
             </div>
           </div>

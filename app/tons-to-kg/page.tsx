@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 tons ≈ ? kg</li>
-                <li>10 tons ≈ ? kg</li>
-                <li>50 tons ≈ ? kg</li>
-                <li>100 tons ≈ ? kg</li>
+                <li>1 tons = 1000 kg</li>
+                <li>10 tons = 10000 kg</li>
+                <li>50 tons = 50000 kg</li>
+                <li>100 tons = 100000 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Tons</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? tons</li>
-                <li>10 kg ≈ ? tons</li>
-                <li>50 kg ≈ ? tons</li>
-                <li>100 kg ≈ ? tons</li>
+                <li>1 kg = 0.001 tons</li>
+                <li>10 kg = 0.01 tons</li>
+                <li>50 kg = 0.05 tons</li>
+                <li>100 kg = 0.1 tons</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 tons ≈ ? kg</li>
-                <li>1000 tons ≈ ? kg</li>
-                <li>5000 tons ≈ ? kg</li>
-                <li>10000 tons ≈ ? kg</li>
+                <li>500 tons = 500000 kg</li>
+                <li>1000 tons = 1000000 kg</li>
+                <li>5000 tons = 5000000 kg</li>
+                <li>10000 tons = 10000000 kg</li>
               </ul>
             </div>
           </div>

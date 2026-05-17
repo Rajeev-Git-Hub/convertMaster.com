@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bit to Gbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bit ≈ ? gbit</li>
-                <li>10 bit ≈ ? gbit</li>
-                <li>50 bit ≈ ? gbit</li>
-                <li>100 bit ≈ ? gbit</li>
+                <li>1 bit = 9.3132257462e-10 gbit</li>
+                <li>10 bit = 9.3132257462e-9 gbit</li>
+                <li>50 bit = 4.6566128731e-8 gbit</li>
+                <li>100 bit = 9.3132257462e-8 gbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gbit to Bit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gbit ≈ ? bit</li>
-                <li>10 gbit ≈ ? bit</li>
-                <li>50 gbit ≈ ? bit</li>
-                <li>100 gbit ≈ ? bit</li>
+                <li>1 gbit = 1073741824 bit</li>
+                <li>10 gbit = 10737418240 bit</li>
+                <li>50 gbit = 53687091200 bit</li>
+                <li>100 gbit = 107374182400 bit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 bit ≈ ? gbit</li>
-                <li>1000 bit ≈ ? gbit</li>
-                <li>5000 bit ≈ ? gbit</li>
-                <li>10000 bit ≈ ? gbit</li>
+                <li>500 bit = 4.6566128731e-7 gbit</li>
+                <li>1000 bit = 9.3132257462e-7 gbit</li>
+                <li>5000 bit = 0.00000465661287308 gbit</li>
+                <li>10000 bit = 0.00000931322574615 gbit</li>
               </ul>
             </div>
           </div>

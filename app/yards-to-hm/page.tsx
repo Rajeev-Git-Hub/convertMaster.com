@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? hm</li>
-                <li>10 yards ≈ ? hm</li>
-                <li>50 yards ≈ ? hm</li>
-                <li>100 yards ≈ ? hm</li>
+                <li>1 yards = 0.009144 hm</li>
+                <li>10 yards = 0.09144 hm</li>
+                <li>50 yards = 0.4572 hm</li>
+                <li>100 yards = 0.9144 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? yards</li>
-                <li>10 hm ≈ ? yards</li>
-                <li>50 hm ≈ ? yards</li>
-                <li>100 hm ≈ ? yards</li>
+                <li>1 hm = 109.361329834 yards</li>
+                <li>10 hm = 1093.61329834 yards</li>
+                <li>50 hm = 5468.06649169 yards</li>
+                <li>100 hm = 10936.1329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yards ≈ ? hm</li>
-                <li>1000 yards ≈ ? hm</li>
-                <li>5000 yards ≈ ? hm</li>
-                <li>10000 yards ≈ ? hm</li>
+                <li>500 yards = 4.572 hm</li>
+                <li>1000 yards = 9.144 hm</li>
+                <li>5000 yards = 45.72 hm</li>
+                <li>10000 yards = 91.44 hm</li>
               </ul>
             </div>
           </div>

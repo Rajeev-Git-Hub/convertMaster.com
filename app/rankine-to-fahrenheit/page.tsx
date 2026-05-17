@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 rankine = 39.67 fahrenheit</li>
-                <li>1000 rankine = 540.67 fahrenheit</li>
-                <li>5000 rankine = 4540.67 fahrenheit</li>
-                <li>10000 rankine = 9540.67 fahrenheit</li>
+                <li>500 rankine = 40.33 fahrenheit</li>
+                <li>1000 rankine = 540.33 fahrenheit</li>
+                <li>5000 rankine = 4540.33 fahrenheit</li>
+                <li>10000 rankine = 9540.33 fahrenheit</li>
               </ul>
             </div>
           </div>

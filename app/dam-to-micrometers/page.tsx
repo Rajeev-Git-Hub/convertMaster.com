@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? micrometers</li>
-                <li>10 dam ≈ ? micrometers</li>
-                <li>50 dam ≈ ? micrometers</li>
-                <li>100 dam ≈ ? micrometers</li>
+                <li>1 dam = 10000000 micrometers</li>
+                <li>10 dam = 100000000 micrometers</li>
+                <li>50 dam = 500000000 micrometers</li>
+                <li>100 dam = 1000000000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? dam</li>
-                <li>10 micrometers ≈ ? dam</li>
-                <li>50 micrometers ≈ ? dam</li>
-                <li>100 micrometers ≈ ? dam</li>
+                <li>1 micrometers = 1e-7 dam</li>
+                <li>10 micrometers = 0.000001 dam</li>
+                <li>50 micrometers = 0.000005 dam</li>
+                <li>100 micrometers = 0.00001 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dam ≈ ? micrometers</li>
-                <li>1000 dam ≈ ? micrometers</li>
-                <li>5000 dam ≈ ? micrometers</li>
-                <li>10000 dam ≈ ? micrometers</li>
+                <li>500 dam = 5000000000 micrometers</li>
+                <li>1000 dam = 10000000000 micrometers</li>
+                <li>5000 dam = 50000000000 micrometers</li>
+                <li>10000 dam = 100000000000 micrometers</li>
               </ul>
             </div>
           </div>

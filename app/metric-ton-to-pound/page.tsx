@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Metric-ton to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 metric-ton = 2204.62 pound</li>
-                <li>10 metric-ton = 22046.2 pound</li>
-                <li>50 metric-ton = 110231 pound</li>
-                <li>100 metric-ton = 220462 pound</li>
+                <li>1 metric-ton = 2204.62262185 pound</li>
+                <li>10 metric-ton = 22046.2262185 pound</li>
+                <li>50 metric-ton = 110231.131092 pound</li>
+                <li>100 metric-ton = 220462.262185 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound = 0.000453592 metric-ton</li>
-                <li>10 pound = 0.00453592 metric-ton</li>
-                <li>50 pound = 0.0226796 metric-ton</li>
-                <li>100 pound = 0.0453592 metric-ton</li>
+                <li>1 pound = 0.00045359237 metric-ton</li>
+                <li>10 pound = 0.0045359237 metric-ton</li>
+                <li>50 pound = 0.0226796185 metric-ton</li>
+                <li>100 pound = 0.045359237 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 metric-ton = 1102310 pound</li>
-                <li>1000 metric-ton = 2204620 pound</li>
-                <li>5000 metric-ton = 11023100 pound</li>
-                <li>10000 metric-ton = 22046200 pound</li>
+                <li>500 metric-ton = 1102311.31092 pound</li>
+                <li>1000 metric-ton = 2204622.62185 pound</li>
+                <li>5000 metric-ton = 11023113.1092 pound</li>
+                <li>10000 metric-ton = 22046226.2185 pound</li>
               </ul>
             </div>
           </div>

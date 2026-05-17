@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Metric-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg = 0.000000001 metric-ton</li>
-                <li>10 mg = 0.00000001 metric-ton</li>
-                <li>50 mg = 0.00000005 metric-ton</li>
-                <li>100 mg = 0.0000001 metric-ton</li>
+                <li>1 mg = 1e-9 metric-ton</li>
+                <li>10 mg = 1e-8 metric-ton</li>
+                <li>50 mg = 5e-8 metric-ton</li>
+                <li>100 mg = 1e-7 metric-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,7 +73,7 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mg = 0.0000005 metric-ton</li>
+                <li>500 mg = 5e-7 metric-ton</li>
                 <li>1000 mg = 0.000001 metric-ton</li>
                 <li>5000 mg = 0.000005 metric-ton</li>
                 <li>10000 mg = 0.00001 metric-ton</li>

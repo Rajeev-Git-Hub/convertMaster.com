@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? second</li>
-                <li>10 year ≈ ? second</li>
-                <li>50 year ≈ ? second</li>
-                <li>100 year ≈ ? second</li>
+                <li>1 year = 31557600 second</li>
+                <li>10 year = 315576000 second</li>
+                <li>50 year = 1577880000 second</li>
+                <li>100 year = 3155760000 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? year</li>
-                <li>10 second ≈ ? year</li>
-                <li>50 second ≈ ? year</li>
-                <li>100 second ≈ ? year</li>
+                <li>1 second = 3.1688087814e-8 year</li>
+                <li>10 second = 3.1688087814e-7 year</li>
+                <li>50 second = 0.0000015844043907 year</li>
+                <li>100 second = 0.0000031688087814 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 year ≈ ? second</li>
-                <li>1000 year ≈ ? second</li>
-                <li>5000 year ≈ ? second</li>
-                <li>10000 year ≈ ? second</li>
+                <li>500 year = 15778800000 second</li>
+                <li>1000 year = 31557600000 second</li>
+                <li>5000 year = 157788000000 second</li>
+                <li>10000 year = 315576000000 second</li>
               </ul>
             </div>
           </div>

@@ -150,11 +150,11 @@ export default function WeightConverterLandingPage() {
                 <h4 className="text-lg font-semibold text-gray-900">Kilograms to Pounds</h4>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg = 2.20462 lbs</li>
-                <li>5 kg = 11.0231 lbs</li>
-                <li>10 kg = 22.0462 lbs</li>
-                <li>50 kg = 110.231 lbs</li>
-                <li>100 kg = 220.462 lbs</li>
+                <li>1 kg = 2.20462262185 lbs</li>
+                <li>5 kg = 11.0231131092 lbs</li>
+                <li>10 kg = 22.0462262185 lbs</li>
+                <li>50 kg = 110.231131092 lbs</li>
+                <li>100 kg = 220.462262185 lbs</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -165,11 +165,11 @@ export default function WeightConverterLandingPage() {
                 <h4 className="text-lg font-semibold text-gray-900">Pounds to Kilograms</h4>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 lb = 0.453592 kg</li>
-                <li>5 lbs = 2.26796 kg</li>
-                <li>10 lbs = 4.53592 kg</li>
-                <li>50 lbs = 22.6796 kg</li>
-                <li>100 lbs = 45.3592 kg</li>
+                <li>1 lb = 0.45359237 kg</li>
+                <li>5 lbs = 2.26796185 kg</li>
+                <li>10 lbs = 4.5359237 kg</li>
+                <li>50 lbs = 22.6796185 kg</li>
+                <li>100 lbs = 45.359237 kg</li>
               </ul>
             </div>
             <div className="card p-6">

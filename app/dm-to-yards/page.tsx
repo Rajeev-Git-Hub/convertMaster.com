@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm = 0.109361 yards</li>
-                <li>10 dm = 1.09361 yards</li>
-                <li>50 dm = 5.46807 yards</li>
-                <li>100 dm = 10.9361 yards</li>
+                <li>1 dm = 0.109361329834 yards</li>
+                <li>10 dm = 1.09361329834 yards</li>
+                <li>50 dm = 5.46806649169 yards</li>
+                <li>100 dm = 10.9361329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm = 54.6805 yards</li>
-                <li>1000 dm = 109.361 yards</li>
-                <li>5000 dm = 546.805 yards</li>
-                <li>10000 dm = 1093.61 yards</li>
+                <li>500 dm = 54.6806649169 yards</li>
+                <li>1000 dm = 109.361329834 yards</li>
+                <li>5000 dm = 546.806649169 yards</li>
+                <li>10000 dm = 1093.61329834 yards</li>
               </ul>
             </div>
           </div>

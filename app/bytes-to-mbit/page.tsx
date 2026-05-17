@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Mbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? mbit</li>
-                <li>10 bytes ≈ ? mbit</li>
-                <li>50 bytes ≈ ? mbit</li>
-                <li>100 bytes ≈ ? mbit</li>
+                <li>1 bytes = 0.00000762939453125 mbit</li>
+                <li>10 bytes = 0.0000762939453125 mbit</li>
+                <li>50 bytes = 0.000381469726563 mbit</li>
+                <li>100 bytes = 0.000762939453125 mbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mbit to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mbit ≈ ? bytes</li>
-                <li>10 mbit ≈ ? bytes</li>
-                <li>50 mbit ≈ ? bytes</li>
-                <li>100 mbit ≈ ? bytes</li>
+                <li>1 mbit = 131072 bytes</li>
+                <li>10 mbit = 1310720 bytes</li>
+                <li>50 mbit = 6553600 bytes</li>
+                <li>100 mbit = 13107200 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 bytes ≈ ? mbit</li>
-                <li>1000 bytes ≈ ? mbit</li>
-                <li>5000 bytes ≈ ? mbit</li>
-                <li>10000 bytes ≈ ? mbit</li>
+                <li>500 bytes = 0.00381469726563 mbit</li>
+                <li>1000 bytes = 0.00762939453125 mbit</li>
+                <li>5000 bytes = 0.0381469726563 mbit</li>
+                <li>10000 bytes = 0.0762939453125 mbit</li>
               </ul>
             </div>
           </div>

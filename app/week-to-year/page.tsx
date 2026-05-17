@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? year</li>
-                <li>10 week ≈ ? year</li>
-                <li>50 week ≈ ? year</li>
-                <li>100 week ≈ ? year</li>
+                <li>1 week = 0.0191649555099 year</li>
+                <li>10 week = 0.191649555099 year</li>
+                <li>50 week = 0.958247775496 year</li>
+                <li>100 week = 1.91649555099 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? week</li>
-                <li>10 year ≈ ? week</li>
-                <li>50 year ≈ ? week</li>
-                <li>100 year ≈ ? week</li>
+                <li>1 year = 52.1785714286 week</li>
+                <li>10 year = 521.785714286 week</li>
+                <li>50 year = 2608.92857143 week</li>
+                <li>100 year = 5217.85714286 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 week ≈ ? year</li>
-                <li>1000 week ≈ ? year</li>
-                <li>5000 week ≈ ? year</li>
-                <li>10000 week ≈ ? year</li>
+                <li>500 week = 9.58247775496 year</li>
+                <li>1000 week = 19.1649555099 year</li>
+                <li>5000 week = 95.8247775496 year</li>
+                <li>10000 week = 191.649555099 year</li>
               </ul>
             </div>
           </div>

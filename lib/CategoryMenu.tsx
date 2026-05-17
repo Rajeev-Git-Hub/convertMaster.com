@@ -3,11 +3,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FiChevronDown, FiGlobe, FiCheck, FiLayers, FiSearch, FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiMenu, FiX } from 'react-icons/fi';
+import { FiLayers, FiSearch, FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiMenu, FiX } from 'react-icons/fi';
 import { categories } from './categories';
 import { CategoryKey } from './types';
-import { useLocalization, Language } from './LocalizationContext';
-import DarkModeToggle from '../components/DarkModeToggle';
+import { useLocalization } from './LocalizationContext';
 
 // Define logical groups for the converters
 export type GroupName = 'Common' | 'Professional' | 'developer' | 'utilities';
@@ -44,9 +43,7 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
   // Toggle to enable/disable builtin auth pages (signup/login)
   const AUTH_ENABLED = false
   const pathname = usePathname();
-  const { t, language, setLanguage } = useLocalization();
-  const [activeGroup, setActiveGroup] = useState<GroupName | null>(null);
-  const [settingsOpen, setSettingsOpen] = useState(false);
+  const { t } = useLocalization();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -54,8 +51,6 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setActiveGroup(null);
-        setSettingsOpen(false);
         setMobileMenuOpen(false);
       }
     };
@@ -116,61 +111,6 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
 
           {/* Mobile and Right Side Controls */}
           <div className="flex items-center gap-3">
-            {/* Dark Mode Toggle - Always visible */}
-            <div className="flex items-center">
-              <DarkModeToggle />
-            </div>
-
-            {/* Language Toggle - Hidden on mobile, visible on desktop */}
-            <div className="hidden sm:block relative">
-              <button
-                onClick={() => {
-                  setSettingsOpen(!settingsOpen);
-                  setActiveGroup(null);
-                }}
-                className={`inline-flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors duration-150 focus:outline-none ${
-                  settingsOpen
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                }`}
-                aria-label="Change Language"
-              >
-                <FiGlobe className="mr-2 h-4 w-4" />
-                <span className="hidden sm:inline">{language === 'hi' ? 'हिंदी' : 'English'}</span>
-                <FiChevronDown
-                  className={`ml-2 h-4 w-4 transition-transform duration-200 ${
-                    settingsOpen ? 'transform rotate-180' : ''
-                  }`}
-                />
-              </button>
-
-              {settingsOpen && (
-                <div className="absolute right-0 top-full mt-2 w-56 rounded-xl shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden p-4">
-                  <div>
-                    <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
-                      Choose Language
-                    </h4>
-                    <div className="space-y-1">
-                      {(['en', 'hi'] as Language[]).map((lang) => (
-                        <button
-                          key={lang}
-                          onClick={() => setLanguage(lang)}
-                          className={`w-full flex items-center justify-between px-2 py-1.5 text-sm rounded-md ${
-                            language === lang
-                              ? 'bg-blue-50 text-blue-700'
-                              : 'text-gray-700 hover:bg-gray-50'
-                          }`}
-                        >
-                          <span>{lang === 'en' ? '🇬🇧 English' : '🇮🇳 हिंदी'}</span>
-                          {language === lang && <FiCheck className="h-4 w-4" />}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -224,30 +164,6 @@ export const CategoryMenu: React.FC<CategoryMenuProps> = ({
                 Blog
               </Link>
 
-              {/* Mobile Language Selector */}
-              <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
-                <div className="px-3 py-2">
-                  <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
-                    Choose Language
-                  </h4>
-                  <div className="space-y-1">
-                    {(['en', 'hi'] as Language[]).map((lang) => (
-                      <button
-                        key={lang}
-                        onClick={() => setLanguage(lang)}
-                        className={`w-full flex items-center justify-between px-2 py-1.5 text-sm rounded-md ${
-                          language === lang
-                            ? 'bg-blue-50 text-blue-700'
-                            : 'text-gray-700 hover:bg-gray-50'
-                        }`}
-                      >
-                        <span>{lang === 'en' ? '🇬🇧 English' : '🇮🇳 हिंदी'}</span>
-                        {language === lang && <FiCheck className="h-4 w-4" />}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         )}

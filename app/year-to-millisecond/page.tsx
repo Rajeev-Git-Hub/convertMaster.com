@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? millisecond</li>
-                <li>10 year ≈ ? millisecond</li>
-                <li>50 year ≈ ? millisecond</li>
-                <li>100 year ≈ ? millisecond</li>
+                <li>1 year = 31557600000 millisecond</li>
+                <li>10 year = 315576000000 millisecond</li>
+                <li>50 year = 1577880000000 millisecond</li>
+                <li>100 year = 3155760000000 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? year</li>
-                <li>10 millisecond ≈ ? year</li>
-                <li>50 millisecond ≈ ? year</li>
-                <li>100 millisecond ≈ ? year</li>
+                <li>1 millisecond = 3.1688087814e-11 year</li>
+                <li>10 millisecond = 3.1688087814e-10 year</li>
+                <li>50 millisecond = 1.5844043907e-9 year</li>
+                <li>100 millisecond = 3.1688087814e-9 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 year ≈ ? millisecond</li>
-                <li>1000 year ≈ ? millisecond</li>
-                <li>5000 year ≈ ? millisecond</li>
-                <li>10000 year ≈ ? millisecond</li>
+                <li>500 year = 15778800000000 millisecond</li>
+                <li>1000 year = 31557600000000 millisecond</li>
+                <li>5000 year = 157788000000000 millisecond</li>
+                <li>10000 year = 315576000000000 millisecond</li>
               </ul>
             </div>
           </div>

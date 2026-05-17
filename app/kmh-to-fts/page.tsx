@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kmh to Fts</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kmh ≈ ? fts</li>
-                <li>10 kmh ≈ ? fts</li>
-                <li>50 kmh ≈ ? fts</li>
-                <li>100 kmh ≈ ? fts</li>
+                <li>1 kmh = 0.911344415281 fts</li>
+                <li>10 kmh = 9.11344415281 fts</li>
+                <li>50 kmh = 45.5672207641 fts</li>
+                <li>100 kmh = 91.1344415281 fts</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fts to Kmh</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fts ≈ ? kmh</li>
-                <li>10 fts ≈ ? kmh</li>
-                <li>50 fts ≈ ? kmh</li>
-                <li>100 fts ≈ ? kmh</li>
+                <li>1 fts = 1.09728 kmh</li>
+                <li>10 fts = 10.9728 kmh</li>
+                <li>50 fts = 54.864 kmh</li>
+                <li>100 fts = 109.728 kmh</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kmh ≈ ? fts</li>
-                <li>1000 kmh ≈ ? fts</li>
-                <li>5000 kmh ≈ ? fts</li>
-                <li>10000 kmh ≈ ? fts</li>
+                <li>500 kmh = 455.672207641 fts</li>
+                <li>1000 kmh = 911.344415281 fts</li>
+                <li>5000 kmh = 4556.72207641 fts</li>
+                <li>10000 kmh = 9113.44415281 fts</li>
               </ul>
             </div>
           </div>

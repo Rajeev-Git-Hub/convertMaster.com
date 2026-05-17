@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Tb to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 tb ≈ ? bytes</li>
-                <li>10 tb ≈ ? bytes</li>
-                <li>50 tb ≈ ? bytes</li>
-                <li>100 tb ≈ ? bytes</li>
+                <li>1 tb = 1099511627776 bytes</li>
+                <li>10 tb = 10995116277760 bytes</li>
+                <li>50 tb = 54975581388800 bytes</li>
+                <li>100 tb = 109951162777600 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Tb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? tb</li>
-                <li>10 bytes ≈ ? tb</li>
-                <li>50 bytes ≈ ? tb</li>
-                <li>100 bytes ≈ ? tb</li>
+                <li>1 bytes = 9.0949470177e-13 tb</li>
+                <li>10 bytes = 9.0949470177e-12 tb</li>
+                <li>50 bytes = 4.5474735089e-11 tb</li>
+                <li>100 bytes = 9.0949470177e-11 tb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 tb ≈ ? bytes</li>
-                <li>1000 tb ≈ ? bytes</li>
-                <li>5000 tb ≈ ? bytes</li>
-                <li>10000 tb ≈ ? bytes</li>
+                <li>500 tb = 549755813888000 bytes</li>
+                <li>1000 tb = 1099511627776000 bytes</li>
+                <li>5000 tb = 5497558138880000 bytes</li>
+                <li>10000 tb = 1.0995116278e+16 bytes</li>
               </ul>
             </div>
           </div>

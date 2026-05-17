@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? week</li>
-                <li>10 nanosecond ≈ ? week</li>
-                <li>50 nanosecond ≈ ? week</li>
-                <li>100 nanosecond ≈ ? week</li>
+                <li>1 nanosecond = 1.6534391534e-15 week</li>
+                <li>10 nanosecond = 1.6534391534e-14 week</li>
+                <li>50 nanosecond = 8.2671957672e-14 week</li>
+                <li>100 nanosecond = 1.6534391534e-13 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? nanosecond</li>
-                <li>10 week ≈ ? nanosecond</li>
-                <li>50 week ≈ ? nanosecond</li>
-                <li>100 week ≈ ? nanosecond</li>
+                <li>1 week = 604800000000000 nanosecond</li>
+                <li>10 week = 6048000000000000 nanosecond</li>
+                <li>50 week = 3.024e+16 nanosecond</li>
+                <li>100 week = 6.048e+16 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nanosecond ≈ ? week</li>
-                <li>1000 nanosecond ≈ ? week</li>
-                <li>5000 nanosecond ≈ ? week</li>
-                <li>10000 nanosecond ≈ ? week</li>
+                <li>500 nanosecond = 8.2671957672e-13 week</li>
+                <li>1000 nanosecond = 1.6534391534e-12 week</li>
+                <li>5000 nanosecond = 8.2671957672e-12 week</li>
+                <li>10000 nanosecond = 1.6534391534e-11 week</li>
               </ul>
             </div>
           </div>

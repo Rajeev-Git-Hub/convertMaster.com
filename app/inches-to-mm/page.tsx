@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mm = 0.039 inches</li>
-                <li>10 mm = 0.394 inches</li>
-                <li>50 mm = 1.969 inches</li>
-                <li>100 mm = 3.937 inches</li>
+                <li>1 mm = 0.0393700787402 inches</li>
+                <li>10 mm = 0.393700787402 inches</li>
+                <li>50 mm = 1.96850393701 inches</li>
+                <li>100 mm = 3.93700787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">

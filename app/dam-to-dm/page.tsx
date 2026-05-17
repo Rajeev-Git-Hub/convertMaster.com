@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Dm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? dm</li>
-                <li>10 dam ≈ ? dm</li>
-                <li>50 dam ≈ ? dm</li>
-                <li>100 dam ≈ ? dm</li>
+                <li>1 dam = 100 dm</li>
+                <li>10 dam = 1000 dm</li>
+                <li>50 dam = 5000 dm</li>
+                <li>100 dam = 10000 dm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm ≈ ? dam</li>
-                <li>10 dm ≈ ? dam</li>
-                <li>50 dm ≈ ? dam</li>
-                <li>100 dm ≈ ? dam</li>
+                <li>1 dm = 0.01 dam</li>
+                <li>10 dm = 0.1 dam</li>
+                <li>50 dm = 0.5 dam</li>
+                <li>100 dm = 1 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dam ≈ ? dm</li>
-                <li>1000 dam ≈ ? dm</li>
-                <li>5000 dam ≈ ? dm</li>
-                <li>10000 dam ≈ ? dm</li>
+                <li>500 dam = 50000 dm</li>
+                <li>1000 dam = 100000 dm</li>
+                <li>5000 dam = 500000 dm</li>
+                <li>10000 dam = 1000000 dm</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to M3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? m3</li>
-                <li>10 in3 ≈ ? m3</li>
-                <li>50 in3 ≈ ? m3</li>
-                <li>100 in3 ≈ ? m3</li>
+                <li>1 in3 = 0.000016387064 m3</li>
+                <li>10 in3 = 0.00016387064 m3</li>
+                <li>50 in3 = 0.0008193532 m3</li>
+                <li>100 in3 = 0.0016387064 m3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">M3 to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m3 ≈ ? in3</li>
-                <li>10 m3 ≈ ? in3</li>
-                <li>50 m3 ≈ ? in3</li>
-                <li>100 m3 ≈ ? in3</li>
+                <li>1 m3 = 61023.7440947 in3</li>
+                <li>10 m3 = 610237.440947 in3</li>
+                <li>50 m3 = 3051187.20474 in3</li>
+                <li>100 m3 = 6102374.40947 in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 in3 ≈ ? m3</li>
-                <li>1000 in3 ≈ ? m3</li>
-                <li>5000 in3 ≈ ? m3</li>
-                <li>10000 in3 ≈ ? m3</li>
+                <li>500 in3 = 0.008193532 m3</li>
+                <li>1000 in3 = 0.016387064 m3</li>
+                <li>5000 in3 = 0.08193532 m3</li>
+                <li>10000 in3 = 0.16387064 m3</li>
               </ul>
             </div>
           </div>

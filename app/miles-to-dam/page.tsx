@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? dam</li>
-                <li>10 miles ≈ ? dam</li>
-                <li>50 miles ≈ ? dam</li>
-                <li>100 miles ≈ ? dam</li>
+                <li>1 miles = 160.9344 dam</li>
+                <li>10 miles = 1609.344 dam</li>
+                <li>50 miles = 8046.72 dam</li>
+                <li>100 miles = 16093.44 dam</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dam to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dam ≈ ? miles</li>
-                <li>10 dam ≈ ? miles</li>
-                <li>50 dam ≈ ? miles</li>
-                <li>100 dam ≈ ? miles</li>
+                <li>1 dam = 0.00621371192237 miles</li>
+                <li>10 dam = 0.0621371192237 miles</li>
+                <li>50 dam = 0.310685596119 miles</li>
+                <li>100 dam = 0.621371192237 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 miles ≈ ? dam</li>
-                <li>1000 miles ≈ ? dam</li>
-                <li>5000 miles ≈ ? dam</li>
-                <li>10000 miles ≈ ? dam</li>
+                <li>500 miles = 80467.2 dam</li>
+                <li>1000 miles = 160934.4 dam</li>
+                <li>5000 miles = 804672 dam</li>
+                <li>10000 miles = 1609344 dam</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mb to Eb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mb ≈ ? eb</li>
-                <li>10 mb ≈ ? eb</li>
-                <li>50 mb ≈ ? eb</li>
-                <li>100 mb ≈ ? eb</li>
+                <li>1 mb = 9.0949470177e-13 eb</li>
+                <li>10 mb = 9.0949470177e-12 eb</li>
+                <li>50 mb = 4.5474735089e-11 eb</li>
+                <li>100 mb = 9.0949470177e-11 eb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Eb to Mb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 eb ≈ ? mb</li>
-                <li>10 eb ≈ ? mb</li>
-                <li>50 eb ≈ ? mb</li>
-                <li>100 eb ≈ ? mb</li>
+                <li>1 eb = 1099511627776 mb</li>
+                <li>10 eb = 10995116277760 mb</li>
+                <li>50 eb = 54975581388800 mb</li>
+                <li>100 eb = 109951162777600 mb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mb ≈ ? eb</li>
-                <li>1000 mb ≈ ? eb</li>
-                <li>5000 mb ≈ ? eb</li>
-                <li>10000 mb ≈ ? eb</li>
+                <li>500 mb = 4.5474735089e-10 eb</li>
+                <li>1000 mb = 9.0949470177e-10 eb</li>
+                <li>5000 mb = 4.5474735089e-9 eb</li>
+                <li>10000 mb = 9.0949470177e-9 eb</li>
               </ul>
             </div>
           </div>

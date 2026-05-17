@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ft3 to M3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft3 ≈ ? m3</li>
-                <li>10 ft3 ≈ ? m3</li>
-                <li>50 ft3 ≈ ? m3</li>
-                <li>100 ft3 ≈ ? m3</li>
+                <li>1 ft3 = 0.028316846592 m3</li>
+                <li>10 ft3 = 0.28316846592 m3</li>
+                <li>50 ft3 = 1.4158423296 m3</li>
+                <li>100 ft3 = 2.8316846592 m3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">M3 to Ft3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 m3 ≈ ? ft3</li>
-                <li>10 m3 ≈ ? ft3</li>
-                <li>50 m3 ≈ ? ft3</li>
-                <li>100 m3 ≈ ? ft3</li>
+                <li>1 m3 = 35.3146667215 ft3</li>
+                <li>10 m3 = 353.146667215 ft3</li>
+                <li>50 m3 = 1765.73333607 ft3</li>
+                <li>100 m3 = 3531.46667215 ft3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ft3 ≈ ? m3</li>
-                <li>1000 ft3 ≈ ? m3</li>
-                <li>5000 ft3 ≈ ? m3</li>
-                <li>10000 ft3 ≈ ? m3</li>
+                <li>500 ft3 = 14.158423296 m3</li>
+                <li>1000 ft3 = 28.316846592 m3</li>
+                <li>5000 ft3 = 141.58423296 m3</li>
+                <li>10000 ft3 = 283.16846592 m3</li>
               </ul>
             </div>
           </div>

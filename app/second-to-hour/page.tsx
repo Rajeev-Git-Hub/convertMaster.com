@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Hour</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? hour</li>
-                <li>10 second ≈ ? hour</li>
-                <li>50 second ≈ ? hour</li>
-                <li>100 second ≈ ? hour</li>
+                <li>1 second = 0.000277777777778 hour</li>
+                <li>10 second = 0.00277777777778 hour</li>
+                <li>50 second = 0.0138888888889 hour</li>
+                <li>100 second = 0.0277777777778 hour</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hour to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hour ≈ ? second</li>
-                <li>10 hour ≈ ? second</li>
-                <li>50 hour ≈ ? second</li>
-                <li>100 hour ≈ ? second</li>
+                <li>1 hour = 3600 second</li>
+                <li>10 hour = 36000 second</li>
+                <li>50 hour = 180000 second</li>
+                <li>100 hour = 360000 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 second ≈ ? hour</li>
-                <li>1000 second ≈ ? hour</li>
-                <li>5000 second ≈ ? hour</li>
-                <li>10000 second ≈ ? hour</li>
+                <li>500 second = 0.138888888889 hour</li>
+                <li>1000 second = 0.277777777778 hour</li>
+                <li>5000 second = 1.38888888889 hour</li>
+                <li>10000 second = 2.77777777778 hour</li>
               </ul>
             </div>
           </div>

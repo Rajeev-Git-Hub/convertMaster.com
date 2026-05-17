@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton = 907185000 mg</li>
-                <li>10 us-ton = 9071850000 mg</li>
-                <li>50 us-ton = 45359250000 mg</li>
-                <li>100 us-ton = 90718500000 mg</li>
+                <li>1 us-ton = 907184740 mg</li>
+                <li>10 us-ton = 9071847400 mg</li>
+                <li>50 us-ton = 45359237000 mg</li>
+                <li>100 us-ton = 90718474000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg = 0.000000001102 us-ton</li>
-                <li>10 mg = 0.00000001102 us-ton</li>
-                <li>50 mg = 0.0000000551 us-ton</li>
-                <li>100 mg = 0.0000001102 us-ton</li>
+                <li>1 mg = 1.1023113109e-9 us-ton</li>
+                <li>10 mg = 1.1023113109e-8 us-ton</li>
+                <li>50 mg = 5.5115565546e-8 us-ton</li>
+                <li>100 mg = 1.1023113109e-7 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 us-ton = 453592500000 mg</li>
-                <li>1000 us-ton = 907185000000 mg</li>
-                <li>5000 us-ton = 4535925000000 mg</li>
-                <li>10000 us-ton = 9071850000000 mg</li>
+                <li>500 us-ton = 453592370000 mg</li>
+                <li>1000 us-ton = 907184740000 mg</li>
+                <li>5000 us-ton = 4535923700000 mg</li>
+                <li>10000 us-ton = 9071847400000 mg</li>
               </ul>
             </div>
           </div>

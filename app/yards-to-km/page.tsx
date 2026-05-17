@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? km</li>
-                <li>10 yards ≈ ? km</li>
-                <li>50 yards ≈ ? km</li>
-                <li>100 yards ≈ ? km</li>
+                <li>1 yards = 0.0009144 km</li>
+                <li>10 yards = 0.009144 km</li>
+                <li>50 yards = 0.04572 km</li>
+                <li>100 yards = 0.09144 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? yards</li>
-                <li>10 km ≈ ? yards</li>
-                <li>50 km ≈ ? yards</li>
-                <li>100 km ≈ ? yards</li>
+                <li>1 km = 1093.61329834 yards</li>
+                <li>10 km = 10936.1329834 yards</li>
+                <li>50 km = 54680.6649169 yards</li>
+                <li>100 km = 109361.329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yards ≈ ? km</li>
-                <li>1000 yards ≈ ? km</li>
-                <li>5000 yards ≈ ? km</li>
-                <li>10000 yards ≈ ? km</li>
+                <li>500 yards = 0.4572 km</li>
+                <li>1000 yards = 0.9144 km</li>
+                <li>5000 yards = 4.572 km</li>
+                <li>10000 yards = 9.144 km</li>
               </ul>
             </div>
           </div>

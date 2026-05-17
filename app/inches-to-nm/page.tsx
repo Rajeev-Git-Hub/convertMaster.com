@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Nm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? nm</li>
-                <li>10 inches ≈ ? nm</li>
-                <li>50 inches ≈ ? nm</li>
-                <li>100 inches ≈ ? nm</li>
+                <li>1 inches = 25400000 nm</li>
+                <li>10 inches = 254000000 nm</li>
+                <li>50 inches = 1270000000 nm</li>
+                <li>100 inches = 2540000000 nm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm ≈ ? inches</li>
-                <li>10 nm ≈ ? inches</li>
-                <li>50 nm ≈ ? inches</li>
-                <li>100 nm ≈ ? inches</li>
+                <li>1 nm = 3.937007874e-8 inches</li>
+                <li>10 nm = 3.937007874e-7 inches</li>
+                <li>50 nm = 0.00000196850393701 inches</li>
+                <li>100 nm = 0.00000393700787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches ≈ ? nm</li>
-                <li>1000 inches ≈ ? nm</li>
-                <li>5000 inches ≈ ? nm</li>
-                <li>10000 inches ≈ ? nm</li>
+                <li>500 inches = 12700000000 nm</li>
+                <li>1000 inches = 25400000000 nm</li>
+                <li>5000 inches = 127000000000 nm</li>
+                <li>10000 inches = 254000000000 nm</li>
               </ul>
             </div>
           </div>

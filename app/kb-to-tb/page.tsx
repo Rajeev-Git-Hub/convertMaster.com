@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kb to Tb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kb ≈ ? tb</li>
-                <li>10 kb ≈ ? tb</li>
-                <li>50 kb ≈ ? tb</li>
-                <li>100 kb ≈ ? tb</li>
+                <li>1 kb = 9.3132257462e-10 tb</li>
+                <li>10 kb = 9.3132257462e-9 tb</li>
+                <li>50 kb = 4.6566128731e-8 tb</li>
+                <li>100 kb = 9.3132257462e-8 tb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Tb to Kb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 tb ≈ ? kb</li>
-                <li>10 tb ≈ ? kb</li>
-                <li>50 tb ≈ ? kb</li>
-                <li>100 tb ≈ ? kb</li>
+                <li>1 tb = 1073741824 kb</li>
+                <li>10 tb = 10737418240 kb</li>
+                <li>50 tb = 53687091200 kb</li>
+                <li>100 tb = 107374182400 kb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kb ≈ ? tb</li>
-                <li>1000 kb ≈ ? tb</li>
-                <li>5000 kb ≈ ? tb</li>
-                <li>10000 kb ≈ ? tb</li>
+                <li>500 kb = 4.6566128731e-7 tb</li>
+                <li>1000 kb = 9.3132257462e-7 tb</li>
+                <li>5000 kb = 0.00000465661287308 tb</li>
+                <li>10000 kb = 0.00000931322574615 tb</li>
               </ul>
             </div>
           </div>

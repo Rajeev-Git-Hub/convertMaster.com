@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Grams to Ounces</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 grams = 0.0353 ounces</li>
-                <li>10 grams = 0.353 ounces</li>
-                <li>50 grams = 1.764 ounces</li>
-                <li>100 grams = 3.527 ounces</li>
+                <li>1 grams = 0.0352739619496 ounces</li>
+                <li>10 grams = 0.352739619496 ounces</li>
+                <li>50 grams = 1.76369809748 ounces</li>
+                <li>100 grams = 3.52739619496 ounces</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounces to Grams</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounces ≈ ? grams</li>
-                <li>10 ounces ≈ ? grams</li>
-                <li>50 ounces ≈ ? grams</li>
-                <li>100 ounces ≈ ? grams</li>
+                <li>1 ounces = 28.349523125 grams</li>
+                <li>10 ounces = 283.49523125 grams</li>
+                <li>50 ounces = 1417.47615625 grams</li>
+                <li>100 ounces = 2834.9523125 grams</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 grams = 17.637 ounces</li>
-                <li>1000 grams = 35.274 ounces</li>
-                <li>5000 grams = 176.37 ounces</li>
-                <li>10000 grams = 352.74 ounces</li>
+                <li>500 grams = 17.6369809748 ounces</li>
+                <li>1000 grams = 35.2739619496 ounces</li>
+                <li>5000 grams = 176.369809748 ounces</li>
+                <li>10000 grams = 352.739619496 ounces</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gb to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gb ≈ ? bytes</li>
-                <li>10 gb ≈ ? bytes</li>
-                <li>50 gb ≈ ? bytes</li>
-                <li>100 gb ≈ ? bytes</li>
+                <li>1 gb = 1073741824 bytes</li>
+                <li>10 gb = 10737418240 bytes</li>
+                <li>50 gb = 53687091200 bytes</li>
+                <li>100 gb = 107374182400 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Gb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? gb</li>
-                <li>10 bytes ≈ ? gb</li>
-                <li>50 bytes ≈ ? gb</li>
-                <li>100 bytes ≈ ? gb</li>
+                <li>1 bytes = 9.3132257462e-10 gb</li>
+                <li>10 bytes = 9.3132257462e-9 gb</li>
+                <li>50 bytes = 4.6566128731e-8 gb</li>
+                <li>100 bytes = 9.3132257462e-8 gb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 gb ≈ ? bytes</li>
-                <li>1000 gb ≈ ? bytes</li>
-                <li>5000 gb ≈ ? bytes</li>
-                <li>10000 gb ≈ ? bytes</li>
+                <li>500 gb = 536870912000 bytes</li>
+                <li>1000 gb = 1073741824000 bytes</li>
+                <li>5000 gb = 5368709120000 bytes</li>
+                <li>10000 gb = 10737418240000 bytes</li>
               </ul>
             </div>
           </div>

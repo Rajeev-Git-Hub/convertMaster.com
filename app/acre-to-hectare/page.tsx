@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Acre to Hectare</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 acre ≈ ? hectare</li>
-                <li>10 acre ≈ ? hectare</li>
-                <li>50 acre ≈ ? hectare</li>
-                <li>100 acre ≈ ? hectare</li>
+                <li>1 acre = 0.40468564224 hectare</li>
+                <li>10 acre = 4.0468564224 hectare</li>
+                <li>50 acre = 20.234282112 hectare</li>
+                <li>100 acre = 40.468564224 hectare</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hectare to Acre</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hectare ≈ ? acre</li>
-                <li>10 hectare ≈ ? acre</li>
-                <li>50 hectare ≈ ? acre</li>
-                <li>100 hectare ≈ ? acre</li>
+                <li>1 hectare = 2.47105381467 acre</li>
+                <li>10 hectare = 24.7105381467 acre</li>
+                <li>50 hectare = 123.552690734 acre</li>
+                <li>100 hectare = 247.105381467 acre</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 acre ≈ ? hectare</li>
-                <li>1000 acre ≈ ? hectare</li>
-                <li>5000 acre ≈ ? hectare</li>
-                <li>10000 acre ≈ ? hectare</li>
+                <li>500 acre = 202.34282112 hectare</li>
+                <li>1000 acre = 404.68564224 hectare</li>
+                <li>5000 acre = 2023.4282112 hectare</li>
+                <li>10000 acre = 4046.8564224 hectare</li>
               </ul>
             </div>
           </div>

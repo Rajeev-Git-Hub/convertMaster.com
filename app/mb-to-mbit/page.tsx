@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mb to Mbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mb ≈ ? mbit</li>
-                <li>10 mb ≈ ? mbit</li>
-                <li>50 mb ≈ ? mbit</li>
-                <li>100 mb ≈ ? mbit</li>
+                <li>1 mb = 8 mbit</li>
+                <li>10 mb = 80 mbit</li>
+                <li>50 mb = 400 mbit</li>
+                <li>100 mb = 800 mbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mbit to Mb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mbit ≈ ? mb</li>
-                <li>10 mbit ≈ ? mb</li>
-                <li>50 mbit ≈ ? mb</li>
-                <li>100 mbit ≈ ? mb</li>
+                <li>1 mbit = 0.125 mb</li>
+                <li>10 mbit = 1.25 mb</li>
+                <li>50 mbit = 6.25 mb</li>
+                <li>100 mbit = 12.5 mb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mb ≈ ? mbit</li>
-                <li>1000 mb ≈ ? mbit</li>
-                <li>5000 mb ≈ ? mbit</li>
-                <li>10000 mb ≈ ? mbit</li>
+                <li>500 mb = 4000 mbit</li>
+                <li>1000 mb = 8000 mbit</li>
+                <li>5000 mb = 40000 mbit</li>
+                <li>10000 mb = 80000 mbit</li>
               </ul>
             </div>
           </div>

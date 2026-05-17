@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? gallon</li>
-                <li>10 in3 ≈ ? gallon</li>
-                <li>50 in3 ≈ ? gallon</li>
-                <li>100 in3 ≈ ? gallon</li>
+                <li>1 in3 = 0.004329004329 gallon</li>
+                <li>10 in3 = 0.04329004329 gallon</li>
+                <li>50 in3 = 0.21645021645 gallon</li>
+                <li>100 in3 = 0.4329004329 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? in3</li>
-                <li>10 gallon ≈ ? in3</li>
-                <li>50 gallon ≈ ? in3</li>
-                <li>100 gallon ≈ ? in3</li>
+                <li>1 gallon = 231 in3</li>
+                <li>10 gallon = 2310 in3</li>
+                <li>50 gallon = 11550 in3</li>
+                <li>100 gallon = 23100 in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 in3 ≈ ? gallon</li>
-                <li>1000 in3 ≈ ? gallon</li>
-                <li>5000 in3 ≈ ? gallon</li>
-                <li>10000 in3 ≈ ? gallon</li>
+                <li>500 in3 = 2.1645021645 gallon</li>
+                <li>1000 in3 = 4.329004329 gallon</li>
+                <li>5000 in3 = 21.645021645 gallon</li>
+                <li>10000 in3 = 43.29004329 gallon</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microsecond to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microsecond ≈ ? day</li>
-                <li>10 microsecond ≈ ? day</li>
-                <li>50 microsecond ≈ ? day</li>
-                <li>100 microsecond ≈ ? day</li>
+                <li>1 microsecond = 1.1574074074e-11 day</li>
+                <li>10 microsecond = 1.1574074074e-10 day</li>
+                <li>50 microsecond = 5.787037037e-10 day</li>
+                <li>100 microsecond = 1.1574074074e-9 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Microsecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? microsecond</li>
-                <li>10 day ≈ ? microsecond</li>
-                <li>50 day ≈ ? microsecond</li>
-                <li>100 day ≈ ? microsecond</li>
+                <li>1 day = 86400000000 microsecond</li>
+                <li>10 day = 864000000000 microsecond</li>
+                <li>50 day = 4320000000000 microsecond</li>
+                <li>100 day = 8640000000000 microsecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microsecond ≈ ? day</li>
-                <li>1000 microsecond ≈ ? day</li>
-                <li>5000 microsecond ≈ ? day</li>
-                <li>10000 microsecond ≈ ? day</li>
+                <li>500 microsecond = 5.787037037e-9 day</li>
+                <li>1000 microsecond = 1.1574074074e-8 day</li>
+                <li>5000 microsecond = 5.787037037e-8 day</li>
+                <li>10000 microsecond = 1.1574074074e-7 day</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ng to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ng = 0.000000001 g</li>
-                <li>10 ng = 0.00000001 g</li>
-                <li>50 ng = 0.00000005 g</li>
-                <li>100 ng = 0.0000001 g</li>
+                <li>1 ng = 1e-9 g</li>
+                <li>10 ng = 1e-8 g</li>
+                <li>50 ng = 5e-8 g</li>
+                <li>100 ng = 1e-7 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Ng</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g ≈ ? ng</li>
-                <li>10 g ≈ ? ng</li>
-                <li>50 g ≈ ? ng</li>
-                <li>100 g ≈ ? ng</li>
+                <li>1 g = 1000000000 ng</li>
+                <li>10 g = 10000000000 ng</li>
+                <li>50 g = 50000000000 ng</li>
+                <li>100 g = 100000000000 ng</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ng ≈ ? g</li>
-                <li>1000 ng ≈ ? g</li>
-                <li>5000 ng ≈ ? g</li>
-                <li>10000 ng ≈ ? g</li>
+                <li>500 ng = 5e-7 g</li>
+                <li>1000 ng = 0.000001 g</li>
+                <li>5000 ng = 0.000005 g</li>
+                <li>10000 ng = 0.00001 g</li>
               </ul>
             </div>
           </div>

@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mg to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mg = 0.000002205 pound</li>
-                <li>10 mg = 0.00002205 pound</li>
-                <li>50 mg = 0.00011025 pound</li>
-                <li>100 mg = 0.0002205 pound</li>
+                <li>1 mg = 0.00000220462262185 pound</li>
+                <li>10 mg = 0.0000220462262185 pound</li>
+                <li>50 mg = 0.000110231131092 pound</li>
+                <li>100 mg = 0.000220462262185 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 pound ≈ ? mg</li>
-                <li>1000 pound ≈ ? mg</li>
-                <li>5000 pound ≈ ? mg</li>
-                <li>10000 pound ≈ ? mg</li>
+                <li>500 pound = 226796185 mg</li>
+                <li>1000 pound = 453592370 mg</li>
+                <li>5000 pound = 2267961850 mg</li>
+                <li>10000 pound = 4535923700 mg</li>
               </ul>
             </div>
           </div>

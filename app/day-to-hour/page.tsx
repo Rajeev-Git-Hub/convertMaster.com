@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Hour</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? hour</li>
-                <li>10 day ≈ ? hour</li>
-                <li>50 day ≈ ? hour</li>
-                <li>100 day ≈ ? hour</li>
+                <li>1 day = 24 hour</li>
+                <li>10 day = 240 hour</li>
+                <li>50 day = 1200 hour</li>
+                <li>100 day = 2400 hour</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hour to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hour ≈ ? day</li>
-                <li>10 hour ≈ ? day</li>
-                <li>50 hour ≈ ? day</li>
-                <li>100 hour ≈ ? day</li>
+                <li>1 hour = 0.0416666666667 day</li>
+                <li>10 hour = 0.416666666667 day</li>
+                <li>50 hour = 2.08333333333 day</li>
+                <li>100 hour = 4.16666666667 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 day ≈ ? hour</li>
-                <li>1000 day ≈ ? hour</li>
-                <li>5000 day ≈ ? hour</li>
-                <li>10000 day ≈ ? hour</li>
+                <li>500 day = 12000 hour</li>
+                <li>1000 day = 24000 hour</li>
+                <li>5000 day = 120000 hour</li>
+                <li>10000 day = 240000 hour</li>
               </ul>
             </div>
           </div>

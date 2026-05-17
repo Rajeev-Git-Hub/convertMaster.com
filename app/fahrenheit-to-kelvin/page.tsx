@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit = 255.93 kelvin</li>
-                <li>10 fahrenheit = 260.93 kelvin</li>
+                <li>1 fahrenheit = 255.927777778 kelvin</li>
+                <li>10 fahrenheit = 260.927777778 kelvin</li>
                 <li>50 fahrenheit = 283.15 kelvin</li>
-                <li>100 fahrenheit = 310.93 kelvin</li>
+                <li>100 fahrenheit = 310.927777778 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -74,9 +74,9 @@ export default function ConverterPage() {
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>500 fahrenheit = 533.15 kelvin</li>
-                <li>1000 fahrenheit = 810.93 kelvin</li>
+                <li>1000 fahrenheit = 810.927777778 kelvin</li>
                 <li>5000 fahrenheit = 3033.15 kelvin</li>
-                <li>10000 fahrenheit = 5555.37 kelvin</li>
+                <li>10000 fahrenheit = 5810.92777778 kelvin</li>
               </ul>
             </div>
           </div>

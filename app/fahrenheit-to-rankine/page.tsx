@@ -76,7 +76,7 @@ export default function ConverterPage() {
                 <li>500 fahrenheit = 959.67 rankine</li>
                 <li>1000 fahrenheit = 1459.67 rankine</li>
                 <li>5000 fahrenheit = 5459.67 rankine</li>
-                <li>10000 fahrenheit = 10059.67 rankine</li>
+                <li>10000 fahrenheit = 10459.67 rankine</li>
               </ul>
             </div>
           </div>

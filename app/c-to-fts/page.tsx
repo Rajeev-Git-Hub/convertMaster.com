@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">C to Fts</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 c ≈ ? fts</li>
-                <li>10 c ≈ ? fts</li>
-                <li>50 c ≈ ? fts</li>
-                <li>100 c ≈ ? fts</li>
+                <li>1 c = 983571056.43 fts</li>
+                <li>10 c = 9835710564.3 fts</li>
+                <li>50 c = 49178552821.5 fts</li>
+                <li>100 c = 98357105643 fts</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fts to C</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fts ≈ ? c</li>
-                <li>10 fts ≈ ? c</li>
-                <li>50 fts ≈ ? c</li>
-                <li>100 fts ≈ ? c</li>
+                <li>1 fts = 1.0167033622e-9 c</li>
+                <li>10 fts = 1.0167033622e-8 c</li>
+                <li>50 fts = 5.0835168108e-8 c</li>
+                <li>100 fts = 1.0167033622e-7 c</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 c ≈ ? fts</li>
-                <li>1000 c ≈ ? fts</li>
-                <li>5000 c ≈ ? fts</li>
-                <li>10000 c ≈ ? fts</li>
+                <li>500 c = 491785528215 fts</li>
+                <li>1000 c = 983571056430 fts</li>
+                <li>5000 c = 4.9178552822e+12 fts</li>
+                <li>10000 c = 9.8357105643e+12 fts</li>
               </ul>
             </div>
           </div>

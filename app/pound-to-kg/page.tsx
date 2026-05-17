@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound = 0.453592 kg</li>
-                <li>10 pound = 4.53592 kg</li>
-                <li>50 pound = 22.6796 kg</li>
-                <li>100 pound = 45.3592 kg</li>
+                <li>1 pound = 0.45359237 kg</li>
+                <li>10 pound = 4.5359237 kg</li>
+                <li>50 pound = 22.6796185 kg</li>
+                <li>100 pound = 45.359237 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg = 2.20462 pound</li>
-                <li>10 kg = 22.0462 pound</li>
-                <li>50 kg = 110.231 pound</li>
-                <li>100 kg = 220.462 pound</li>
+                <li>1 kg = 2.20462262185 pound</li>
+                <li>10 kg = 22.0462262185 pound</li>
+                <li>50 kg = 110.231131092 pound</li>
+                <li>100 kg = 220.462262185 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 pound = 226.796 kg</li>
-                <li>1000 pound = 453.592 kg</li>
-                <li>5000 pound = 2267.96 kg</li>
-                <li>10000 pound = 4535.92 kg</li>
+                <li>500 pound = 226.796185 kg</li>
+                <li>1000 pound = 453.59237 kg</li>
+                <li>5000 pound = 2267.96185 kg</li>
+                <li>10000 pound = 4535.9237 kg</li>
               </ul>
             </div>
           </div>

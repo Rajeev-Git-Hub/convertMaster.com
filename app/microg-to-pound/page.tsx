@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microg to Pound</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microg ≈ ? pound</li>
-                <li>10 microg ≈ ? pound</li>
-                <li>50 microg ≈ ? pound</li>
-                <li>100 microg ≈ ? pound</li>
+                <li>1 microg = 2.2046226218e-9 pound</li>
+                <li>10 microg = 2.2046226218e-8 pound</li>
+                <li>50 microg = 1.1023113109e-7 pound</li>
+                <li>100 microg = 2.2046226218e-7 pound</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pound to Microg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pound ≈ ? microg</li>
-                <li>10 pound ≈ ? microg</li>
-                <li>50 pound ≈ ? microg</li>
-                <li>100 pound ≈ ? microg</li>
+                <li>1 pound = 453592370 microg</li>
+                <li>10 pound = 4535923700 microg</li>
+                <li>50 pound = 22679618500 microg</li>
+                <li>100 pound = 45359237000 microg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microg ≈ ? pound</li>
-                <li>1000 microg ≈ ? pound</li>
-                <li>5000 microg ≈ ? pound</li>
-                <li>10000 microg ≈ ? pound</li>
+                <li>500 microg = 0.00000110231131092 pound</li>
+                <li>1000 microg = 0.00000220462262185 pound</li>
+                <li>5000 microg = 0.0000110231131092 pound</li>
+                <li>10000 microg = 0.0000220462262185 pound</li>
               </ul>
             </div>
           </div>

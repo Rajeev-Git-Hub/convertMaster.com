@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches = 0.083 feet</li>
-                <li>10 inches = 0.833 feet</li>
-                <li>50 inches = 4.167 feet</li>
-                <li>100 inches = 8.333 feet</li>
+                <li>1 inches = 0.0833333333333 feet</li>
+                <li>10 inches = 0.833333333333 feet</li>
+                <li>50 inches = 4.16666666667 feet</li>
+                <li>100 inches = 8.33333333333 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches = 41.667 feet</li>
-                <li>1000 inches = 83.333 feet</li>
-                <li>5000 inches = 416.667 feet</li>
-                <li>10000 inches = 833.333 feet</li>
+                <li>500 inches = 41.6666666667 feet</li>
+                <li>1000 inches = 83.3333333333 feet</li>
+                <li>5000 inches = 416.666666667 feet</li>
+                <li>10000 inches = 833.333333333 feet</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm ≈ ? micrometers</li>
-                <li>10 cm ≈ ? micrometers</li>
-                <li>50 cm ≈ ? micrometers</li>
-                <li>100 cm ≈ ? micrometers</li>
+                <li>1 cm = 10000 micrometers</li>
+                <li>10 cm = 100000 micrometers</li>
+                <li>50 cm = 500000 micrometers</li>
+                <li>100 cm = 1000000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? cm</li>
-                <li>10 micrometers ≈ ? cm</li>
-                <li>50 micrometers ≈ ? cm</li>
-                <li>100 micrometers ≈ ? cm</li>
+                <li>1 micrometers = 0.0001 cm</li>
+                <li>10 micrometers = 0.001 cm</li>
+                <li>50 micrometers = 0.005 cm</li>
+                <li>100 micrometers = 0.01 cm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm ≈ ? micrometers</li>
-                <li>1000 cm ≈ ? micrometers</li>
-                <li>5000 cm ≈ ? micrometers</li>
-                <li>10000 cm ≈ ? micrometers</li>
+                <li>500 cm = 5000000 micrometers</li>
+                <li>1000 cm = 10000000 micrometers</li>
+                <li>5000 cm = 50000000 micrometers</li>
+                <li>10000 cm = 100000000 micrometers</li>
               </ul>
             </div>
           </div>

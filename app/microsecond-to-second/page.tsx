@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microsecond to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microsecond ≈ ? second</li>
-                <li>10 microsecond ≈ ? second</li>
-                <li>50 microsecond ≈ ? second</li>
-                <li>100 microsecond ≈ ? second</li>
+                <li>1 microsecond = 0.000001 second</li>
+                <li>10 microsecond = 0.00001 second</li>
+                <li>50 microsecond = 0.00005 second</li>
+                <li>100 microsecond = 0.0001 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Microsecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? microsecond</li>
-                <li>10 second ≈ ? microsecond</li>
-                <li>50 second ≈ ? microsecond</li>
-                <li>100 second ≈ ? microsecond</li>
+                <li>1 second = 1000000 microsecond</li>
+                <li>10 second = 10000000 microsecond</li>
+                <li>50 second = 50000000 microsecond</li>
+                <li>100 second = 100000000 microsecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microsecond ≈ ? second</li>
-                <li>1000 microsecond ≈ ? second</li>
-                <li>5000 microsecond ≈ ? second</li>
-                <li>10000 microsecond ≈ ? second</li>
+                <li>500 microsecond = 0.0005 second</li>
+                <li>1000 microsecond = 0.001 second</li>
+                <li>5000 microsecond = 0.005 second</li>
+                <li>10000 microsecond = 0.01 second</li>
               </ul>
             </div>
           </div>

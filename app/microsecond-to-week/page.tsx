@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microsecond to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microsecond ≈ ? week</li>
-                <li>10 microsecond ≈ ? week</li>
-                <li>50 microsecond ≈ ? week</li>
-                <li>100 microsecond ≈ ? week</li>
+                <li>1 microsecond = 1.6534391534e-12 week</li>
+                <li>10 microsecond = 1.6534391534e-11 week</li>
+                <li>50 microsecond = 8.2671957672e-11 week</li>
+                <li>100 microsecond = 1.6534391534e-10 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Microsecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? microsecond</li>
-                <li>10 week ≈ ? microsecond</li>
-                <li>50 week ≈ ? microsecond</li>
-                <li>100 week ≈ ? microsecond</li>
+                <li>1 week = 604800000000 microsecond</li>
+                <li>10 week = 6048000000000 microsecond</li>
+                <li>50 week = 30240000000000 microsecond</li>
+                <li>100 week = 60480000000000 microsecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microsecond ≈ ? week</li>
-                <li>1000 microsecond ≈ ? week</li>
-                <li>5000 microsecond ≈ ? week</li>
-                <li>10000 microsecond ≈ ? week</li>
+                <li>500 microsecond = 8.2671957672e-10 week</li>
+                <li>1000 microsecond = 1.6534391534e-9 week</li>
+                <li>5000 microsecond = 8.2671957672e-9 week</li>
+                <li>10000 microsecond = 1.6534391534e-8 week</li>
               </ul>
             </div>
           </div>

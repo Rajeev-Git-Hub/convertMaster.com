@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Stones to Lbs</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 stones ≈ ? lbs</li>
-                <li>10 stones ≈ ? lbs</li>
-                <li>50 stones ≈ ? lbs</li>
-                <li>100 stones ≈ ? lbs</li>
+                <li>1 stones = 14 lbs</li>
+                <li>10 stones = 140 lbs</li>
+                <li>50 stones = 700 lbs</li>
+                <li>100 stones = 1400 lbs</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Lbs to Stones</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 lbs ≈ ? stones</li>
-                <li>10 lbs ≈ ? stones</li>
-                <li>50 lbs ≈ ? stones</li>
-                <li>100 lbs ≈ ? stones</li>
+                <li>1 lbs = 0.0714285714286 stones</li>
+                <li>10 lbs = 0.714285714286 stones</li>
+                <li>50 lbs = 3.57142857143 stones</li>
+                <li>100 lbs = 7.14285714286 stones</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 stones ≈ ? lbs</li>
-                <li>1000 stones ≈ ? lbs</li>
-                <li>5000 stones ≈ ? lbs</li>
-                <li>10000 stones ≈ ? lbs</li>
+                <li>500 stones = 7000 lbs</li>
+                <li>1000 stones = 14000 lbs</li>
+                <li>5000 stones = 70000 lbs</li>
+                <li>10000 stones = 140000 lbs</li>
               </ul>
             </div>
           </div>

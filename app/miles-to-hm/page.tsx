@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? hm</li>
-                <li>10 miles ≈ ? hm</li>
-                <li>50 miles ≈ ? hm</li>
-                <li>100 miles ≈ ? hm</li>
+                <li>1 miles = 16.09344 hm</li>
+                <li>10 miles = 160.9344 hm</li>
+                <li>50 miles = 804.672 hm</li>
+                <li>100 miles = 1609.344 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? miles</li>
-                <li>10 hm ≈ ? miles</li>
-                <li>50 hm ≈ ? miles</li>
-                <li>100 hm ≈ ? miles</li>
+                <li>1 hm = 0.0621371192237 miles</li>
+                <li>10 hm = 0.621371192237 miles</li>
+                <li>50 hm = 3.10685596119 miles</li>
+                <li>100 hm = 6.21371192237 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 miles ≈ ? hm</li>
-                <li>1000 miles ≈ ? hm</li>
-                <li>5000 miles ≈ ? hm</li>
-                <li>10000 miles ≈ ? hm</li>
+                <li>500 miles = 8046.72 hm</li>
+                <li>1000 miles = 16093.44 hm</li>
+                <li>5000 miles = 80467.2 hm</li>
+                <li>10000 miles = 160934.4 hm</li>
               </ul>
             </div>
           </div>

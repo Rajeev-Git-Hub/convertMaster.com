@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kbit to Gbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kbit ≈ ? gbit</li>
-                <li>10 kbit ≈ ? gbit</li>
-                <li>50 kbit ≈ ? gbit</li>
-                <li>100 kbit ≈ ? gbit</li>
+                <li>1 kbit = 9.5367431641e-7 gbit</li>
+                <li>10 kbit = 0.00000953674316406 gbit</li>
+                <li>50 kbit = 0.0000476837158203 gbit</li>
+                <li>100 kbit = 0.0000953674316406 gbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gbit to Kbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gbit ≈ ? kbit</li>
-                <li>10 gbit ≈ ? kbit</li>
-                <li>50 gbit ≈ ? kbit</li>
-                <li>100 gbit ≈ ? kbit</li>
+                <li>1 gbit = 1048576 kbit</li>
+                <li>10 gbit = 10485760 kbit</li>
+                <li>50 gbit = 52428800 kbit</li>
+                <li>100 gbit = 104857600 kbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kbit ≈ ? gbit</li>
-                <li>1000 kbit ≈ ? gbit</li>
-                <li>5000 kbit ≈ ? gbit</li>
-                <li>10000 kbit ≈ ? gbit</li>
+                <li>500 kbit = 0.000476837158203 gbit</li>
+                <li>1000 kbit = 0.000953674316406 gbit</li>
+                <li>5000 kbit = 0.00476837158203 gbit</li>
+                <li>10000 kbit = 0.00953674316406 gbit</li>
               </ul>
             </div>
           </div>

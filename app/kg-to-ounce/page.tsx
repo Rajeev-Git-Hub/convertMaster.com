@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg = 35.274 ounce</li>
-                <li>10 kg = 352.74 ounce</li>
-                <li>50 kg = 1763.7 ounce</li>
-                <li>100 kg = 3527.4 ounce</li>
+                <li>1 kg = 35.2739619496 ounce</li>
+                <li>10 kg = 352.739619496 ounce</li>
+                <li>50 kg = 1763.69809748 ounce</li>
+                <li>100 kg = 3527.39619496 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce ≈ ? kg</li>
-                <li>10 ounce ≈ ? kg</li>
-                <li>50 ounce ≈ ? kg</li>
-                <li>100 ounce ≈ ? kg</li>
+                <li>1 ounce = 0.028349523125 kg</li>
+                <li>10 ounce = 0.28349523125 kg</li>
+                <li>50 ounce = 1.41747615625 kg</li>
+                <li>100 ounce = 2.8349523125 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kg ≈ ? ounce</li>
-                <li>1000 kg ≈ ? ounce</li>
-                <li>5000 kg ≈ ? ounce</li>
-                <li>10000 kg ≈ ? ounce</li>
+                <li>500 kg = 17636.9809748 ounce</li>
+                <li>1000 kg = 35273.9619496 ounce</li>
+                <li>5000 kg = 176369.809748 ounce</li>
+                <li>10000 kg = 352739.619496 ounce</li>
               </ul>
             </div>
           </div>

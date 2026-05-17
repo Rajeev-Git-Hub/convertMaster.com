@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounces to Pounds</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounces ≈ ? pounds</li>
-                <li>10 ounces ≈ ? pounds</li>
-                <li>50 ounces ≈ ? pounds</li>
-                <li>100 ounces ≈ ? pounds</li>
+                <li>1 ounces = 0.0625 pounds</li>
+                <li>10 ounces = 0.625 pounds</li>
+                <li>50 ounces = 3.125 pounds</li>
+                <li>100 ounces = 6.25 pounds</li>
               </ul>
             </div>
             <div className="card p-6">

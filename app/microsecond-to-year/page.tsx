@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microsecond to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microsecond ≈ ? year</li>
-                <li>10 microsecond ≈ ? year</li>
-                <li>50 microsecond ≈ ? year</li>
-                <li>100 microsecond ≈ ? year</li>
+                <li>1 microsecond = 3.1688087814e-14 year</li>
+                <li>10 microsecond = 3.1688087814e-13 year</li>
+                <li>50 microsecond = 1.5844043907e-12 year</li>
+                <li>100 microsecond = 3.1688087814e-12 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Microsecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? microsecond</li>
-                <li>10 year ≈ ? microsecond</li>
-                <li>50 year ≈ ? microsecond</li>
-                <li>100 year ≈ ? microsecond</li>
+                <li>1 year = 31557600000000 microsecond</li>
+                <li>10 year = 315576000000000 microsecond</li>
+                <li>50 year = 1577880000000000 microsecond</li>
+                <li>100 year = 3155760000000000 microsecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microsecond ≈ ? year</li>
-                <li>1000 microsecond ≈ ? year</li>
-                <li>5000 microsecond ≈ ? year</li>
-                <li>10000 microsecond ≈ ? year</li>
+                <li>500 microsecond = 1.5844043907e-11 year</li>
+                <li>1000 microsecond = 3.1688087814e-11 year</li>
+                <li>5000 microsecond = 1.5844043907e-10 year</li>
+                <li>10000 microsecond = 3.1688087814e-10 year</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Reaumur to Kelvin</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 reaumur = 278.15 kelvin</li>
-                <li>10 reaumur = 298.15 kelvin</li>
-                <li>50 reaumur = 398.15 kelvin</li>
-                <li>100 reaumur = 518.15 kelvin</li>
+                <li>1 reaumur = 274.4 kelvin</li>
+                <li>10 reaumur = 285.65 kelvin</li>
+                <li>50 reaumur = 335.65 kelvin</li>
+                <li>100 reaumur = 398.15 kelvin</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -74,9 +74,9 @@ export default function ConverterPage() {
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>500 reaumur = 898.15 kelvin</li>
-                <li>1000 reaumur = 1478.15 kelvin</li>
-                <li>5000 reaumur = 6478.15 kelvin</li>
-                <li>10000 reaumur = 12778.15 kelvin</li>
+                <li>1000 reaumur = 1523.15 kelvin</li>
+                <li>5000 reaumur = 6523.15 kelvin</li>
+                <li>10000 reaumur = 12773.15 kelvin</li>
               </ul>
             </div>
           </div>

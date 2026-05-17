@@ -47,8 +47,8 @@ export default function ConverterPage() {
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>1 reaumur = 34.25 fahrenheit</li>
                 <li>10 reaumur = 54.5 fahrenheit</li>
-                <li>50 reaumur = 126.5 fahrenheit</li>
-                <li>100 reaumur = 212 fahrenheit</li>
+                <li>50 reaumur = 144.5 fahrenheit</li>
+                <li>100 reaumur = 257 fahrenheit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fahrenheit to Reaumur</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fahrenheit = -17.02 reaumur</li>
-                <li>10 fahrenheit = -12.44 reaumur</li>
-                <li>50 fahrenheit = 7.78 reaumur</li>
-                <li>100 fahrenheit = 33.33 reaumur</li>
+                <li>1 fahrenheit = -13.7777777778 reaumur</li>
+                <li>10 fahrenheit = -9.77777777778 reaumur</li>
+                <li>50 fahrenheit = 8 reaumur</li>
+                <li>100 fahrenheit = 30.2222222222 reaumur</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 reaumur = 1156.25 fahrenheit</li>
-                <li>1000 reaumur = 2280.25 fahrenheit</li>
-                <li>5000 reaumur = 11300.25 fahrenheit</li>
-                <li>10000 reaumur = 22800.25 fahrenheit</li>
+                <li>500 reaumur = 1157 fahrenheit</li>
+                <li>1000 reaumur = 2282 fahrenheit</li>
+                <li>5000 reaumur = 11282 fahrenheit</li>
+                <li>10000 reaumur = 22532 fahrenheit</li>
               </ul>
             </div>
           </div>

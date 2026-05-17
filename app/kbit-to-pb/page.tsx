@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kbit to Pb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kbit ≈ ? pb</li>
-                <li>10 kbit ≈ ? pb</li>
-                <li>50 kbit ≈ ? pb</li>
-                <li>100 kbit ≈ ? pb</li>
+                <li>1 kbit = 1.1368683772e-13 pb</li>
+                <li>10 kbit = 1.1368683772e-12 pb</li>
+                <li>50 kbit = 5.6843418861e-12 pb</li>
+                <li>100 kbit = 1.1368683772e-11 pb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pb to Kbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pb ≈ ? kbit</li>
-                <li>10 pb ≈ ? kbit</li>
-                <li>50 pb ≈ ? kbit</li>
-                <li>100 pb ≈ ? kbit</li>
+                <li>1 pb = 8796093022208 kbit</li>
+                <li>10 pb = 87960930222080 kbit</li>
+                <li>50 pb = 439804651110400 kbit</li>
+                <li>100 pb = 879609302220800 kbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kbit ≈ ? pb</li>
-                <li>1000 kbit ≈ ? pb</li>
-                <li>5000 kbit ≈ ? pb</li>
-                <li>10000 kbit ≈ ? pb</li>
+                <li>500 kbit = 5.6843418861e-11 pb</li>
+                <li>1000 kbit = 1.1368683772e-10 pb</li>
+                <li>5000 kbit = 5.6843418861e-10 pb</li>
+                <li>10000 kbit = 1.1368683772e-9 pb</li>
               </ul>
             </div>
           </div>

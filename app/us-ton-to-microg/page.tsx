@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Us-ton to Microg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 us-ton ≈ ? microg</li>
-                <li>10 us-ton ≈ ? microg</li>
-                <li>50 us-ton ≈ ? microg</li>
-                <li>100 us-ton ≈ ? microg</li>
+                <li>1 us-ton = 907184740000 microg</li>
+                <li>10 us-ton = 9071847400000 microg</li>
+                <li>50 us-ton = 45359237000000 microg</li>
+                <li>100 us-ton = 90718474000000 microg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microg to Us-ton</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microg ≈ ? us-ton</li>
-                <li>10 microg ≈ ? us-ton</li>
-                <li>50 microg ≈ ? us-ton</li>
-                <li>100 microg ≈ ? us-ton</li>
+                <li>1 microg = 1.1023113109e-12 us-ton</li>
+                <li>10 microg = 1.1023113109e-11 us-ton</li>
+                <li>50 microg = 5.5115565546e-11 us-ton</li>
+                <li>100 microg = 1.1023113109e-10 us-ton</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 us-ton ≈ ? microg</li>
-                <li>1000 us-ton ≈ ? microg</li>
-                <li>5000 us-ton ≈ ? microg</li>
-                <li>10000 us-ton ≈ ? microg</li>
+                <li>500 us-ton = 453592370000000 microg</li>
+                <li>1000 us-ton = 907184740000000 microg</li>
+                <li>5000 us-ton = 4535923700000000 microg</li>
+                <li>10000 us-ton = 9.0718474e+15 microg</li>
               </ul>
             </div>
           </div>

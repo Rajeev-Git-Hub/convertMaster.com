@@ -59,7 +59,7 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Cm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm = 0.0000001 cm</li>
+                <li>1 nm = 1e-7 cm</li>
                 <li>10 nm = 0.000001 cm</li>
                 <li>50 nm = 0.000005 cm</li>
                 <li>100 nm = 0.00001 cm</li>

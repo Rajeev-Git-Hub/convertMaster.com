@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? minute</li>
-                <li>10 millisecond ≈ ? minute</li>
-                <li>50 millisecond ≈ ? minute</li>
-                <li>100 millisecond ≈ ? minute</li>
+                <li>1 millisecond = 0.0000166666666667 minute</li>
+                <li>10 millisecond = 0.000166666666667 minute</li>
+                <li>50 millisecond = 0.000833333333333 minute</li>
+                <li>100 millisecond = 0.00166666666667 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? millisecond</li>
-                <li>10 minute ≈ ? millisecond</li>
-                <li>50 minute ≈ ? millisecond</li>
-                <li>100 minute ≈ ? millisecond</li>
+                <li>1 minute = 60000 millisecond</li>
+                <li>10 minute = 600000 millisecond</li>
+                <li>50 minute = 3000000 millisecond</li>
+                <li>100 minute = 6000000 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 millisecond ≈ ? minute</li>
-                <li>1000 millisecond ≈ ? minute</li>
-                <li>5000 millisecond ≈ ? minute</li>
-                <li>10000 millisecond ≈ ? minute</li>
+                <li>500 millisecond = 0.00833333333333 minute</li>
+                <li>1000 millisecond = 0.0166666666667 minute</li>
+                <li>5000 millisecond = 0.0833333333333 minute</li>
+                <li>10000 millisecond = 0.166666666667 minute</li>
               </ul>
             </div>
           </div>

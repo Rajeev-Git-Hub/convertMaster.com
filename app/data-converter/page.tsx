@@ -82,10 +82,10 @@ export default function DataConverterLandingPage() {
                 <h4 className="text-lg font-semibold text-gray-900">GB to MB</h4>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 GB = 1,024 MB</li>
-                <li>10 GB = 10,240 MB</li>
-                <li>100 GB = 102,400 MB</li>
-                <li>1 TB = 1,048,576 MB</li>
+                <li>1 GB = 1024 MB</li>
+                <li>10 GB = 10240 MB</li>
+                <li>100 GB = 102400 MB</li>
+                <li>1 TB = 1048576 MB</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -96,10 +96,10 @@ export default function DataConverterLandingPage() {
                 <h4 className="text-lg font-semibold text-gray-900">MB to KB</h4>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 MB = 1,024 KB</li>
-                <li>10 MB = 10,240 KB</li>
-                <li>100 MB = 102,400 KB</li>
-                <li>1 GB = 1,048,576 KB</li>
+                <li>1 MB = 1024 KB</li>
+                <li>10 MB = 10240 KB</li>
+                <li>100 MB = 102400 KB</li>
+                <li>1 GB = 1048576 KB</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -111,9 +111,9 @@ export default function DataConverterLandingPage() {
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>1 Byte = 8 bits</li>
-                <li>1 KB = 8,192 bits</li>
-                <li>1 MB = 8,388,608 bits</li>
-                <li>1 GB = 8,589,934,592 bits</li>
+                <li>1 KB = 8192 bits</li>
+                <li>1 MB = 8388608 bits</li>
+                <li>1 GB = 8589934592 bits</li>
               </ul>
             </div>
           </div>

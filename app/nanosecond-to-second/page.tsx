@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? second</li>
-                <li>10 nanosecond ≈ ? second</li>
-                <li>50 nanosecond ≈ ? second</li>
-                <li>100 nanosecond ≈ ? second</li>
+                <li>1 nanosecond = 1e-9 second</li>
+                <li>10 nanosecond = 1e-8 second</li>
+                <li>50 nanosecond = 5e-8 second</li>
+                <li>100 nanosecond = 1e-7 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? nanosecond</li>
-                <li>10 second ≈ ? nanosecond</li>
-                <li>50 second ≈ ? nanosecond</li>
-                <li>100 second ≈ ? nanosecond</li>
+                <li>1 second = 1000000000 nanosecond</li>
+                <li>10 second = 10000000000 nanosecond</li>
+                <li>50 second = 50000000000 nanosecond</li>
+                <li>100 second = 100000000000 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nanosecond ≈ ? second</li>
-                <li>1000 nanosecond ≈ ? second</li>
-                <li>5000 nanosecond ≈ ? second</li>
-                <li>10000 nanosecond ≈ ? second</li>
+                <li>500 nanosecond = 5e-7 second</li>
+                <li>1000 nanosecond = 0.000001 second</li>
+                <li>5000 nanosecond = 0.000005 second</li>
+                <li>10000 nanosecond = 0.00001 second</li>
               </ul>
             </div>
           </div>

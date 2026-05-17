@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bit to Mbit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bit ≈ ? mbit</li>
-                <li>10 bit ≈ ? mbit</li>
-                <li>50 bit ≈ ? mbit</li>
-                <li>100 bit ≈ ? mbit</li>
+                <li>1 bit = 9.5367431641e-7 mbit</li>
+                <li>10 bit = 0.00000953674316406 mbit</li>
+                <li>50 bit = 0.0000476837158203 mbit</li>
+                <li>100 bit = 0.0000953674316406 mbit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mbit to Bit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mbit ≈ ? bit</li>
-                <li>10 mbit ≈ ? bit</li>
-                <li>50 mbit ≈ ? bit</li>
-                <li>100 mbit ≈ ? bit</li>
+                <li>1 mbit = 1048576 bit</li>
+                <li>10 mbit = 10485760 bit</li>
+                <li>50 mbit = 52428800 bit</li>
+                <li>100 mbit = 104857600 bit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 bit ≈ ? mbit</li>
-                <li>1000 bit ≈ ? mbit</li>
-                <li>5000 bit ≈ ? mbit</li>
-                <li>10000 bit ≈ ? mbit</li>
+                <li>500 bit = 0.000476837158203 mbit</li>
+                <li>1000 bit = 0.000953674316406 mbit</li>
+                <li>5000 bit = 0.00476837158203 mbit</li>
+                <li>10000 bit = 0.00953674316406 mbit</li>
               </ul>
             </div>
           </div>

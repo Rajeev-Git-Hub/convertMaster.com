@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Liter to Ft3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 liter ≈ ? ft3</li>
-                <li>10 liter ≈ ? ft3</li>
-                <li>50 liter ≈ ? ft3</li>
-                <li>100 liter ≈ ? ft3</li>
+                <li>1 liter = 0.0353146667215 ft3</li>
+                <li>10 liter = 0.353146667215 ft3</li>
+                <li>50 liter = 1.76573333607 ft3</li>
+                <li>100 liter = 3.53146667215 ft3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ft3 to Liter</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft3 ≈ ? liter</li>
-                <li>10 ft3 ≈ ? liter</li>
-                <li>50 ft3 ≈ ? liter</li>
-                <li>100 ft3 ≈ ? liter</li>
+                <li>1 ft3 = 28.316846592 liter</li>
+                <li>10 ft3 = 283.16846592 liter</li>
+                <li>50 ft3 = 1415.8423296 liter</li>
+                <li>100 ft3 = 2831.6846592 liter</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 liter ≈ ? ft3</li>
-                <li>1000 liter ≈ ? ft3</li>
-                <li>5000 liter ≈ ? ft3</li>
-                <li>10000 liter ≈ ? ft3</li>
+                <li>500 liter = 17.6573333607 ft3</li>
+                <li>1000 liter = 35.3146667215 ft3</li>
+                <li>5000 liter = 176.573333607 ft3</li>
+                <li>10000 liter = 353.146667215 ft3</li>
               </ul>
             </div>
           </div>

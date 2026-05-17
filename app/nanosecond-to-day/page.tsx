@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nanosecond to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nanosecond ≈ ? day</li>
-                <li>10 nanosecond ≈ ? day</li>
-                <li>50 nanosecond ≈ ? day</li>
-                <li>100 nanosecond ≈ ? day</li>
+                <li>1 nanosecond = 1.1574074074e-14 day</li>
+                <li>10 nanosecond = 1.1574074074e-13 day</li>
+                <li>50 nanosecond = 5.787037037e-13 day</li>
+                <li>100 nanosecond = 1.1574074074e-12 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Nanosecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? nanosecond</li>
-                <li>10 day ≈ ? nanosecond</li>
-                <li>50 day ≈ ? nanosecond</li>
-                <li>100 day ≈ ? nanosecond</li>
+                <li>1 day = 86400000000000 nanosecond</li>
+                <li>10 day = 864000000000000 nanosecond</li>
+                <li>50 day = 4.32e+15 nanosecond</li>
+                <li>100 day = 8639999999999999 nanosecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nanosecond ≈ ? day</li>
-                <li>1000 nanosecond ≈ ? day</li>
-                <li>5000 nanosecond ≈ ? day</li>
-                <li>10000 nanosecond ≈ ? day</li>
+                <li>500 nanosecond = 5.787037037e-12 day</li>
+                <li>1000 nanosecond = 1.1574074074e-11 day</li>
+                <li>5000 nanosecond = 5.787037037e-11 day</li>
+                <li>10000 nanosecond = 1.1574074074e-10 day</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Year to Hour</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 year ≈ ? hour</li>
-                <li>10 year ≈ ? hour</li>
-                <li>50 year ≈ ? hour</li>
-                <li>100 year ≈ ? hour</li>
+                <li>1 year = 8766 hour</li>
+                <li>10 year = 87660 hour</li>
+                <li>50 year = 438300 hour</li>
+                <li>100 year = 876600 hour</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hour to Year</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hour ≈ ? year</li>
-                <li>10 hour ≈ ? year</li>
-                <li>50 hour ≈ ? year</li>
-                <li>100 hour ≈ ? year</li>
+                <li>1 hour = 0.000114077116131 year</li>
+                <li>10 hour = 0.00114077116131 year</li>
+                <li>50 hour = 0.00570385580653 year</li>
+                <li>100 hour = 0.0114077116131 year</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 year ≈ ? hour</li>
-                <li>1000 year ≈ ? hour</li>
-                <li>5000 year ≈ ? hour</li>
-                <li>10000 year ≈ ? hour</li>
+                <li>500 year = 4383000 hour</li>
+                <li>1000 year = 8766000 hour</li>
+                <li>5000 year = 43830000 hour</li>
+                <li>10000 year = 87660000 hour</li>
               </ul>
             </div>
           </div>

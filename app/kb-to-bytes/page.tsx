@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kb to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kb ≈ ? bytes</li>
-                <li>10 kb ≈ ? bytes</li>
-                <li>50 kb ≈ ? bytes</li>
-                <li>100 kb ≈ ? bytes</li>
+                <li>1 kb = 1024 bytes</li>
+                <li>10 kb = 10240 bytes</li>
+                <li>50 kb = 51200 bytes</li>
+                <li>100 kb = 102400 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Kb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? kb</li>
-                <li>10 bytes ≈ ? kb</li>
-                <li>50 bytes ≈ ? kb</li>
-                <li>100 bytes ≈ ? kb</li>
+                <li>1 byte = 0.0009765625 kb</li>
+                <li>10 bytes = 0.009765625 kb</li>
+                <li>50 bytes = 0.048828125 kb</li>
+                <li>100 bytes = 0.09765625 kb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 kb ≈ ? bytes</li>
-                <li>1000 kb ≈ ? bytes</li>
-                <li>5000 kb ≈ ? bytes</li>
-                <li>10000 kb ≈ ? bytes</li>
+                <li>500 kb = 512000 bytes</li>
+                <li>1000 kb = 1024000 bytes</li>
+                <li>5000 kb = 5120000 bytes</li>
+                <li>10000 kb = 10240000 bytes</li>
               </ul>
             </div>
           </div>

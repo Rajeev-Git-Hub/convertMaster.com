@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Second</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? second</li>
-                <li>10 minute ≈ ? second</li>
-                <li>50 minute ≈ ? second</li>
-                <li>100 minute ≈ ? second</li>
+                <li>1 minute = 60 second</li>
+                <li>10 minute = 600 second</li>
+                <li>50 minute = 3000 second</li>
+                <li>100 minute = 6000 second</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Second to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 second ≈ ? minute</li>
-                <li>10 second ≈ ? minute</li>
-                <li>50 second ≈ ? minute</li>
-                <li>100 second ≈ ? minute</li>
+                <li>1 second = 0.0166666666667 minute</li>
+                <li>10 second = 0.166666666667 minute</li>
+                <li>50 second = 0.833333333333 minute</li>
+                <li>100 second = 1.66666666667 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 minute ≈ ? second</li>
-                <li>1000 minute ≈ ? second</li>
-                <li>5000 minute ≈ ? second</li>
-                <li>10000 minute ≈ ? second</li>
+                <li>500 minute = 30000 second</li>
+                <li>1000 minute = 60000 second</li>
+                <li>5000 minute = 300000 second</li>
+                <li>10000 minute = 600000 second</li>
               </ul>
             </div>
           </div>

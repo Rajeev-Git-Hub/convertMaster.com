@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm ≈ ? micrometers</li>
-                <li>10 nm ≈ ? micrometers</li>
-                <li>50 nm ≈ ? micrometers</li>
-                <li>100 nm ≈ ? micrometers</li>
+                <li>1 nm = 0.001 micrometers</li>
+                <li>10 nm = 0.01 micrometers</li>
+                <li>50 nm = 0.05 micrometers</li>
+                <li>100 nm = 0.1 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Nm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? nm</li>
-                <li>10 micrometers ≈ ? nm</li>
-                <li>50 micrometers ≈ ? nm</li>
-                <li>100 micrometers ≈ ? nm</li>
+                <li>1 micrometers = 1000 nm</li>
+                <li>10 micrometers = 10000 nm</li>
+                <li>50 micrometers = 50000 nm</li>
+                <li>100 micrometers = 100000 nm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 nm ≈ ? micrometers</li>
-                <li>1000 nm ≈ ? micrometers</li>
-                <li>5000 nm ≈ ? micrometers</li>
-                <li>10000 nm ≈ ? micrometers</li>
+                <li>500 nm = 0.5 micrometers</li>
+                <li>1000 nm = 1 micrometers</li>
+                <li>5000 nm = 5 micrometers</li>
+                <li>10000 nm = 10 micrometers</li>
               </ul>
             </div>
           </div>

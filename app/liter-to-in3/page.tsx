@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Liter to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 liter ≈ ? in3</li>
-                <li>10 liter ≈ ? in3</li>
-                <li>50 liter ≈ ? in3</li>
-                <li>100 liter ≈ ? in3</li>
+                <li>1 liter = 61.0237440947 in3</li>
+                <li>10 liter = 610.237440947 in3</li>
+                <li>50 liter = 3051.18720474 in3</li>
+                <li>100 liter = 6102.37440947 in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to Liter</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? liter</li>
-                <li>10 in3 ≈ ? liter</li>
-                <li>50 in3 ≈ ? liter</li>
-                <li>100 in3 ≈ ? liter</li>
+                <li>1 in3 = 0.016387064 liter</li>
+                <li>10 in3 = 0.16387064 liter</li>
+                <li>50 in3 = 0.8193532 liter</li>
+                <li>100 in3 = 1.6387064 liter</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 liter ≈ ? in3</li>
-                <li>1000 liter ≈ ? in3</li>
-                <li>5000 liter ≈ ? in3</li>
-                <li>10000 liter ≈ ? in3</li>
+                <li>500 liter = 30511.8720474 in3</li>
+                <li>1000 liter = 61023.7440947 in3</li>
+                <li>5000 liter = 305118.720474 in3</li>
+                <li>10000 liter = 610237.440947 in3</li>
               </ul>
             </div>
           </div>

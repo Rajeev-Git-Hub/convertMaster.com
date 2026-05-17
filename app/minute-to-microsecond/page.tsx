@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Microsecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? microsecond</li>
-                <li>10 minute ≈ ? microsecond</li>
-                <li>50 minute ≈ ? microsecond</li>
-                <li>100 minute ≈ ? microsecond</li>
+                <li>1 minute = 60000000 microsecond</li>
+                <li>10 minute = 600000000 microsecond</li>
+                <li>50 minute = 3000000000 microsecond</li>
+                <li>100 minute = 6000000000 microsecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microsecond to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microsecond ≈ ? minute</li>
-                <li>10 microsecond ≈ ? minute</li>
-                <li>50 microsecond ≈ ? minute</li>
-                <li>100 microsecond ≈ ? minute</li>
+                <li>1 microsecond = 1.6666666667e-8 minute</li>
+                <li>10 microsecond = 1.6666666667e-7 minute</li>
+                <li>50 microsecond = 8.3333333333e-7 minute</li>
+                <li>100 microsecond = 0.00000166666666667 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 minute ≈ ? microsecond</li>
-                <li>1000 minute ≈ ? microsecond</li>
-                <li>5000 minute ≈ ? microsecond</li>
-                <li>10000 minute ≈ ? microsecond</li>
+                <li>500 minute = 30000000000 microsecond</li>
+                <li>1000 minute = 60000000000 microsecond</li>
+                <li>5000 minute = 300000000000 microsecond</li>
+                <li>10000 minute = 600000000000 microsecond</li>
               </ul>
             </div>
           </div>

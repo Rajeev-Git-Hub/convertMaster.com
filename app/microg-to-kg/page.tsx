@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Microg to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 microg ≈ ? kg</li>
-                <li>10 microg ≈ ? kg</li>
-                <li>50 microg ≈ ? kg</li>
-                <li>100 microg ≈ ? kg</li>
+                <li>1 microg = 1e-9 kg</li>
+                <li>10 microg = 1e-8 kg</li>
+                <li>50 microg = 5e-8 kg</li>
+                <li>100 microg = 1e-7 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Microg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? microg</li>
-                <li>10 kg ≈ ? microg</li>
-                <li>50 kg ≈ ? microg</li>
-                <li>100 kg ≈ ? microg</li>
+                <li>1 kg = 1000000000 microg</li>
+                <li>10 kg = 10000000000 microg</li>
+                <li>50 kg = 50000000000 microg</li>
+                <li>100 kg = 100000000000 microg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 microg ≈ ? kg</li>
-                <li>1000 microg ≈ ? kg</li>
-                <li>5000 microg ≈ ? kg</li>
-                <li>10000 microg ≈ ? kg</li>
+                <li>500 microg = 5e-7 kg</li>
+                <li>1000 microg = 0.000001 kg</li>
+                <li>5000 microg = 0.000005 kg</li>
+                <li>10000 microg = 0.00001 kg</li>
               </ul>
             </div>
           </div>

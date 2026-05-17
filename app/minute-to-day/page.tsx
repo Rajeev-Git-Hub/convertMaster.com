@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Minute to Day</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 minute ≈ ? day</li>
-                <li>10 minute ≈ ? day</li>
-                <li>50 minute ≈ ? day</li>
-                <li>100 minute ≈ ? day</li>
+                <li>1 minute = 0.000694444444444 day</li>
+                <li>10 minute = 0.00694444444444 day</li>
+                <li>50 minute = 0.0347222222222 day</li>
+                <li>100 minute = 0.0694444444444 day</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Day to Minute</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 day ≈ ? minute</li>
-                <li>10 day ≈ ? minute</li>
-                <li>50 day ≈ ? minute</li>
-                <li>100 day ≈ ? minute</li>
+                <li>1 day = 1440 minute</li>
+                <li>10 day = 14400 minute</li>
+                <li>50 day = 72000 minute</li>
+                <li>100 day = 144000 minute</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 minute ≈ ? day</li>
-                <li>1000 minute ≈ ? day</li>
-                <li>5000 minute ≈ ? day</li>
-                <li>10000 minute ≈ ? day</li>
+                <li>500 minute = 0.347222222222 day</li>
+                <li>1000 minute = 0.694444444444 day</li>
+                <li>5000 minute = 3.47222222222 day</li>
+                <li>10000 minute = 6.94444444444 day</li>
               </ul>
             </div>
           </div>

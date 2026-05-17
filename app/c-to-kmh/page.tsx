@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">C to Kmh</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 c ≈ ? kmh</li>
-                <li>10 c ≈ ? kmh</li>
-                <li>50 c ≈ ? kmh</li>
-                <li>100 c ≈ ? kmh</li>
+                <li>1 c = 1079252848.8 kmh</li>
+                <li>10 c = 10792528488 kmh</li>
+                <li>50 c = 53962642440 kmh</li>
+                <li>100 c = 107925284880 kmh</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kmh to C</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kmh ≈ ? c</li>
-                <li>10 kmh ≈ ? c</li>
-                <li>50 kmh ≈ ? c</li>
-                <li>100 kmh ≈ ? c</li>
+                <li>1 kmh = 9.2656693111e-10 c</li>
+                <li>10 kmh = 9.2656693111e-9 c</li>
+                <li>50 kmh = 4.6328346555e-8 c</li>
+                <li>100 kmh = 9.2656693111e-8 c</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 c ≈ ? kmh</li>
-                <li>1000 c ≈ ? kmh</li>
-                <li>5000 c ≈ ? kmh</li>
-                <li>10000 c ≈ ? kmh</li>
+                <li>500 c = 539626424400 kmh</li>
+                <li>1000 c = 1.0792528488e+12 kmh</li>
+                <li>5000 c = 5.396264244e+12 kmh</li>
+                <li>10000 c = 1.0792528488e+13 kmh</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bytes to Pb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bytes ≈ ? pb</li>
-                <li>10 bytes ≈ ? pb</li>
-                <li>50 bytes ≈ ? pb</li>
-                <li>100 bytes ≈ ? pb</li>
+                <li>1 bytes = 0 pb</li>
+                <li>10 bytes = 8.881784197e-15 pb</li>
+                <li>50 bytes = 4.4408920985e-14 pb</li>
+                <li>100 bytes = 8.881784197e-14 pb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Pb to Bytes</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 pb ≈ ? bytes</li>
-                <li>10 pb ≈ ? bytes</li>
-                <li>50 pb ≈ ? bytes</li>
-                <li>100 pb ≈ ? bytes</li>
+                <li>1 pb = 1125899906842624 bytes</li>
+                <li>10 pb = 1.1258999068e+16 bytes</li>
+                <li>50 pb = 5.6294995342e+16 bytes</li>
+                <li>100 pb = 1.1258999068e+17 bytes</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 bytes ≈ ? pb</li>
-                <li>1000 bytes ≈ ? pb</li>
-                <li>5000 bytes ≈ ? pb</li>
-                <li>10000 bytes ≈ ? pb</li>
+                <li>500 bytes = 4.4408920985e-13 pb</li>
+                <li>1000 bytes = 8.881784197e-13 pb</li>
+                <li>5000 bytes = 4.4408920985e-12 pb</li>
+                <li>10000 bytes = 8.881784197e-12 pb</li>
               </ul>
             </div>
           </div>

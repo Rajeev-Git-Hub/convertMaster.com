@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm3 to Ft3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm3 ≈ ? ft3</li>
-                <li>10 cm3 ≈ ? ft3</li>
-                <li>50 cm3 ≈ ? ft3</li>
-                <li>100 cm3 ≈ ? ft3</li>
+                <li>1 cm3 = 0.0000353146667215 ft3</li>
+                <li>10 cm3 = 0.000353146667215 ft3</li>
+                <li>50 cm3 = 0.00176573333607 ft3</li>
+                <li>100 cm3 = 0.00353146667215 ft3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ft3 to Cm3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft3 ≈ ? cm3</li>
-                <li>10 ft3 ≈ ? cm3</li>
-                <li>50 ft3 ≈ ? cm3</li>
-                <li>100 ft3 ≈ ? cm3</li>
+                <li>1 ft3 = 28316.846592 cm3</li>
+                <li>10 ft3 = 283168.46592 cm3</li>
+                <li>50 ft3 = 1415842.3296 cm3</li>
+                <li>100 ft3 = 2831684.6592 cm3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm3 ≈ ? ft3</li>
-                <li>1000 cm3 ≈ ? ft3</li>
-                <li>5000 cm3 ≈ ? ft3</li>
-                <li>10000 cm3 ≈ ? ft3</li>
+                <li>500 cm3 = 0.0176573333607 ft3</li>
+                <li>1000 cm3 = 0.0353146667215 ft3</li>
+                <li>5000 cm3 = 0.176573333607 ft3</li>
+                <li>10000 cm3 = 0.353146667215 ft3</li>
               </ul>
             </div>
           </div>

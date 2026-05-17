@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ft3 to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ft3 ≈ ? in3</li>
-                <li>10 ft3 ≈ ? in3</li>
-                <li>50 ft3 ≈ ? in3</li>
-                <li>100 ft3 ≈ ? in3</li>
+                <li>1 ft3 = 1728 in3</li>
+                <li>10 ft3 = 17280 in3</li>
+                <li>50 ft3 = 86400 in3</li>
+                <li>100 ft3 = 172800 in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to Ft3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? ft3</li>
-                <li>10 in3 ≈ ? ft3</li>
-                <li>50 in3 ≈ ? ft3</li>
-                <li>100 in3 ≈ ? ft3</li>
+                <li>1 in3 = 0.000578703703704 ft3</li>
+                <li>10 in3 = 0.00578703703704 ft3</li>
+                <li>50 in3 = 0.0289351851852 ft3</li>
+                <li>100 in3 = 0.0578703703704 ft3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 ft3 ≈ ? in3</li>
-                <li>1000 ft3 ≈ ? in3</li>
-                <li>5000 ft3 ≈ ? in3</li>
-                <li>10000 ft3 ≈ ? in3</li>
+                <li>500 ft3 = 864000 in3</li>
+                <li>1000 ft3 = 1728000 in3</li>
+                <li>5000 ft3 = 8640000 in3</li>
+                <li>10000 ft3 = 17280000 in3</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet ≈ ? hm</li>
-                <li>10 feet ≈ ? hm</li>
-                <li>50 feet ≈ ? hm</li>
-                <li>100 feet ≈ ? hm</li>
+                <li>1 feet = 0.003048 hm</li>
+                <li>10 feet = 0.03048 hm</li>
+                <li>50 feet = 0.1524 hm</li>
+                <li>100 feet = 0.3048 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Feet</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? feet</li>
-                <li>10 hm ≈ ? feet</li>
-                <li>50 hm ≈ ? feet</li>
-                <li>100 hm ≈ ? feet</li>
+                <li>1 hm = 328.083989501 feet</li>
+                <li>10 hm = 3280.83989501 feet</li>
+                <li>50 hm = 16404.1994751 feet</li>
+                <li>100 hm = 32808.3989501 feet</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 feet ≈ ? hm</li>
-                <li>1000 feet ≈ ? hm</li>
-                <li>5000 feet ≈ ? hm</li>
-                <li>10000 feet ≈ ? hm</li>
+                <li>500 feet = 1.524 hm</li>
+                <li>1000 feet = 3.048 hm</li>
+                <li>5000 feet = 15.24 hm</li>
+                <li>10000 feet = 30.48 hm</li>
               </ul>
             </div>
           </div>

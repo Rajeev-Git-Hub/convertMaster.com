@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mps to Kmh</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mps ≈ ? kmh</li>
-                <li>10 mps ≈ ? kmh</li>
-                <li>50 mps ≈ ? kmh</li>
-                <li>100 mps ≈ ? kmh</li>
+                <li>1 mps = 3.6 kmh</li>
+                <li>10 mps = 36 kmh</li>
+                <li>50 mps = 180 kmh</li>
+                <li>100 mps = 360 kmh</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kmh to Mps</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kmh ≈ ? mps</li>
-                <li>10 kmh ≈ ? mps</li>
-                <li>50 kmh ≈ ? mps</li>
-                <li>100 kmh ≈ ? mps</li>
+                <li>1 kmh = 0.277777777778 mps</li>
+                <li>10 kmh = 2.77777777778 mps</li>
+                <li>50 kmh = 13.8888888889 mps</li>
+                <li>100 kmh = 27.7777777778 mps</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mps ≈ ? kmh</li>
-                <li>1000 mps ≈ ? kmh</li>
-                <li>5000 mps ≈ ? kmh</li>
-                <li>10000 mps ≈ ? kmh</li>
+                <li>500 mps = 1800 kmh</li>
+                <li>1000 mps = 3600 kmh</li>
+                <li>5000 mps = 18000 kmh</li>
+                <li>10000 mps = 36000 kmh</li>
               </ul>
             </div>
           </div>

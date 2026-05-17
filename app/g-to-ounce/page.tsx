@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">G to Ounce</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 g = 0.0353 ounce</li>
-                <li>10 g = 0.353 ounce</li>
-                <li>50 g = 1.764 ounce</li>
-                <li>100 g = 3.527 ounce</li>
+                <li>1 g = 0.0352739619496 ounce</li>
+                <li>10 g = 0.352739619496 ounce</li>
+                <li>50 g = 1.76369809748 ounce</li>
+                <li>100 g = 3.52739619496 ounce</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ounce to G</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ounce = 28.35 g</li>
-                <li>10 ounce = 283.5 g</li>
-                <li>50 ounce = 1417.5 g</li>
-                <li>100 ounce = 2835 g</li>
+                <li>1 ounce = 28.349523125 g</li>
+                <li>10 ounce = 283.49523125 g</li>
+                <li>50 ounce = 1417.47615625 g</li>
+                <li>100 ounce = 2834.9523125 g</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 g = 17.637 ounce</li>
-                <li>1000 g = 35.274 ounce</li>
-                <li>5000 g = 176.37 ounce</li>
-                <li>10000 g = 352.74 ounce</li>
+                <li>500 g = 17.6369809748 ounce</li>
+                <li>1000 g = 35.2739619496 ounce</li>
+                <li>5000 g = 176.369809748 ounce</li>
+                <li>10000 g = 352.739619496 ounce</li>
               </ul>
             </div>
           </div>

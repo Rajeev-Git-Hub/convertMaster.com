@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Rankine to Celsius</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 rankine = -272.59 celsius</li>
-                <li>10 rankine = -267.59 celsius</li>
-                <li>50 rankine = -247.59 celsius</li>
-                <li>100 rankine = -217.59 celsius</li>
+                <li>1 rankine = -272.594444444 celsius</li>
+                <li>10 rankine = -267.594444444 celsius</li>
+                <li>50 rankine = -245.372222222 celsius</li>
+                <li>100 rankine = -217.594444444 celsius</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 rankine = 4.26 celsius</li>
-                <li>1000 rankine = 282.59 celsius</li>
-                <li>5000 rankine = 2515.93 celsius</li>
-                <li>10000 rankine = 5304.26 celsius</li>
+                <li>500 rankine = 4.62777777778 celsius</li>
+                <li>1000 rankine = 282.405555556 celsius</li>
+                <li>5000 rankine = 2504.62777778 celsius</li>
+                <li>10000 rankine = 5282.40555556 celsius</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Meters to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 meters ≈ ? micrometers</li>
-                <li>10 meters ≈ ? micrometers</li>
-                <li>50 meters ≈ ? micrometers</li>
-                <li>100 meters ≈ ? micrometers</li>
+                <li>1 meters = 1000000 micrometers</li>
+                <li>10 meters = 10000000 micrometers</li>
+                <li>50 meters = 50000000 micrometers</li>
+                <li>100 meters = 100000000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Meters</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? meters</li>
-                <li>10 micrometers ≈ ? meters</li>
-                <li>50 micrometers ≈ ? meters</li>
-                <li>100 micrometers ≈ ? meters</li>
+                <li>1 micrometers = 0.000001 meters</li>
+                <li>10 micrometers = 0.00001 meters</li>
+                <li>50 micrometers = 0.00005 meters</li>
+                <li>100 micrometers = 0.0001 meters</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 meters ≈ ? micrometers</li>
-                <li>1000 meters ≈ ? micrometers</li>
-                <li>5000 meters ≈ ? micrometers</li>
-                <li>10000 meters ≈ ? micrometers</li>
+                <li>500 meters = 500000000 micrometers</li>
+                <li>1000 meters = 1000000000 micrometers</li>
+                <li>5000 meters = 5000000000 micrometers</li>
+                <li>10000 meters = 10000000000 micrometers</li>
               </ul>
             </div>
           </div>

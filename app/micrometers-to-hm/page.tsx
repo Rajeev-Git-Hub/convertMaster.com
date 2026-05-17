@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Hm</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? hm</li>
-                <li>10 micrometers ≈ ? hm</li>
-                <li>50 micrometers ≈ ? hm</li>
-                <li>100 micrometers ≈ ? hm</li>
+                <li>1 micrometers = 1e-8 hm</li>
+                <li>10 micrometers = 1e-7 hm</li>
+                <li>50 micrometers = 5e-7 hm</li>
+                <li>100 micrometers = 0.000001 hm</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Hm to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 hm ≈ ? micrometers</li>
-                <li>10 hm ≈ ? micrometers</li>
-                <li>50 hm ≈ ? micrometers</li>
-                <li>100 hm ≈ ? micrometers</li>
+                <li>1 hm = 100000000 micrometers</li>
+                <li>10 hm = 1000000000 micrometers</li>
+                <li>50 hm = 5000000000 micrometers</li>
+                <li>100 hm = 10000000000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 micrometers ≈ ? hm</li>
-                <li>1000 micrometers ≈ ? hm</li>
-                <li>5000 micrometers ≈ ? hm</li>
-                <li>10000 micrometers ≈ ? hm</li>
+                <li>500 micrometers = 0.000005 hm</li>
+                <li>1000 micrometers = 0.00001 hm</li>
+                <li>5000 micrometers = 0.00005 hm</li>
+                <li>10000 micrometers = 0.0001 hm</li>
               </ul>
             </div>
           </div>

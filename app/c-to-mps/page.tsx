@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">C to Mps</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 c ≈ ? mps</li>
-                <li>10 c ≈ ? mps</li>
-                <li>50 c ≈ ? mps</li>
-                <li>100 c ≈ ? mps</li>
+                <li>1 c = 299792458 mps</li>
+                <li>10 c = 2997924580 mps</li>
+                <li>50 c = 14989622900 mps</li>
+                <li>100 c = 29979245800 mps</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mps to C</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mps ≈ ? c</li>
-                <li>10 mps ≈ ? c</li>
-                <li>50 mps ≈ ? c</li>
-                <li>100 mps ≈ ? c</li>
+                <li>1 mps = 3.335640952e-9 c</li>
+                <li>10 mps = 3.335640952e-8 c</li>
+                <li>50 mps = 1.667820476e-7 c</li>
+                <li>100 mps = 3.335640952e-7 c</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 c ≈ ? mps</li>
-                <li>1000 c ≈ ? mps</li>
-                <li>5000 c ≈ ? mps</li>
-                <li>10000 c ≈ ? mps</li>
+                <li>500 c = 149896229000 mps</li>
+                <li>1000 c = 299792458000 mps</li>
+                <li>5000 c = 1498962290000 mps</li>
+                <li>10000 c = 2997924580000 mps</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm = 3.93701 inches</li>
-                <li>10 dm = 39.3701 inches</li>
-                <li>50 dm = 196.85 inches</li>
-                <li>100 dm = 393.701 inches</li>
+                <li>1 dm = 3.93700787402 inches</li>
+                <li>10 dm = 39.3700787402 inches</li>
+                <li>50 dm = 196.850393701 inches</li>
+                <li>100 dm = 393.700787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 dm = 1968.5 inches</li>
-                <li>1000 dm = 3937.01 inches</li>
-                <li>5000 dm = 19685 inches</li>
-                <li>10000 dm = 39370.1 inches</li>
+                <li>500 dm = 1968.50393701 inches</li>
+                <li>1000 dm = 3937.00787402 inches</li>
+                <li>5000 dm = 19685.0393701 inches</li>
+                <li>10000 dm = 39370.0787402 inches</li>
               </ul>
             </div>
           </div>

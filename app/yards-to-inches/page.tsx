@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? inches</li>
-                <li>10 yards ≈ ? inches</li>
-                <li>50 yards ≈ ? inches</li>
-                <li>100 yards ≈ ? inches</li>
+                <li>1 yards = 36 inches</li>
+                <li>10 yards = 360 inches</li>
+                <li>50 yards = 1800 inches</li>
+                <li>100 yards = 3600 inches</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches ≈ ? yards</li>
-                <li>10 inches ≈ ? yards</li>
-                <li>50 inches ≈ ? yards</li>
-                <li>100 inches ≈ ? yards</li>
+                <li>1 inches = 0.0277777777778 yards</li>
+                <li>10 inches = 0.277777777778 yards</li>
+                <li>50 inches = 1.38888888889 yards</li>
+                <li>100 inches = 2.77777777778 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 yards ≈ ? inches</li>
-                <li>1000 yards ≈ ? inches</li>
-                <li>5000 yards ≈ ? inches</li>
-                <li>10000 yards ≈ ? inches</li>
+                <li>500 yards = 18000 inches</li>
+                <li>1000 yards = 36000 inches</li>
+                <li>5000 yards = 180000 inches</li>
+                <li>10000 yards = 360000 inches</li>
               </ul>
             </div>
           </div>

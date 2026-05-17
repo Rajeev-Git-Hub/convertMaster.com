@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Nm to Dam</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 nm = 0.0000000001 dam</li>
-                <li>10 nm = 0.000000001 dam</li>
-                <li>50 nm = 0.000000005 dam</li>
-                <li>100 nm = 0.00000001 dam</li>
+                <li>1 nm = 1e-10 dam</li>
+                <li>10 nm = 1e-9 dam</li>
+                <li>50 nm = 5e-9 dam</li>
+                <li>100 nm = 1e-8 dam</li>
               </ul>
             </div>
             <div className="card p-6">

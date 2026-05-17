@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm3 to Gallon</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm3 ≈ ? gallon</li>
-                <li>10 cm3 ≈ ? gallon</li>
-                <li>50 cm3 ≈ ? gallon</li>
-                <li>100 cm3 ≈ ? gallon</li>
+                <li>1 cm3 = 0.000264172052358 gallon</li>
+                <li>10 cm3 = 0.00264172052358 gallon</li>
+                <li>50 cm3 = 0.0132086026179 gallon</li>
+                <li>100 cm3 = 0.0264172052358 gallon</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Gallon to Cm3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 gallon ≈ ? cm3</li>
-                <li>10 gallon ≈ ? cm3</li>
-                <li>50 gallon ≈ ? cm3</li>
-                <li>100 gallon ≈ ? cm3</li>
+                <li>1 gallon = 3785.411784 cm3</li>
+                <li>10 gallon = 37854.11784 cm3</li>
+                <li>50 gallon = 189270.5892 cm3</li>
+                <li>100 gallon = 378541.1784 cm3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm3 ≈ ? gallon</li>
-                <li>1000 cm3 ≈ ? gallon</li>
-                <li>5000 cm3 ≈ ? gallon</li>
-                <li>10000 cm3 ≈ ? gallon</li>
+                <li>500 cm3 = 0.132086026179 gallon</li>
+                <li>1000 cm3 = 0.264172052358 gallon</li>
+                <li>5000 cm3 = 1.32086026179 gallon</li>
+                <li>10000 cm3 = 2.64172052358 gallon</li>
               </ul>
             </div>
           </div>

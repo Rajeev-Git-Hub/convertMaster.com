@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">In3 to Floz</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 in3 ≈ ? floz</li>
-                <li>10 in3 ≈ ? floz</li>
-                <li>50 in3 ≈ ? floz</li>
-                <li>100 in3 ≈ ? floz</li>
+                <li>1 in3 = 0.554112554113 floz</li>
+                <li>10 in3 = 5.54112554113 floz</li>
+                <li>50 in3 = 27.7056277056 floz</li>
+                <li>100 in3 = 55.4112554113 floz</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Floz to In3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 floz ≈ ? in3</li>
-                <li>10 floz ≈ ? in3</li>
-                <li>50 floz ≈ ? in3</li>
-                <li>100 floz ≈ ? in3</li>
+                <li>1 floz = 1.8046875 in3</li>
+                <li>10 floz = 18.046875 in3</li>
+                <li>50 floz = 90.234375 in3</li>
+                <li>100 floz = 180.46875 in3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 in3 ≈ ? floz</li>
-                <li>1000 in3 ≈ ? floz</li>
-                <li>5000 in3 ≈ ? floz</li>
-                <li>10000 in3 ≈ ? floz</li>
+                <li>500 in3 = 277.056277056 floz</li>
+                <li>1000 in3 = 554.112554113 floz</li>
+                <li>5000 in3 = 2770.56277056 floz</li>
+                <li>10000 in3 = 5541.12554113 floz</li>
               </ul>
             </div>
           </div>

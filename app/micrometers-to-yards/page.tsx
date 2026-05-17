@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Yards</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? yards</li>
-                <li>10 micrometers ≈ ? yards</li>
-                <li>50 micrometers ≈ ? yards</li>
-                <li>100 micrometers ≈ ? yards</li>
+                <li>1 micrometers = 0.00000109361329834 yards</li>
+                <li>10 micrometers = 0.0000109361329834 yards</li>
+                <li>50 micrometers = 0.0000546806649169 yards</li>
+                <li>100 micrometers = 0.000109361329834 yards</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Yards to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 yards ≈ ? micrometers</li>
-                <li>10 yards ≈ ? micrometers</li>
-                <li>50 yards ≈ ? micrometers</li>
-                <li>100 yards ≈ ? micrometers</li>
+                <li>1 yards = 914400 micrometers</li>
+                <li>10 yards = 9144000 micrometers</li>
+                <li>50 yards = 45720000 micrometers</li>
+                <li>100 yards = 91440000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 micrometers ≈ ? yards</li>
-                <li>1000 micrometers ≈ ? yards</li>
-                <li>5000 micrometers ≈ ? yards</li>
-                <li>10000 micrometers ≈ ? yards</li>
+                <li>500 micrometers = 0.000546806649169 yards</li>
+                <li>1000 micrometers = 0.00109361329834 yards</li>
+                <li>5000 micrometers = 0.00546806649169 yards</li>
+                <li>10000 micrometers = 0.0109361329834 yards</li>
               </ul>
             </div>
           </div>

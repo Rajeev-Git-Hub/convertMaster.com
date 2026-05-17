@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Dm to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 dm = 0.001 km</li>
-                <li>10 dm = 0.01 km</li>
-                <li>50 dm = 0.05 km</li>
-                <li>100 dm = 0.1 km</li>
+                <li>1 dm = 0.0001 km</li>
+                <li>10 dm = 0.001 km</li>
+                <li>50 dm = 0.005 km</li>
+                <li>100 dm = 0.01 km</li>
               </ul>
             </div>
             <div className="card p-6">

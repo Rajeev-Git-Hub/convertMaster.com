@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Liter to Ml</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 liter ≈ ? ml</li>
-                <li>10 liter ≈ ? ml</li>
-                <li>50 liter ≈ ? ml</li>
-                <li>100 liter ≈ ? ml</li>
+                <li>1 liter = 1000 ml</li>
+                <li>10 liter = 10000 ml</li>
+                <li>50 liter = 50000 ml</li>
+                <li>100 liter = 100000 ml</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ml to Liter</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ml ≈ ? liter</li>
-                <li>10 ml ≈ ? liter</li>
-                <li>50 ml ≈ ? liter</li>
-                <li>100 ml ≈ ? liter</li>
+                <li>1 ml = 0.001 liter</li>
+                <li>10 ml = 0.01 liter</li>
+                <li>50 ml = 0.05 liter</li>
+                <li>100 ml = 0.1 liter</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 liter ≈ ? ml</li>
-                <li>1000 liter ≈ ? ml</li>
-                <li>5000 liter ≈ ? ml</li>
-                <li>10000 liter ≈ ? ml</li>
+                <li>500 liter = 500000 ml</li>
+                <li>1000 liter = 1000000 ml</li>
+                <li>5000 liter = 5000000 ml</li>
+                <li>10000 liter = 10000000 ml</li>
               </ul>
             </div>
           </div>

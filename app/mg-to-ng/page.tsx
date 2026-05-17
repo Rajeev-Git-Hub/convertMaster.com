@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mg ≈ ? ng</li>
-                <li>1000 mg ≈ ? ng</li>
-                <li>5000 mg ≈ ? ng</li>
-                <li>10000 mg ≈ ? ng</li>
+                <li>500 mg = 500000000 ng</li>
+                <li>1000 mg = 1000000000 ng</li>
+                <li>5000 mg = 5000000000 ng</li>
+                <li>10000 mg = 10000000000 ng</li>
               </ul>
             </div>
           </div>

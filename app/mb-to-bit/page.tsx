@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mb to Bit</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mb ≈ ? bit</li>
-                <li>10 mb ≈ ? bit</li>
-                <li>50 mb ≈ ? bit</li>
-                <li>100 mb ≈ ? bit</li>
+                <li>1 mb = 8388608 bit</li>
+                <li>10 mb = 83886080 bit</li>
+                <li>50 mb = 419430400 bit</li>
+                <li>100 mb = 838860800 bit</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Bit to Mb</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 bit ≈ ? mb</li>
-                <li>10 bit ≈ ? mb</li>
-                <li>50 bit ≈ ? mb</li>
-                <li>100 bit ≈ ? mb</li>
+                <li>1 bit = 1.1920928955e-7 mb</li>
+                <li>10 bit = 0.00000119209289551 mb</li>
+                <li>50 bit = 0.00000596046447754 mb</li>
+                <li>100 bit = 0.0000119209289551 mb</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mb ≈ ? bit</li>
-                <li>1000 mb ≈ ? bit</li>
-                <li>5000 mb ≈ ? bit</li>
-                <li>10000 mb ≈ ? bit</li>
+                <li>500 mb = 4194304000 bit</li>
+                <li>1000 mb = 8388608000 bit</li>
+                <li>5000 mb = 41943040000 bit</li>
+                <li>10000 mb = 83886080000 bit</li>
               </ul>
             </div>
           </div>

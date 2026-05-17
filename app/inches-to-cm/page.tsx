@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm to Inches</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm = 0.39 inches</li>
-                <li>10 cm = 3.94 inches</li>
-                <li>50 cm = 19.69 inches</li>
-                <li>100 cm = 39.37 inches</li>
+                <li>1 cm = 0.393700787402 inches</li>
+                <li>10 cm = 3.93700787402 inches</li>
+                <li>50 cm = 19.6850393701 inches</li>
+                <li>100 cm = 39.3700787402 inches</li>
               </ul>
             </div>
             <div className="card p-6">

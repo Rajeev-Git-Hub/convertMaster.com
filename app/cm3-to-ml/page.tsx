@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Cm3 to Ml</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 cm3 ≈ ? ml</li>
-                <li>10 cm3 ≈ ? ml</li>
-                <li>50 cm3 ≈ ? ml</li>
-                <li>100 cm3 ≈ ? ml</li>
+                <li>1 cm3 = 1 ml</li>
+                <li>10 cm3 = 10 ml</li>
+                <li>50 cm3 = 50 ml</li>
+                <li>100 cm3 = 100 ml</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Ml to Cm3</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 ml ≈ ? cm3</li>
-                <li>10 ml ≈ ? cm3</li>
-                <li>50 ml ≈ ? cm3</li>
-                <li>100 ml ≈ ? cm3</li>
+                <li>1 ml = 1 cm3</li>
+                <li>10 ml = 10 cm3</li>
+                <li>50 ml = 50 cm3</li>
+                <li>100 ml = 100 cm3</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 cm3 ≈ ? ml</li>
-                <li>1000 cm3 ≈ ? ml</li>
-                <li>5000 cm3 ≈ ? ml</li>
-                <li>10000 cm3 ≈ ? ml</li>
+                <li>500 cm3 = 500 ml</li>
+                <li>1000 cm3 = 1000 ml</li>
+                <li>5000 cm3 = 5000 ml</li>
+                <li>10000 cm3 = 10000 ml</li>
               </ul>
             </div>
           </div>

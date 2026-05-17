@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Feet to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 feet = 0.000189 miles</li>
-                <li>10 feet = 0.001894 miles</li>
-                <li>50 feet = 0.009469 miles</li>
-                <li>100 feet = 0.018939 miles</li>
+                <li>1 feet = 0.000189393939394 miles</li>
+                <li>10 feet = 0.00189393939394 miles</li>
+                <li>50 feet = 0.0094696969697 miles</li>
+                <li>100 feet = 0.0189393939394 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 feet = 0.094697 miles</li>
-                <li>1000 feet = 0.189394 miles</li>
-                <li>5000 feet = 0.94697 miles</li>
-                <li>10000 feet = 1.89394 miles</li>
+                <li>500 feet = 0.094696969697 miles</li>
+                <li>1000 feet = 0.189393939394 miles</li>
+                <li>5000 feet = 0.94696969697 miles</li>
+                <li>10000 feet = 1.89393939394 miles</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Km to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 km ≈ ? micrometers</li>
-                <li>10 km ≈ ? micrometers</li>
-                <li>50 km ≈ ? micrometers</li>
-                <li>100 km ≈ ? micrometers</li>
+                <li>1 km = 1000000000 micrometers</li>
+                <li>10 km = 10000000000 micrometers</li>
+                <li>50 km = 50000000000 micrometers</li>
+                <li>100 km = 100000000000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Km</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? km</li>
-                <li>10 micrometers ≈ ? km</li>
-                <li>50 micrometers ≈ ? km</li>
-                <li>100 micrometers ≈ ? km</li>
+                <li>1 micrometers = 1e-9 km</li>
+                <li>10 micrometers = 1e-8 km</li>
+                <li>50 micrometers = 5e-8 km</li>
+                <li>100 micrometers = 1e-7 km</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 km ≈ ? micrometers</li>
-                <li>1000 km ≈ ? micrometers</li>
-                <li>5000 km ≈ ? micrometers</li>
-                <li>10000 km ≈ ? micrometers</li>
+                <li>500 km = 500000000000 micrometers</li>
+                <li>1000 km = 1000000000000 micrometers</li>
+                <li>5000 km = 5000000000000 micrometers</li>
+                <li>10000 km = 10000000000000 micrometers</li>
               </ul>
             </div>
           </div>

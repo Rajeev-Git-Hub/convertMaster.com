@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Week to Millisecond</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 week ≈ ? millisecond</li>
-                <li>10 week ≈ ? millisecond</li>
-                <li>50 week ≈ ? millisecond</li>
-                <li>100 week ≈ ? millisecond</li>
+                <li>1 week = 604800000 millisecond</li>
+                <li>10 week = 6048000000 millisecond</li>
+                <li>50 week = 30240000000 millisecond</li>
+                <li>100 week = 60480000000 millisecond</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Millisecond to Week</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 millisecond ≈ ? week</li>
-                <li>10 millisecond ≈ ? week</li>
-                <li>50 millisecond ≈ ? week</li>
-                <li>100 millisecond ≈ ? week</li>
+                <li>1 millisecond = 1.6534391534e-9 week</li>
+                <li>10 millisecond = 1.6534391534e-8 week</li>
+                <li>50 millisecond = 8.2671957672e-8 week</li>
+                <li>100 millisecond = 1.6534391534e-7 week</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 week ≈ ? millisecond</li>
-                <li>1000 week ≈ ? millisecond</li>
-                <li>5000 week ≈ ? millisecond</li>
-                <li>10000 week ≈ ? millisecond</li>
+                <li>500 week = 302400000000 millisecond</li>
+                <li>1000 week = 604800000000 millisecond</li>
+                <li>5000 week = 3024000000000 millisecond</li>
+                <li>10000 week = 6048000000000 millisecond</li>
               </ul>
             </div>
           </div>

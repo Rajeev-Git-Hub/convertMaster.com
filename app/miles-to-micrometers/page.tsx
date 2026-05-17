@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Miles to Micrometers</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 miles ≈ ? micrometers</li>
-                <li>10 miles ≈ ? micrometers</li>
-                <li>50 miles ≈ ? micrometers</li>
-                <li>100 miles ≈ ? micrometers</li>
+                <li>1 miles = 1609344000 micrometers</li>
+                <li>10 miles = 16093440000 micrometers</li>
+                <li>50 miles = 80467200000 micrometers</li>
+                <li>100 miles = 160934400000 micrometers</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Micrometers to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 micrometers ≈ ? miles</li>
-                <li>10 micrometers ≈ ? miles</li>
-                <li>50 micrometers ≈ ? miles</li>
-                <li>100 micrometers ≈ ? miles</li>
+                <li>1 micrometers = 6.2137119224e-10 miles</li>
+                <li>10 micrometers = 6.2137119224e-9 miles</li>
+                <li>50 micrometers = 3.1068559612e-8 miles</li>
+                <li>100 micrometers = 6.2137119224e-8 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 miles ≈ ? micrometers</li>
-                <li>1000 miles ≈ ? micrometers</li>
-                <li>5000 miles ≈ ? micrometers</li>
-                <li>10000 miles ≈ ? micrometers</li>
+                <li>500 miles = 804672000000 micrometers</li>
+                <li>1000 miles = 1609344000000 micrometers</li>
+                <li>5000 miles = 8046720000000 micrometers</li>
+                <li>10000 miles = 16093440000000 micrometers</li>
               </ul>
             </div>
           </div>

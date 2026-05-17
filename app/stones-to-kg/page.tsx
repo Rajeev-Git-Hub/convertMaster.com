@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Stones to Kg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 stones ≈ ? kg</li>
-                <li>10 stones ≈ ? kg</li>
-                <li>50 stones ≈ ? kg</li>
-                <li>100 stones ≈ ? kg</li>
+                <li>1 stones = 6.35029318 kg</li>
+                <li>10 stones = 63.5029318 kg</li>
+                <li>50 stones = 317.514659 kg</li>
+                <li>100 stones = 635.029318 kg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Stones</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? stones</li>
-                <li>10 kg ≈ ? stones</li>
-                <li>50 kg ≈ ? stones</li>
-                <li>100 kg ≈ ? stones</li>
+                <li>1 kg = 0.157473044418 stones</li>
+                <li>10 kg = 1.57473044418 stones</li>
+                <li>50 kg = 7.87365222089 stones</li>
+                <li>100 kg = 15.7473044418 stones</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 stones ≈ ? kg</li>
-                <li>1000 stones ≈ ? kg</li>
-                <li>5000 stones ≈ ? kg</li>
-                <li>10000 stones ≈ ? kg</li>
+                <li>500 stones = 3175.14659 kg</li>
+                <li>1000 stones = 6350.29318 kg</li>
+                <li>5000 stones = 31751.4659 kg</li>
+                <li>10000 stones = 63502.9318 kg</li>
               </ul>
             </div>
           </div>

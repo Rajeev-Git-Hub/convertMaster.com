@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Mph to Fts</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 mph ≈ ? fts</li>
-                <li>10 mph ≈ ? fts</li>
-                <li>50 mph ≈ ? fts</li>
-                <li>100 mph ≈ ? fts</li>
+                <li>1 mph = 1.46666666667 fts</li>
+                <li>10 mph = 14.6666666667 fts</li>
+                <li>50 mph = 73.3333333333 fts</li>
+                <li>100 mph = 146.666666667 fts</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Fts to Mph</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 fts ≈ ? mph</li>
-                <li>10 fts ≈ ? mph</li>
-                <li>50 fts ≈ ? mph</li>
-                <li>100 fts ≈ ? mph</li>
+                <li>1 fts = 0.681818181818 mph</li>
+                <li>10 fts = 6.81818181818 mph</li>
+                <li>50 fts = 34.0909090909 mph</li>
+                <li>100 fts = 68.1818181818 mph</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mph ≈ ? fts</li>
-                <li>1000 mph ≈ ? fts</li>
-                <li>5000 mph ≈ ? fts</li>
-                <li>10000 mph ≈ ? fts</li>
+                <li>500 mph = 733.333333333 fts</li>
+                <li>1000 mph = 1466.66666667 fts</li>
+                <li>5000 mph = 7333.33333333 fts</li>
+                <li>10000 mph = 14666.6666667 fts</li>
               </ul>
             </div>
           </div>

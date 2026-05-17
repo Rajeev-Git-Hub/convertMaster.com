@@ -45,10 +45,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Inches to Miles</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 inches = 0.0000158 miles</li>
-                <li>10 inches = 0.000158 miles</li>
-                <li>50 inches = 0.000789 miles</li>
-                <li>100 inches = 0.001579 miles</li>
+                <li>1 inches = 0.0000157828282828 miles</li>
+                <li>10 inches = 0.000157828282828 miles</li>
+                <li>50 inches = 0.000789141414141 miles</li>
+                <li>100 inches = 0.00157828282828 miles</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 inches = 0.007891 miles</li>
-                <li>1000 inches = 0.015789 miles</li>
-                <li>5000 inches = 0.078945 miles</li>
-                <li>10000 inches = 0.157891 miles</li>
+                <li>500 inches = 0.00789141414141 miles</li>
+                <li>1000 inches = 0.0157828282828 miles</li>
+                <li>5000 inches = 0.0789141414141 miles</li>
+                <li>10000 inches = 0.157828282828 miles</li>
               </ul>
             </div>
           </div>

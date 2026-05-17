@@ -59,10 +59,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Kg to Mg</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>1 kg ≈ ? mg</li>
-                <li>10 kg ≈ ? mg</li>
-                <li>50 kg ≈ ? mg</li>
-                <li>100 kg ≈ ? mg</li>
+                <li>1 kg = 1000000 mg</li>
+                <li>10 kg = 10000000 mg</li>
+                <li>50 kg = 50000000 mg</li>
+                <li>100 kg = 100000000 mg</li>
               </ul>
             </div>
             <div className="card p-6">
@@ -73,10 +73,10 @@ export default function ConverterPage() {
                 <h3 className="text-lg font-semibold text-gray-900">Large Conversions</h3>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>500 mg ≈ ? kg</li>
-                <li>1000 mg ≈ ? kg</li>
-                <li>5000 mg ≈ ? kg</li>
-                <li>10000 mg ≈ ? kg</li>
+                <li>500 mg = 0.0005 kg</li>
+                <li>1000 mg = 0.001 kg</li>
+                <li>5000 mg = 0.005 kg</li>
+                <li>10000 mg = 0.01 kg</li>
               </ul>
             </div>
           </div>
