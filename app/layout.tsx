@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   keywords: ["unit converter", "calculator", "metric conversion", "imperial conversion", "measurement converter", "online tool", "indian units", "bigha", "gaj"],
   authors: [{ name: "Rajeev" }],
   creator: "Rajeev",
-  publisher: "Universal Converter",
+  publisher: "ConvertMaster",
   robots: {
     index: true,
     follow: true,

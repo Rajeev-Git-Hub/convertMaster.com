@@ -31,7 +31,7 @@ export default function SidebarPreview() {
           </div>
           <div>
             <h1 className="font-bold text-xl text-white">ConvertMaster</h1>
-            <p className="text-xs text-gray-400">Unit Converter</p>
+            <p className="text-xs text-gray-400">ConvertMaster</p>
           </div>
         </div>
       </div>
