@@ -2,17 +2,7 @@
 
 import { Suspense, useState, useMemo } from 'react';
 import Link from 'next/link';
-import { 
-  FiArrowRight, 
-  FiMaximize, 
-  FiAnchor, 
-  FiThermometer, 
-  FiClock,
-  FiGlobe,
-  FiGrid,
-  FiSearch,
-  FiHome
-} from 'react-icons/fi';
+import { FiArrowRight, FiMaximize, FiAnchor, FiThermometer, FiClock, FiGlobe, FiGrid, FiSearch, FiHome } from 'react-icons/fi';
 
 const unitCategories = [
   { 

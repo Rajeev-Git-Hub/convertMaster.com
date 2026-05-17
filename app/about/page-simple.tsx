@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { FiTrendingUp, FiShield, FiCheckCircle, FiUsers, FiClock, FiArrowRight, FiActivity, FiTarget, FiZap, FiGlobe, FiBookOpen } from 'react-icons/fi';
+import { FiTrendingUp, FiShield, FiCheckCircle, FiUsers, FiArrowRight, FiActivity, FiTarget, FiZap, FiGlobe } from 'react-icons/fi';
 
 export default function AboutPageSimple() {
   return (
@@ -285,11 +285,6 @@ export default function AboutPageSimple() {
                     <FiZap className="w-8 h-8 text-green-600 mx-auto mb-2" />
                     <h4 className="font-semibold text-gray-900 mb-1">Always Fast</h4>
                     <p className="text-sm text-gray-600">Instant results when you need them</p>
-                  </div>
-                  <div>
-                    <FiUsers className="w-8 h-8 text-purple-600 mx-auto mb-2" />
-                    <h4 className="font-semibold text-gray-900 mb-1">Easy to Use</h4>
-                    <p className="text-sm text-gray-600">Simple interface for quick conversions</p>
                   </div>
                 </div>
               </div>

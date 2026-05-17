@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import ConversionAnalytics from '../../components/ConversionAnalytics';
-import { FiArrowRight, FiBarChart2, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiPieChart, FiClock, FiTarget } from 'react-icons/fi';
+import { FiShield, FiUsers, FiTrendingUp, FiPieChart, FiClock, FiTarget } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Conversion Analytics - Track Your Unit Conversions | Free Analytics Tool',

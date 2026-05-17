@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import AgeCalculatorClient from './AgeCalculatorClient';
-import { FiArrowRight, FiCalendar, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiGift, FiClock } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar, FiGift, FiClock } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Age Calculator (Free & Instant) | ConvertMaster',

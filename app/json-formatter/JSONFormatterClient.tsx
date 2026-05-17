@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FiCopy, FiShare2, FiDownload, FiUpload, FiMinimize2, FiMaximize2, FiCheck, FiX } from 'react-icons/fi';
+import { FiCopy, FiShare2, FiDownload, FiUpload, FiMinimize2, FiMaximize2, FiX } from 'react-icons/fi';
 import { useLocalization } from '../../lib/LocalizationContext';
 
 interface JSONError {

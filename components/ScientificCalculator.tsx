@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { scientificCalculator, SCIENTIFIC_CONSTANTS, SCIENTIFIC_FUNCTIONS, ScientificExpression, ScientificFunction, ScientificConstant } from '../lib/scientificCalculator';
 import { converters, CategoryKey, convert } from '../lib';
 import { categories } from '../lib/categories';
-import { FiCpu, FiClock, FiBook, FiSettings, FiCopy, FiTrash2, FiChevronDown, FiChevronUp, FiPlus, FiMinus, FiX, FiDivide } from 'react-icons/fi';
+import { FiClock, FiBook, FiSettings, FiTrash2, FiChevronDown, FiChevronUp, FiPlus, FiMinus, FiDivide } from 'react-icons/fi';
 import { FaCalculator } from 'react-icons/fa';
 
 export default function ScientificCalculator() {

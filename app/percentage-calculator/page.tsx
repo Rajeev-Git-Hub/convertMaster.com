@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiPercent, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiShoppingCart, FiCreditCard, FiTrendingDown } from 'react-icons/fi';
+import { FiArrowRight, FiPercent, FiTrendingUp, FiShoppingCart, FiCreditCard, FiTrendingDown } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Percentage Calculator - Free Online Tool | Calculate Percentages, Discounts, Tips',

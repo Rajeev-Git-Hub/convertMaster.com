@@ -1,15 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { 
-  FiMaximize,
-  FiImage, 
-  FiVideo, 
-  FiFileText, 
-  FiTool,
-  FiArrowRight,
-  FiExternalLink
-} from 'react-icons/fi';
+import { FiMaximize, FiImage, FiVideo, FiFileText, FiTool, FiArrowRight, FiExternalLink } from 'react-icons/fi';
 
 const sections = [
   {

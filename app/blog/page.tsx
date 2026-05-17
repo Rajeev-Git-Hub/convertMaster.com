@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { FiArrowRight, FiClock, FiTag } from 'react-icons/fi';
+import { FiClock, FiTag } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Blog - Unit Conversion Guides & Tips | ConvertMaster',

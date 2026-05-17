@@ -1,11 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { 
-  FiMaximize,
-  FiFileText, 
-  FiTool
-} from 'react-icons/fi';
+import { FiMaximize, FiTool } from 'react-icons/fi';
 
 const mainSections = [
   {

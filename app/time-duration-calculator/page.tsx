@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiClock, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiCalendar, FiBriefcase, FiTarget } from 'react-icons/fi';
+import { FiArrowRight, FiClock, FiCalendar, FiBriefcase, FiTarget } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Time Duration Calculator - Free Online Tool | Calculate Time Differences, Duration',

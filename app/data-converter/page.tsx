@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiHardDrive, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiDatabase, FiFile, FiDownload } from 'react-icons/fi';
+import { FiArrowRight, FiHardDrive, FiDatabase, FiFile, FiDownload } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Data Converter - Free Online Tool | Convert GB, MB, KB, Bytes, Bits',

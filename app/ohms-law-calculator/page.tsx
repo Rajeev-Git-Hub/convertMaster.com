@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiZap, FiCheckCircle, FiActivity, FiShield, FiUsers, FiTrendingUp, FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiZap, FiShield, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Ohm\'s Law Calculator (Free & Instant) | ConvertMaster',

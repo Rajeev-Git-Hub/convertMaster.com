@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiArrowRight, FiSearch } from 'react-icons/fi';
+import { FiSearch } from 'react-icons/fi';
 import { categories } from '../lib/categories';
 import { useLocalization } from '../lib/LocalizationContext';
 

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { scientificConverter, SCIENTIFIC_UNITS, CONVERSION_FORMULAS, ScientificConversion, ScientificUnit, ConversionFormula } from '../lib/scientificConverter';
 import { converters, CategoryKey } from '../lib';
 import { categories } from '../lib/categories';
-import { FiActivity, FiBookOpen, FiCpu, FiDownload, FiUpload, FiClock, FiSearch, FiTrendingUp, FiZap } from 'react-icons/fi';
+import { FiBookOpen, FiDownload, FiUpload, FiClock, FiSearch, FiZap } from 'react-icons/fi';
 
 export default function ScientificConverter() {
   const [fromValue, setFromValue] = useState('');

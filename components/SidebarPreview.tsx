@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { FiHome, FiActivity, FiLayers, FiFileText, FiLock, FiLink, FiClock, FiPercent, FiUser, FiTrendingUp, FiSettings, FiMoon, FiSun } from 'react-icons/fi';
+import { FiHome, FiActivity, FiLayers, FiFileText, FiLock, FiLink, FiClock, FiPercent, FiUser, FiTrendingUp, FiSettings, FiMoon } from 'react-icons/fi';
 
 /**
  * PREVIEW: Proper Sidebar Navigation Design

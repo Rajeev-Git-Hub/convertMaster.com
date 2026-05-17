@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiCpu, FiCheckCircle, FiActivity, FiShield, FiTrendingUp, FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Machine Design Calculator (Free & Instant) | ConvertMaster',

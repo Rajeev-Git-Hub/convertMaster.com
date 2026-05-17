@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle } from 'react-icons/fi';
+import { FiArrowRight, FiMaximize, FiBook } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Microseconds to Years Converter | Time Tool',
@@ -190,27 +190,6 @@ export default function ConverterPage() {
             <div className="card p-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Is this conversion accurate?</h4>
               <p className="text-sm text-gray-600">Yes, all conversions use standard international conversion factors and provide results with high precision.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Trust Indicators */}
-        <section className="mb-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto max-w-3xl">
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">Instant Results</h4>
-              <p className="text-xs text-gray-600 mt-1">Real-time conversion</p>
-            </div>
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-purple-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">Easy to Use</h4>
-              <p className="text-xs text-gray-600 mt-1">Simple interface</p>
-            </div>
-            <div className="card p-6 text-center">
-              <FiCheckCircle className="w-8 h-8 text-orange-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900">Always Available</h4>
-              <p className="text-xs text-gray-600 mt-1">24/7 access</p>
             </div>
           </div>
         </section>

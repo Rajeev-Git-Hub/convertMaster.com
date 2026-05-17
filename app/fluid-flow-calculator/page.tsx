@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiGlobe, FiCheckCircle, FiActivity, FiShield, FiTrendingUp, FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Fluid Flow Calculator (Free & Instant) | ConvertMaster',

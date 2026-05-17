@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiTool, FiCheckCircle, FiActivity, FiShield, FiTrendingUp, FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Stress Analysis Calculator (Free & Instant) | ConvertMaster',

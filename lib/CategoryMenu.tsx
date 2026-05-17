@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FiLayers, FiSearch, FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiMenu, FiX } from 'react-icons/fi';
+import { FiLayers, FiFileText, FiLock, FiLink, FiClock, FiUser, FiPercent, FiTrendingUp, FiMenu, FiX } from 'react-icons/fi';
 import { categories } from './categories';
 import { CategoryKey } from './types';
 import { useLocalization } from './LocalizationContext';

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConversionAnalytics from '../../components/ConversionAnalytics';
-import { FiArrowRight, FiBarChart2, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiPieChart, FiClock, FiTarget } from 'react-icons/fi';
+import { FiCheckCircle, FiActivity, FiZap } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Test Analytics Page',

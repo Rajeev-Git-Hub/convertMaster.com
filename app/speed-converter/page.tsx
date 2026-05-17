@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiTrendingUp, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiWind, FiNavigation } from 'react-icons/fi';
+import { FiArrowRight, FiTrendingUp, FiWind, FiNavigation } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Speed Converter - Free Online Tool | Convert mph, km/h, m/s, knots',

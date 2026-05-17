@@ -2,7 +2,7 @@
 
 import JSONFormatterClient from './JSONFormatterClient';
 import { useLocalization } from '../../lib/LocalizationContext';
-import { FiArrowRight, FiCode, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiFileText, FiCpu, FiTerminal } from 'react-icons/fi';
+import { FiArrowRight, FiCode, FiFileText, FiCpu, FiTerminal } from 'react-icons/fi';
 
 export default function JSONFormatterPage() {
   const { t } = useLocalization();

@@ -417,7 +417,6 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     'about.cta.title': 'Ready to Get Started?',
     'about.cta.desc': 'Select a category from the menu and start converting!',
     'about.cta.button': 'Go to Converter',
-    'features.instant.title': 'Instant Results',
     'features.instant.desc': 'Get real-time conversions as you type with high precision algorithms.',
     'features.comprehensive.title': 'Comprehensive',
     'features.comprehensive.desc': 'Support for common and professional units across many categories.',

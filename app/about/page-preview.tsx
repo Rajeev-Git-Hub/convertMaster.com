@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { FiTrendingUp, FiShield, FiCheckCircle, FiUsers, FiClock, FiArrowRight, FiActivity, FiAward, FiGlobe, FiZap, FiTarget, FiCpu, FiDatabase, FiCode, FiBookOpen, FiStar } from 'react-icons/fi';
+import { FiTrendingUp, FiShield, FiCheckCircle, FiUsers, FiArrowRight, FiActivity, FiAward, FiGlobe, FiZap, FiTarget, FiCpu, FiDatabase, FiStar } from 'react-icons/fi';
 
 export default function AboutPagePreview() {
   return (

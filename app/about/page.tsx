@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useLocalization } from '../../lib/LocalizationContext';
-import { FiTrendingUp, FiShield, FiCheckCircle, FiUsers, FiClock, FiArrowRight, FiActivity, FiTarget, FiCpu, FiZap, FiDatabase, FiServer, FiSend } from 'react-icons/fi';
+import { FiShield, FiCheckCircle, FiUsers, FiArrowRight, FiTarget, FiCpu, FiDatabase, FiServer, FiSend } from 'react-icons/fi';
 
 export default function AboutPage() {
   const { t } = useLocalization();

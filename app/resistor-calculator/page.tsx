@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiTool, FiCheckCircle, FiActivity, FiShield, FiZap, FiCalendar, FiLayers } from 'react-icons/fi';
+import { FiArrowRight, FiTool, FiZap, FiCalendar, FiLayers } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Resistor Calculator (Free & Instant) | ConvertMaster',

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { FiArrowRight, FiCpu, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiTool, FiGlobe, FiAward } from 'react-icons/fi';
+import { FiArrowRight, FiCpu, FiZap, FiShield, FiTool, FiGlobe, FiAward } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Engineering Calculators - Free Tools for Engineers & Students',

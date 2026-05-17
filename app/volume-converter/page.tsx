@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiDroplet, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiCoffee, FiPackage } from 'react-icons/fi';
+import { FiArrowRight, FiDroplet, FiCoffee, FiPackage } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Volume Converter - Free Online Tool | Convert Liters, Gallons, Cubic Meters',

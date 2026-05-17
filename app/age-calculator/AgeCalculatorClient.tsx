@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FiCopy, FiShare2, FiCalendar, FiGift } from 'react-icons/fi';
+import { FiCopy, FiShare2, FiGift } from 'react-icons/fi';
 import { useLocalization } from '../../lib/LocalizationContext';
 
 interface AgeResult {

@@ -2,32 +2,7 @@
 
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { 
-  FiType, 
-  FiHash, 
-  FiCreditCard, 
-  FiBook, 
-  FiSquare,
-  FiCalendar,
-  FiDollarSign,
-  FiActivity,
-  FiLock,
-  FiRefreshCw,
-  FiArrowRight,
-  FiFileText,
-  FiLink,
-  FiClock,
-  FiUser,
-  FiPercent,
-  FiTrendingUp,
-  FiHome,
-  FiSettings,
-  FiCpu,
-  FiZap,
-  FiTool,
-  FiLayers,
-  FiGlobe
-} from 'react-icons/fi';
+import { FiType, FiHash, FiBook, FiSquare, FiCalendar, FiDollarSign, FiLock, FiRefreshCw, FiFileText, FiLink, FiClock, FiUser, FiPercent } from 'react-icons/fi';
 
 export default function ToolsLandingPage() {
   const tools = [

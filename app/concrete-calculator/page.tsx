@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiLayers, FiCheckCircle, FiActivity, FiShield, FiTrendingUp, FiCalendar, FiTool } from 'react-icons/fi';
+import { FiArrowRight, FiLayers, FiShield, FiTrendingUp, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Concrete Calculator (Free & Instant) | ConvertMaster',

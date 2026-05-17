@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { FiMail, FiCheckCircle, FiSend } from 'react-icons/fi';
+import { FiCheckCircle, FiSend } from 'react-icons/fi';
 
 export default function NewsletterSignup() {
   const [email, setEmail] = useState('');

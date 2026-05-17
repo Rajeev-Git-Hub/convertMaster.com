@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiThermometer, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiSun, FiCloud, FiDroplet } from 'react-icons/fi';
+import { FiArrowRight, FiThermometer, FiSun, FiCloud, FiDroplet } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Temperature Converter - Free Online Tool | Convert Celsius, Fahrenheit, Kelvin',

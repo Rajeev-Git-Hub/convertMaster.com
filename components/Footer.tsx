@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { FiLayers, FiMail } from 'react-icons/fi';
+import { FiLayers } from 'react-icons/fi';
 import { useLocalization } from '../lib/LocalizationContext';
 
 export default function Footer() {

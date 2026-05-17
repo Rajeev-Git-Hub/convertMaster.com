@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { hybridScientificCalculator, CalculatorState, CalculatorHistory } from '../lib/hybridScientificCalculator';
-import { FiCpu, FiBookOpen, FiSettings, FiDelete, FiRotateCcw, FiPercent, FiDivide, FiMinus, FiPlus, FiX, FiClock } from 'react-icons/fi';
+import { FiCpu, FiBookOpen, FiSettings, FiDelete, FiPercent, FiDivide, FiMinus, FiPlus, FiClock } from 'react-icons/fi';
 
 export default function HybridScientificCalculator() {
   const [state, setState] = useState<CalculatorState>(hybridScientificCalculator.getState());

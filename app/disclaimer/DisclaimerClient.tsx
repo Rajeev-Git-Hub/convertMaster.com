@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { FiFileText, FiShield, FiAlertTriangle, FiCheckCircle, FiInfo } from 'react-icons/fi';
+import { FiShield, FiAlertTriangle, FiCheckCircle } from 'react-icons/fi';
 
 export default function DisclaimerClient() {
   return (

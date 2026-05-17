@@ -2,7 +2,7 @@
 
 import Base64EncoderClient from './Base64EncoderClient';
 import { useLocalization } from '../../lib/LocalizationContext';
-import { FiArrowRight, FiLock, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiFile, FiKey, FiShieldOff } from 'react-icons/fi';
+import { FiArrowRight, FiLock, FiFile, FiKey, FiShieldOff } from 'react-icons/fi';
 
 export default function Base64EncoderPage() {
   const { t } = useLocalization();

@@ -2,16 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { 
-  FiMaximize,
-  FiImage, 
-  FiVideo, 
-  FiFileText, 
-  FiTool,
-  FiArrowRight,
-  FiSearch,
-  FiChevronRight
-} from 'react-icons/fi';
+import { FiMaximize, FiImage, FiVideo, FiFileText, FiTool, FiArrowRight, FiSearch, FiChevronRight } from 'react-icons/fi';
 
 const mainSections = [
   {

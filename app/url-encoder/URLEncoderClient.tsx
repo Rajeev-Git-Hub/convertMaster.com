@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FiCopy, FiShare2, FiLink, FiCode } from 'react-icons/fi';
+import { FiCopy, FiShare2, FiLink } from 'react-icons/fi';
 import { useLocalization } from '../../lib/LocalizationContext';
 
 export default function URLEncoderClient() {

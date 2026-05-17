@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiMaximize, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiHome, FiMap, FiCrop } from 'react-icons/fi';
+import { FiArrowRight, FiMaximize, FiHome, FiMap, FiCrop } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Area Converter - Free Online Tool | Convert Square Meters, Square Feet, Acres',

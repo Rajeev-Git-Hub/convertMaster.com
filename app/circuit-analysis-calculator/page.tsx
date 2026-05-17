@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiActivity, FiCheckCircle, FiZap, FiShield, FiTrendingUp, FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Circuit Analysis Calculator (Free & Instant) | ConvertMaster',

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiZap, FiCheckCircle, FiActivity, FiShield, FiTrendingUp, FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Reaction Kinetics Calculator (Free & Instant) | ConvertMaster',

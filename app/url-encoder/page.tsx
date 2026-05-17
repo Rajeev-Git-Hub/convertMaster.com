@@ -2,7 +2,7 @@
 
 import URLEncoderClient from './URLEncoderClient';
 import { useLocalization } from '../../lib/LocalizationContext';
-import { FiArrowRight, FiLink, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiGlobe, FiServer } from 'react-icons/fi';
+import { FiArrowRight, FiLink, FiShield, FiGlobe, FiServer } from 'react-icons/fi';
 
 export default function URLEncoderPage() {
   const { t } = useLocalization();

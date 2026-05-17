@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiMaximize, FiBook, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers } from 'react-icons/fi';
+import { FiArrowRight, FiMaximize } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Length Converter - Free Online Tool | Convert Meters, Feet, Inches, km, miles',

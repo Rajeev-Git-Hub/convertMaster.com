@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FiCopy, FiCheck, FiX, FiType, FiArrowDown, FiClipboard, FiTrash2 } from 'react-icons/fi';
+import { FiCopy, FiCheck, FiType, FiClipboard, FiTrash2 } from 'react-icons/fi';
 
 type CaseType = 'sentence' | 'upper' | 'lower' | 'firstLetter' | 'alternate' | 'toggle';
 

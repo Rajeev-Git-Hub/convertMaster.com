@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiPackage, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp } from 'react-icons/fi';
+import { FiArrowRight, FiPackage } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Weight Converter - Free Online Tool | Convert kg, lbs, ounces, grams',

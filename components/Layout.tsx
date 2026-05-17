@@ -3,50 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { 
-  FiHome,
-  FiGrid,
-  FiMenu,
-  FiX,
-  FiChevronDown,
-  FiChevronUp,
-  FiSettings,
-  FiMoon,
-  FiSun,
-  FiUser,
-  FiFileText,
-  FiLink,
-  FiLock,
-  FiClock,
-  FiPercent,
-  FiTrendingUp,
-  FiLayers,
-  FiGlobe,
-  FiGitMerge,
-  FiMaximize,
-  FiImage,
-  FiVideo,
-  FiTool,
-  FiType,
-  FiScissors,
-  FiMinimize2,
-  FiFile,
-  FiRotateCw,
-  FiUnlock,
-  FiActivity,
-  FiCpu,
-  FiZap,
-  FiBox,
-  FiPackage,
-  FiThermometer,
-  FiDatabase,
-  FiSquare,
-  FiHash,
-  FiBook,
-  FiCalendar,
-  FiDollarSign,
-  FiRefreshCw
-} from 'react-icons/fi';
+import { FiGrid, FiMenu, FiX, FiChevronDown, FiChevronUp, FiUser, FiFileText, FiLink, FiLock, FiClock, FiPercent, FiTrendingUp, FiGitMerge, FiMaximize, FiImage, FiTool, FiType, FiScissors, FiMinimize2, FiFile, FiRotateCw, FiUnlock, FiActivity, FiBox, FiPackage, FiThermometer, FiDatabase, FiSquare, FiHash, FiBook, FiCalendar, FiDollarSign, FiRefreshCw } from 'react-icons/fi';
 import { CategoryMenu } from '../lib/CategoryMenu';
 import { LocalizationProvider, useLocalization } from '../lib/LocalizationContext';
 import { CategoryKey } from '../lib';

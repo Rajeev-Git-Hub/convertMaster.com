@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ConverterCard from '../../components/ConverterCard';
-import { FiArrowRight, FiClock, FiCheckCircle, FiActivity, FiZap, FiShield, FiUsers, FiTrendingUp, FiCalendar, FiSun, FiMoon } from 'react-icons/fi';
+import { FiArrowRight, FiClock, FiCalendar, FiSun, FiMoon } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Time Converter - Free Online Tool | Convert Seconds, Minutes, Hours, Days',

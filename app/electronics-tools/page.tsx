@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { FiArrowRight, FiCpu, FiCheckCircle, FiActivity, FiShield, FiTrendingUp, FiCalendar, FiTool, FiZap } from 'react-icons/fi';
+import { FiArrowRight, FiCpu, FiActivity, FiCalendar, FiTool, FiZap } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Electronics Tools (Free & Instant) | ConvertMaster',

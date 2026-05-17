@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { FiMaximize, FiThermometer, FiHardDrive, FiSquare, FiDroplet, FiClock, FiWind, FiZap, FiActivity, FiBox, FiLayers, FiChevronDown, FiChevronUp, FiTool, FiCpu, FiSettings } from 'react-icons/fi';
+import { FiMaximize, FiThermometer, FiHardDrive, FiSquare, FiDroplet, FiClock, FiWind, FiBox, FiChevronDown, FiChevronUp } from 'react-icons/fi';
 import { useState } from 'react';
 
 const categoryConverters = [

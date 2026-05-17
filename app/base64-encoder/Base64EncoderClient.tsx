@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FiCopy, FiShare2, FiDownload, FiUpload, FiFile, FiImage, FiType } from 'react-icons/fi';
+import { FiCopy, FiShare2, FiDownload, FiUpload, FiFile, FiType } from 'react-icons/fi';
 import { useLocalization } from '../../lib/LocalizationContext';
 
 export default function Base64EncoderClient() {

@@ -2,26 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { 
-  FiFileText,
-  FiGitMerge,
-  FiScissors,
-  FiMinimize2,
-  FiRotateCw,
-  FiLock,
-  FiUnlock,
-  FiImage,
-  FiFile,
-  FiArrowRight,
-  FiSearch,
-  FiShield,
-  FiCheckCircle,
-  FiUsers,
-  FiClock,
-  FiZap,
-  FiChevronDown,
-  FiChevronUp
-} from 'react-icons/fi';
+import { FiFileText, FiGitMerge, FiScissors, FiMinimize2, FiRotateCw, FiLock, FiUnlock, FiImage, FiFile } from 'react-icons/fi';
 
 const pdfTools = [
   { 
